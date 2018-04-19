@@ -1,0 +1,376 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     14452,        368]
+NotebookOptionsPosition[     11210,        296]
+NotebookOutlinePosition[     12955,        345]
+CellTagsIndexPosition[     12912,        342]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<|", "\[IndentingNewLine]", 
+  RowBox[{"\"\<ExportOptions\>\"", "\[Rule]", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Directory\>\"", "\[Rule]", "\"\<..\>\""}], "}"}]}], 
+  "\[IndentingNewLine]", "|>"}]], "Metadata",
+ CellChangeTimes->{{3.732830406695567*^9, 3.732830432925774*^9}, {
+  3.7328323350873213`*^9, 
+  3.7328323409624166`*^9}},ExpressionUUID->"b5bd2484-f7c7-4aed-937a-\
+9c7a956deb40"],
+
+Cell[CellGroupData[{
+
+Cell["Helpers", "HiddenSection",
+ CellChangeTimes->{{3.712937864356105*^9, 3.712937877188964*^9}, {
+  3.712937963780888*^9, 
+  3.712937964483138*^9}},ExpressionUUID->"a7091b20-076c-4341-b8e9-\
+ea10514c4469"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Begin", "[", "\"\<READMETools`\>\"", "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"$projimgs", ":=", "\[IndentingNewLine]", 
+   RowBox[{"FileBaseName", "/@", "\[IndentingNewLine]", 
+    RowBox[{"FileNames", "[", "\[IndentingNewLine]", 
+     RowBox[{"\"\<*.png\>\"", ",", "\[IndentingNewLine]", 
+      RowBox[{"FileNameJoin", "@", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"ParentDirectory", "@", 
+          RowBox[{"NotebookDirectory", "[", "]"}]}], ",", "\"\<project\>\"", 
+         ",", "\"\<img\>\""}], "}"}]}]}], "\[IndentingNewLine]", "]"}]}]}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"projimg", "[", "name_", "]"}], ":=", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ParentDirectory", "@", 
+       RowBox[{"NotebookDirectory", "[", "]"}]}], ",", "\"\<project\>\"", 
+      ",", "\"\<img\>\"", ",", 
+      RowBox[{"name", "<>", "\"\<.png\>\""}]}], "}"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"backupimg", "[", "name_", "]"}], ":=", "\[IndentingNewLine]", 
+   RowBox[{"(", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Quiet", "[", 
+      RowBox[{"CreateDirectory", "[", 
+       RowBox[{"FileNameJoin", "@", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<backups\>\"", 
+          ",", "\"\<img\>\""}], "}"}]}], "]"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"FileNameJoin", "@", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<backups\>\"", ",", 
+        "\"\<img\>\"", ",", "\[IndentingNewLine]", 
+        RowBox[{"name", "<>", "\"\<_\>\"", "<>", 
+         RowBox[{"DateString", "[", "\"\<ISODateTime\>\"", "]"}], "<>", 
+         "\"\<.png\>\""}]}], "}"}]}]}], "\[IndentingNewLine]", ")"}]}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"projimgPad", "[", 
+    RowBox[{"img_", "?", "ImageQ"}], "]"}], ":=", "\[IndentingNewLine]", 
+   RowBox[{"ImagePad", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"ImageCrop", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"ImageResize", "[", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"ImagePad", "[", "\[IndentingNewLine]", 
+          RowBox[{"img", ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"1", ",", "1"}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"0", ",", "0"}], "}"}]}], "}"}], ",", 
+           RowBox[{"GrayLevel", "[", ".8", "]"}]}], "]"}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"{", 
+          RowBox[{"Automatic", ",", "200"}], "}"}]}], "\[IndentingNewLine]", 
+        "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"800", ",", "Full"}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Padding", "\[Rule]", 
+        RowBox[{"GrayLevel", "[", ".99", "]"}]}]}], "\[IndentingNewLine]", 
+      "]"}], ",", "\[IndentingNewLine]", "1", ",", "\[IndentingNewLine]", 
+     RowBox[{"GrayLevel", "[", ".8", "]"}]}], "\[IndentingNewLine]", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"projimgPad", "[", "name_String", "]"}], ":=", 
+   "\[IndentingNewLine]", 
+   RowBox[{"projimgPad", "@", 
+    RowBox[{"Import", "@", 
+     RowBox[{"projimg", "[", "name", "]"}]}]}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"projimgExport", "[", "name_", "]"}], ":=", "\[IndentingNewLine]", 
+   
+   RowBox[{"(", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"CopyFile", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"projimg", "[", "name", "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"backupimg", "[", "name", "]"}]}], "\[IndentingNewLine]", 
+      "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"projimg", "[", "name", "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"projimgPad", "[", "name", "]"}]}], "\[IndentingNewLine]", 
+      "]"}]}], "\[IndentingNewLine]", ")"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"End", "[", "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.707050131058566*^9, 3.707050186265019*^9}, {
+  3.712941505189674*^9, 
+  3.712941563232438*^9}},ExpressionUUID->"7795aae7-ce81-4e37-8ad2-\
+d044b1d83c09"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Paclet Server", "Section",
+ CellChangeTimes->{{3.71293841054522*^9, 3.712938421466749*^9}, {
+   3.732832596773106*^9, 3.7328326164583187`*^9}, 3.732832665161824*^9, {
+   3.733107956783772*^9, 
+   3.733107958438086*^9}},ExpressionUUID->"e6488658-bf42-450e-9bdc-\
+737b56968a02"],
+
+Cell["\<\
+This is a Mathematica paclet server. It hosts paclets that can be installed \
+locally.\
+\>", "Text",
+ CellChangeTimes->{{3.712938427698472*^9, 3.712938432754331*^9}, {
+  3.732832608642542*^9, 3.732832615291259*^9}, {3.733107959629765*^9, 
+  3.733107977320752*^9}},ExpressionUUID->"fe7ec65c-b79b-432f-92a9-\
+9945b4ca437c"]
+}, Open  ]],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"34573c60-2b57-42cc-a259-c2a8fc0c3993"],
+
+Cell[CellGroupData[{
+
+Cell["Installing a paclet", "Subsection",
+ CellChangeTimes->{{3.7129384344569283`*^9, 3.712938446106298*^9}, {
+  3.732832618891213*^9, 3.732832622797592*^9}, {3.733107989418316*^9, 
+  3.733107991632104*^9}},ExpressionUUID->"d99166ed-67b4-4a66-8809-\
+c11f251e85aa"],
+
+Cell["\<\
+To install a paclet from this repository all you need to do is run\
+\>", "Text",
+ CellChangeTimes->{{3.733108000613995*^9, 
+  3.733108011448182*^9}},ExpressionUUID->"b1979ff8-1a5d-4c25-9c8f-\
+94c763731460"],
+
+Cell[BoxData[{"mathematica", "\n", 
+ RowBox[{"PacletInstall", "[", "\n", "\t", 
+  RowBox[{"paclet_name", ",", "\n", "\t", 
+   RowBox[{
+   "\"\<Site\>\"", "->", "\n", "\t\t", 
+    "\"\<http://raw.githubusercontent.com/MathematicaPacletServer/\
+PacletServer/master\>\""}]}], "\n", "\t", "]"}]}], "FencedCode",
+ CellChangeTimes->{{3.724362543139082*^9, 3.724362553649309*^9}, {
+  3.724362655192622*^9, 3.724362657735866*^9}, {3.724362831929694*^9, 
+  3.72436283214672*^9}, {3.73310808894674*^9, 3.733108105192131*^9}, {
+  3.7331081566196136`*^9, 
+  3.7331081784221783`*^9}},ExpressionUUID->"fa42952a-e054-4ac9-aa51-\
+4b2538953653"]
+}, Open  ]],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"e19bf617-917f-4738-8567-6ada3a361ca3"],
+
+Cell[CellGroupData[{
+
+Cell["Contributing a paclet", "Subsection",
+ CellChangeTimes->{{3.7129384344569283`*^9, 3.712938446106298*^9}, {
+  3.732832618891213*^9, 3.732832622797592*^9}, {3.733107989418316*^9, 
+  3.733107991632104*^9}, {3.733108196047215*^9, 
+  3.733108202764852*^9}},ExpressionUUID->"bed6b0e9-82da-41f1-b781-\
+43a5112356a0"],
+
+Cell[TextData[{
+ "If you want to add a paclet to the repository, simply clone this \
+repository, add your paclet to the ",
+ Cell[BoxData["Paclets"], "InlineText", "InlineInput",
+  FormatType->"StandardForm",ExpressionUUID->
+  "1729a667-0ec4-40a7-a4a3-c530b4989a40"],
+ " folder and then submit a pull request."
+}], "Text",
+ CellChangeTimes->{{3.733108203988655*^9, 3.733108246817689*^9}, 
+   3.733108292615624*^9},ExpressionUUID->"23c063c3-2631-4cae-9628-\
+4094dd632663"],
+
+Cell[TextData[{
+ "You can submit your own paclet shingle by providing a Markdown notebook \
+like those that are already in the ",
+ Cell[BoxData["content"], "InlineText", "InlineInput",
+  FormatType->"StandardForm",ExpressionUUID->
+  "c2cd80fc-f4b1-40ea-8a06-5ea1e427cebc"],
+ " directory. If you don\[CloseCurlyQuote]t provide a notebook one will be \
+automatically generated from the metadata in your ",
+ Cell[BoxData[
+  RowBox[{"PacletInfo", ".", "m"}]], "InlineText", "InlineInput",
+  FormatType->"StandardForm",ExpressionUUID->
+  "dd6fb649-5c85-4c8d-b279-86ac22c941e9"],
+ " file. A good example of a well-written ",
+ Cell[BoxData[
+  RowBox[{"PacletInfo", ".", "m"}]], "InlineText", "InlineInput",
+  FormatType->"StandardForm",ExpressionUUID->
+  "265583f6-cf3b-498e-819f-6545389c401d"],
+ " can be found ",
+ ButtonBox["here",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/szhorvat/MaTeX/blob/master/MaTeX/PacletInfo.m"], 
+    None},
+  ButtonNote->
+   "https://github.com/szhorvat/MaTeX/blob/master/MaTeX/PacletInfo.m"],
+ ". The extra parameters the site generator uses can be found ",
+ ButtonBox["here",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.wolframcloud.com/objects/b3m2a1/home/building-a-\
+mathematica-package-ecosystem-part-1.html#package-distribution"], None},
+  ButtonNote->
+   "https://www.wolframcloud.com/objects/b3m2a1/home/building-a-mathematica-\
+package-ecosystem-part-1.html#package-distribution"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.733108293963027*^9, 3.733108380074304*^9}, {
+  3.733108411556189*^9, 3.733108428296976*^9}, {3.7331084823200283`*^9, 
+  3.733108496506011*^9}},ExpressionUUID->"81056cdc-4286-4ff8-95d5-\
+1069f04507ac"]
+}, Open  ]],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"6e284aad-d1f0-478d-995a-d5c61a7cb307"],
+
+Cell[TextData[{
+ "The idea behind this is described in detail in ",
+ ButtonBox["this blog post",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.wolframcloud.com/objects/b3m2a1/home/building-a-\
+mathematica-package-ecosystem-part-1.html#main-content"], None},
+  ButtonNote->
+   "https://www.wolframcloud.com/objects/b3m2a1/home/building-a-mathematica-\
+package-ecosystem-part-1.html#main-content"],
+ ". You can find when the last build was by looking at the ",
+ ButtonBox["BuildInfo.m",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/MathematicaPacletServer/PacletServer/blob/master/\
+BuildInfo.m"], None},
+  ButtonNote->
+   "https://github.com/MathematicaPacletServer/PacletServer/blob/master/\
+BuildInfo.m"],
+ " file."
+}], "Text",
+ CellChangeTimes->{{3.733108542502804*^9, 3.73310855290257*^9}, {
+  3.733108633608136*^9, 3.733108673868827*^9}, {3.733108710789248*^9, 
+  3.7331087107938957`*^9}},ExpressionUUID->"0d0c6fbf-540a-42b8-9cc7-\
+acba25ff89da"]
+},
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 186}, {Automatic, 29}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> 
+     FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", CharacterEncoding -> 
+       "UTF-8"]]], 
+   Cell[
+    BoxData[
+     RowBox[{"SSNew", "[", 
+       RowBox[{"\"HiddenSection\"", ",", "\"Section\""}], "]"}]], "Input", 
+    CellChangeTimes -> {{3.712937945363078*^9, 3.712937960253202*^9}}], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["HiddenSection", StyleDefinitions -> StyleData["Section"]], 
+       CellBracketOptions -> {"Color" -> GrayLevel[0.5]}, FontColor -> 
+       GrayLevel[0.5]], 
+      Cell[
+       BoxData[
+        RowBox[{"SSEdit", "[", 
+          RowBox[{"\"HiddenSection\"", ",", 
+            RowBox[{"{", "\[IndentingNewLine]", 
+              RowBox[{
+                RowBox[{"FontColor", "\[Rule]", "Gray"}], ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"CellBracketOptions", "\[Rule]", 
+                  RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{"\"Color\"", "\[Rule]", "Gray"}], 
+                    "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", 
+              "}"}]}], "]"}]], "Input", 
+       CellChangeTimes -> {{3.71293797195337*^9, 3.712938000386712*^9}}]}, 
+     Open]]}, Visible -> False, FrontEndVersion -> 
+  "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, 2018)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 434, 9, 112, "Metadata",ExpressionUUID->"b5bd2484-f7c7-4aed-937a-9c7a956deb40"],
+Cell[CellGroupData[{
+Cell[1017, 33, 207, 4, 51, "HiddenSection",ExpressionUUID->"a7091b20-076c-4341-b8e9-ea10514c4469"],
+Cell[1227, 39, 4333, 107, 915, "Input",ExpressionUUID->"7795aae7-ce81-4e37-8ad2-d044b1d83c09"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[5597, 151, 282, 5, 47, "Section",ExpressionUUID->"e6488658-bf42-450e-9bdc-737b56968a02"],
+Cell[5882, 158, 331, 7, 35, "Text",ExpressionUUID->"fe7ec65c-b79b-432f-92a9-9945b4ca437c"]
+}, Open  ]],
+Cell[6228, 168, 99, 1, 22, "PageBreak",ExpressionUUID->"34573c60-2b57-42cc-a259-c2a8fc0c3993",
+ PageBreakBelow->True],
+Cell[CellGroupData[{
+Cell[6352, 173, 264, 4, 41, "Subsection",ExpressionUUID->"d99166ed-67b4-4a66-8809-c11f251e85aa"],
+Cell[6619, 179, 216, 5, 35, "Text",ExpressionUUID->"b1979ff8-1a5d-4c25-9c8f-94c763731460"],
+Cell[6838, 186, 628, 12, 132, "FencedCode",ExpressionUUID->"fa42952a-e054-4ac9-aa51-4b2538953653"]
+}, Open  ]],
+Cell[7481, 201, 99, 1, 22, "PageBreak",ExpressionUUID->"e19bf617-917f-4738-8567-6ada3a361ca3",
+ PageBreakBelow->True],
+Cell[CellGroupData[{
+Cell[7605, 206, 315, 5, 41, "Subsection",ExpressionUUID->"bed6b0e9-82da-41f1-b781-43a5112356a0"],
+Cell[7923, 213, 470, 10, 58, "Text",ExpressionUUID->"23c063c3-2631-4cae-9628-4094dd632663"],
+Cell[8396, 225, 1701, 39, 104, "Text",ExpressionUUID->"81056cdc-4286-4ff8-95d5-1069f04507ac"]
+}, Open  ]],
+Cell[10112, 267, 99, 1, 22, "PageBreak",ExpressionUUID->"6e284aad-d1f0-478d-995a-d5c61a7cb307",
+ PageBreakBelow->True],
+Cell[10214, 270, 992, 24, 58, "Text",ExpressionUUID->"0d0c6fbf-540a-42b8-9cc7-acba25ff89da"]
+}
+]
+*)
+
