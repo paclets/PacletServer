@@ -431,63 +431,26 @@ e05d174b84b2"],
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"SharedPacletServerRebuild", "[", "]"}]], "Input",
- CellChangeTimes->{{3.733158790778573*^9, 3.7331587909627113`*^9}},
- CellLabel->
-  "In[307]:=",ExpressionUUID->"2443091b-2805-4bde-981c-33dd25dc86fa"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- PanelBox[
-  StyleBox["\<\"Adding paclets...\"\>", "Button",
-   StripOnInput->False,
-   LineColor->GrayLevel[0.5],
-   FrontFaceColor->GrayLevel[0.5],
-   BackFaceColor->GrayLevel[0.5],
-   GraphicsColor->GrayLevel[0.5],
-   FontColor->GrayLevel[0.5]],
-  Alignment->{Center, Center},
-  Appearance->{
-   "Default" -> 
-    FrontEnd`FileName[{"Typeset", "PrintTemporary"}, "LightBlue.9.png"]},
-  FrameMargins->{{12, 12}, {8, 12}}]], "PrintTemporary",
- CellChangeTimes->{3.733158791268314*^9},
- CellLabel->
-  "During evaluation of \
-In[307]:=",ExpressionUUID->"97bac7e1-1509-448d-80f5-3fa09928abd7"],
+ RowBox[{
+  RowBox[{"SharedPacletServerRebuild", "[", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.733158790778573*^9, 3.7331587909627113`*^9}, 
+   3.73315883095924*^9},ExpressionUUID->"2443091b-2805-4bde-981c-\
+33dd25dc86fa"],
 
 Cell[BoxData[
- PanelBox[
-  StyleBox["\<\"Building pages...\"\>", "Button",
-   StripOnInput->False,
-   LineColor->GrayLevel[0.5],
-   FrontFaceColor->GrayLevel[0.5],
-   BackFaceColor->GrayLevel[0.5],
-   GraphicsColor->GrayLevel[0.5],
-   FontColor->GrayLevel[0.5]],
-  Alignment->{Center, Center},
-  Appearance->{
-   "Default" -> 
-    FrontEnd`FileName[{"Typeset", "PrintTemporary"}, "LightBlue.9.png"]},
-  FrameMargins->{{12, 12}, {8, 12}}]], "PrintTemporary",
- CellChangeTimes->{3.73315879134874*^9},
+ TemplateBox[{
+  "Git","err",
+   "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
+https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\"\\\"}]\\)\\\
+\":\\n\\!\\(\\*RowBox[{\\\"\\\\\\\"To \
+https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\\n   \
+f162bff..adfd8a3  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,307,434,
+   27920074767770793948,"Local","BTools`External`Git"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.7331588250152273`*^9},
  CellLabel->
   "During evaluation of \
-In[307]:=",ExpressionUUID->"bd9a094d-07c8-4e71-a9a1-01d72446bd21"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel[
-    TemplateApply["Extracting data from ``", BTools`Web`Private`extractfile]],
-    StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{541., {20., 26.}}]], "PrintTemporary",
- CellChangeTimes->{3.733158793427387*^9},
- CellLabel->
-  "During evaluation of \
-In[307]:=",ExpressionUUID->"612da1f1-ab8e-47e1-9372-ad5f116bff2f"]
-}, Open  ]]
+In[307]:=",ExpressionUUID->"3c4e6c12-baa5-492f-bc55-7f33fd512b9d"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -506,62 +469,6 @@ Cell[BoxData[
    3.7331587298274527`*^9}},
  CellLabel->
   "In[306]:=",ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-bacb4322da0d"],
-
-Cell[BoxData[
- RowBox[{"BTools`Web`Private`WebSiteTemplateGatherArgs", "//", 
-  "DownValues"}]], "Input",
- CellChangeTimes->{{3.733156315297368*^9, 3.733156337175242*^9}},
- CellLabel->
-  "In[293]:=",ExpressionUUID->"a6660cc2-24c8-4783-bd02-cd5c2229ce7e"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"HoldPattern", "[", 
-     RowBox[{
-     "BTools`Web`Private`WebSiteBuildSafeExportXML", "[", 
-      "BTools`Web`Private`xml_", "]"}], "]"}], "\[RuleDelayed]", 
-    RowBox[{"StringReplace", "[", 
-     RowBox[{
-      RowBox[{"ExportString", "[", 
-       RowBox[{
-        RowBox[{"BTools`Web`Private`xml", "/.", "\[VeryThinSpace]", 
-         RowBox[{
-          RowBox[{"BTools`Web`Private`el", ":", 
-           RowBox[{"XMLElement", "[", 
-            RowBox[{
-            "BTools`Web`Private`$WebSiteBuildSafeExportXMLElements", ",", 
-             "__"}], "]"}]}], "\[RuleDelayed]", 
-          RowBox[{"(", 
-           RowBox[{"BTools`Web`Private`el", "/.", "\[VeryThinSpace]", 
-            RowBox[{
-            "BTools`PackageScope`Private`s_String", "\[RuleDelayed]", 
-             RowBox[{"StringReplace", "[", 
-              RowBox[{
-              "BTools`PackageScope`Private`s", ",", 
-               "BTools`Web`Private`$WebSiteBuildSafeExportXMLMap"}], 
-              "]"}]}]}], ")"}]}]}], ",", "\"\<XML\>\""}], "]"}], ",", 
-      RowBox[{
-      "Reverse", "/@", "BTools`Web`Private`$WebSiteBuildSafeExportXMLMap"}]}],
-      "]"}]}], "}"}], " "}]], "Input",
- CellChangeTimes->{{3.733156322499072*^9, 
-  3.733156322513486*^9}},ExpressionUUID->"50ca4fa7-e2b5-4e65-9ada-\
-3cad21412c07"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"SharedPacletServerRebuild", "[", "\"\<Test\>\"", "]"}]], "Input",
- CellChangeTimes->{{3.733152098029851*^9, 3.733152100155469*^9}},
- CellLabel->
-  "In[250]:=",ExpressionUUID->"ca9b75f8-c87d-44ba-8d04-3ae315181410"],
-
-Cell[BoxData[
- RowBox[{"\[LeftAssociation]", "\[RightAssociation]"}]], "Output",
- CellChangeTimes->{3.733152100507381*^9},
- CellLabel->"Out[250]=",ExpressionUUID->"d0d9055f-f420-4f08-a8a3-d149346dafad"]
-}, Open  ]],
 
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.733153399363962*^9, 

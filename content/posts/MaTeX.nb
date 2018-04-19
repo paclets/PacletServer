@@ -1,0 +1,242 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7846,        233]
+NotebookOptionsPosition[      3680,        139]
+NotebookOutlinePosition[      5411,        188]
+CellTagsIndexPosition[      5141,        176]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<MaTeX\>\""}], ",", 
+   RowBox[{"\"\<Categories\>\"", "\[Rule]", "\"\<misc\>\""}], ",", 
+   RowBox[{"\"\<Slug\>\"", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\"\<Authors\>\"", "\[Rule]", 
+    RowBox[{"{", "\"\<Szabolcs Horv\[AAcute]t <szhorvat\>\"", "}"}]}], ",", 
+   RowBox[{"\"\<Tags\>\"", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\"\<Extensions\>\"", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\"\<Documentation\>\"", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"Language", "\[Rule]", "All"}], ",", 
+         RowBox[{"MainPage", "\[Rule]", "\"\<Guides/MaTeX\>\""}]}], 
+        "\[RightAssociation]"}]}], ",", 
+      RowBox[{"\"\<Kernel\>\"", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"Root", "\[Rule]", "\"\<.\>\""}], ",", 
+         RowBox[{"Context", "\[Rule]", "\"\<MaTeX`\>\""}]}], 
+        "\[RightAssociation]"}]}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\"\<MathematicaVersion\>\"", "\[Rule]", "\"\<10.0+\>\""}], ",", 
+   RowBox[{"\"\<Thumbnail\>\"", "\[Rule]", "\"\<Logo.png\>\""}], ",", 
+   RowBox[{
+   "\"\<URL\>\"", "\[Rule]", 
+    "\"\<http://szhorvat.net/mathematica/MaTeX\>\""}], ",", 
+   RowBox[{
+   "\"\<Creator\>\"", "\[Rule]", 
+    "\"\<Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>\>\""}], ",", 
+   RowBox[{
+   "\"\<Description\>\"", "\[Rule]", 
+    "\"\<Create LaTeX-typeset labels within Mathematica.\>\""}], ",", 
+   RowBox[{"\"\<Name\>\"", "\[Rule]", "\"\<MaTeX\>\""}], ",", 
+   RowBox[{"\"\<Version\>\"", "\[Rule]", "\"\<1.7.3\>\""}]}], 
+  "\[RightAssociation]"}]], "Metadata"],
+
+Cell[CellGroupData[{
+
+Cell["MaTeX", "Section"],
+
+Cell[TextData[ButtonBox["Download",
+ BaseStyle->"Hyperlink",
+ ButtonData->{"Paclets/MaTeX-1.7.3.paclet", None}]], "Text",
+ CellTags->"DownloadLink"],
+
+Cell["Create LaTeX-typeset labels within Mathematica.", "Text",
+ CellTags->"DescriptionText"],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Information", "Subsection",
+ CellTags->"BasicInformation"],
+
+Cell[CellGroupData[{
+
+Cell["Name", "Subsubsection",
+ CellTags->"Name"],
+
+Cell["MaTeX", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Version", "Subsubsection",
+ CellTags->"Version"],
+
+Cell["1.7.3", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Description", "Subsubsection",
+ CellTags->"Description"],
+
+Cell["Create LaTeX-typeset labels within Mathematica.", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Creator", "Subsubsection",
+ CellTags->"Creator"],
+
+Cell["Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>", "Text"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extensions", "Subsection",
+ CellTags->"Extensions"],
+
+Cell[CellGroupData[{
+
+Cell["Documentation", "Subsubsection"],
+
+Cell["Language: All", "Item"],
+
+Cell["MainPage: Guides/MaTeX", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Kernel", "Subsubsection"],
+
+Cell["Root: .", "Item"],
+
+Cell["Context: MaTeX`", "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "DownloadLink"->{
+  Cell[2352, 64, 148, 3, 70, "Text",ExpressionUUID->"fd3ff997-3f7d-4aa0-a873-8025cc1a0766",
+   CellTags->"DownloadLink"]},
+ "DescriptionText"->{
+  Cell[2503, 69, 93, 1, 70, "Text",ExpressionUUID->"a4cb7ae3-bd8c-4f6a-ba86-23d6c2e9d104",
+   CellTags->"DescriptionText"]},
+ "BasicInformation"->{
+  Cell[2645, 76, 70, 1, 70, "Subsection",ExpressionUUID->"7c2cd1ac-5fa3-4033-a35c-7d1cd03ea307",
+   CellTags->"BasicInformation"]},
+ "Name"->{
+  Cell[2740, 81, 48, 1, 70, "Subsubsection",ExpressionUUID->"dca2a811-5cdb-4f35-bce4-0dab9cd6a578",
+   CellTags->"Name"]},
+ "Version"->{
+  Cell[2849, 89, 54, 1, 70, "Subsubsection",ExpressionUUID->"165aee9b-869d-4533-b2ee-24514a0f010c",
+   CellTags->"Version"]},
+ "Description"->{
+  Cell[2964, 97, 62, 1, 70, "Subsubsection",ExpressionUUID->"6b34fa4b-04e6-4472-a31c-884f618be08d",
+   CellTags->"Description"]},
+ "Creator"->{
+  Cell[3129, 105, 54, 1, 70, "Subsubsection",ExpressionUUID->"ff532bf0-7b5a-4176-9fcd-da758f315a05",
+   CellTags->"Creator"]},
+ "Extensions"->{
+  Cell[3319, 116, 57, 1, 70, "Subsection",ExpressionUUID->"c853430a-26e2-4b4e-aa16-e566fd728f1f",
+   CellTags->"Extensions"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"DownloadLink", 3986, 149},
+ {"DescriptionText", 4131, 152},
+ {"BasicInformation", 4279, 155},
+ {"Name", 4422, 158},
+ {"Version", 4559, 161},
+ {"Description", 4703, 164},
+ {"Creator", 4847, 167},
+ {"Extensions", 4991, 170}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1742, 38, 70, "Metadata",ExpressionUUID->"23930e4d-d30c-44e9-b31c-a72632951fba"],
+Cell[CellGroupData[{
+Cell[2325, 62, 24, 0, 70, "Section",ExpressionUUID->"de7889a6-b1c0-4113-b51e-847c954fc3a7"],
+Cell[2352, 64, 148, 3, 70, "Text",ExpressionUUID->"fd3ff997-3f7d-4aa0-a873-8025cc1a0766",
+ CellTags->"DownloadLink"],
+Cell[2503, 69, 93, 1, 70, "Text",ExpressionUUID->"a4cb7ae3-bd8c-4f6a-ba86-23d6c2e9d104",
+ CellTags->"DescriptionText"],
+Cell[2599, 72, 21, 0, 70, "PageBreak",ExpressionUUID->"75dcb03e-baf8-44ab-8bd7-351e9b5bf5a9"],
+Cell[CellGroupData[{
+Cell[2645, 76, 70, 1, 70, "Subsection",ExpressionUUID->"7c2cd1ac-5fa3-4033-a35c-7d1cd03ea307",
+ CellTags->"BasicInformation"],
+Cell[CellGroupData[{
+Cell[2740, 81, 48, 1, 70, "Subsubsection",ExpressionUUID->"dca2a811-5cdb-4f35-bce4-0dab9cd6a578",
+ CellTags->"Name"],
+Cell[2791, 84, 21, 0, 70, "Text",ExpressionUUID->"d242c555-5113-4027-b41a-92e716ca6d74"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2849, 89, 54, 1, 70, "Subsubsection",ExpressionUUID->"165aee9b-869d-4533-b2ee-24514a0f010c",
+ CellTags->"Version"],
+Cell[2906, 92, 21, 0, 70, "Text",ExpressionUUID->"77f99612-325f-4504-8e8d-d0295947cc56"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2964, 97, 62, 1, 70, "Subsubsection",ExpressionUUID->"6b34fa4b-04e6-4472-a31c-884f618be08d",
+ CellTags->"Description"],
+Cell[3029, 100, 63, 0, 70, "Text",ExpressionUUID->"06daddf9-c426-43dd-ae8b-63be2c2a24a1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3129, 105, 54, 1, 70, "Subsubsection",ExpressionUUID->"ff532bf0-7b5a-4176-9fcd-da758f315a05",
+ CellTags->"Creator"],
+Cell[3186, 108, 60, 0, 70, "Text",ExpressionUUID->"2994f22d-7f70-45a3-ad4c-ec21e33c499d"]
+}, Open  ]]
+}, Open  ]],
+Cell[3273, 112, 21, 0, 70, "PageBreak",ExpressionUUID->"64aeacb1-ce25-4faa-b08c-ae52674255c0"],
+Cell[CellGroupData[{
+Cell[3319, 116, 57, 1, 70, "Subsection",ExpressionUUID->"c853430a-26e2-4b4e-aa16-e566fd728f1f",
+ CellTags->"Extensions"],
+Cell[CellGroupData[{
+Cell[3401, 121, 38, 0, 70, "Subsubsection",ExpressionUUID->"a041f471-65d9-41b7-98dc-55d7c3727eb4"],
+Cell[3442, 123, 29, 0, 70, "Item",ExpressionUUID->"5ed7d9c0-484d-403d-9001-1ca4eb7fdc74"],
+Cell[3474, 125, 38, 0, 70, "Item",ExpressionUUID->"10592a25-a4ba-417b-b00f-f7d00806a49d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3549, 130, 31, 0, 70, "Subsubsection",ExpressionUUID->"fed76404-a2bf-4e3d-851e-0c1b4dadd1c5"],
+Cell[3583, 132, 23, 0, 70, "Item",ExpressionUUID->"8fe9957e-3f66-4444-a1fe-849043ad7c6b"],
+Cell[3609, 134, 31, 0, 70, "Item",ExpressionUUID->"f9dd02fd-8c97-44be-b420-70a72080acb7"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

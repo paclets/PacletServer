@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+  install | Mathematica Paclet Server
+    </title>
+<link
+      rel='apple-touch-icon'
+      href='https://mathematicapacletserver.github.io/PacletServer/apple-touch-icon.png'
+      sizes='180x180'
+  >
+<link
+      rel='icon'
+      href='https://mathematicapacletserver.github.io/PacletServer/favicon-32x32.png'
+      sizes='32x32'
+  >
+<link
+      rel='icon'
+      href='https://mathematicapacletserver.github.io/PacletServer/favicon-16x16.png'
+      sizes='16x16'
+  >
+<link
+      rel='manifest'
+      href='https://mathematicapacletserver.github.io/PacletServer/manifest.json'
+  >
+<link
+      rel='stylesheet'
+      href='https://mathematicapacletserver.github.io/PacletServer/theme/css/pygments/default.min.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://mathematicapacletserver.github.io/PacletServer/theme/css/bootstrap.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://mathematicapacletserver.github.io/PacletServer/theme/css/font-awesome.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://fonts.googleapis.com/css?family=Source+Code+Pro'
+  >
+<link
+      rel='stylesheet'
+      href='https://reference.wolfram.com/language-assets/css/special-styles.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://mathematicapacletserver.github.io/PacletServer/theme/css/common.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://mathematicapacletserver.github.io/PacletServer/theme/css/style.css'
+  >
+      <meta name="description" content="">
+  <link href="https://MathematicaPacletServer.github.io/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
+  <script src="https://MathematicaPacletServer.github.io/PacletServer/theme/prettify/src/prettify.js"></script>
+  <script src="https://MathematicaPacletServer.github.io/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
+  <script>
+    function moveWindow (){window.location.hash="main-content";}
+  </script>
+  </head>
+<body onload="">
+  <header class="header">
+    <div class="top-bar">
+      <div class="site-title">
+        <h1 class="title">
+<a
+      href='https://mathematicapacletserver.github.io/PacletServer/'
+  >
+      Mathematica Paclet Server</a>
+        </h1>
+      </div>
+      <div class="site-links">
+        <ul class="list-inline row">
+<li class="list-inline-item">
+<a
+      href='https://mathematicapacletserver.github.io/PacletServer/pages/about.html'
+  >
+      About</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://mathematicapacletserver.github.io/PacletServer/categories.html'
+  >
+      Categories</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://mathematicapacletserver.github.io/PacletServer/tags.html'
+  >
+      Tags</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://mathematicapacletserver.github.io/PacletServer/authors.html'
+  >
+      Authors</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://github.com/MathematicaPacletServer'
+  >
+      GitHub</a>
+</li>
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class="main" id="main-content">
+    <div class="main-content">
+      <div class="container center-aligned">
+        <br>
+  <article class="article">
+    <div class="content">
+      <script>
+   function pullAuthCode () {
+    // Copped from stack overflow. 
+    // Pulls the query parameters then returns the appropriate one
+    var query_string = {};
+    var query = window.location.hash;
+    if (!query || !query.includes("=")) {
+     query = window.location.search.substring(1)
+     } else {
+      query = query.slice(1)
+     };
+    // console.log(query)
+    var vars = query.split("&");
+    for (var i=0;i<vars.length;i++) {
+      var pair = vars[i].split("=");
+       // If first entry with this name
+       if (typeof query_string[pair[0]] === "undefined") {
+        query_string[pair[0]] = decodeURIComponent(pair[1]);
+        // If second entry with this name
+        } else if (typeof query_string[pair[0]] === "string") {
+         var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+         query_string[pair[0]] = arr;
+        // If third or later entry with this name
+        } else {
+         query_string[pair[0]].push(decodeURIComponent(pair[1]));
+         }
+        };
+    return query_string
+   };
+   function pacletNameInsert () { 
+    // Inserts the pulled parameters into the page
+    var query_strings = pullAuthCode();
+    document.getElementById("paclet-install").innerHTML=(
+   "<pre class=\"prettyprint\">\n"+
+      "<code class=\"language-mathematica\">PacletInstall[\n"+
+      " \"<paclet>\",\n"+
+      " \"Site\"->\n"+
+      "  \"http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master\"\n"+
+      " ]\n"+
+      " </code>\n"+
+      "</pre>"
+      ).replace("<paclet>", query_strings["paclet"])
+    };
+  </script>
+<a shape='rect' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h1> Install</h1>
+<p>To install this paclet, run this from inside Mathematica:</p>
+<div id='paclet-install'>
+<pre class='prettyprint'>
+ <code class='language-mathematica'>PacletInstall[
+ paclet_name,
+ &quot;Site&quot;-&gt;
+  &quot;http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master&quot;
+ ]</code>
+</pre>
+</div>
+<ul>
+ <li>
+  <p>To update it, replace <code class='language-mathematica'>PacletInstall</code>  with <code class='language-mathematica'>PacletUpdate</code> .</p>
+ </li>
+ <li>
+  <p>To uninstall replace <code class='language-mathematica'>PacletInstall</code>  with <code class='language-mathematica'>PacletUninstall</code>  and remove the <code class='language-mathematica'>&quot;Site&quot;</code>  parameter.</p>
+ </li>
+</ul>
+<script> pacletNameInsert() </script>
+    </div>
+  </article>
+      </div>
+    </div>
+  </div>
+<footer class="footer">
+  <p class="col-sm-6 text-sm-right text-muted acknowledgement">
+  </p>
+</footer>
+</body>
+</html>
