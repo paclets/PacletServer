@@ -198,7 +198,7 @@ Cell[BoxData[
    3.7331111638350477`*^9}, {3.733150762543475*^9, 3.7331507822477903`*^9}, 
    3.733152007747657*^9},
  CellLabel->"In[241]:=",ExpressionUUID->"bb64dda4-f9f6-4d6c-a807-40998d718ca0"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -428,8 +428,6 @@ Cell[BoxData[
 Cell["", "SectionSeparator",ExpressionUUID->"eeee30d8-82d2-4326-abfa-\
 e05d174b84b2"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"SharedPacletServerRebuild", "[", "]"}], ";"}]], "Input",
@@ -438,19 +436,27 @@ Cell[BoxData[
 33dd25dc86fa"],
 
 Cell[BoxData[
- TemplateBox[{
-  "Git","err",
-   "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
-https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\"\\\"}]\\)\\\
-\":\\n\\!\\(\\*RowBox[{\\\"\\\\\\\"To \
-https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\\n   \
-f162bff..adfd8a3  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,307,434,
-   27920074767770793948,"Local","BTools`External`Git"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.7331588250152273`*^9},
+ RowBox[{"PacletServerRemove", "//", "DownValues"}]], "Input",
+ CellChangeTimes->{{3.7331591134946012`*^9, 3.733159114247485*^9}},
  CellLabel->
-  "During evaluation of \
-In[307]:=",ExpressionUUID->"3c4e6c12-baa5-492f-bc55-7f33fd512b9d"]
+  "In[310]:=",ExpressionUUID->"278833f6-9ba3-4478-9e13-b7ab17005762"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PacletServerRemove", "[", 
+  RowBox[{
+  "\"\<~/Documents/GitHub/MathematicaPacletServer\>\"", ",", " ", 
+   "\"\<ChemTools\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.7331590727432213`*^9, 3.733159107358408*^9}},
+ CellLabel->
+  "In[311]:=",ExpressionUUID->"698eb6da-20ee-42c9-9929-49b470c87911"],
+
+Cell[BoxData["\<\"/Users/Mark/Documents/GitHub/MathematicaPacletServer/\
+PacletSite.mz\"\>"], "Output",
+ CellChangeTimes->{{3.733159110252248*^9, 3.7331591114669027`*^9}, 
+   3.73315923026971*^9},
+ CellLabel->"Out[311]=",ExpressionUUID->"26df3f71-4d6d-4871-9652-7bf2f27ed78b"]
 }, Open  ]],
 
 Cell[BoxData[
