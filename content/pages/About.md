@@ -1,18 +1,20 @@
 Title: About
-Modified: 2018-04-18 23:54:16
+Modified: 2018-04-19 00:40:53
 Slug: about
 
 <a id="about-this-site" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## About This Site
 
-This is a paclet server. It lists the currently available paclets at this site. You can download any paclet via the "Download" link on its page. Alternatively, you can install paclets via  [```PacletInstall```](https://www.wolframcloud.com/objects/b3m2a1.paclets/reference/PacletManager/ref/PacletInstall.html) .
+This is a paclet server. It lists the currently available paclets at this site. You can download any paclet via the  ```"Download"```  link on its page. Alternatively, you can install paclets via  [```PacletInstall```](https://www.wolframcloud.com/objects/b3m2a1.paclets/reference/PacletManager/ref/PacletInstall.html) .
 
-	PacletInstall[
-	 paclet_name,
-	 "Site"->
-	  "http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master"
-	 ]
+To do so run:
+
+    PacletInstall[
+     paclet_name,
+     "Site"->
+      "http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master"
+     ]
 
 <a id="about-paclets" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

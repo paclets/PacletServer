@@ -5,7 +5,7 @@ Creator: b3m2a1@gmail.com
 Description: A general purpose package that implements useful functionality for application   development including distribution, documentation generation, formatting,    front-end manipulation, application editing, etc.
 Extensions: <|Kernel -> <|Root -> ., Context -> {BTools`}, Root -> ., Context -> {BTools`}|>, Resource -> <|Root -> Resources, Resources -> {Icons, PaletteGenerators, Templates, Themes}, SystemID -> *|>, FrontEnd -> <|Prepend -> True|>|>
 Internal: False
-Modified: 2018-04-19 00:22:18
+Modified: 2018-04-19 00:41:37
 Name: BTools
 Slug: btools
 SystemID: All

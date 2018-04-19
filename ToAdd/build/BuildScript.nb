@@ -331,76 +331,12 @@ Cell[BoxData[
 Cell["", "SectionSeparator",ExpressionUUID->"eeee30d8-82d2-4326-abfa-\
 e05d174b84b2"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
- RowBox[{"SharedPacletServerRebuild", "[", "]"}]], "Input",
- CellChangeTimes->{{3.7331108048106613`*^9, 3.7331108050333548`*^9}},
- CellLabel->"In[53]:=",ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-bacb4322da0d"],
-
-Cell[BoxData[
- RowBox[{"\[LeftAssociation]", 
-  RowBox[{
-   RowBox[{"\<\"Paclets\"\>", "\[Rule]", 
-    RowBox[{"{", "}"}]}], ",", 
-   RowBox[{"\<\"Build\"\>", 
-    "\[Rule]", "\<\"/Users/Mark/Documents/GitHub/MathematicaPacletServer/docs\
-\"\>"}], ",", 
-   RowBox[{"\<\"Push\"\>", "\[Rule]", "Null"}]}], 
-  "\[RightAssociation]"}]], "Output",
- CellChangeTimes->{3.7331113575246964`*^9},
- CellLabel->
-  "Out[53]=",ExpressionUUID->"a8b432ed-97b3-4946-91f5-72af41398c14"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"SharedPacletServerRebuild", "[", 
-  RowBox[{"{", "\"\<Push\>\"", "}"}], "]"}]], "Input",
- CellChangeTimes->{{3.73311151426353*^9, 3.7331115193513393`*^9}},
- CellLabel->
-  "In[115]:=",ExpressionUUID->"745d78fc-bfcc-4c55-966c-7317875f341c"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Git","err",
-   "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
-https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\"\\\"}]\\)\\\
-\":\\n\\!\\(\\*RowBox[{\\\"\\\\\\\"Everything \
-up-to-date\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,115,62,27919855890560229431,"Local",
-   "BTools`External`Git"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.733111525121593*^9, 3.7331116107598743`*^9},
- CellLabel->
-  "During evaluation of \
-In[115]:=",ExpressionUUID->"f0850030-4bce-449d-8df4-a53ab06a386b"],
-
-Cell[BoxData[
- RowBox[{"\[LeftAssociation]", 
-  RowBox[{"\<\"Push\"\>", "\[Rule]", "Null"}], 
-  "\[RightAssociation]"}]], "Output",
- CellChangeTimes->{{3.733111516021637*^9, 3.733111525160673*^9}, 
-   3.733111610772064*^9},
- CellLabel->"Out[115]=",ExpressionUUID->"8d8c1216-77a8-44ab-8d0d-9a906b155dd6"]
-}, Open  ]],
-
-Cell[BoxData["$WolframID"], "Input",
- CellChangeTimes->{{3.7331113463312187`*^9, 
-  3.733111347277845*^9}},ExpressionUUID->"a28d9bf5-5e52-4259-944d-\
-ab343b1df0f4"],
-
-Cell[BoxData[
- RowBox[{"<<", "BTools`External`"}]], "Input",
- CellChangeTimes->{{3.733111385925106*^9, 3.7331113885380096`*^9}},
- CellLabel->"In[55]:=",ExpressionUUID->"42d50149-82fe-41e4-90d6-aacb8bffcce3"],
-
-Cell[BoxData[
- RowBox[{"Git", "[", 
-  RowBox[{"\"\<Commit\>\"", ",", " ", "\"\<Options\>\""}], "]"}]], "Input",
- CellChangeTimes->{{3.733111379977952*^9, 3.733111400197052*^9}, {
-  3.7331115981094723`*^9, 3.733111598366497*^9}},
- CellLabel->"In[114]:=",ExpressionUUID->"ac4bab09-f875-43f2-a368-b26aab1a4a65"]
+ RowBox[{
+  RowBox[{"SharedPacletServerRebuild", "[", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.7331108048106613`*^9, 3.7331108050333548`*^9}, 
+   3.733112181634802*^9},ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-\
+bacb4322da0d"]
 },
 WindowSize->{808, 755},
 WindowMargins->{{236, Automatic}, {-4, Automatic}},
