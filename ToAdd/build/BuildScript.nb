@@ -13,7 +13,8 @@ Cell[BoxData[
   RowBox[{"BeginPackage", "[", "\"\<SharedPacletServer`\>\"", "]"}], 
   ";"}]], "InputSection",
  CellChangeTimes->{{3.733110564839148*^9, 3.73311056919706*^9}},
- CellLabel->"In[95]:=",ExpressionUUID->"7ee1c70b-8691-49d7-ac9d-976451ec8f21"],
+ CellLabel->
+  "In[120]:=",ExpressionUUID->"7ee1c70b-8691-49d7-ac9d-976451ec8f21"],
 
 Cell[BoxData[
  RowBox[{
@@ -22,8 +23,7 @@ Cell[BoxData[
    "\"\<Rebuilds and pushes the paclet server\>\""}], ";"}]], "CodeInput",
  CellChangeTimes->{{3.7331106889897413`*^9, 3.7331106953548307`*^9}, {
   3.733110786694009*^9, 3.733110802153084*^9}},
- CellLabel->
-  "In[96]:=",ExpressionUUID->"398b81ea-72f6-4fa4-a6bb-204244c018bc"]
+ CellLabel->"In[121]:=",ExpressionUUID->"398b81ea-72f6-4fa4-a6bb-204244c018bc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -34,7 +34,8 @@ Cell[BoxData[
   ";"}]], "InputSection",
  CellChangeTimes->{{3.733110564839148*^9, 3.73311056919706*^9}, {
   3.733110729412675*^9, 3.7331107303069067`*^9}},
- CellLabel->"In[97]:=",ExpressionUUID->"2a01adc8-8133-42a5-9448-3e83ea19b7d4"],
+ CellLabel->
+  "In[122]:=",ExpressionUUID->"2a01adc8-8133-42a5-9448-3e83ea19b7d4"],
 
 Cell[BoxData[{
  RowBox[{
@@ -52,8 +53,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.7331105698539124`*^9, 3.733110572087879*^9}, {
   3.733110619113799*^9, 3.733110621230721*^9}, {3.7331106818707542`*^9, 
   3.733110686611725*^9}},
- CellLabel->
-  "In[98]:=",ExpressionUUID->"d8b62225-ae21-4284-bfad-8686455c36c1"]
+ CellLabel->"In[123]:=",ExpressionUUID->"d8b62225-ae21-4284-bfad-8686455c36c1"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -61,7 +61,7 @@ Cell[BoxData[
   RowBox[{"EndPackage", "[", "]"}], ";"}]], "InputSection",
  CellChangeTimes->{{3.733110575526433*^9, 3.733110576245682*^9}},
  CellLabel->
-  "In[101]:=",ExpressionUUID->"ab251c32-f94d-4f0a-84a0-00d1a51963d9"],
+  "In[126]:=",ExpressionUUID->"ab251c32-f94d-4f0a-84a0-00d1a51963d9"],
 
 Cell[CellGroupData[{
 
@@ -69,14 +69,14 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"Begin", "[", "\"\<`Private`\>\"", "]"}], ";"}]], "InputSection",
  CellLabel->
-  "In[102]:=",ExpressionUUID->"e5d757dd-1df2-4f4a-87be-90374eb5a7fb"],
+  "In[127]:=",ExpressionUUID->"e5d757dd-1df2-4f4a-87be-90374eb5a7fb"],
 
 Cell[BoxData[{
  RowBox[{"<<", "BTools`External`"}], "\n", 
  RowBox[{"<<", "BTools`Paclets`"}]}], "CodeInput",
  CellChangeTimes->{{3.7331105824255342`*^9, 3.7331105870054483`*^9}},
  CellLabel->
-  "In[103]:=",ExpressionUUID->"d752b128-6f54-4cc3-bd5f-b29753a2567d"],
+  "In[128]:=",ExpressionUUID->"d752b128-6f54-4cc3-bd5f-b29753a2567d"],
 
 Cell[BoxData[
  RowBox[{
@@ -89,7 +89,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.733110886101543*^9, 3.7331109073435793`*^9}, {
   3.7331109863600893`*^9, 3.7331109983744698`*^9}},
  CellLabel->
-  "In[105]:=",ExpressionUUID->"96607776-85b9-4fbd-a210-ed6f70e69fd4"],
+  "In[130]:=",ExpressionUUID->"96607776-85b9-4fbd-a210-ed6f70e69fd4"],
 
 Cell[CellGroupData[{
 
@@ -159,7 +159,7 @@ Cell[BoxData[
   3.733110878981238*^9}, {3.733110912348407*^9, 3.733111003624694*^9}, {
   3.733111044239036*^9, 3.7331110835534277`*^9}, {3.733111114297674*^9, 
   3.7331111638350477`*^9}},
- CellLabel->"In[106]:=",ExpressionUUID->"bb64dda4-f9f6-4d6c-a807-40998d718ca0"]
+ CellLabel->"In[131]:=",ExpressionUUID->"bb64dda4-f9f6-4d6c-a807-40998d718ca0"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -180,7 +180,7 @@ Cell[BoxData[
   3.733110624191453*^9}, {3.73311065532126*^9, 3.733110675316125*^9}, {
   3.733110740630114*^9, 3.733110775613777*^9}, {3.733110878119075*^9, 
   3.733110878981238*^9}, {3.733110912348407*^9, 3.733110956369628*^9}},
- CellLabel->"In[107]:=",ExpressionUUID->"f81ae13d-4ae6-44ce-885f-7d5338f444fb"]
+ CellLabel->"In[132]:=",ExpressionUUID->"f81ae13d-4ae6-44ce-885f-7d5338f444fb"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -224,7 +224,7 @@ Cell[BoxData[
   3.733110740630114*^9, 3.733110775613777*^9}, {3.733110878119075*^9, 
   3.733110878981238*^9}, {3.733110912348407*^9, 3.733110956369628*^9}, {
   3.733111406979007*^9, 3.733111407379752*^9}},
- CellLabel->"In[108]:=",ExpressionUUID->"137903ce-3b83-4f28-be37-92f432bb8806"]
+ CellLabel->"In[133]:=",ExpressionUUID->"137903ce-3b83-4f28-be37-92f432bb8806"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -241,7 +241,7 @@ Cell[BoxData[
   ";"}]], "CodeInput",
  CellChangeTimes->{{3.7331114256502132`*^9, 3.7331114476806183`*^9}},
  CellLabel->
-  "In[109]:=",ExpressionUUID->"9306815e-5f2f-43c0-9089-065ce32edd3c"],
+  "In[134]:=",ExpressionUUID->"9306815e-5f2f-43c0-9089-065ce32edd3c"],
 
 Cell[BoxData[{
  RowBox[{
@@ -311,7 +311,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.733110808699691*^9, 3.73311082228156*^9}, {
   3.733111261249153*^9, 3.733111328925194*^9}, {3.733111417222076*^9, 
   3.733111537280999*^9}},
- CellLabel->"In[110]:=",ExpressionUUID->"db02f08c-7977-44f1-a086-bb72699f2284"]
+ CellLabel->"In[135]:=",ExpressionUUID->"db02f08c-7977-44f1-a086-bb72699f2284"]
 }, Open  ]]
 }, Open  ]],
 
@@ -319,13 +319,13 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"End", "[", "]"}], ";"}]], "InputSection",
  CellLabel->
-  "In[112]:=",ExpressionUUID->"89d624b1-6de3-4776-8c24-6f2f1b65aa80"],
+  "In[137]:=",ExpressionUUID->"89d624b1-6de3-4776-8c24-6f2f1b65aa80"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"EndPackage", "[", "]"}], ";"}]], "InputSection",
  CellChangeTimes->{{3.733110575526433*^9, 3.733110576245682*^9}},
- CellLabel->"In[113]:=",ExpressionUUID->"47ef01b2-c452-43ea-815f-054113c98322"]
+ CellLabel->"In[138]:=",ExpressionUUID->"47ef01b2-c452-43ea-815f-054113c98322"]
 }, Open  ]],
 
 Cell["", "SectionSeparator",ExpressionUUID->"eeee30d8-82d2-4326-abfa-\
@@ -335,11 +335,11 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"SharedPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellChangeTimes->{{3.7331108048106613`*^9, 3.7331108050333548`*^9}, 
-   3.733112181634802*^9},ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-\
-bacb4322da0d"]
+   3.733112181634802*^9},
+ CellLabel->"In[139]:=",ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-bacb4322da0d"]
 },
 WindowSize->{808, 755},
-WindowMargins->{{236, Automatic}, {-4, Automatic}},
+WindowMargins->{{32, Automatic}, {43, Automatic}},
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
 2018)",
 StyleDefinitions->FrontEnd`FileName[{"BTools"}, "CodeNotebook.nb", 
