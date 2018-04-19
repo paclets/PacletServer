@@ -26,7 +26,7 @@ To install a paclet from this repository all you need to do is run
 
 ## Contributing a paclet
 
-If you want to add a paclet to the repository, simply clone this repository, add your paclet to the  ```Paclets```  folder and then submit a pull request.
+If you want to add a paclet to the repository, simply clone this repository, add your paclet to the  ```ToAdd```  folder and then submit a pull request.
 
 You can submit your own paclet shingle by providing a Markdown notebook like those that are already in the  ```content```  directory. If you don't provide a notebook one will be automatically generated from the metadata in your  ```PacletInfo.m```  file. A good example of a well-written  ```PacletInfo.m```  can be found  [here](https://github.com/szhorvat/MaTeX/blob/master/MaTeX/PacletInfo.m) . The extra parameters the site generator uses can be found  [here](https://www.wolframcloud.com/objects/b3m2a1/home/building-a-mathematica-package-ecosystem-part-1.html#package-distribution) .
 
