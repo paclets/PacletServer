@@ -23,7 +23,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #405980;
+  color: #B1788A;
 }
 
 a code {
@@ -54,7 +54,7 @@ selection styles
 */
 
 ::selection {
-  background: #80b3ff;
+  background: #6082dd;
   color: #fff;
   text-shadow: none;
 }
@@ -125,7 +125,7 @@ hn styles
 
 .page-header {
 
-  color: #492f7f;
+  color: #B1788A;
   padding: 25px 0;
   margin: 0;
 
@@ -157,17 +157,19 @@ footer styles
 */
 
 .footer {
-  padding: 1.5rem 0 .5rem;
+  padding: 10px 0 10px 10px;
   border-top: 1px solid rgba(0,0,0,.1);
   background: #ccc;
+  min-height: 40px;
 }
 
 p.acknowledgement {
   float:right;
+  margin-bottom: 0;
 }
 
 p.acknowledgement a{
-  color: #6e47be;
+  color: #B1788A;
 }
 
 /*
@@ -306,7 +308,9 @@ article styles
 */
 
 article .content h1 {
-  color: #492f7f;
+  color: black;
+  margin-top: -25px;
+
 }
 
 article .content h2 {
@@ -316,7 +320,7 @@ article .content h2 {
 }
 
 article .content h3 {
-  color: #6e47be;
+  color: #B1788A;
 }
 
 
@@ -369,7 +373,7 @@ paclet styles
 .paclet h4 {
   position: relative;
   display:inline-block;
-  color: #7d2a45;
+  color: #B1788A;
   width: 100%;
   height: 35px;
   padding: 15px 25px;
@@ -383,7 +387,7 @@ paclet styles
 }
 
 .paclet h4 a:hover {
-  color: #7d2a45;
+  color: #B1788A;
 }
 
 .paclet-summary {
@@ -489,17 +493,14 @@ article styles
   height: 100%;
   border-radius: 5px;
   padding: 15px 25px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25;
   margin-top: 25px;
   margin-bottom: 25px;
-  border: 1px solid rgba(64,89,128,.2);
-  border-radius: 5px;
 }
 
 .article .content a {
   text-decoration: underline;
-  color: #6e47be;
+  color: #B1788A;
 }
 
 /*

@@ -5,7 +5,7 @@ Creator: Szabolcs Horvát <szhorvat@gmail.com>
 Description: Create LaTeX-typeset labels within Mathematica.
 Extensions: <|Documentation -> <|Language -> All, MainPage -> Guides/MaTeX|>, Kernel -> <|Root -> ., Context -> MaTeX`|>|>
 MathematicaVersion: 10.0+
-Modified: 2018-04-20 00:58:19
+Modified: 2018-04-20 01:30:24
 Name: MaTeX
 Slug: matex
 Tags: 

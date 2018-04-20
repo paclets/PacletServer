@@ -146,7 +146,21 @@
 
 <footer class="footer">
   <p class="col-sm-6 text-sm-right text-muted acknowledgement">
-    <wolfram:slot id="Footer"/>
+    <wolfram:slot id="Footer">
+    <wolfram:get path="include/lib/templates/varDefinedBlock.html">
+      <wolfram:slot id="var">Footer</wolfram:slot>
+      <wolfram:slot id="Footer">
+        <wolfram:slot id="Footer"/>
+      </wolfram:slot>
+      <wolfram:slot id="if">
+        <wolfram:slot id="Footer"/>
+      </wolfram:slot>
+      <wolfram:slot id="else">
+        Brought to you by the
+          <a href="https://mathematica.stackexchange.com/">Mathematica StackExchange</a>
+      </wolfram:slot>
+    </wolfram:get>
+    </wolfram:slot>
   </p>
 </footer>
 

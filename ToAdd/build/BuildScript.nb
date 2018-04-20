@@ -428,8 +428,6 @@ Cell[BoxData[
 Cell["", "SectionSeparator",ExpressionUUID->"eeee30d8-82d2-4326-abfa-\
 e05d174b84b2"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"SharedPacletServerRebuild", "[", "\n", 
@@ -444,43 +442,28 @@ Cell[BoxData[
   "In[387]:=",ExpressionUUID->"2443091b-2805-4bde-981c-33dd25dc86fa"],
 
 Cell[BoxData[
- TemplateBox[{
-  "Git","err",
-   "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
-https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\"\\\"}]\\)\\\
-\":\\n\\!\\(\\*RowBox[{\\\"\\\\\\\"remote: This repository moved. Please use \
-the new location:        \\\\\\\\nremote:   \
-https://github.com/paclets/PacletServer.git        \\\\\\\\nTo \
-https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\\n   \
-9473809..51af33f  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,387,499,
-   27920074767770793948,"Local","BTools`External`Git"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.733199931003703*^9},
- CellLabel->
-  "During evaluation of \
-In[387]:=",ExpressionUUID->"d25270c0-095a-4ce5-8112-e273cbb29e10"]
-}, Open  ]],
-
-Cell[BoxData[
  RowBox[{
   RowBox[{"SharedPacletServerRebuild", "[", 
    RowBox[{"\"\<Build\>\"", ",", " ", 
     RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", " ", 
-    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", " ", 
-    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
-     RowBox[{"Now", "-", 
-      RowBox[{"Quantity", "[", 
-       RowBox[{"24", ",", " ", "\"\<Hours\>\""}], "]"}]}]}]}], "]"}], 
-  ";"}]], "Input",
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}]}], 
+   RowBox[{"(*", 
+    RowBox[{",", " ", 
+     RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
+      RowBox[{"Now", "-", 
+       RowBox[{"Quantity", "[", 
+        RowBox[{"24", ",", " ", "\"\<Hours\>\""}], "]"}]}]}]}], "*)"}], "]"}],
+   ";"}]], "Input",
  CellChangeTimes->{{3.7331108048106613`*^9, 3.7331108050333548`*^9}, 
    3.733112181634802*^9, 3.733150607282119*^9, {3.733151258264682*^9, 
    3.7331512619594927`*^9}, {3.733151295402967*^9, 3.733151296961969*^9}, 
    3.733151339915812*^9, {3.733156212479473*^9, 3.733156218142078*^9}, 
    3.7331564090633097`*^9, {3.7331564391570053`*^9, 3.7331564436826067`*^9}, {
    3.733158292271679*^9, 3.7331582978534*^9}, {3.733158724267639*^9, 
-   3.7331587298274527`*^9}, {3.7331998589488564`*^9, 3.733199875770493*^9}},
+   3.7331587298274527`*^9}, {3.7331998589488564`*^9, 3.733199875770493*^9}, {
+   3.733200911863317*^9, 3.733200913957973*^9}},
  CellLabel->
-  "In[386]:=",ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-bacb4322da0d"],
+  "In[419]:=",ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-bacb4322da0d"],
 
 Cell[CellGroupData[{
 
@@ -491,7 +474,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.733198067314619*^9, 3.733198068752964*^9}, {
   3.7331999575606127`*^9, 3.7331999580769453`*^9}},
  CellLabel->
-  "In[396]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
+  "In[399]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -499,35 +482,26 @@ Cell[BoxData[
    "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
 https://github.com/paclets/PacletServer.git\\\\\\\"\\\"}]\\)\\\":\\n\\!\\(\\*\
 RowBox[{\\\"\\\\\\\"To https://github.com/paclets/PacletServer.git\\\\\\\\n   \
-fd2dbe8..713fd48  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,396,504,
+713fd48..76f2e64  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,399,505,
    27920074767770793948,"Local","BTools`External`Git"},
   "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.733200078766224*^9, 3.73320027357124*^9},
+ CellChangeTimes->{3.733200078766224*^9, 3.73320027357124*^9, 
+  3.73320035620334*^9},
  CellLabel->
   "During evaluation of \
-In[396]:=",ExpressionUUID->"0037c4c0-dbd4-4c36-816c-38356ddc18cd"]
+In[399]:=",ExpressionUUID->"33ba2f29-f8cb-4cf2-b275-dc5730a4fec7"]
 }, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Git", "[", 
-  RowBox[{"\"\<SetRemoteURL\>\"", ",", " ", "\"\<Options\>\""}], 
-  "]"}]], "Input",
- CellChangeTimes->{{3.733200150170192*^9, 3.733200152272884*^9}},
- CellLabel->
-  "In[393]:=",ExpressionUUID->"87363351-fbb6-495c-a0ab-5f12395b0299"],
-
-Cell[BoxData[
- RowBox[{"{", 
   RowBox[{
-   RowBox[{"\<\"PushURL\"\>", "\[Rule]", "Automatic"}], ",", 
-   RowBox[{"\<\"AllURLs\"\>", "\[Rule]", "Automatic"}], ",", 
-   RowBox[{"\<\"AddURL\"\>", "\[Rule]", "Automatic"}], ",", 
-   RowBox[{"\<\"DeleteURL\"\>", "\[Rule]", "Automatic"}]}], "}"}]], "Output",
- CellChangeTimes->{3.733200152567293*^9, 3.7332002292784653`*^9},
- CellLabel->"Out[393]=",ExpressionUUID->"b57ea8b3-e625-4e62-8cc9-d2aab7d17966"]
-}, Open  ]],
+  "\"\<Commit\>\"", ",", " ", 
+   "\"\<~/Documents/GitHub/MathematicaPacletServer\>\"", ",", "\n", 
+   RowBox[{"\"\<All\>\"", "\[Rule]", "True"}]}], "\n", "]"}]], "Input",
+ CellChangeTimes->{{3.733200150170192*^9, 3.733200152272884*^9}, {
+  3.7332003292905903`*^9, 3.733200338184868*^9}},
+ CellLabel->
+  "In[398]:=",ExpressionUUID->"87363351-fbb6-495c-a0ab-5f12395b0299"],
 
 Cell[BoxData[
  RowBox[{"Git", "[", 
@@ -564,7 +538,68 @@ Cell[BoxData[
   "\"\<~/Documents/GitHub/MathematicaPacletServer/content/pages/install.md\>\"\
 ", "]"}]], "Input",
  CellChangeTimes->{{3.7331543514214697`*^9, 3.73315437164865*^9}},
- CellLabel->"In[284]:=",ExpressionUUID->"4c7e7dc5-f07a-4ffe-b034-8f65f0d045ad"]
+ CellLabel->
+  "In[284]:=",ExpressionUUID->"4c7e7dc5-f07a-4ffe-b034-8f65f0d045ad"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RGBColor", "[", "\"\<#6082dd\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.733201438557229*^9, 3.733201478242684*^9}},
+ CellLabel->
+  "In[411]:=",ExpressionUUID->"937bc531-6ac4-4271-8f40-113a2e636560"],
+
+Cell[BoxData[
+ InterpretationBox[
+  ButtonBox[
+   TooltipBox[
+    GraphicsBox[{
+      {GrayLevel[0], RectangleBox[{0, 0}]}, 
+      {GrayLevel[0], RectangleBox[{1, -1}]}, 
+      {RGBColor[0.3764705882352941, 0.5098039215686274, 0.8666666666666667], 
+       RectangleBox[{0, -1}, {2, 1}]}},
+     AspectRatio->1,
+     DefaultBaseStyle->"ColorSwatchGraphics",
+     Frame->True,
+     FrameStyle->RGBColor[
+      0.25098039215686274`, 0.33986928104575165`, 0.5777777777777778],
+     FrameTicks->None,
+     ImageSize->
+      Dynamic[{Automatic, 1.35 CurrentValue["FontCapHeight"]/
+        AbsoluteCurrentValue[Magnification]}],
+     PlotRangePadding->None],
+    StyleBox[
+     RowBox[{"RGBColor", "[", 
+       RowBox[{
+        "0.3764705882352941`", ",", "0.5098039215686274`", ",", 
+         "0.8666666666666667`"}], "]"}], NumberMarks -> False]],
+   Appearance->None,
+   BaseStyle->{},
+   BaselinePosition->Baseline,
+   ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
+     If[
+      Not[
+       AbsoluteCurrentValue["Deployed"]], 
+      SelectionMove[Typeset`box$, All, Expression]; 
+      FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+      FrontEnd`Private`$ColorSelectorInitialColor = 
+       RGBColor[0.3764705882352941, 0.5098039215686274, 0.8666666666666667]; 
+      FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+      MathLink`CallFrontEnd[
+        FrontEnd`AttachCell[Typeset`box$, 
+         FrontEndResource["RGBColorValueSelector"], {0, {Left, Bottom}}, {
+         Left, Top}, 
+         "ClosingActions" -> {
+          "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
+   DefaultBaseStyle->{},
+   Evaluator->Automatic,
+   Method->"Preemptive"],
+  RGBColor[0.3764705882352941, 0.5098039215686274, 0.8666666666666667],
+  Editable->False,
+  Selectable->False]], "Output",
+ CellChangeTimes->{{3.733201440846263*^9, 3.733201478654331*^9}},
+ CellLabel->"Out[411]=",ExpressionUUID->"ab080bdb-d998-453e-9da2-dcc5e4b863ff"]
+}, Open  ]]
 },
 WindowSize->{808, 755},
 WindowMargins->{{32, Automatic}, {43, Automatic}},
