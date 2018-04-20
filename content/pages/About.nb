@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      4720,        133]
-NotebookOptionsPosition[      3619,        107]
-NotebookOutlinePosition[      4046,        124]
-CellTagsIndexPosition[      4003,        121]
+NotebookDataLength[      4743,        134]
+NotebookOptionsPosition[      3642,        108]
+NotebookOutlinePosition[      4069,        125]
+CellTagsIndexPosition[      4026,        122]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,15 +33,16 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["About This Site", "Subsection",
- CellChangeTimes->{{3.7128049815956984`*^9, 
-  3.7128049849866447`*^9}},ExpressionUUID->"d46f7377-7dbe-4197-9419-\
+ CellChangeTimes->{{3.7128049815956984`*^9, 3.7128049849866447`*^9}, {
+  3.733201924194215*^9, 
+  3.7332019245505953`*^9}},ExpressionUUID->"d46f7377-7dbe-4197-9419-\
 1e81ecd49433"],
 
 Cell[TextData[{
  "This is a paclet server. It lists the currently available paclets at this \
 site. You can download any paclet via the ",
- Cell[BoxData["\"\<Download\>\""], "InlineText", "InlineInput",
-  FormatType->"StandardForm",ExpressionUUID->
+ Cell[BoxData[
+ "\"\<Download\>\""], "InlineText", "InlineInput",ExpressionUUID->
   "48833a95-7374-42f9-8462-efead9726ac5"],
  " link on its page. Alternatively, you can install paclets via ",
  ButtonBox["PacletInstall",
@@ -125,15 +126,15 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 431, 10, 112, "Metadata",ExpressionUUID->"5485d360-c7b1-4db9-843c-9d0ac3d5b893"],
 Cell[CellGroupData[{
-Cell[1014, 34, 167, 3, 41, "Subsection",ExpressionUUID->"d46f7377-7dbe-4197-9419-1e81ecd49433"],
-Cell[1184, 39, 682, 15, 58, "Text",ExpressionUUID->"e54a3b6f-33dd-45aa-b664-ae0bb2a267fa"],
-Cell[1869, 56, 157, 3, 35, "Text",ExpressionUUID->"22c24487-c74f-407c-9f6c-3d1bcc2b41fb"],
-Cell[2029, 61, 434, 10, 129, "Code",ExpressionUUID->"1f56ae62-09ae-421c-a3c1-d2b882b89b68"]
+Cell[1014, 34, 218, 4, 41, "Subsection",ExpressionUUID->"d46f7377-7dbe-4197-9419-1e81ecd49433"],
+Cell[1235, 40, 654, 15, 58, "Text",ExpressionUUID->"e54a3b6f-33dd-45aa-b664-ae0bb2a267fa"],
+Cell[1892, 57, 157, 3, 35, "Text",ExpressionUUID->"22c24487-c74f-407c-9f6c-3d1bcc2b41fb"],
+Cell[2052, 62, 434, 10, 129, "Code",ExpressionUUID->"1f56ae62-09ae-421c-a3c1-d2b882b89b68"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2500, 76, 163, 3, 41, "Subsection",ExpressionUUID->"54420006-9486-499d-8c89-28778d0154f1"],
-Cell[2666, 81, 362, 7, 58, "Text",ExpressionUUID->"042b2a10-81de-4511-9349-1b0d134280b6"],
-Cell[3031, 90, 572, 14, 58, "Text",ExpressionUUID->"3d9ce83e-c993-40ab-a74e-ac3336d8ccd2"]
+Cell[2523, 77, 163, 3, 41, "Subsection",ExpressionUUID->"54420006-9486-499d-8c89-28778d0154f1"],
+Cell[2689, 82, 362, 7, 58, "Text",ExpressionUUID->"042b2a10-81de-4511-9349-1b0d134280b6"],
+Cell[3054, 91, 572, 14, 58, "Text",ExpressionUUID->"3d9ce83e-c993-40ab-a74e-ac3336d8ccd2"]
 }, Open  ]]
 }
 ]
