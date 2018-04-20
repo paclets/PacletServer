@@ -491,24 +491,21 @@ Cell[BoxData[
  CellChangeTimes->{{3.733198067314619*^9, 3.733198068752964*^9}, {
   3.7331999575606127`*^9, 3.7331999580769453`*^9}},
  CellLabel->
-  "In[389]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
+  "In[396]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
 
 Cell[BoxData[
  TemplateBox[{
   "Git","err",
    "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
-https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\"\\\"}]\\)\\\
-\":\\n\\!\\(\\*RowBox[{\\\"\\\\\\\"remote: This repository moved. Please use \
-the new location:        \\\\\\\\nremote:   \
-https://github.com/paclets/PacletServer.git        \\\\\\\\nTo \
-https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\\n   \
-51af33f..fd2dbe8  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,389,501,
+https://github.com/paclets/PacletServer.git\\\\\\\"\\\"}]\\)\\\":\\n\\!\\(\\*\
+RowBox[{\\\"\\\\\\\"To https://github.com/paclets/PacletServer.git\\\\\\\\n   \
+fd2dbe8..713fd48  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,396,504,
    27920074767770793948,"Local","BTools`External`Git"},
   "MessageTemplate2"]], "Message", "MSG",
- CellChangeTimes->{3.733200078766224*^9},
+ CellChangeTimes->{3.733200078766224*^9, 3.73320027357124*^9},
  CellLabel->
   "During evaluation of \
-In[389]:=",ExpressionUUID->"d7496fce-f671-4d9a-9d01-0b058a8c7f8b"]
+In[396]:=",ExpressionUUID->"0037c4c0-dbd4-4c36-816c-38356ddc18cd"]
 }, Open  ]],
 
 Cell[CellGroupData[{
