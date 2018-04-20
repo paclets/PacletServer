@@ -5,7 +5,9 @@ body styles
 */
 
 body {
-  background-color: #ccc;
+  background-color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+
 }
 
 /*
@@ -85,16 +87,16 @@ header styles
 */
 
 .header body {
-  color: white;
+  color: black;
 }
 
 .header a {
-  color: white;
+  color: black;
 }
 
 .header a:focus,
 .header a:hover {
-  color: #aea3c6;
+  color: #B1788A;
 }
 
 .header {
@@ -137,13 +139,13 @@ main styles
 */
 
 .main {
-  background: #ccc;
+  background: white;
   width: 100%;
   min-height: 800px;
 }
 
 .main-content {
-  background: #fafafa;
+  background: #white;
   width: 100%;
   min-height: 800px;
 }
@@ -181,9 +183,20 @@ top-bar styles
   max-width: none;
   border-bottom: 1px solid rgba(0,0,0,.1);
   padding-top: 15px;
-  background-color: #492f7f;
-  text-align: center;
+  background-image: url(../img/mma-se-bg.png);
+  background-repeat: repeat-x;
   color: white;
+}
+
+.top-bar .title {
+  margin-left: 25px;
+}
+
+
+.top-bar .title a {
+  font-weight: normal;
+  font-style: italic;
+  font-family: Times, serif;
 }
 
 .top-bar .bubble {
@@ -193,13 +206,13 @@ top-bar styles
   max-width: 500px;
 }
 
-.top-bar a:hover {
+.top-bar
+  a:focus,
+  a:hover {
   text-decoration: none;
-
 }
 
 .site-title {
-
   height: 90px;
   width: 100%;
   padding: .5rem 0 .5rem .5rem;
@@ -212,11 +225,10 @@ top-bar styles
   width: 100%;
   border: solid 1px rgba(128,128,128,.5);
   padding: 0 15px;
-
 }
 
 .site-links a {
-  color: #492f7f;
+  color: #B1788A;
   display:inline-block;
   width: 100%;
   height: 100%;
@@ -228,21 +240,20 @@ top-bar styles
 }
 
 .site-links a:hover {
-  background-color: #6e47be;
+  background-color: #B1788A;
   /*background-size: 10px 100%;
   background-repeat: repeat-x;*/
-  margin: -5px 0 -1px 0;
   color: white;
 }
 
 .site-links .list-inline {
   height: 100%;
-  text-align: center;
+  text-align: left;
+  margin: 0 0 0 25px;
 }
 
 .site-links .list-inline-item {
   margin: 0 0 0 -5px;
-  text-align: center;
   height: 100%;
 }
 
@@ -337,7 +348,7 @@ misc styles
 */
 
 .center-aligned {
-  margin-left: auto;
+  margin-left: 15;
   margin-right: auto;
 }
 
@@ -351,40 +362,39 @@ paclet styles
 .paclet {
   background: #fff;
   padding: 0;
-  margin-top: 15px;
-  margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  min-width: 250px;
-  min-height: 250px;
-  border: 1px solid rgba(64,89,128,.2);
-  border-radius: 5px;
+  width: 100%;
+  min-height: 75px;
 }
 
 .paclet h4 {
   position: relative;
-  background: #333;
   display:inline-block;
-  color: white;
+  color: #7d2a45;
   width: 100%;
-  height: 100px;
+  height: 35px;
   padding: 15px 25px;
-  border-radius: 5px 5px 0px 0px;
   margin: 0;
+  clear: none;
 }
 
 .paclet h4 a {
-  color: white;
+  color: black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.paclet h4 a:hover {
+  color: #7d2a45;
 }
 
 .paclet-summary {
-  padding: 35px 25px;
+  padding: 15px 25px;
   border-radius: 0px 0px 5px 5px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin: 0;
   width: 100%;
   height: 100%;
-  min-height: 150px;
+  min-height: 50px;
+  clear: none;
 }
 
 /*

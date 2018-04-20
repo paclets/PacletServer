@@ -49,7 +49,8 @@ This generates the index.html page
 </wolfram:slot>
 
 <wolfram:slot id="PrimaryContent">
-
+  <h4 class="title">Paclet Listing</h4>
+  <hr>
   <wolfram:sequence
     values="Replace[#IndexListing, Except[_List]:>#Articles]"
     slot="IndexItem" delimiters="<hr>"

@@ -7,6 +7,6 @@
 	"Theme"->"PacletServer",
 	"SiteName"->"Mathematica Paclet Server",
 	"SiteURL"->
-		"https://MathematicaPacletServer.github.io/PacletServer",
-	"GitHubUserName"->"MathematicaPacletServer"
+		"https://paclets.github.io/PacletServer",
+	"GitHubUserName"->"paclets"
 	}

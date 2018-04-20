@@ -428,35 +428,24 @@ Cell[BoxData[
 Cell["", "SectionSeparator",ExpressionUUID->"eeee30d8-82d2-4326-abfa-\
 e05d174b84b2"],
 
-Cell[BoxData[
- RowBox[{
-  RowBox[{"SharedPacletServerRebuild", "[", "]"}], ";"}]], "Input",
- CellChangeTimes->{{3.733158790778573*^9, 3.7331587909627113`*^9}, 
-   3.73315883095924*^9},ExpressionUUID->"2443091b-2805-4bde-981c-\
-33dd25dc86fa"],
-
-Cell[BoxData[
- RowBox[{"PacletServerRemove", "//", "DownValues"}]], "Input",
- CellChangeTimes->{{3.7331591134946012`*^9, 3.733159114247485*^9}},
- CellLabel->
-  "In[310]:=",ExpressionUUID->"278833f6-9ba3-4478-9e13-b7ab17005762"],
-
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"PacletServerRemove", "[", 
-  RowBox[{
-  "\"\<~/Documents/GitHub/MathematicaPacletServer\>\"", ",", " ", 
-   "\"\<ChemTools\>\""}], "]"}]], "Input",
- CellChangeTimes->{{3.7331590727432213`*^9, 3.733159107358408*^9}},
- CellLabel->
-  "In[311]:=",ExpressionUUID->"698eb6da-20ee-42c9-9929-49b470c87911"],
+ RowBox[{
+  RowBox[{"SharedPacletServerRebuild", "[", 
+   RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
+    RowBox[{"Now", "-", 
+     RowBox[{"Quantity", "[", 
+      RowBox[{"24", ",", " ", "\"\<Hours\>\""}], "]"}]}]}], "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.733158790778573*^9, 3.7331587909627113`*^9}, 
+   3.73315883095924*^9, 
+   3.733199888031492*^9},ExpressionUUID->"2443091b-2805-4bde-981c-\
+33dd25dc86fa"],
 
-Cell[BoxData["\<\"/Users/Mark/Documents/GitHub/MathematicaPacletServer/\
-PacletSite.mz\"\>"], "Output",
- CellChangeTimes->{{3.733159110252248*^9, 3.7331591114669027`*^9}, 
-   3.73315923026971*^9},
- CellLabel->"Out[311]=",ExpressionUUID->"26df3f71-4d6d-4871-9652-7bf2f27ed78b"]
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.733199104227633*^9},
+ CellLabel->"Out[374]=",ExpressionUUID->"e96e4f43-7491-4b7e-9444-ea73f31c12fd"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -464,7 +453,11 @@ Cell[BoxData[
   RowBox[{"SharedPacletServerRebuild", "[", 
    RowBox[{"\"\<Build\>\"", ",", " ", 
     RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", " ", 
-    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}]}], "]"}], 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", " ", 
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
+     RowBox[{"Now", "-", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"24", ",", " ", "\"\<Hours\>\""}], "]"}]}]}]}], "]"}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.7331108048106613`*^9, 3.7331108050333548`*^9}, 
    3.733112181634802*^9, 3.733150607282119*^9, {3.733151258264682*^9, 
@@ -472,14 +465,17 @@ Cell[BoxData[
    3.733151339915812*^9, {3.733156212479473*^9, 3.733156218142078*^9}, 
    3.7331564090633097`*^9, {3.7331564391570053`*^9, 3.7331564436826067`*^9}, {
    3.733158292271679*^9, 3.7331582978534*^9}, {3.733158724267639*^9, 
-   3.7331587298274527`*^9}},
+   3.7331587298274527`*^9}, {3.7331998589488564`*^9, 3.733199875770493*^9}},
  CellLabel->
-  "In[306]:=",ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-bacb4322da0d"],
+  "In[386]:=",ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-bacb4322da0d"],
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.733153399363962*^9, 
-  3.733153399982697*^9}},ExpressionUUID->"c82c9979-e9b5-4876-8350-\
-4572f85a0342"],
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SharedPacletServerRebuild", "[", "\"\<Test\>\"", "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.733198067314619*^9, 3.733198068752964*^9}},
+ CellLabel->
+  "In[369]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
 
 Cell[BoxData[
  RowBox[{"MarkdownToXML", "[", 
