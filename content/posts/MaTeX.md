@@ -1,11 +1,11 @@
 Title: MaTeX
-Authors: Szabolcs Horvát <szhorvat
+Authors: Szabolcs Horvát
 Categories: misc
 Creator: Szabolcs Horvát <szhorvat@gmail.com>
 Description: Create LaTeX-typeset labels within Mathematica.
 Extensions: <|Documentation -> <|Language -> All, MainPage -> Guides/MaTeX|>, Kernel -> <|Root -> ., Context -> MaTeX`|>|>
 MathematicaVersion: 10.0+
-Modified: 2018-04-20 01:36:27
+Modified: 2018-04-20 03:47:13
 Name: MaTeX
 Slug: matex
 Tags: 
