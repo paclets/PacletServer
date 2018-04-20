@@ -432,20 +432,33 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"SharedPacletServerRebuild", "[", 
+  RowBox[{"SharedPacletServerRebuild", "[", "\n", 
    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
     RowBox[{"Now", "-", 
      RowBox[{"Quantity", "[", 
-      RowBox[{"24", ",", " ", "\"\<Hours\>\""}], "]"}]}]}], "]"}], 
+      RowBox[{"24", ",", " ", "\"\<Hours\>\""}], "]"}]}]}], "\n", "]"}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.733158790778573*^9, 3.7331587909627113`*^9}, 
-   3.73315883095924*^9, 
-   3.733199888031492*^9},ExpressionUUID->"2443091b-2805-4bde-981c-\
-33dd25dc86fa"],
+   3.73315883095924*^9, {3.733199888031492*^9, 3.733199893970999*^9}},
+ CellLabel->
+  "In[387]:=",ExpressionUUID->"2443091b-2805-4bde-981c-33dd25dc86fa"],
 
-Cell[BoxData["$Aborted"], "Output",
- CellChangeTimes->{3.733199104227633*^9},
- CellLabel->"Out[374]=",ExpressionUUID->"e96e4f43-7491-4b7e-9444-ea73f31c12fd"]
+Cell[BoxData[
+ TemplateBox[{
+  "Git","err",
+   "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
+https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\"\\\"}]\\)\\\
+\":\\n\\!\\(\\*RowBox[{\\\"\\\\\\\"remote: This repository moved. Please use \
+the new location:        \\\\\\\\nremote:   \
+https://github.com/paclets/PacletServer.git        \\\\\\\\nTo \
+https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\\n   \
+9473809..51af33f  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,387,499,
+   27920074767770793948,"Local","BTools`External`Git"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.733199931003703*^9},
+ CellLabel->
+  "During evaluation of \
+In[387]:=",ExpressionUUID->"d25270c0-095a-4ce5-8112-e273cbb29e10"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -471,11 +484,12 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"SharedPacletServerRebuild", "[", "\"\<Test\>\"", "]"}], 
+  RowBox[{"SharedPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
   ";"}]], "Input",
- CellChangeTimes->{{3.733198067314619*^9, 3.733198068752964*^9}},
+ CellChangeTimes->{{3.733198067314619*^9, 3.733198068752964*^9}, {
+  3.7331999575606127`*^9, 3.7331999580769453`*^9}},
  CellLabel->
-  "In[369]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
+  "In[388]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
 
 Cell[BoxData[
  RowBox[{"MarkdownToXML", "[", 
