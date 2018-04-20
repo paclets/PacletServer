@@ -482,6 +482,8 @@ Cell[BoxData[
  CellLabel->
   "In[386]:=",ExpressionUUID->"7c0a9fde-1c5e-47b8-b20b-bacb4322da0d"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"SharedPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
@@ -489,7 +491,76 @@ Cell[BoxData[
  CellChangeTimes->{{3.733198067314619*^9, 3.733198068752964*^9}, {
   3.7331999575606127`*^9, 3.7331999580769453`*^9}},
  CellLabel->
-  "In[388]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
+  "In[389]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Git","err",
+   "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
+https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\"\\\"}]\\)\\\
+\":\\n\\!\\(\\*RowBox[{\\\"\\\\\\\"remote: This repository moved. Please use \
+the new location:        \\\\\\\\nremote:   \
+https://github.com/paclets/PacletServer.git        \\\\\\\\nTo \
+https://github.com/MathematicaPacletServer/PacletServer.git\\\\\\\\n   \
+51af33f..fd2dbe8  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,389,501,
+   27920074767770793948,"Local","BTools`External`Git"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.733200078766224*^9},
+ CellLabel->
+  "During evaluation of \
+In[389]:=",ExpressionUUID->"d7496fce-f671-4d9a-9d01-0b058a8c7f8b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Git", "[", 
+  RowBox[{"\"\<SetRemoteURL\>\"", ",", " ", "\"\<Options\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.733200150170192*^9, 3.733200152272884*^9}},
+ CellLabel->
+  "In[393]:=",ExpressionUUID->"87363351-fbb6-495c-a0ab-5f12395b0299"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"PushURL\"\>", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\<\"AllURLs\"\>", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\<\"AddURL\"\>", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\<\"DeleteURL\"\>", "\[Rule]", "Automatic"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.733200152567293*^9, 3.7332002292784653`*^9},
+ CellLabel->"Out[393]=",ExpressionUUID->"b57ea8b3-e625-4e62-8cc9-d2aab7d17966"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Git", "[", 
+  RowBox[{
+  "\"\<SetRemoteURL\>\"", ",", " ", 
+   "\"\<~/Documents/GitHub/MathematicaPacletServer\>\"", ",", "\n", 
+   "\"\<origin\>\"", ",", "\n", 
+   "\"\<https://github.com/paclets/PacletServer.git\>\"", ",", "\n", 
+   RowBox[{"\"\<PushURL\>\"", "\[Rule]", "True"}]}], "\n", "]"}]], "Input",
+ CellChangeTimes->{{3.733200125592886*^9, 3.733200146739067*^9}, {
+  3.733200233455542*^9, 3.733200259309464*^9}},
+ CellLabel->
+  "In[395]:=",ExpressionUUID->"e40f6eac-8182-43e9-98c9-d58a17a96b17"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Git", "[", 
+  RowBox[{
+  "\"\<GetRemoteURL\>\"", ",", " ", 
+   "\"\<~/Documents/GitHub/MathematicaPacletServer\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.733200093474131*^9, 3.7332001168570633`*^9}},
+ CellLabel->
+  "In[390]:=",ExpressionUUID->"3ccfc328-6dc7-4cc4-ae5c-bf64bef71bc8"],
+
+Cell[BoxData["\<\"https://github.com/MathematicaPacletServer/PacletServer.git\
+\"\>"], "Output",
+ CellChangeTimes->{3.733200117199321*^9},
+ CellLabel->"Out[390]=",ExpressionUUID->"41fbe3c8-c1c2-453f-b00e-7f9cd4755cee"]
+}, Open  ]],
 
 Cell[BoxData[
  RowBox[{"MarkdownToXML", "[", 
