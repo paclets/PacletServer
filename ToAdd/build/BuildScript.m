@@ -125,9 +125,9 @@ SharedPacletServerBuild[ops:OptionsPattern[]]:=
 
 
 SharedPacletServerPush[ops:OptionsPattern[]]:=
-	With[{dir=PacletServerExecute["Directory", $PacletServerDir]},
+	With[{dir=$PacletServerDir},
 		Git["Commit", 
-			PacletServerExecute["Directory", $PacletServerDir],
+			dir,
 			FilterRules[
 				{
 					ops,
@@ -137,7 +137,7 @@ SharedPacletServerPush[ops:OptionsPattern[]]:=
 				Git["Commit", "Options"]
 				]
 			];
-		GitHub["Push", PacletServerExecute["Directory", $PacletServerDir]]
+		GitHub["Push", dir]
 		];
 
 
