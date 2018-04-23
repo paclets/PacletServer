@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     14465,        368]
-NotebookOptionsPosition[     11223,        296]
-NotebookOutlinePosition[     12968,        345]
-CellTagsIndexPosition[     12925,        342]
+NotebookDataLength[     14597,        371]
+NotebookOptionsPosition[     11355,        299]
+NotebookOutlinePosition[     13100,        348]
+CellTagsIndexPosition[     13057,        345]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -185,6 +185,8 @@ To install a paclet from this repository all you need to do is run\
 94c763731460"],
 
 Cell[BoxData[{"mathematica", "\n", 
+ RowBox[{
+  RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}], ";"}], "\n", 
  RowBox[{"PacletInstall", "[", "\n", "\t", 
   RowBox[{"paclet_name", ",", "\n", "\t", 
    RowBox[{
@@ -195,7 +197,8 @@ Cell[BoxData[{"mathematica", "\n",
   3.724362655192622*^9, 3.724362657735866*^9}, {3.724362831929694*^9, 
   3.72436283214672*^9}, {3.73310808894674*^9, 3.733108105192131*^9}, {
   3.7331081566196136`*^9, 3.7331081784221783`*^9}, {3.73335582756057*^9, 
-  3.733355828492244*^9}},ExpressionUUID->"fa42952a-e054-4ac9-aa51-\
+  3.733355828492244*^9}, {3.7334559925765877`*^9, 
+  3.733456000449624*^9}},ExpressionUUID->"fa42952a-e054-4ac9-aa51-\
 4b2538953653"]
 }, Open  ]],
 
@@ -358,18 +361,18 @@ Cell[6228, 168, 99, 1, 22, "PageBreak",ExpressionUUID->"34573c60-2b57-42cc-a259-
 Cell[CellGroupData[{
 Cell[6352, 173, 264, 4, 41, "Subsection",ExpressionUUID->"d99166ed-67b4-4a66-8809-c11f251e85aa"],
 Cell[6619, 179, 216, 5, 35, "Text",ExpressionUUID->"b1979ff8-1a5d-4c25-9c8f-94c763731460"],
-Cell[6838, 186, 657, 12, 132, "FencedCode",ExpressionUUID->"fa42952a-e054-4ac9-aa51-4b2538953653"]
+Cell[6838, 186, 789, 15, 151, "FencedCode",ExpressionUUID->"fa42952a-e054-4ac9-aa51-4b2538953653"]
 }, Open  ]],
-Cell[7510, 201, 99, 1, 22, "PageBreak",ExpressionUUID->"e19bf617-917f-4738-8567-6ada3a361ca3",
+Cell[7642, 204, 99, 1, 22, "PageBreak",ExpressionUUID->"e19bf617-917f-4738-8567-6ada3a361ca3",
  PageBreakBelow->True],
 Cell[CellGroupData[{
-Cell[7634, 206, 315, 5, 41, "Subsection",ExpressionUUID->"bed6b0e9-82da-41f1-b781-43a5112356a0"],
-Cell[7952, 213, 542, 12, 58, "Text",ExpressionUUID->"23c063c3-2631-4cae-9628-4094dd632663"],
-Cell[8497, 227, 1613, 37, 104, "Text",ExpressionUUID->"81056cdc-4286-4ff8-95d5-1069f04507ac"]
+Cell[7766, 209, 315, 5, 41, "Subsection",ExpressionUUID->"bed6b0e9-82da-41f1-b781-43a5112356a0"],
+Cell[8084, 216, 542, 12, 58, "Text",ExpressionUUID->"23c063c3-2631-4cae-9628-4094dd632663"],
+Cell[8629, 230, 1613, 37, 104, "Text",ExpressionUUID->"81056cdc-4286-4ff8-95d5-1069f04507ac"]
 }, Open  ]],
-Cell[10125, 267, 99, 1, 22, "PageBreak",ExpressionUUID->"6e284aad-d1f0-478d-995a-d5c61a7cb307",
+Cell[10257, 270, 99, 1, 22, "PageBreak",ExpressionUUID->"6e284aad-d1f0-478d-995a-d5c61a7cb307",
  PageBreakBelow->True],
-Cell[10227, 270, 992, 24, 58, "Text",ExpressionUUID->"0d0c6fbf-540a-42b8-9cc7-acba25ff89da"]
+Cell[10359, 273, 992, 24, 58, "Text",ExpressionUUID->"0d0c6fbf-540a-42b8-9cc7-acba25ff89da"]
 }
 ]
 *)

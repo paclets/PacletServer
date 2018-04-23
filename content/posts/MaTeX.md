@@ -3,9 +3,9 @@ Authors: Szabolcs Horvát
 Categories: misc
 Creator: Szabolcs Horvát <szhorvat@gmail.com>
 Description: Create LaTeX-typeset labels within Mathematica.
-Extensions: <|Documentation -> <|Language -> All, MainPage -> Guides/MaTeX|>, Kernel -> <|Root -> ., Context -> MaTeX`|>|>
+Extensions: <|Documentation -> <|Language -> All, PacletManager`Private`MainPage -> Guides/MaTeX|>, Kernel -> <|Root -> ., Context -> MaTeX`|>|>
 MathematicaVersion: 10.0+
-Modified: 2018-04-20 03:47:13
+Modified: 2018-04-23 00:08:45
 Name: MaTeX
 Slug: matex
 Tags: 
@@ -16,6 +16,8 @@ Version: 1.7.3
 <a id="matex" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # MaTeX
+
+![MaTeX]({filename}/img/MaTeX/Logo.png)
 
 [Download](Paclets/MaTeX-1.7.3.paclet)
 
@@ -35,13 +37,43 @@ MaTeX
 
 1.7.3
 
-### Description
+### Creator
 
-Create LaTeX-typeset labels within Mathematica.
+Szabolcs Horvát <szhorvat@gmail.com>
+
+### URL
+
+http://szhorvat.net/mathematica/MaTeX
+
+### Name
+
+MaTeX
+
+### Version
+
+1.7.3
 
 ### Creator
 
 Szabolcs Horvát <szhorvat@gmail.com>
+
+### URL
+
+http://szhorvat.net/mathematica/MaTeX
+
+---
+
+<a id="extra-information" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+## Extra Information
+
+### MathematicaVersion
+
+10.0+
+
+### MathematicaVersion
+
+10.0+
 
 ---
 
@@ -53,7 +85,7 @@ Szabolcs Horvát <szhorvat@gmail.com>
 
 * Language: All
 
-* MainPage: Guides/MaTeX
+* PacletManager`Private`MainPage: Guides/MaTeX
 
 ### Kernel
 

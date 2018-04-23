@@ -1,5 +1,5 @@
 Title: install
-Modified: 2018-04-21 20:24:13
+Modified: 2018-04-23 00:07:10
 Slug: install
 
 <script>
@@ -37,7 +37,8 @@ Slug: install
     var query_strings = pullAuthCode();
     document.getElementById("paclet-install").innerHTML=(
    "<pre class=\"prettyprint\">\n"+
-      "<code class=\"language-mathematica\">PacletInstall[\n"+
+      "<code class=\"language-mathematica\">Needs[\"PacletManager`\"];\n"+
+      "PacletInstall[\n"+
       " \"<paclet>\",\n"+
       " \"Site\"->\n"+
       "  \"http://raw.githubusercontent.com/paclets/PacletServer/master\"\n"+
@@ -57,7 +58,8 @@ To install this paclet, run this from inside Mathematica:
 
 <div id='paclet-install'>
 <pre class='prettyprint'>
- <code class='language-mathematica'>PacletInstall[
+ <code class='language-mathematica'>Needs["PacletManager`"];
+PacletInstall[
  paclet_name,
  &quot;Site&quot;-&gt;
   &quot;http://raw.githubusercontent.com/paclets/PacletServer/master&quot;

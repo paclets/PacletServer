@@ -13,6 +13,7 @@ This is a Mathematica paclet server. It hosts paclets that can be installed loca
 To install a paclet from this repository all you need to do is run
 
 ```mathematica
+ Needs["PacletManager`"]; 
  PacletInstall[
  paclet_name,
  "Site"->

@@ -2,24 +2,27 @@ Title: ChemTools
 Authors: b3m2a1
 Categories: Chemistry
 Creator: b3m2a1@gmail.com
-Description: A collection of packages for object oriented chemistry.   The primary packages implement an object and data framework, but support is included for basic spectroscopy and a few different external programs.   A discrete variable representation template framework is included as well.
-Extensions: <|Documentation -> <|Language -> English, MainPage -> Guides/ChemTools|>, Kernel -> <|Root -> ., Context -> {ChemTools`}, Root -> ., Context -> {ChemTools`}|>, FrontEnd -> <||>, Formats -> <||>, Resource -> <|Root -> Resources, Resources -> {Datasets, Extensions, PaletteGenerators, Templates}, SystemID -> *|>|>
-Modified: 2018-04-21 21:01:04
+Description: A collection of packages for object oriented chemistry. The primary packages implement an object and data framework. Support is included for basic spectroscopy and a few different external programs. A moderately sophisticated discrete variable representation framework is included as well.
+Extensions: <|Kernel -> <|Root -> ., Context -> {ChemTools`}|>, FrontEnd -> <||>, Formats -> <||>, Resource -> <|Root -> Resources, Resources -> {Datasets, Extensions, PaletteGenerators, Templates}, SystemID -> *|>, PacletServer -> <|Tags -> {chemistry}, Categories -> {Chemistry}, Description -> A collection of packages for object oriented chemistry.                                   |>|>                                                                                                                                                                                                                                                                                              The primary packages implement an object and data framework.                                                                                                                                                                                                                                                                                              Support is included for basic spectroscopy and a few different external programs.                                                                                                                                                                                                                                                                                              A moderately sophisticated discrete variable representation framework is included as well.
+Modified: 2018-04-23 00:08:44
 Name: ChemTools
 Slug: chemtools
 Tags: chemistry
 Thumbnail: PacletIcon.png
-Version: 1.1.33
+Version: 1.2.0
 
 <a id="chemtools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # ChemTools
 
-[Download](Paclets/ChemTools-1.1.33.paclet)
+![ChemTools]({filename}/img/ChemTools/PacletIcon.png)
+
+[Download](Paclets/ChemTools-1.2.0.paclet)
 
 A collection of packages for object oriented chemistry.
-  The primary packages implement an object and data framework, but support is included for basic spectroscopy and a few different external programs.
-  A discrete variable representation template framework is included as well.
+The primary packages implement an object and data framework.
+Support is included for basic spectroscopy and a few different external programs.
+A moderately sophisticated discrete variable representation framework is included as well.
 
 ---
 
@@ -33,13 +36,19 @@ ChemTools
 
 ### Version
 
-1.1.33
+1.2.0
 
-### Description
+### Creator
 
-A collection of packages for object oriented chemistry.
-  The primary packages implement an object and data framework, but support is included for basic spectroscopy and a few different external programs.
-  A discrete variable representation template framework is included as well.
+b3m2a1@gmail.com
+
+### Name
+
+ChemTools
+
+### Version
+
+1.2.0
 
 ### Creator
 
@@ -47,34 +56,38 @@ b3m2a1@gmail.com
 
 ---
 
+<a id="extra-information" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+## Extra Information
+
+This package provides no extra information
+
+This package provides no extra information
+
+---
+
 <a id="extensions" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extensions
-
-### Documentation
-
-* Language: English
-
-* MainPage: Guides/ChemTools
 
 ### Kernel
 
 * Root: .
 
-* Context: {ChemTools`}
-
-* Root: .
-
-* Context: {ChemTools`}
+* Context: ChemTools`
 
 ### FrontEnd
 
+* This extension has no extra parameters
+
 ### Formats
+
+* This extension has no extra parameters
 
 ### Resource
 
 * Root: Resources
 
-* Resources: {Datasets, Extensions, PaletteGenerators, Templates}
+* Resources: Datasets, Extensions, PaletteGenerators, Templates
 
 * SystemID: *

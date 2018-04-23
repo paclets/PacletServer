@@ -151,10 +151,11 @@
     var query_strings = pullAuthCode();
     document.getElementById("paclet-install").innerHTML=(
    "<pre class=\"prettyprint\">\n"+
-      "<code class=\"language-mathematica\">PacletInstall[\n"+
+      "<code class=\"language-mathematica\">Needs[\"PacletManager`\"];\n"+
+      "PacletInstall[\n"+
       " \"<paclet>\",\n"+
       " \"Site\"->\n"+
-      "  \"http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master\"\n"+
+      "  \"http://raw.githubusercontent.com/paclets/PacletServer/master\"\n"+
       " ]\n"+
       " </code>\n"+
       "</pre>"
@@ -166,10 +167,11 @@
 <p>To install this paclet, run this from inside Mathematica:</p>
 <div id='paclet-install'>
 <pre class='prettyprint'>
- <code class='language-mathematica'>PacletInstall[
+ <code class='language-mathematica'>Needs[&quot;PacletManager`&quot;];
+PacletInstall[
  paclet_name,
  &quot;Site&quot;-&gt;
-  &quot;http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master&quot;
+  &quot;http://raw.githubusercontent.com/paclets/PacletServer/master&quot;
  ]</code>
 </pre>
 </div>

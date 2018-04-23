@@ -2,25 +2,28 @@ Title: BTools
 Authors: b3m2a1
 Categories: Development
 Creator: b3m2a1@gmail.com
-Description: A general purpose package that implements useful functionality for application   development including distribution, documentation generation, formatting,    front-end manipulation, application editing, etc.
-Extensions: <|Kernel -> <|Root -> ., Context -> {BTools`}, Root -> ., Context -> {BTools`}|>, Resource -> <|Root -> Resources, Resources -> {Icons, PaletteGenerators, Templates, Themes}, SystemID -> *|>, FrontEnd -> <|Prepend -> True|>|>
-Internal: False
-Modified: 2018-04-20 03:47:12
+Description: A general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing   
+Extensions: <|Kernel -> <|Root -> ., Context -> {BTools`}, Root -> ., Context -> {BTools`}|>, Resource -> <|Root -> Resources, Resources -> {Icons, PaletteGenerators, Templates, Themes}, SystemID -> *|>, FrontEnd -> <|Prepend -> True|>, PacletServer -> <|Tags -> {documentation, front-end, paclets, web}, Categories -> {Development}, Description -> A general purpose package that implements useful functionality for application development.                    , License -> MIT|>|>                                                                                                                                                                                                                                                                                                                                                  Features include: distribution tools, documentation generation, front-end manipulation, and application editing                                                                                                                                                                                                                                                                                                                                                    
+License: MIT
+Modified: 2018-04-23 00:08:43
 Name: BTools
 Slug: btools
-SystemID: All
 Tags: documentation,front-end,paclets,web
+Thumbnail: PacletIcon.png
 URL: https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/btools.html
-Version: 2.1.3
-WolframVersion: 10+
+Version: 2.1.5
 
 <a id="btools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # BTools
 
-[Download](Paclets/BTools-2.1.3.paclet)
+![BTools]({filename}/img/BTools/PacletIcon.png)
 
-A general purpose package that implements useful functionality for application   development including distribution, documentation generation, formatting,    front-end manipulation, application editing, etc.
+[Download](Paclets/BTools-2.1.5.paclet)
+
+A general purpose package that implements useful functionality for application development.
+Features include: distribution tools, documentation generation, front-end manipulation, and application editing
+  
 
 ---
 
@@ -34,15 +37,27 @@ BTools
 
 ### Version
 
-2.1.3
-
-### Description
-
-A general purpose package that implements useful functionality for application   development including distribution, documentation generation, formatting,    front-end manipulation, application editing, etc.
+2.1.5
 
 ### Creator
 
 b3m2a1@gmail.com
+
+### URL
+
+https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/btools.html
+
+### License
+
+MIT
+
+---
+
+<a id="extra-information" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+## Extra Information
+
+This package provides no extra information
 
 ---
 
@@ -54,17 +69,17 @@ b3m2a1@gmail.com
 
 * Root: .
 
-* Context: {BTools`}
+* Context: BTools`
 
 * Root: .
 
-* Context: {BTools`}
+* Context: BTools`
 
 ### Resource
 
 * Root: Resources
 
-* Resources: {Icons, PaletteGenerators, Templates, Themes}
+* Resources: Icons, PaletteGenerators, Templates, Themes
 
 * SystemID: *
 

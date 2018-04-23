@@ -1,5 +1,5 @@
 Title: About
-Modified: 2018-04-21 20:16:40
+Modified: 2018-04-23 00:06:59
 Slug: about
 
 <a id="about-this-site" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
@@ -10,6 +10,7 @@ This is a paclet server. It lists the currently available paclets at this site. 
 
 To do so run:
 
+    Needs["PacletManager`"];
     PacletInstall[
      "PacletName",
      "Site"->
