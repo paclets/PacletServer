@@ -1,5 +1,5 @@
 Title: install
-Modified: 2018-04-19 13:17:42
+Modified: 2018-04-21 20:24:13
 Slug: install
 
 <script>
@@ -40,7 +40,7 @@ Slug: install
       "<code class=\"language-mathematica\">PacletInstall[\n"+
       " \"<paclet>\",\n"+
       " \"Site\"->\n"+
-      "  \"http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master\"\n"+
+      "  \"http://raw.githubusercontent.com/paclets/PacletServer/master\"\n"+
       " ]\n"+
       " </code>\n"+
       "</pre>"
@@ -60,7 +60,7 @@ To install this paclet, run this from inside Mathematica:
  <code class='language-mathematica'>PacletInstall[
  paclet_name,
  &quot;Site&quot;-&gt;
-  &quot;http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master&quot;
+  &quot;http://raw.githubusercontent.com/paclets/PacletServer/master&quot;
  ]</code>
 </pre>
 </div>

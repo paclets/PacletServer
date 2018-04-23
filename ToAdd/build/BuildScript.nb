@@ -76,6 +76,48 @@ Cell[BoxData[
   "In[459]:=",ExpressionUUID->"e5d757dd-1df2-4f4a-87be-90374eb5a7fb"],
 
 Cell[BoxData[{
+ RowBox[{
+  RowBox[{"$PacletServerAddAsSite", "=", "False"}], ";"}], "\n", 
+ RowBox[{"Internal`WithLocalSettings", "[", "\n", "\t", 
+  RowBox[{
+   RowBox[{"If", "[", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"Set", "[", "\n", "\t\t\t", 
+      RowBox[{"$PacletServerAddAsSite", ",", "\n", "\t\t\t", 
+       RowBox[{"Not", "@", "\n", "\t\t\t\t", 
+        RowBox[{"MemberQ", "[", "\n", "\t\t\t\t\t", 
+         RowBox[{
+          RowBox[{"PacletSites", "[", "]"}], ",", " ", "\n", "\t\t\t\t\t", 
+          RowBox[{"PacletSite", "[", 
+           RowBox[{
+           "\"\<http://raw.githubusercontent.com/paclets/PacletServer/master\>\
+\"", ",", " ", "__"}], "]"}]}], "\n", "\t\t\t\t\t", "]"}]}]}], "\n", "\t\t\t",
+       "]"}], ",", "\n", "\t\t", 
+     RowBox[{
+      RowBox[{
+      "PacletManager`PacletSiteAdd", "[", "\n", "\t\t\t", 
+       "\"\<http://raw.githubusercontent.com/paclets/PacletServer/master\>\"",
+        "\n", "\t\t\t", "]"}], ";"}]}], "\n", "\t\t", "]"}], ",", "\n", "\t", 
+   
+   RowBox[{
+   "PacletManager`PacletCheckUpdate", "[", "\n", "\t\t", "\"\<BTools\>\"", 
+    "\n", "\t\t", "]"}], ",", "\n", "\t", 
+   RowBox[{"If", "[", 
+    RowBox[{"$PacletServerAddAsSite", ",", " ", "\n", "\t\t", 
+     RowBox[{
+     "PacletManager`PacletSiteRemove", "[", "\n", "\t\t\t", 
+      "\"\<http://raw.githubusercontent.com/paclets/PacletServer/master\>\"", 
+      "\n", "\t\t\t", "]"}]}], "\n", "\t\t", "]"}]}], "\n", "\t", 
+  "]"}]}], "CodeInput",
+ CellChangeTimes->{{3.733355728772212*^9, 3.73335574809995*^9}, {
+  3.733358548857977*^9, 3.7333585597191153`*^9}, {3.733430175615446*^9, 
+  3.733430288457679*^9}, {3.7334304997600183`*^9, 3.73343058364114*^9}, {
+  3.733430650345849*^9, 3.733430677016184*^9}, {3.733430759096265*^9, 
+  3.733430801594276*^9}, {3.733430861127982*^9, 
+  3.733430861298877*^9}},ExpressionUUID->"64abcc32-568f-43a1-8558-\
+32af7411c170"],
+
+Cell[BoxData[{
  RowBox[{"<<", "BTools`External`"}], "\n", 
  RowBox[{"<<", "BTools`Paclets`"}]}], "CodeInput",
  CellChangeTimes->{{3.7331105824255342`*^9, 3.7331105870054483`*^9}},
@@ -86,29 +128,25 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"$ToAddDir", "=", "\n", "\t", 
    RowBox[{"ParentDirectory", "@", 
-    RowBox[{"DirectoryName", "@", 
-     RowBox[{"NotebookFileName", "[", 
-      RowBox[{"EvaluationNotebook", "[", "]"}], "]"}]}]}]}], 
-  ";"}]], "CodeInput",
+    RowBox[{"DirectoryName", "@", "$InputFileName"}]}]}], ";"}]], "CodeInput",
+ 
  CellChangeTimes->{{3.733110886101543*^9, 3.7331109073435793`*^9}, {
-  3.7331109863600893`*^9, 3.7331109983744698`*^9}},
- CellLabel->
-  "In[462]:=",ExpressionUUID->"96607776-85b9-4fbd-a210-ed6f70e69fd4"],
+  3.7331109863600893`*^9, 3.7331109983744698`*^9}, {3.7334311095906057`*^9, 
+  3.733431112134881*^9}},ExpressionUUID->"96607776-85b9-4fbd-a210-\
+ed6f70e69fd4"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"$PacletServerDir", "=", "\n", "\t", 
    RowBox[{"Nest", "[", 
     RowBox[{"ParentDirectory", ",", " ", 
-     RowBox[{"DirectoryName", "@", 
-      RowBox[{"NotebookFileName", "[", 
-       RowBox[{"EvaluationNotebook", "[", "]"}], "]"}]}], ",", " ", "2"}], 
+     RowBox[{"DirectoryName", "@", "$InputFileName"}], ",", " ", "2"}], 
     "]"}]}], ";"}]], "CodeInput",
  CellChangeTimes->{{3.733110886101543*^9, 3.7331109073435793`*^9}, {
   3.7331109863600893`*^9, 3.7331109983744698`*^9}, {3.7331519797677383`*^9, 
-  3.733152000205441*^9}},
- CellLabel->
-  "In[463]:=",ExpressionUUID->"4a43a6c1-288b-4516-b625-04fc1f376861"],
+  3.733152000205441*^9}, {3.7334311148984756`*^9, 
+  3.733431149982387*^9}},ExpressionUUID->"4a43a6c1-288b-4516-b625-\
+04fc1f376861"],
 
 Cell[BoxData[
  RowBox[{"Clear", "[", "\n", "\t", 
@@ -284,7 +322,7 @@ Cell[BoxData[
   3.733111406979007*^9, 3.733111407379752*^9}, {3.733150796433566*^9, 
   3.733150829603307*^9}, {3.733152019307164*^9, 3.733152023867025*^9}},
  CellLabel->"In[467]:=",ExpressionUUID->"137903ce-3b83-4f28-be37-92f432bb8806"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -494,7 +532,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.733198067314619*^9, 3.733198068752964*^9}, {
   3.7331999575606127`*^9, 3.7331999580769453`*^9}},
  CellLabel->
-  "In[399]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
+  "In[475]:=",ExpressionUUID->"7fb499c6-384b-4c15-af52-03aada0b4018"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -502,14 +540,14 @@ Cell[BoxData[
    "\"\\nError in command \\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"git push \
 https://github.com/paclets/PacletServer.git\\\\\\\"\\\"}]\\)\\\":\\n\\!\\(\\*\
 RowBox[{\\\"\\\\\\\"To https://github.com/paclets/PacletServer.git\\\\\\\\n   \
-713fd48..76f2e64  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,399,505,
+d682641..39a0ceb  master -> master\\\\\\\\n\\\\\\\"\\\"}]\\)\"",2,475,678,
    27920074767770793948,"Local","BTools`External`Git"},
   "MessageTemplate2"]], "Message", "MSG",
  CellChangeTimes->{3.733200078766224*^9, 3.73320027357124*^9, 
-  3.73320035620334*^9},
+  3.73320035620334*^9, 3.7332103215690413`*^9},
  CellLabel->
   "During evaluation of \
-In[399]:=",ExpressionUUID->"33ba2f29-f8cb-4cf2-b275-dc5730a4fec7"]
+In[475]:=",ExpressionUUID->"916794e9-80a0-46f7-bd10-b6bd87b72292"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -623,10 +661,10 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{808, 755},
-WindowMargins->{{32, Automatic}, {0, Automatic}},
+WindowMargins->{{106, Automatic}, {Automatic, 9}},
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
 2018)",
-StyleDefinitions->FrontEnd`FileName[{"BTools"}, "CodeNotebook.nb", 
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "CodePackage.nb", 
   CharacterEncoding -> "UTF-8"]
 ]
 

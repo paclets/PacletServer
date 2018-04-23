@@ -1,5 +1,5 @@
 Title: About
-Modified: 2018-04-20 03:37:44
+Modified: 2018-04-21 20:16:40
 Slug: about
 
 <a id="about-this-site" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
@@ -13,7 +13,7 @@ To do so run:
     PacletInstall[
      "PacletName",
      "Site"->
-      "http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/master"
+      "http://raw.githubusercontent.com/paclets/PacletServer/master"
      ]
 
 <a id="about-paclets" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>

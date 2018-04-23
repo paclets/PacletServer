@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6826,        193]
-NotebookOptionsPosition[      5707,        167]
-NotebookOutlinePosition[      6134,        184]
-CellTagsIndexPosition[      6091,        181]
+NotebookDataLength[      6866,        192]
+NotebookOptionsPosition[      5747,        166]
+NotebookOutlinePosition[      6174,        183]
+CellTagsIndexPosition[      6131,        180]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -70,8 +70,7 @@ query_string[pair[0]],decodeURIComponent(pair[1]) ];
       \" \\\"<paclet>\\\",\\n\"+
       \" \\\"Site\\\"->\\n\"+
       \"  \
-\\\"http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/\
-master\\\"\\n\"+
+\\\"http://raw.githubusercontent.com/paclets/PacletServer/master\\\"\\n\"+
       \" ]\\n\"+
       \" </code>\\n\"+
       \"</pre>\"
@@ -87,7 +86,8 @@ master\\\"\\n\"+
    3.733149577349433*^9}, {3.7331496980276937`*^9, 3.733149699451003*^9}, 
    3.733154337429175*^9, {3.7331555418089943`*^9, 3.733155560870707*^9}, {
    3.733157601127351*^9, 3.73315766428508*^9}, {3.733157853699399*^9, 
-   3.733157857963354*^9}},ExpressionUUID->"54b98d20-98b1-4393-a1b0-\
+   3.733157857963354*^9}, {3.7333562454580517`*^9, 
+   3.7333562463816423`*^9}},ExpressionUUID->"54b98d20-98b1-4393-a1b0-\
 22ec1a1ed095"],
 
 Cell[CellGroupData[{
@@ -109,15 +109,14 @@ Cell["\<\
  <code class='language-mathematica'>PacletInstall[
  paclet_name,
  &quot;Site&quot;-&gt;
-  &quot;http://raw.githubusercontent.com/MathematicaPacletServer/PacletServer/\
-master&quot;
+  &quot;http://raw.githubusercontent.com/paclets/PacletServer/master&quot;
  ]</code>
 </pre>
 </div>\
 \>", "RawMarkdown",
  CellChangeTimes->{
-  3.733149522865962*^9, {3.73314967627829*^9, 
-   3.7331497052821836`*^9}},ExpressionUUID->"8af410cb-782d-459e-a787-\
+  3.733149522865962*^9, {3.73314967627829*^9, 3.7331497052821836`*^9}, 
+   3.733356250122498*^9},ExpressionUUID->"8af410cb-782d-459e-a787-\
 3403f289bef6"],
 
 Cell[CellGroupData[{
@@ -184,16 +183,16 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 380, 9, 112, "Metadata",ExpressionUUID->"89c7c6e2-3c38-4d40-9c94-20aa6c79f5f1"],
-Cell[941, 31, 2464, 59, 755, "RawMarkdown",ExpressionUUID->"54b98d20-98b1-4393-a1b0-22ec1a1ed095"],
+Cell[941, 31, 2500, 59, 755, "RawMarkdown",ExpressionUUID->"54b98d20-98b1-4393-a1b0-22ec1a1ed095"],
 Cell[CellGroupData[{
-Cell[3430, 94, 209, 4, 51, "Section",ExpressionUUID->"d46f7377-7dbe-4197-9419-1e81ecd49433"],
-Cell[3642, 100, 199, 3, 35, "Text",ExpressionUUID->"f9094fb8-3fca-4406-b292-e0ff9aa38a93"],
-Cell[3844, 105, 440, 15, 163, "RawMarkdown",ExpressionUUID->"8af410cb-782d-459e-a787-3403f289bef6"],
+Cell[3466, 94, 209, 4, 51, "Section",ExpressionUUID->"d46f7377-7dbe-4197-9419-1e81ecd49433"],
+Cell[3678, 100, 199, 3, 35, "Text",ExpressionUUID->"f9094fb8-3fca-4406-b292-e0ff9aa38a93"],
+Cell[3880, 105, 444, 14, 163, "RawMarkdown",ExpressionUUID->"8af410cb-782d-459e-a787-3403f289bef6"],
 Cell[CellGroupData[{
-Cell[4309, 124, 468, 13, 32, "Item",ExpressionUUID->"acf59080-7def-4f70-bedf-26a9c7891e16"],
-Cell[4780, 139, 635, 17, 32, "Item",ExpressionUUID->"9e6caf6a-0e86-4a1f-b1e2-a255949920fa"]
+Cell[4349, 123, 468, 13, 32, "Item",ExpressionUUID->"acf59080-7def-4f70-bedf-26a9c7891e16"],
+Cell[4820, 138, 635, 17, 32, "Item",ExpressionUUID->"9e6caf6a-0e86-4a1f-b1e2-a255949920fa"]
 }, Open  ]],
-Cell[5430, 159, 261, 5, 35, "RawMarkdown",ExpressionUUID->"2b8006a5-06ba-4e76-972a-debe89041ce8"]
+Cell[5470, 158, 261, 5, 35, "RawMarkdown",ExpressionUUID->"2b8006a5-06ba-4e76-972a-debe89041ce8"]
 }, Open  ]]
 }
 ]
