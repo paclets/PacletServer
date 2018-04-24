@@ -125,7 +125,13 @@ gitLogMD[a_Association]:=
 pacletServerAttachLogMD[]:=
 	Module[
 		{
-			fds=Normal@Git["FileHistory", $PacletServerDir, "Paclets/*.paclet"],
+			fds=
+				Normal@
+					Git["FileHistory", 
+						$PacletServerDir, 
+						"Paclets/*.paclet",
+						"FullHistory"->True
+						],
 			gitLogVals
 			},
 			gitLogVals=
@@ -138,7 +144,7 @@ pacletServerAttachLogMD[]:=
 							][[1]]&->Last
 						];
 			Export[
-				FileNameJoin@{$PacletServerDir, "content", "pages", "paclet_log.md"},
+				FileNameJoin@{$PacletServerDir, "content", "pages", "log.md"},
 				gitLogMD[gitLogVals],
 				"Text"
 				]
