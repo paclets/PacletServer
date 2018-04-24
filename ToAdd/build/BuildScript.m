@@ -129,8 +129,7 @@ pacletServerAttachLogMD[]:=
 				Normal@
 					Git["FileHistory", 
 						$PacletServerDir, 
-						"Paclets/*.paclet",
-						"FullHistory"->True
+						"*/*.paclet"
 						],
 			gitLogVals
 			},
@@ -138,10 +137,7 @@ pacletServerAttachLogMD[]:=
 				Values@*Merge[First@*First]/@
 					GroupBy[
 						Normal@fds,
-						StringSplit[
-							StringTrim[#[[1]] ,"Paclets/"],
-							"-"
-							][[1]]&->Last
+							StringSplit[#[[1]] ,"/"|"-"][[2]]&->Last
 						];
 			Export[
 				FileNameJoin@{$PacletServerDir, "content", "pages", "log.md"},
