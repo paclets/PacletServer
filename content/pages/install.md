@@ -1,5 +1,5 @@
 Title: install
-Modified: 2018-04-23 00:07:10
+Modified: 2018-04-23 23:15:49
 Slug: install
 
 <script>
@@ -66,6 +66,8 @@ PacletInstall[
  ]</code>
 </pre>
 </div>
+
+**Before installing, be sure to check out the ** **[Change Log](https://paclets.github.io/PacletServer/pages/log.html)** ** to make sure that you trust the developer of the package you're going to install.**
 
 * To update it, replace  ```PacletInstall```  with  ```PacletUpdate``` . 
 
