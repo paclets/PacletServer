@@ -87,33 +87,104 @@ Clear[
 	]
 
 
+gitLogMDKV[key_, val_DateObject?DateObjectQ]:=
+	"* "<>ToString[key]<>": "<>DateString[val, "DateTime"];
+gitLogMDKV[key_, val_]:=
+	"* "<>ToString[key]<>": "<>ToString[val];
+gitLogMDLog[a:{__Association}]:=
+	StringRiffle[
+		"*** Commit: "<>#Commit<>" ***\n"<>
+			StringRiffle[
+				KeyValueMap[gitLogMDKV, KeyDrop[#, {"Message", "Commit"}]], 
+				"\n"]&/@a, 
+		"\n\n"
+		];
+gitLogMDBit[name_String, a:{__Association}]:=
+	"<a id=\"`Name`\" style=\"width:0;height:0;margin:0;padding:0;\">&zwnj;</a>
+## `Name`
+
+`Log`
+
+"~TemplateApply~
+	<|
+		"Log"->gitLogMDLog[a], 
+		"Name"->name
+		|>;
+gitLogMD[a_Association]:=
+	"# Git Commit Log
+
+``
+"~TemplateApply~StringRiffle[KeyValueMap[gitLogMDBit, a], "\n<hr/>\n"];
+
+
+(* ::Text:: *)
+(*Not quite there yet. In particular the mapping over every commit piece might not fully work yet.*)
+
+
+
+pacletServerAttachLogMD[]:=
+	Module[
+		{
+			fds=Normal@Git["FileHistory", $PacletServerDir, "Paclets/*.paclet"],
+			gitLogVals
+			},
+			gitLogVals=
+				Values@*Merge[First@*First]/@
+					GroupBy[
+						Normal@fds,
+						StringSplit[
+							StringTrim[#[[1]] ,"Paclets/"],
+							"-"
+							][[1]]&->Last
+						];
+			Export[
+				FileNameJoin@{$PacletServerDir, "content", "pages", "paclet_log.md"},
+				gitLogMD[gitLogVals],
+				"Text"
+				]
+			]
+
+
+Options[SharedPacletServerAddPaclets]=
+	Join[
+		{
+			"ExportGitLog"->True
+			},
+		Options[PacletServerAdd]
+		];
 SharedPacletServerAddPaclets[ops:OptionsPattern[]]:=
-	Map[
-		Function[
-			With[{psa=
-				PacletServerAdd[$PacletServerDir, #, 
-					FilterRules[{ops}, Options[PacletServerAdd]]
-					]},
-				CopyFile[#, 
-					FileNameJoin@{DirectoryName[#], "last_build", FileNameTake[#]},
-					OverwriteTarget->True
-					]->
-				(DeleteFile[#];psa)
+	Append[
+		Map[
+			Function[
+				With[{psa=
+					PacletServerAdd[$PacletServerDir, #, 
+						FilterRules[{ops}, Options[PacletServerAdd]]
+						]},
+					CopyFile[#, 
+						FileNameJoin@{DirectoryName[#], "last_build", FileNameTake[#]},
+						OverwriteTarget->True
+						]->
+					(DeleteFile[#];psa)
+					]
+				],
+			Join[
+				Select[
+					FileExistsQ[FileNameJoin[{#, "PacletInfo.m"}]]||
+						FileExistsQ[FileNameJoin[{#, FileBaseName[#]<>".m"}]]&
+					]@
+					FileNames[
+						"*",
+						$ToAddDir
+						],
+				FileNames[
+					"*.paclet",
+					$ToAddDir
+					]
 				]
 			],
-		Join[
-			Select[
-				FileExistsQ[FileNameJoin[{#, "PacletInfo.m"}]]||
-					FileExistsQ[FileNameJoin[{#, FileBaseName[#]<>".m"}]]&
-				]@
-				FileNames[
-					"*",
-					$ToAddDir
-					],
-			FileNames[
-				"*.paclet",
-				$ToAddDir
-				]
+		If[TrueQ@OptionValue["ExportGitLog"],
+			pacletServerAttachLogMD[],
+			Nothing
 			]
 		];
 
@@ -161,12 +232,16 @@ SharedPacletServerRebuild[do:{$ServerRebuildKeys..}:{"Add", "Build", "Push"},
 		If[MemberQ[do, "Add"],
 			PrintTemporary[Internal`LoadingPanel["Adding paclets..."]];
 			res["Add"]=
-				SharedPacletServerAddPaclets[ops]
+				SharedPacletServerAddPaclets[
+					FilterRules[{ops}, Options[SharedPacletServerAddPaclets]]
+					]
 			];
 		If[MemberQ[do, "Build"],
 			PrintTemporary[Internal`LoadingPanel["Building pages..."]];
 			res["Build"]=
-				SharedPacletServerBuild[ops]
+				SharedPacletServerBuild[
+					FilterRules[{ops}, Options[SharedPacletServerBuild]]
+					]
 			];
 		If[MemberQ[do, "Test"],
 			SharedPacletServerTest[]
@@ -174,7 +249,9 @@ SharedPacletServerRebuild[do:{$ServerRebuildKeys..}:{"Add", "Build", "Push"},
 		If[MemberQ[do, "Push"],
 			PrintTemporary[Internal`LoadingPanel["Pushing to GitHub..."]];
 			res["Push"]=
-				SharedPacletServerPush[ops]
+				SharedPacletServerPush[
+					FilterRules[{ops}, Options[SharedPacletServerPush]]
+					]
 			];
 		res
 		];

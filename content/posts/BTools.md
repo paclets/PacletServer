@@ -5,13 +5,13 @@ Creator: b3m2a1@gmail.com
 Description: A general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing   
 Extensions: <|Kernel -> <|Root -> ., Context -> {BTools`}, Root -> ., Context -> {BTools`}|>, Resource -> <|Root -> Resources, Resources -> {Icons, PaletteGenerators, Templates, Themes}, SystemID -> *|>, FrontEnd -> <|Prepend -> True|>, PacletServer -> <|Tags -> {documentation, front-end, paclets, web}, Categories -> {Development}, Description -> A general purpose package that implements useful functionality for application development.                    , License -> MIT|>|>                                                                                                                                                                                                                                                                                                                                                  Features include: distribution tools, documentation generation, front-end manipulation, and application editing                                                                                                                                                                                                                                                                                                                                                    
 License: MIT
-Modified: 2018-04-23 00:08:43
+Modified: 2018-04-23 22:10:58
 Name: BTools
 Slug: btools
 Tags: documentation,front-end,paclets,web
 Thumbnail: PacletIcon.png
 URL: https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/btools.html
-Version: 2.1.5
+Version: 2.1.6
 
 <a id="btools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -19,7 +19,7 @@ Version: 2.1.5
 
 ![BTools]({filename}/img/BTools/PacletIcon.png)
 
-[Download](Paclets/BTools-2.1.5.paclet)
+[Download](Paclets/BTools-2.1.6.paclet)
 
 A general purpose package that implements useful functionality for application development.
 Features include: distribution tools, documentation generation, front-end manipulation, and application editing
@@ -37,7 +37,7 @@ BTools
 
 ### Version
 
-2.1.5
+2.1.6
 
 ### Creator
 
