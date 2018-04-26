@@ -6,7 +6,7 @@ Description: A collection of packages for object oriented chemistry. The primary
 DisplayName: ChemTools
 Extensions: <|Kernel -> <|Root -> ., Context -> {ChemTools`}|>, FrontEnd -> <||>, Formats -> <||>, Resource -> <|Root -> Resources, Resources -> {Datasets, Extensions, PaletteGenerators, Templates}, SystemID -> *|>, PacletServer -> <|Tags -> {chemistry}, Categories -> {Chemistry}, Description -> A collection of packages for object oriented chemistry.                                   |>|>                                                                                                                                                                                                                                                                                              The primary packages implement an object and data framework.                                                                                                                                                                                                                                                                                              Support is included for basic spectroscopy and a few different external programs.                                                                                                                                                                                                                                                                                              A moderately sophisticated discrete variable representation framework is included as well.
 LastModified: 2018-04-25 23:42:26
-Modified: 2018-04-26 00:17:14
+Modified: 2018-04-26 01:00:24
 Name: ChemTools
 Slug: chemtools
 Tags: chemistry
@@ -31,6 +31,18 @@ A moderately sophisticated discrete variable representation framework is include
 <a id="basic-information" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
+
+### Name
+
+ChemTools
+
+### Version
+
+1.2.0
+
+### Creator
+
+[b3m2a1@gmail.com](mailto:b3m2a1@gmail.com)
 
 ---
 

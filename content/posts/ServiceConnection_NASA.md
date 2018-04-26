@@ -7,7 +7,7 @@ DisplayName: NASA (ServiceConnection)
 Extensions: <|FrontEnd -> <|Prepend -> True, Prepend -> True|>|>
 Icon: FrontEnd/SystemResources/Bitmaps/nasa@2.png
 LastModified: 2018-01-13 21:22:45
-Modified: 2018-04-26 00:17:18
+Modified: 2018-04-26 01:00:28
 Name: ServiceConnection_NASA
 Slug: serviceconnectionnasa
 Tags: web,serviceconnection,nasa
@@ -28,6 +28,18 @@ A service connection to NASA's APIs
 <a id="basic-information" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
+
+### Name
+
+ServiceConnection_NASA
+
+### Version
+
+1.0.1
+
+### Creator
+
+[b3m2a1@gmail.com](mailto:b3m2a1@gmail.com)
 
 ---
 

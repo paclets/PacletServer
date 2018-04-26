@@ -7,7 +7,7 @@ DisplayName: MaTeX
 Extensions: <|Documentation -> <|Language -> All, PacletManager`Private`MainPage -> Guides/MaTeX|>, Kernel -> <|Root -> ., Context -> MaTeX`|>|>
 LastModified: 2018-04-25 21:00:10
 MathematicaVersion: 10.0+
-Modified: 2018-04-26 00:17:17
+Modified: 2018-04-26 01:00:26
 Name: MaTeX
 Slug: matex
 Tags: 
@@ -31,11 +31,31 @@ Create LaTeX-typeset labels within Mathematica.
 
 ## Basic Information
 
+### Name
+
+MaTeX
+
+### Version
+
+1.7.3
+
+### Creator
+
+[Szabolcs Horvát](mailto:szhorvat@gmail.com)
+
+### URL
+
+[http://szhorvat.net/mathematica/MaTeX](http://szhorvat.net/mathematica/MaTeX)
+
 ---
 
 <a id="extra-information" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extra Information
+
+### MathematicaVersion
+
+10.0+
 
 ---
 
