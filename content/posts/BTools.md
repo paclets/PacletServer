@@ -3,9 +3,11 @@ Authors: b3m2a1
 Categories: Development
 Creator: b3m2a1@gmail.com
 Description: A general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing   
+DisplayName: BTools
 Extensions: <|Kernel -> <|Root -> ., Context -> {BTools`}, Root -> ., Context -> {BTools`}|>, Resource -> <|Root -> Resources, Resources -> {Icons, PaletteGenerators, Templates, Themes}, SystemID -> *|>, FrontEnd -> <|Prepend -> True|>, PacletServer -> <|Tags -> {documentation, front-end, paclets, web}, Categories -> {Development}, Description -> A general purpose package that implements useful functionality for application development.                    , License -> MIT|>|>                                                                                                                                                                                                                                                                                                                                                  Features include: distribution tools, documentation generation, front-end manipulation, and application editing                                                                                                                                                                                                                                                                                                                                                    
+LastModified: 2018-04-25 21:00:10
 License: MIT
-Modified: 2018-04-23 23:23:53
+Modified: 2018-04-26 00:17:12
 Name: BTools
 Slug: btools
 Tags: documentation,front-end,paclets,web
@@ -30,26 +32,6 @@ Features include: distribution tools, documentation generation, front-end manipu
 <a id="basic-information" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
-
-### Name
-
-BTools
-
-### Version
-
-2.1.6
-
-### Creator
-
-b3m2a1@gmail.com
-
-### URL
-
-https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/btools.html
-
-### License
-
-MIT
 
 ---
 

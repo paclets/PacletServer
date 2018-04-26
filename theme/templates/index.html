@@ -62,8 +62,8 @@ This generates the index.html page
               id='<wolfram:expr>#IndexItem["Name"]</wolfram:expr>'
               href='<wolfram:slot id="SiteURL"/>/<wolfram:expr>#IndexItem["URL"]</wolfram:expr>'>
               <wolfram:which>
-                <wolfram:if test='MatchQ[#IndexItem["Name"],Except[_Missing|False|""]]'>
-                  <wolfram:expr>#IndexItem["Name"]</wolfram:expr>
+                <wolfram:if test='MatchQ[#IndexItem["DisplayName"],Except[_Missing|False|""]]'>
+                  <wolfram:expr>#IndexItem["DisplayName"]</wolfram:expr>
                 </wolfram:if>
                 <wolfram:else>
                   <wolfram:expr>#IndexItem["Title"]</wolfram:expr>
