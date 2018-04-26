@@ -1,0 +1,115 @@
+<wolfram:comment>
+
+This generates the index page for the most recently edited
+
+</wolfram:comment>
+
+<wolfram:comment>
+
+  <wolfram:expr>
+    (*This is debug code*)
+    Echo@#Articles
+
+  </wolfram:expr>
+
+</wolfram:comment>
+
+<wolfram:get path="base.html">
+
+<wolfram:slot id="head">
+  <wolfram:slot id="Description">
+    <wolfram:get path="include/lib/templates/varDefinedBlock.html">
+      <wolfram:slot id="var">"Description"</wolfram:slot>
+      <wolfram:slot id="Description">
+        <wolfram:slot id="Description"/>
+      </wolfram:slot>
+      <wolfram:slot id="if">
+        <meta name="description" content="<wolfram:slot id='Description'/>">
+      </wolfram:slot>
+    </wolfram:get>
+  </wolfram:slot>
+</wolfram:slot>
+
+<wolfram:slot id="PageTitle">
+  <wolfram:get path="include/lib/templates/varDefinedBlock.html">
+    <wolfram:slot id="var">"SiteSubtitle"</wolfram:slot>
+    <wolfram:slot id="SiteSubtitle"><wolfram:slot id="SiteSubtitle"/></wolfram:slot>
+    <wolfram:slot id="SiteName"><wolfram:slot id="SiteName"/></wolfram:slot>
+    <wolfram:slot id="if">
+      <wolfram:expr>
+        $$templateLib["getSiteName"][#]
+      </wolfram:expr> | <wolfram:slot id="SiteSubtitle"/>
+    </wolfram:slot>
+    <wolfram:slot id="else">
+      <wolfram:expr>
+        $$templateLib["getSiteName"][#]
+      </wolfram:expr>
+    </wolfram:slot>
+  </wolfram:get>
+</wolfram:slot>
+
+<wolfram:slot id="PrimaryContent">
+  <h4 class="title">Paclet Listing</h4>
+  <hr>
+  <wolfram:sequence
+    values='Reverse@$$templateLib["sortIndexListingBy"][#, Quiet@*DateObject@*Key["LastModified"]]'
+    slot="IndexItem"
+    delimiters="<hr>"
+    >
+    <div class="paclet center-aligned">
+      <article class="teaser">
+          <h4 class="title">
+            <a
+              id='<wolfram:expr>StringSplit[#IndexItem["DisplayName"], " ("][[1]]</wolfram:expr>'
+              href='<wolfram:slot id="SiteURL"/>/<wolfram:expr>#IndexItem["URL"]</wolfram:expr>'>
+              <wolfram:which>
+                <wolfram:if test='MatchQ[#IndexItem["DisplayName"],Except[_Missing|False|""]]'>
+                  <wolfram:expr>#IndexItem["DisplayName"]</wolfram:expr>
+                </wolfram:if>
+                <wolfram:else>
+                  <wolfram:expr>#IndexItem["Title"]</wolfram:expr>
+                </wolfram:else>
+              </wolfram:which>
+              <wolfram:if test='MatchQ[#IndexItem["Version"],_String]'>
+                <span style="color:gray;">
+                   &nbsp;v<wolfram:expr>#IndexItem["Version"]</wolfram:expr>
+                </span>
+              </wolfram:if>
+            </a>
+            <br>
+            <a href='<wolfram:slot id="SiteURL"/>/pages/install.html?paclet=<wolfram:expr>#IndexItem["Name"]</wolfram:expr>'>
+              <span style="font-size: 14px">
+                Install
+              </span>
+            </a>
+            <span style="font-size: 14px; color:gray;">|</span>
+            <a href='<wolfram:slot id="SiteURL"/>/pages/log.html#<wolfram:expr>#IndexItem["Name"]</wolfram:expr>'>
+              <span style="font-size: 14px">
+                View Log
+              </span>
+            </a>
+          </h4>
+          <div class="content paclet-summary">
+            <wolfram:which>
+
+              <wolfram:if test='MatchQ[#IndexItem["Description"], Except[_Missing|False|""]]'>
+                <wolfram:expr>#IndexItem["Description"]</wolfram:expr>
+              </wolfram:if>
+
+              <wolfram:else>
+                <wolfram:expr>#IndexItem["Summary"]</wolfram:expr>
+              </wolfram:else>
+
+            </wolfram:which>
+          </div>
+      </article>
+    </div>
+
+  </wolfram:sequence>
+
+  <wolfram:get path='include/lib/templates/pagination.html' >
+  </wolfram:get>
+
+  </wolfram:slot>
+
+</wolfram:get>

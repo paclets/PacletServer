@@ -1,0 +1,192 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6435,        183]
+NotebookOptionsPosition[      3717,        122]
+NotebookOutlinePosition[      4974,        159]
+CellTagsIndexPosition[      4771,        150]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<ServiceConnection_NASA\>\""}], 
+   ",", 
+   RowBox[{"\"\<Categories\>\"", "\[Rule]", 
+    RowBox[{"{", "\"\<ServiceConnections\>\"", "}"}]}], ",", 
+   RowBox[{"\"\<Slug\>\"", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\"\<Authors\>\"", "\[Rule]", 
+    RowBox[{"{", "\"\<b3m2a1\>\"", "}"}]}], ",", 
+   RowBox[{"\"\<Tags\>\"", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<web\>\"", ",", "\"\<serviceconnection\>\"", ",", "\"\<nasa\>\""}], 
+     "}"}]}], ",", 
+   RowBox[{"\"\<Extensions\>\"", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{"\"\<FrontEnd\>\"", "\[Rule]", 
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"\"\<Prepend\>\"", "\[Rule]", "True"}], ",", 
+        RowBox[{"Prepend", "\[Rule]", "True"}]}], "\[RightAssociation]"}]}], 
+     "\[RightAssociation]"}]}], ",", 
+   RowBox[{
+   "\"\<Icon\>\"", "\[Rule]", 
+    "\"\<FrontEnd/SystemResources/Bitmaps/nasa@2.png\>\""}], ",", 
+   RowBox[{
+   "\"\<DisplayName\>\"", "\[Rule]", "\"\<NASA (ServiceConnection)\>\""}], 
+   ",", 
+   RowBox[{"\"\<LastModified\>\"", "\[Rule]", 
+    TemplateBox[{RowBox[{"\"Sat 13 Jan 2018 21:22:45\"", 
+        StyleBox[
+         RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+           StyleBox[
+            RowBox[{"-", "7.`"}], NumberMarks -> False, StripOnInput -> 
+            False]}], FontColor -> GrayLevel[0.5]]}],
+      RowBox[{"DateObject", "[", 
+        RowBox[{
+          RowBox[{"{", 
+            
+            RowBox[{"2018", ",", "1", ",", "13", ",", "21", ",", "22", ",", 
+              "45.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+          
+          RowBox[{"-", "7.`"}]}], "]"}]},
+     "DateObject",
+     Editable->False]}], ",", 
+   RowBox[{"\"\<Creator\>\"", "\[Rule]", "\"\<b3m2a1@gmail.com\>\""}], ",", 
+   RowBox[{
+   "\"\<Description\>\"", "\[Rule]", 
+    "\"\<A service connection to NASA's APIs\>\""}], ",", 
+   RowBox[{"\"\<Name\>\"", "\[Rule]", "\"\<ServiceConnection_NASA\>\""}], ",", 
+   RowBox[{"\"\<Version\>\"", "\[Rule]", "\"\<1.0.1\>\""}]}], 
+  "\[RightAssociation]"}]], "Metadata"],
+
+Cell[CellGroupData[{
+
+Cell["NASA (ServiceConnection)", "Section"],
+
+Cell["\<\
+![ServiceConnection_NASA]({filename}/img/ServiceConnection_NASA/FrontEnd/\
+SystemResources/Bitmaps/nasa%402.png)\
+\>", "RawMarkdown"],
+
+Cell[TextData[ButtonBox["Download",
+ BaseStyle->"Hyperlink",
+ ButtonData->{"Paclets/ServiceConnection_NASA-1.0.1.paclet", None}]], "Text",
+ CellTags->"DownloadLink"],
+
+Cell["A service connection to NASA's APIs", "Text",
+ CellTags->"DescriptionText"],
+
+Cell["", "PageBreak"],
+
+Cell["Basic Information", "Subsection",
+ CellTags->"BasicInformation"],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extra Information", "Subsection",
+ CellTags->"ExtraInformation"],
+
+Cell["This package provides no extra information", "Text"]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extensions", "Subsection",
+ CellTags->"Extensions"],
+
+Cell[CellGroupData[{
+
+Cell["FrontEnd", "Subsubsection"],
+
+Cell["Prepend: True", "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "DownloadLink"->{
+  Cell[2943, 83, 165, 3, 70, "Text",ExpressionUUID->"d20a943c-7ca1-4665-a970-cd0dff054bcf",
+   CellTags->"DownloadLink"]},
+ "DescriptionText"->{
+  Cell[3111, 88, 81, 1, 70, "Text",ExpressionUUID->"7e99b0ae-f325-42e3-8d7b-499cbddf3ed7",
+   CellTags->"DescriptionText"]},
+ "BasicInformation"->{
+  Cell[3219, 93, 70, 1, 70, "Subsection",ExpressionUUID->"5bdca19d-d5bb-4307-ac28-7e1d7e4ae45b",
+   CellTags->"BasicInformation"]},
+ "ExtraInformation"->{
+  Cell[3338, 100, 70, 1, 70, "Subsection",ExpressionUUID->"1cda1a18-fb9c-41e6-a430-de91ea5c9612",
+   CellTags->"ExtraInformation"]},
+ "Extensions"->{
+  Cell[3530, 110, 57, 1, 70, "Subsection",ExpressionUUID->"7dc8ed8b-cdb8-4d88-9b10-92c08a48fd24",
+   CellTags->"Extensions"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"DownloadLink", 4023, 132},
+ {"DescriptionText", 4168, 135},
+ {"BasicInformation", 4316, 138},
+ {"ExtraInformation", 4471, 141},
+ {"Extensions", 4621, 144}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2168, 52, 70, "Metadata",ExpressionUUID->"9ce1073d-cb77-4766-9048-35f5d9c121a9"],
+Cell[CellGroupData[{
+Cell[2751, 76, 43, 0, 70, "Section",ExpressionUUID->"fa6fe417-6185-4552-ac01-2f3931f40d85"],
+Cell[2797, 78, 143, 3, 70, "RawMarkdown",ExpressionUUID->"ccd26a94-e728-4260-a87a-5c20ac313769"],
+Cell[2943, 83, 165, 3, 70, "Text",ExpressionUUID->"d20a943c-7ca1-4665-a970-cd0dff054bcf",
+ CellTags->"DownloadLink"],
+Cell[3111, 88, 81, 1, 70, "Text",ExpressionUUID->"7e99b0ae-f325-42e3-8d7b-499cbddf3ed7",
+ CellTags->"DescriptionText"],
+Cell[3195, 91, 21, 0, 70, "PageBreak",ExpressionUUID->"4578d4bf-6c64-4658-a438-dea01aa6b46f"],
+Cell[3219, 93, 70, 1, 70, "Subsection",ExpressionUUID->"5bdca19d-d5bb-4307-ac28-7e1d7e4ae45b",
+ CellTags->"BasicInformation"],
+Cell[3292, 96, 21, 0, 70, "PageBreak",ExpressionUUID->"4c3a4f21-47ad-4b19-ab59-5e23ef99e882"],
+Cell[CellGroupData[{
+Cell[3338, 100, 70, 1, 70, "Subsection",ExpressionUUID->"1cda1a18-fb9c-41e6-a430-de91ea5c9612",
+ CellTags->"ExtraInformation"],
+Cell[3411, 103, 58, 0, 70, "Text",ExpressionUUID->"f15d8114-014b-4b72-b965-a4d07fe527fd"]
+}, Open  ]],
+Cell[3484, 106, 21, 0, 70, "PageBreak",ExpressionUUID->"50f81b3f-1bc9-4b5d-a064-028e85439c44"],
+Cell[CellGroupData[{
+Cell[3530, 110, 57, 1, 70, "Subsection",ExpressionUUID->"7dc8ed8b-cdb8-4d88-9b10-92c08a48fd24",
+ CellTags->"Extensions"],
+Cell[CellGroupData[{
+Cell[3612, 115, 33, 0, 70, "Subsubsection",ExpressionUUID->"ac69e245-4b6f-4b06-89b8-9406bb327eb5"],
+Cell[3648, 117, 29, 0, 70, "Item",ExpressionUUID->"d7695267-1a68-46a9-9084-99ea4bc52c3c"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
