@@ -29,11 +29,11 @@ To install a paclet from this repository all you need to do is run
 
 If you want to add a paclet to the repository, there is a simple three step process:
 
-1. Create a fork of the repository in your GitHub account:
+* Create a fork of the repository in your GitHub account:
 
  ![readme-1938869243669002660](project/img/readme-1938869243669002660.png)
 
-1. Clone this fork locally:
+* Clone this fork locally:
 
  ![readme-3602680150337386159](project/img/readme-3602680150337386159.png)
 
@@ -41,7 +41,7 @@ Alternately, instead of cloning locally, you can make changes via the GitHub web
 
  ![readme-9114048340917843819](project/img/readme-9114048340917843819.png)
 
-1. Add your paclets to the   ```ReviewQueue```  folder and submit a pull request:
+* Add your paclets to the   ```ReviewQueue```  folder and submit a pull request:
 
  ![readme-535681948188610017](project/img/readme-535681948188610017.png)
 
