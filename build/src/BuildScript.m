@@ -243,6 +243,7 @@ PublicPacletServerPush[ops:OptionsPattern[]]:=
 				Git["Commit", "Options"]
 				]
 			];
+		Pause[.5];
 		GitHub["Push", dir]
 		];
 
