@@ -1,5 +1,0 @@
- Need a small library that will hook into GitHub (mostly implemented in the GitConnection of BTools) to submit packages and also check what's available via the PacletServerBuilder package in BTools.
-
-Similar to something I did before, but to be able to do this is a light-weight manner would be wonderful. If it's possible to do without cloning that'd be the best.
-
-Hopefully this can be done by forking in GitHub (after checking if a fork is necessary) then submitting the paclet to the Review Queue via the upload file API function.
