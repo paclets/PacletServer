@@ -1,5 +1,26 @@
 # Git Commit Log
 
+<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## IGraphM
+
+*** Commit: 6aab8a8234553d51c6fdafec79c68c36508e4cfd ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Saturday 28 April 2018 16:01:32
+
+*** Commit: cb348ed6570f213c18e98efac2b9dc99332341ba ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Thursday 19 April 2018 13:35:04
+
+*** Commit: adfd8a3d33b5bf83e57e9a6ad549d7797d794cca ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Thursday 19 April 2018 13:33:38
+
+*** Commit: cd3de9a28690fd165706666d84a306ee14ba537a ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Thursday 19 April 2018 11:27:02
+
+
+<hr/>
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
 
@@ -68,23 +89,6 @@
 *** Commit: 9fa9b4482f858a455e6879df7706c114bc67d9ac ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Wednesday 18 April 2018 23:53:26
-
-
-<hr/>
-<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## IGraphM
-
-*** Commit: cb348ed6570f213c18e98efac2b9dc99332341ba ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Thursday 19 April 2018 13:35:04
-
-*** Commit: adfd8a3d33b5bf83e57e9a6ad549d7797d794cca ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Thursday 19 April 2018 13:33:38
-
-*** Commit: cd3de9a28690fd165706666d84a306ee14ba537a ***
-* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
-* Date: Thursday 19 April 2018 11:27:02
 
 
 <hr/>
