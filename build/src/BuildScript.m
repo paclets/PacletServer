@@ -173,43 +173,47 @@ Options[PublicPacletServerAddPaclets]=
 		Options[PacletServerAdd]
 		];
 PublicPacletServerAddPaclets[ops:OptionsPattern[]]:=
-	Append[
-		Map[
-			Function[
-				With[{psa=
-					PacletServerAdd[$PacletServerDir, #, 
-						FilterRules[{ops}, Options[PacletServerAdd]]
-						]},
-					CopyFile[#, 
-						FileNameJoin@{$BuildDir, "last_build", FileNameTake[#]},
-						OverwriteTarget->True
-						]->
-					(DeleteFile[#];psa)
+	(
+		Git["Commit", $PacletServerDir, "All"->True];
+		Git["Fectch", $PacletServerDir];
+		Append[
+			Map[
+				Function[
+					With[{psa=
+						PacletServerAdd[$PacletServerDir, #, 
+							FilterRules[{ops}, Options[PacletServerAdd]]
+							]},
+						CopyFile[#, 
+							FileNameJoin@{$BuildDir, "last_build", FileNameTake[#]},
+							OverwriteTarget->True
+							]->
+						(DeleteFile[#];psa)
+						]
+					],
+				Join[
+					PacletExecute["AutoGeneratePaclet", #]&/@
+						Select[
+							FileExistsQ[FileNameJoin[{#, "PacletInfo.m"}]]||
+							FileExistsQ[FileNameJoin[{#, FileBaseName[#]<>".m"}]]||
+							FileExtension[#]=="wl"||
+							FileExtension[#]=="m"&
+							]@
+							FileNames[
+								"*",
+								$ToAddDir
+								],
+					FileNames[
+						"*.paclet",
+						$ToAddDir
+						]
 					]
 				],
-			Join[
-				PacletExecute["AutoGeneratePaclet", #]&/@
-					Select[
-						FileExistsQ[FileNameJoin[{#, "PacletInfo.m"}]]||
-						FileExistsQ[FileNameJoin[{#, FileBaseName[#]<>".m"}]]||
-						FileExtension[#]=="wl"||
-						FileExtension[#]=="m"&
-						]@
-						FileNames[
-							"*",
-							$ToAddDir
-							],
-				FileNames[
-					"*.paclet",
-					$ToAddDir
-					]
+			If[TrueQ@OptionValue["ExportGitLog"],
+				pacletServerAttachLogMD[],
+				Nothing
 				]
-			],
-		If[TrueQ@OptionValue["ExportGitLog"],
-			pacletServerAttachLogMD[],
-			Nothing
 			]
-		];
+		);
 
 
 (* ::Subsubsection::Closed:: *)
