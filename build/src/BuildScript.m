@@ -19,7 +19,7 @@
 
 
 
-BeginPackage["PublicPacletServer`"];
+BeginPackage["PublicPacletServerBuild`"];
 
 
 PublicPacletServerRebuild::usage=
@@ -175,7 +175,7 @@ Options[PublicPacletServerAddPaclets]=
 PublicPacletServerAddPaclets[ops:OptionsPattern[]]:=
 	(
 		Git["Commit", $PacletServerDir, "All"->True];
-		Git["Fectch", $PacletServerDir];
+		Git["Pull", $PacletServerDir];
 		Append[
 			Map[
 				Function[
