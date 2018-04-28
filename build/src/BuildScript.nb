@@ -513,6 +513,10 @@ Cell[BoxData[
       RowBox[{"dir", "=", "$PacletServerDir"}], "}"}], ",", "\n", "\t\t", 
      RowBox[{
       RowBox[{"Git", "[", 
+       RowBox[{"\"\<Add\>\"", ",", " ", "$PacletServerDir", ",", " ", 
+        RowBox[{"\"\<All\>\"", "\[Rule]", "True"}]}], "]"}], ";", "\n", 
+      "\t\t", 
+      RowBox[{"Git", "[", 
        RowBox[{
        "\"\<Commit\>\"", ",", " ", "\n", "\t\t\t", "dir", ",", "\n", "\t\t\t", 
         RowBox[{"FilterRules", "[", "\n", "\t\t\t\t", 
@@ -542,10 +546,10 @@ Cell[BoxData[
    3.733111406979007*^9, 3.733111407379752*^9}, {3.733150796433566*^9, 
    3.733150829603307*^9}, {3.733152019307164*^9, 3.733152023867025*^9}, {
    3.7334565214060173`*^9, 3.733456538316607*^9}, 3.733705733756384*^9, {
-   3.733719647577969*^9, 
-   3.733719648328187*^9}},ExpressionUUID->"137903ce-3b83-4f28-be37-\
+   3.733719647577969*^9, 3.733719648328187*^9}, {3.733947068806006*^9, 
+   3.733947094626889*^9}},ExpressionUUID->"137903ce-3b83-4f28-be37-\
 92f432bb8806"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -574,8 +578,9 @@ Cell[CellGroupData[{
 Cell["\[LeftCeiling]PublicPacletServerRebuild\[RightFloor]", \
 "CodeSubsubsection",
  Evaluatable->True,
- CellChangeTimes->{3.733110969299548*^9, 
-  3.7337057338362007`*^9},ExpressionUUID->"32e38f88-1ea7-4d99-b8a2-\
+ CellChangeTimes->{
+  3.733110969299548*^9, 3.7337057338362007`*^9, {3.733947159190343*^9, 
+   3.733947159374041*^9}},ExpressionUUID->"32e38f88-1ea7-4d99-b8a2-\
 6508f0944218"],
 
 Cell[BoxData[
@@ -615,39 +620,42 @@ Cell[BoxData[{
         RowBox[{"MemberQ", "[", 
          RowBox[{"do", ",", " ", "\"\<Add\>\""}], "]"}], ",", "\n", "\t\t\t", 
         
-        RowBox[{
-         RowBox[{"PrintTemporary", "[", 
-          RowBox[{
-          "Internal`LoadingPanel", "[", "\"\<Adding paclets...\>\"", "]"}], 
-          "]"}], ";", "\n", "\t\t\t", 
+        RowBox[{"Monitor", "[", "\n", "\t\t\t\t", 
          RowBox[{
-          RowBox[{"res", "[", "\"\<Add\>\"", "]"}], "=", "\n", "\t\t\t\t", 
-          RowBox[{"PublicPacletServerAddPaclets", "[", "\n", "\t\t\t\t\t", 
-           RowBox[{"FilterRules", "[", 
-            RowBox[{
-             RowBox[{"{", "ops", "}"}], ",", " ", 
-             RowBox[{"Options", "[", "PublicPacletServerAddPaclets", "]"}]}], 
-            "]"}], "\n", "\t\t\t\t\t", "]"}]}]}]}], "\n", "\t\t\t", "]"}], 
-      ";", "\n", "\t\t", 
+          RowBox[{
+           RowBox[{"res", "[", "\"\<Add\>\"", "]"}], "=", "\n", "\t", 
+           "\t\t\t\t", 
+           RowBox[{
+           "PublicPacletServerAddPaclets", "[", "\n", "\t", "\t\t\t\t\t", 
+            RowBox[{"FilterRules", "[", 
+             RowBox[{
+              RowBox[{"{", "ops", "}"}], ",", " ", 
+              RowBox[{"Options", "[", "PublicPacletServerAddPaclets", "]"}]}],
+              "]"}], "\n", "\t", "\t\t\t\t\t", "]"}]}], ",", "\n", "\t\t\t\t", 
+          RowBox[{
+          "Internal`LoadingPanel", "[", "\"\<Adding paclets...\>\"", "]"}]}], 
+         "\n", "\t\t\t\t", "]"}]}], "\n", "\t\t\t", "]"}], ";", "\n", "\t\t", 
+      
       RowBox[{"If", "[", 
        RowBox[{
         RowBox[{"MemberQ", "[", 
          RowBox[{"do", ",", " ", "\"\<Build\>\""}], "]"}], ",", "\n", 
         "\t\t\t", 
-        RowBox[{
-         RowBox[{"PrintTemporary", "[", 
-          RowBox[{
-          "Internal`LoadingPanel", "[", "\"\<Building pages...\>\"", "]"}], 
-          "]"}], ";", "\n", "\t\t\t", 
+        RowBox[{"Monitor", "[", "\n", "\t\t\t\t", 
          RowBox[{
-          RowBox[{"res", "[", "\"\<Build\>\"", "]"}], "=", "\n", "\t\t\t\t", 
-          RowBox[{"PublicPacletServerBuild", "[", "\n", "\t\t\t\t\t", 
-           RowBox[{"FilterRules", "[", 
-            RowBox[{
-             RowBox[{"{", "ops", "}"}], ",", " ", 
-             RowBox[{"Options", "[", "PublicPacletServerBuild", "]"}]}], 
-            "]"}], "\n", "\t\t\t\t\t", "]"}]}]}]}], "\n", "\t\t\t", "]"}], 
-      ";", "\n", "\t\t", 
+          RowBox[{
+           RowBox[{"res", "[", "\"\<Build\>\"", "]"}], "=", "\n", "\t", 
+           "\t\t\t\t", 
+           RowBox[{"PublicPacletServerBuild", "[", "\n", "\t", "\t\t\t\t\t", 
+            RowBox[{"FilterRules", "[", 
+             RowBox[{
+              RowBox[{"{", "ops", "}"}], ",", " ", 
+              RowBox[{"Options", "[", "PublicPacletServerBuild", "]"}]}], 
+             "]"}], "\n", "\t\t\t\t\t\t", "]"}]}], ",", "\n", "\t\t\t\t", 
+          RowBox[{
+          "Internal`LoadingPanel", "[", "\"\<Building pages...\>\"", "]"}]}], 
+         "\n", "\t\t\t\t", "]"}]}], "\n", "\t\t\t", "]"}], ";", "\n", "\t\t", 
+      
       RowBox[{"If", "[", 
        RowBox[{
         RowBox[{"MemberQ", "[", 
@@ -658,20 +666,21 @@ Cell[BoxData[{
        RowBox[{
         RowBox[{"MemberQ", "[", 
          RowBox[{"do", ",", " ", "\"\<Push\>\""}], "]"}], ",", "\n", "\t\t\t", 
-        RowBox[{
-         RowBox[{"PrintTemporary", "[", 
-          RowBox[{
-          "Internal`LoadingPanel", "[", "\"\<Pushing to GitHub...\>\"", "]"}],
-           "]"}], ";", "\n", "\t\t\t", 
+        RowBox[{"Monitor", "[", "\n", "\t\t\t\t", 
          RowBox[{
-          RowBox[{"res", "[", "\"\<Push\>\"", "]"}], "=", "\n", "\t\t\t\t", 
-          RowBox[{"PublicPacletServerPush", "[", "\n", "\t\t\t\t\t", 
-           RowBox[{"FilterRules", "[", 
-            RowBox[{
-             RowBox[{"{", "ops", "}"}], ",", " ", 
-             RowBox[{"Options", "[", "PublicPacletServerPush", "]"}]}], "]"}],
-            "\n", "\t\t\t\t\t", "]"}]}]}]}], "\n", "\t\t\t", "]"}], ";", "\n",
-       "\t\t", "res"}]}], "\n", "\t\t", "]"}]}], ";"}], "\n", 
+          RowBox[{
+           RowBox[{"res", "[", "\"\<Push\>\"", "]"}], "=", "\n", "\t", 
+           "\t\t\t\t", 
+           RowBox[{"PublicPacletServerPush", "[", "\n", "\t", "\t\t\t\t\t", 
+            RowBox[{"FilterRules", "[", 
+             RowBox[{
+              RowBox[{"{", "ops", "}"}], ",", " ", 
+              RowBox[{"Options", "[", "PublicPacletServerPush", "]"}]}], 
+             "]"}], "\n", "\t\t\t\t\t\t", "]"}]}], ",", "\n", "\t\t\t\t", 
+          RowBox[{
+          "Internal`LoadingPanel", "[", "\"\<Pushing to GitHub...\>\"", 
+           "]"}]}], "\n", "\t\t\t\t", "]"}]}], "\n", "\t\t\t", "]"}], ";", 
+      "\n", "\t\t", "res"}]}], "\n", "\t\t", "]"}]}], ";"}], "\n", 
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", 
    RowBox[{
@@ -689,9 +698,10 @@ Cell[BoxData[{
    3.733151972034153*^9}, 3.733152031162676*^9, {3.733152086074839*^9, 
    3.7331520879741583`*^9}, {3.7335349489630136`*^9, 3.73353498451447*^9}, {
    3.733705733856894*^9, 3.733705733912888*^9}, {3.733719632161419*^9, 
-   3.733719641551482*^9}},ExpressionUUID->"db02f08c-7977-44f1-a086-\
+   3.733719641551482*^9}, {3.7339470975527554`*^9, 
+   3.733947153270792*^9}},ExpressionUUID->"db02f08c-7977-44f1-a086-\
 bb72699f2284"]
-}, Closed]]
+}, Open  ]]
 }, Open  ]],
 
 Cell[BoxData[

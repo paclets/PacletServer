@@ -232,6 +232,7 @@ PublicPacletServerBuild[ops:OptionsPattern[]]:=
 
 PublicPacletServerPush[ops:OptionsPattern[]]:=
 	With[{dir=$PacletServerDir},
+		Git["Add", $PacletServerDir, "All"->True];
 		Git["Commit", 
 			dir,
 			FilterRules[
@@ -276,28 +277,34 @@ PublicPacletServerRebuild[do:{$ServerRebuildKeys..}:{"Add", "Build", "Push"},
 			res=<||>
 			},
 		If[MemberQ[do, "Add"],
-			PrintTemporary[Internal`LoadingPanel["Adding paclets..."]];
-			res["Add"]=
-				PublicPacletServerAddPaclets[
-					FilterRules[{ops}, Options[PublicPacletServerAddPaclets]]
-					]
+			Monitor[
+				res["Add"]=
+					PublicPacletServerAddPaclets[
+						FilterRules[{ops}, Options[PublicPacletServerAddPaclets]]
+						],
+				Internal`LoadingPanel["Adding paclets..."]
+				]
 			];
 		If[MemberQ[do, "Build"],
-			PrintTemporary[Internal`LoadingPanel["Building pages..."]];
-			res["Build"]=
-				PublicPacletServerBuild[
-					FilterRules[{ops}, Options[PublicPacletServerBuild]]
-					]
+			Monitor[
+				res["Build"]=
+					PublicPacletServerBuild[
+						FilterRules[{ops}, Options[PublicPacletServerBuild]]
+						],
+				Internal`LoadingPanel["Building pages..."]
+				]
 			];
 		If[MemberQ[do, "Test"],
 			PublicPacletServerTest[]
 			];
 		If[MemberQ[do, "Push"],
-			PrintTemporary[Internal`LoadingPanel["Pushing to GitHub..."]];
-			res["Push"]=
-				PublicPacletServerPush[
-					FilterRules[{ops}, Options[PublicPacletServerPush]]
-					]
+			Monitor[
+				res["Push"]=
+					PublicPacletServerPush[
+						FilterRules[{ops}, Options[PublicPacletServerPush]]
+						],
+				Internal`LoadingPanel["Pushing to GitHub..."]
+				]
 			];
 		res
 		];

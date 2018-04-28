@@ -7,7 +7,7 @@ DisplayName: BTools
 Extensions: <|Kernel -> <|Root -> ., Context -> {BTools`}, Root -> ., Context -> {BTools`}|>, Resource -> <|Root -> Resources, Resources -> {Icons, PaletteGenerators, Templates, Themes}, SystemID -> *|>, FrontEnd -> <|Prepend -> True|>, PacletServer -> <|Tags -> {documentation, front-end, paclets, web}, Categories -> {Development}, Description -> A general purpose package that implements useful functionality for application development.                    , License -> MIT|>|>                                                                                                                                                                                                                                                                                                                                                  Features include: distribution tools, documentation generation, front-end manipulation, and application editing                                                                                                                                                                                                                                                                                                                                                    
 LastModified: 2018-04-26 00:56:29
 License: MIT
-Modified: 2018-04-28 10:57:31
+Modified: 2018-04-28 16:33:07
 Name: BTools
 Slug: btools
 Tags: documentation,front-end,paclets,web
