@@ -1,0 +1,246 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8522,        237]
+NotebookOptionsPosition[      4520,        149]
+NotebookOutlinePosition[      6425,        200]
+CellTagsIndexPosition[      6153,        188]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<PublicPacletServer\>\""}], ",", 
+   RowBox[{"\"\<Categories\>\"", "\[Rule]", "\"\<misc\>\""}], ",", 
+   RowBox[{"\"\<Slug\>\"", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\"\<Authors\>\"", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\"\<Tags\>\"", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{
+   "\"\<Description\>\"", "\[Rule]", 
+    "\"\<A beta version of a paclet for interfacing with the public paclet \
+server\\nCurrent supports:\\n  forking the server, submitting paclets, \
+sending PRs,\\n  cloning the server, and building the server\>\""}], ",", 
+   RowBox[{"\"\<Extensions\>\"", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\"\<Kernel\>\"", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"Root", "\[Rule]", "\"\<.\>\""}], ",", 
+         RowBox[{"Context", "\[Rule]", 
+          RowBox[{"{", "\"\<PublicPacletServer`\>\"", "}"}]}]}], 
+        "\[RightAssociation]"}]}], ",", 
+      RowBox[{"\"\<PacletServer\>\"", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+        "\"\<Description\>\"", "\[Rule]", 
+         "\"\<A beta version of a paclet for interfacing with the public \
+paclet server\\nCurrent supports:\\n  forking the server, submitting paclets, \
+sending PRs,\\n  cloning the server, and building the server\>\""}], 
+        "\[RightAssociation]"}]}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\"\<Name\>\"", "\[Rule]", "\"\<PublicPacletServer\>\""}], ",", 
+   RowBox[{"\"\<Thumbnail\>\"", "\[Rule]", "\"\<PacletIcon.png\>\""}], ",", 
+   RowBox[{"\"\<Version\>\"", "\[Rule]", "\"\<0.0.1\>\""}], ",", 
+   RowBox[{"\"\<DisplayName\>\"", "\[Rule]", "\"\<PublicPacletServer\>\""}], 
+   ",", 
+   RowBox[{"\"\<LastModified\>\"", "\[Rule]", 
+    TemplateBox[{RowBox[{"\"Sat 28 Apr 2018 16:40:14\"", 
+        StyleBox[
+         RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+           StyleBox[
+            RowBox[{"-", "7.`"}], NumberMarks -> False, StripOnInput -> 
+            False]}], FontColor -> GrayLevel[0.5]]}],
+      RowBox[{"DateObject", "[", 
+        RowBox[{
+          RowBox[{"{", 
+            
+            RowBox[{"2018", ",", "4", ",", "28", ",", "16", ",", "40", ",", 
+              "14.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+          
+          RowBox[{"-", "7.`"}]}], "]"}]},
+     "DateObject",
+     Editable->False]}]}], "\[RightAssociation]"}]], "Metadata"],
+
+Cell[CellGroupData[{
+
+Cell["PublicPacletServer", "Section"],
+
+Cell["\<\
+![PublicPacletServer]({filename}/img/PublicPacletServer/PacletIcon.png)\
+\>", "RawMarkdown"],
+
+Cell[TextData[ButtonBox["Download",
+ BaseStyle->"Hyperlink",
+ ButtonData->{"Paclets/PublicPacletServer-0.0.1.paclet", None}]], "Text",
+ CellTags->"DownloadLink"],
+
+Cell["\<\
+A beta version of a paclet for interfacing with the public paclet server
+Current supports:
+  forking the server, submitting paclets, sending PRs,
+  cloning the server, and building the server\
+\>", "Text",
+ CellTags->"DescriptionText"],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Information", "Subsection",
+ CellTags->"BasicInformation"],
+
+Cell[CellGroupData[{
+
+Cell["Name", "Subsubsection",
+ CellTags->{"Info", "Name"}],
+
+Cell["PublicPacletServer", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Version", "Subsubsection",
+ CellTags->{"Info", "Version"}],
+
+Cell["0.0.1", "Text"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extra Information", "Subsection",
+ CellTags->"ExtraInformation"],
+
+Cell["This package provides no extra information", "Text"]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extensions", "Subsection",
+ CellTags->"Extensions"],
+
+Cell[CellGroupData[{
+
+Cell["Kernel", "Subsubsection"],
+
+Cell["Root: .", "Item"],
+
+Cell["Context: PublicPacletServer`", "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "DownloadLink"->{
+  Cell[3256, 84, 161, 3, 70, "Text",ExpressionUUID->"ae7c7fe3-a671-44b5-a3d3-3904beeeb838",
+   CellTags->"DownloadLink"]},
+ "DescriptionText"->{
+  Cell[3420, 89, 245, 6, 70, "Text",ExpressionUUID->"3eaad75c-ef89-4113-ac0d-8fa6ca10d257",
+   CellTags->"DescriptionText"]},
+ "BasicInformation"->{
+  Cell[3714, 101, 70, 1, 70, "Subsection",ExpressionUUID->"78bccfea-9c5b-4218-9ae3-5e74223dc739",
+   CellTags->"BasicInformation"]},
+ "Info"->{
+  Cell[3809, 106, 58, 1, 70, "Subsubsection",ExpressionUUID->"c941716b-3255-4e6c-964a-6888a2d520b7",
+   CellTags->{"Info", "Name"}],
+  Cell[3941, 114, 64, 1, 70, "Subsubsection",ExpressionUUID->"c4f1a723-1014-4016-907d-d82ab810c3a3",
+   CellTags->{"Info", "Version"}]},
+ "Name"->{
+  Cell[3809, 106, 58, 1, 70, "Subsubsection",ExpressionUUID->"c941716b-3255-4e6c-964a-6888a2d520b7",
+   CellTags->{"Info", "Name"}]},
+ "Version"->{
+  Cell[3941, 114, 64, 1, 70, "Subsubsection",ExpressionUUID->"c4f1a723-1014-4016-907d-d82ab810c3a3",
+   CellTags->{"Info", "Version"}]},
+ "ExtraInformation"->{
+  Cell[4102, 125, 70, 1, 70, "Subsection",ExpressionUUID->"ba24553a-99d8-4065-9c0c-da1c06df6072",
+   CellTags->"ExtraInformation"]},
+ "Extensions"->{
+  Cell[4294, 135, 57, 1, 70, "Subsection",ExpressionUUID->"a559921c-891e-488e-93c5-435772fa00ff",
+   CellTags->"Extensions"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"DownloadLink", 4826, 159},
+ {"DescriptionText", 4971, 162},
+ {"BasicInformation", 5120, 165},
+ {"Info", 5264, 168},
+ {"Name", 5545, 173},
+ {"Version", 5693, 176},
+ {"ExtraInformation", 5853, 179},
+ {"Extensions", 6003, 182}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2528, 54, 70, "Metadata",ExpressionUUID->"edf8b1b6-161e-43d2-bf9d-be57a8f45d55"],
+Cell[CellGroupData[{
+Cell[3111, 78, 37, 0, 70, "Section",ExpressionUUID->"839f68d2-99dc-43c3-8be2-d46d8b5e01fc"],
+Cell[3151, 80, 102, 2, 70, "RawMarkdown",ExpressionUUID->"ead8484a-14b0-4074-9b46-f61475bc2779"],
+Cell[3256, 84, 161, 3, 70, "Text",ExpressionUUID->"ae7c7fe3-a671-44b5-a3d3-3904beeeb838",
+ CellTags->"DownloadLink"],
+Cell[3420, 89, 245, 6, 70, "Text",ExpressionUUID->"3eaad75c-ef89-4113-ac0d-8fa6ca10d257",
+ CellTags->"DescriptionText"],
+Cell[3668, 97, 21, 0, 70, "PageBreak",ExpressionUUID->"c2b88a92-33d3-4eb7-9305-05fc5e418bc2"],
+Cell[CellGroupData[{
+Cell[3714, 101, 70, 1, 70, "Subsection",ExpressionUUID->"78bccfea-9c5b-4218-9ae3-5e74223dc739",
+ CellTags->"BasicInformation"],
+Cell[CellGroupData[{
+Cell[3809, 106, 58, 1, 70, "Subsubsection",ExpressionUUID->"c941716b-3255-4e6c-964a-6888a2d520b7",
+ CellTags->{"Info", "Name"}],
+Cell[3870, 109, 34, 0, 70, "Text",ExpressionUUID->"53cd5d6a-af68-478e-b5d1-abe256eeea14"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3941, 114, 64, 1, 70, "Subsubsection",ExpressionUUID->"c4f1a723-1014-4016-907d-d82ab810c3a3",
+ CellTags->{"Info", "Version"}],
+Cell[4008, 117, 21, 0, 70, "Text",ExpressionUUID->"f0121e0d-0bd4-45fd-bca8-f4d18d636340"]
+}, Open  ]]
+}, Open  ]],
+Cell[4056, 121, 21, 0, 70, "PageBreak",ExpressionUUID->"453897ad-432f-40fd-8dc3-5f1ec7e05e6b"],
+Cell[CellGroupData[{
+Cell[4102, 125, 70, 1, 70, "Subsection",ExpressionUUID->"ba24553a-99d8-4065-9c0c-da1c06df6072",
+ CellTags->"ExtraInformation"],
+Cell[4175, 128, 58, 0, 70, "Text",ExpressionUUID->"ad64529d-64c4-49f2-88e5-d0a45e509ded"]
+}, Open  ]],
+Cell[4248, 131, 21, 0, 70, "PageBreak",ExpressionUUID->"75451bf4-5ca7-44b1-9a5c-1cc647fa65b1"],
+Cell[CellGroupData[{
+Cell[4294, 135, 57, 1, 70, "Subsection",ExpressionUUID->"a559921c-891e-488e-93c5-435772fa00ff",
+ CellTags->"Extensions"],
+Cell[CellGroupData[{
+Cell[4376, 140, 31, 0, 70, "Subsubsection",ExpressionUUID->"d47d4280-cba8-4af3-8498-e1cc4b149b81"],
+Cell[4410, 142, 23, 0, 70, "Item",ExpressionUUID->"59dcaf40-205b-452d-926d-68f2bef3993a"],
+Cell[4436, 144, 44, 0, 70, "Item",ExpressionUUID->"b32eb8a0-4362-482b-8dd9-2a769870b2b9"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
