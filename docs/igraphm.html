@@ -143,9 +143,17 @@
 <hr />
 <a shape='rect' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h2> Install</h2>
+<p>
+ <strong>Before installing, be sure to check out the </strong>
+ <strong>
+  <a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a>
+ </strong>
+ <strong> to make sure that you trust the developer.</strong>
+</p>
 <p>To install this paclet, run:</p>
 <pre>
 <code class='language-mathematica'>
+(* This will install the paclet from the server *)
 PacletInstall[
   <a shape='rect' id='pacletname' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 &quot;IGraphM&quot;,
@@ -154,14 +162,11 @@ PacletInstall[
   ]
 </code>
 </pre>
-<p>Depending on what the current value of <code class='language-mathematica'>$ContextPath</code>  is you may also need to run <code class='language-mathematica'>Needs[&quot;PacletManager`&quot;]</code>  first.</p>
-<p>
- <strong>Before installing, be sure to check out the </strong>
- <strong>
-  <a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a>
- </strong>
- <strong> to make sure that you trust the developer.</strong>
+<p>Depending on what the current value of <code class='language-mathematica'>$ContextPath</code>  is you may also need to first run
 </p>
+<pre class='prettyprint'>
+ <code class='language-mathematica'>Needs[&quot;PacletManager`&quot;]</code>
+</pre>
 <ul>
  <li>
   <p>To update it, replace <code class='language-mathematica'>PacletInstall</code>  with <code class='language-mathematica'>PacletUpdate</code> .</p>
