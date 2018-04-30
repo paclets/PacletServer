@@ -15,7 +15,7 @@
     m = s.getElementsByTagName(o)[0];
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-  ga('create', '<wolfram:slot id="#GoogleAnalytics"></wolfram:slot>', 'auto');
+  ga('create', '<wolfram:slot id="GoogleAnalytics"></wolfram:slot>', 'auto');
   ga('send', 'pageview');
 </script>
 </wolfram:if>
@@ -31,7 +31,7 @@
       t.type = 'text/javascript';
       t.async = true;
       t.id = 'gauges-tracker';
-      t.setAttribute('data-site-id','<wolfram:slot id="#Gauges"></wolfram:slot>');
+      t.setAttribute('data-site-id','<wolfram:slot id="Gauges"></wolfram:slot>');
       t.src = 'https://secure.gaug.es/track.js';
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(t, s);

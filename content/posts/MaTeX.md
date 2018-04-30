@@ -7,7 +7,7 @@ DisplayName: MaTeX
 Extensions: <|Documentation -> <|Language -> All, PacletManager`Private`MainPage -> Guides/MaTeX|>, Kernel -> <|Root -> ., Context -> MaTeX`|>|>
 LastModified: 2018-04-25 21:00:10
 MathematicaVersion: 10.0+
-Modified: 2018-04-29 20:56:09
+Modified: 2018-04-29 21:03:38
 Name: MaTeX
 Slug: matex
 Tags: 
