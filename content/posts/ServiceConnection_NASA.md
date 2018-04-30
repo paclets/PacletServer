@@ -7,7 +7,7 @@ DisplayName: NASA (ServiceConnection)
 Extensions: <|FrontEnd -> <|Prepend -> True, Prepend -> True|>|>
 Icon: FrontEnd/SystemResources/Bitmaps/nasa@2.png
 LastModified: 2018-01-13 21:22:45
-Modified: 2018-04-30 16:31:17
+Modified: 2018-04-30 16:37:54
 Name: ServiceConnection_NASA
 Slug: serviceconnectionnasa
 Tags: web,serviceconnection,nasa
@@ -32,7 +32,7 @@ A service connection to NASA's APIs
 To install this paclet, run:
 
     PacletInstall[
-      "NASA (ServiceConnection)",
+      "ServiceConnection_NASA",
       "Site"->
         "http://raw.githubusercontent.com/paclets/PacletServer/master"
       ]

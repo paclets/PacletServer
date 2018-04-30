@@ -3,6 +3,10 @@
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
 
+*** Commit: 27d969cbec32dc5b0a7dc073a5354d13418d2aa4 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 16:31:54
+
 *** Commit: a12d47df6f014261a6abfaef36ad60aaa4d76809 ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Monday 30 April 2018 16:31:10
