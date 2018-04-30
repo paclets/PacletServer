@@ -176,6 +176,7 @@ PublicPacletServerAddPaclets[ops:OptionsPattern[]]:=
 	(
 		Git["Commit", $PacletServerDir, "All"->True];
 		Git["Pull", $PacletServerDir];
+		(PacletManager`Package`BuildPacletSiteFiles[$PacletServerDir];#)&@
 		Append[
 			Map[
 				Function[
