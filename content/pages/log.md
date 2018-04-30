@@ -1,7 +1,13 @@
 # Git Commit Log
 
+gitLogMDBit[Alternatives[/, -], {NotAvailable -> <|Commit -> 00fb6d4fd8844bc5967a9ca8a05e6abf5c7c9217, Message -> Merge branch 'master' of https://github.com/paclets/PacletServer, Merge ->  3776fbb 7280039, Author ->  b3m2a1 <b3m2a1@gmail.com>, Date -> Mon 30 Apr 2018 16:26:32|>}]
+<hr/>
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Commit: b86f64e12e0d6fdf95f4ee3d0612f8ce1153aab5 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 16:25:24
 
 *** Commit: 9b630571eebac037f2b91f04f8c9f5edd2e71f48 ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
