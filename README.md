@@ -15,7 +15,7 @@ To install a paclet from this repository all you need to do is run
 ```mathematica
  Needs["PacletManager`"];
  PacletInstall[
- paclet_name,
+ "PacletName",
  "Site"->
   "http://raw.githubusercontent.com/paclets/PacletServer/master"
  ]
