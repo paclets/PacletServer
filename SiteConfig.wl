@@ -8,5 +8,5 @@
 	"SiteName"->"Mathematica Paclet Server",(*
 	"SiteURL"->"https://paclets.github.io/PacletServer",*)
 	"GitHubUserName"->"paclets",
-	"GoogleAnalytics"->"UA-118344378-1"
+	"GoogleAnalytics"->"UA-118356806-1"
 	}
