@@ -1,44 +1,19 @@
 # Git Commit Log
 
-<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## IGraphM
-
-*** Commit: 567e55ecae5267158cf7da0f2885606602993756 ***
-* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
-* Date: Monday 30 April 2018 22:00:08
-
-*** Commit: 420f12677be28b1b3e9cfca713f93fe2f1e00541 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 12:48:44
-
-*** Commit: cb348ed6570f213c18e98efac2b9dc99332341ba ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Thursday 19 April 2018 13:35:04
-
-*** Commit: 5052eb83b599f5962eb608d465885524adc21c8b ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 11:21:21
-
-*** Commit: db393ee05464e7027fbf7a70dab28b98b3c9b693 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 10:58:08
-
-*** Commit: 6aab8a8234553d51c6fdafec79c68c36508e4cfd ***
-* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
-* Date: Saturday 28 April 2018 16:01:32
-
-*** Commit: adfd8a3d33b5bf83e57e9a6ad549d7797d794cca ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Thursday 19 April 2018 13:33:38
-
-*** Commit: cd3de9a28690fd165706666d84a306ee14ba537a ***
-* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
-* Date: Thursday 19 April 2018 11:27:02
-
-
-<hr/>
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Commit: 9b630571eebac037f2b91f04f8c9f5edd2e71f48 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 15:49:56
+
+*** Commit: b4933374fe7a495bac540a2d7b34a1f929bebb17 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 23 April 2018 22:34:25
+
+*** Commit: 71c87db90d46f5841c7ac89c19da658f1c9faab1 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Thursday 26 April 2018 01:12:19
 
 *** Commit: c00ec65ae32009e90e9f58d6a7bb1170e63a43d2 ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
@@ -56,10 +31,6 @@
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Saturday 28 April 2018 16:12:35
 
-*** Commit: 71c87db90d46f5841c7ac89c19da658f1c9faab1 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Thursday 26 April 2018 01:12:19
-
 *** Commit: 1dcd843ed0a8d501589ae4b44998e8d3f7b8f03a ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Thursday 26 April 2018 00:17:53
@@ -72,10 +43,6 @@
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Monday 23 April 2018 00:15:01
 
-*** Commit: b4933374fe7a495bac540a2d7b34a1f929bebb17 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Monday 23 April 2018 22:34:25
-
 *** Commit: 51af33f3948e3d12e6afd5e09479e594f19b6cec ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Friday 20 April 2018 00:58:44
@@ -87,6 +54,47 @@
 *** Commit: cb348ed6570f213c18e98efac2b9dc99332341ba ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Thursday 19 April 2018 13:35:04
+
+
+<hr/>
+<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## IGraphM
+
+*** Commit: 9b630571eebac037f2b91f04f8c9f5edd2e71f48 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 15:49:56
+
+*** Commit: 5052eb83b599f5962eb608d465885524adc21c8b ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 11:21:21
+
+*** Commit: 567e55ecae5267158cf7da0f2885606602993756 ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Monday 30 April 2018 22:00:08
+
+*** Commit: 420f12677be28b1b3e9cfca713f93fe2f1e00541 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 12:48:44
+
+*** Commit: cb348ed6570f213c18e98efac2b9dc99332341ba ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Thursday 19 April 2018 13:35:04
+
+*** Commit: db393ee05464e7027fbf7a70dab28b98b3c9b693 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 10:58:08
+
+*** Commit: 6aab8a8234553d51c6fdafec79c68c36508e4cfd ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Saturday 28 April 2018 16:01:32
+
+*** Commit: adfd8a3d33b5bf83e57e9a6ad549d7797d794cca ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Thursday 19 April 2018 13:33:38
+
+*** Commit: cd3de9a28690fd165706666d84a306ee14ba537a ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Thursday 19 April 2018 11:27:02
 
 
 <hr/>
