@@ -19,7 +19,7 @@
 
 
 
-BeginPackage["PublicPacletServer`"];
+BeginPackage["PublicPacletServerBuild`"];
 
 
 PublicPacletServerRebuild::usage=
@@ -173,43 +173,48 @@ Options[PublicPacletServerAddPaclets]=
 		Options[PacletServerAdd]
 		];
 PublicPacletServerAddPaclets[ops:OptionsPattern[]]:=
-	Append[
-		Map[
-			Function[
-				With[{psa=
-					PacletServerAdd[$PacletServerDir, #, 
-						FilterRules[{ops}, Options[PacletServerAdd]]
-						]},
-					CopyFile[#, 
-						FileNameJoin@{$BuildDir, "last_build", FileNameTake[#]},
-						OverwriteTarget->True
-						]->
-					(DeleteFile[#];psa)
+	(
+		Git["Commit", $PacletServerDir, "All"->True];
+		Git["Pull", $PacletServerDir];
+		(PacletManager`Package`BuildPacletSiteFiles[$PacletServerDir];#)&@
+		Append[
+			Map[
+				Function[
+					With[{psa=
+						PacletServerAdd[$PacletServerDir, #, 
+							FilterRules[{ops}, Options[PacletServerAdd]]
+							]},
+						CopyFile[#, 
+							FileNameJoin@{$BuildDir, "last_build", FileNameTake[#]},
+							OverwriteTarget->True
+							]->
+						(DeleteFile[#];psa)
+						]
+					],
+				Join[
+					PacletExecute["AutoGeneratePaclet", #]&/@
+						Select[
+							FileExistsQ[FileNameJoin[{#, "PacletInfo.m"}]]||
+							FileExistsQ[FileNameJoin[{#, FileBaseName[#]<>".m"}]]||
+							FileExtension[#]=="wl"||
+							FileExtension[#]=="m"&
+							]@
+							FileNames[
+								"*",
+								$ToAddDir
+								],
+					FileNames[
+						"*.paclet",
+						$ToAddDir
+						]
 					]
 				],
-			Join[
-				PacletExecute["AutoGeneratePaclet", #]&/@
-					Select[
-						FileExistsQ[FileNameJoin[{#, "PacletInfo.m"}]]||
-						FileExistsQ[FileNameJoin[{#, FileBaseName[#]<>".m"}]]||
-						FileExtension[#]=="wl"||
-						FileExtension[#]=="m"&
-						]@
-						FileNames[
-							"*",
-							$ToAddDir
-							],
-				FileNames[
-					"*.paclet",
-					$ToAddDir
-					]
+			If[TrueQ@OptionValue["ExportGitLog"],
+				pacletServerAttachLogMD[],
+				Nothing
 				]
-			],
-		If[TrueQ@OptionValue["ExportGitLog"],
-			pacletServerAttachLogMD[],
-			Nothing
 			]
-		];
+		);
 
 
 (* ::Subsubsection::Closed:: *)
@@ -232,6 +237,7 @@ PublicPacletServerBuild[ops:OptionsPattern[]]:=
 
 PublicPacletServerPush[ops:OptionsPattern[]]:=
 	With[{dir=$PacletServerDir},
+		Git["Add", $PacletServerDir, "All"->True];
 		Git["Commit", 
 			dir,
 			FilterRules[
@@ -276,28 +282,34 @@ PublicPacletServerRebuild[do:{$ServerRebuildKeys..}:{"Add", "Build", "Push"},
 			res=<||>
 			},
 		If[MemberQ[do, "Add"],
-			PrintTemporary[Internal`LoadingPanel["Adding paclets..."]];
-			res["Add"]=
-				PublicPacletServerAddPaclets[
-					FilterRules[{ops}, Options[PublicPacletServerAddPaclets]]
-					]
+			Monitor[
+				res["Add"]=
+					PublicPacletServerAddPaclets[
+						FilterRules[{ops}, Options[PublicPacletServerAddPaclets]]
+						],
+				Internal`LoadingPanel["Adding paclets..."]
+				]
 			];
 		If[MemberQ[do, "Build"],
-			PrintTemporary[Internal`LoadingPanel["Building pages..."]];
-			res["Build"]=
-				PublicPacletServerBuild[
-					FilterRules[{ops}, Options[PublicPacletServerBuild]]
-					]
+			Monitor[
+				res["Build"]=
+					PublicPacletServerBuild[
+						FilterRules[{ops}, Options[PublicPacletServerBuild]]
+						],
+				Internal`LoadingPanel["Building pages..."]
+				]
 			];
 		If[MemberQ[do, "Test"],
 			PublicPacletServerTest[]
 			];
 		If[MemberQ[do, "Push"],
-			PrintTemporary[Internal`LoadingPanel["Pushing to GitHub..."]];
-			res["Push"]=
-				PublicPacletServerPush[
-					FilterRules[{ops}, Options[PublicPacletServerPush]]
-					]
+			Monitor[
+				res["Push"]=
+					PublicPacletServerPush[
+						FilterRules[{ops}, Options[PublicPacletServerPush]]
+						],
+				Internal`LoadingPanel["Pushing to GitHub..."]
+				]
 			];
 		res
 		];

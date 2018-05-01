@@ -7,7 +7,7 @@ DisplayName: MaTeX
 Extensions: <|Documentation -> <|Language -> All, PacletManager`Private`MainPage -> Guides/MaTeX|>, Kernel -> <|Root -> ., Context -> MaTeX`|>|>
 LastModified: 2018-04-25 21:00:10
 MathematicaVersion: 10.0+
-Modified: 2018-04-28 10:57:34
+Modified: 2018-04-30 16:37:52
 Name: MaTeX
 Slug: matex
 Tags: 
@@ -21,9 +21,31 @@ Version: 1.7.3
 
 ![MaTeX]({filename}/img/MaTeX/Logo.png)
 
-[Download](Paclets/MaTeX-1.7.3.paclet)
-
 Create LaTeX-typeset labels within Mathematica.
+
+---
+
+<a id="install" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+## Install
+
+**Before installing, be sure to check out the ** **[Change Log](https://paclets.github.io/PacletServer/pages/log.html)** ** to make sure that you trust the developer.**
+
+To install this paclet, run:
+
+    PacletInstall[
+      "MaTeX",
+      "Site"->
+        "http://raw.githubusercontent.com/paclets/PacletServer/master"
+      ]
+
+Depending on what the current value of  ```$ContextPath```  is you may also need to first run
+
+    Needs["PacletManager`"]
+
+* To update it, replace  ```PacletInstall```  with  ```PacletUpdate``` . 
+
+* To uninstall replace  ```PacletInstall```  with  ```PacletUninstall```  and remove the  ```"Site"```  parameter.
 
 ---
 
@@ -63,14 +85,8 @@ MaTeX
 
 ## Extensions
 
-### Documentation
-
-* Language: All
-
-* MainPage: Guides/MaTeX
-
 ### Kernel
 
 * Root: .
 
-* Context: MaTeX`
+* Context: PacletName`

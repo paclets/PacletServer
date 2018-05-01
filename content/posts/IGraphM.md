@@ -5,16 +5,16 @@ Creator: Szabolcs Horvát <szhorvat@gmail.com>
 Description: IGraph/M – the igraph interface for Mathematica.
 DisplayName: IGraphM
 Extensions: <|Kernel -> <|Root -> ., Context -> IGraphM`|>, LibraryLink -> <||>, Documentation -> <|PacletManager`Private`MainPage -> Tutorials/IGDocumentation|>|>
-LastModified: 2018-04-25 21:00:10
+LastModified: 2018-04-30 13:23:02
 MathematicaVersion: 10.0+
-Modified: 2018-04-28 10:57:33
+Modified: 2018-04-30 16:37:51
 Name: IGraphM
 Slug: igraphm
-SystemID: MacOSX-x86-64,Windows-x86-64,Linux-x86-64,Linux-ARM
+SystemID: MacOSX-x86-64,Windows-x86-64,Linux-x86-64
 Tags: 
 Thumbnail: Logo.png
 URL: http://szhorvat.net/mathematica/IGraphM
-Version: 0.3.97.2
+Version: 0.3.99
 
 <a id="igraphm" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -22,9 +22,31 @@ Version: 0.3.97.2
 
 ![IGraphM]({filename}/img/IGraphM/Logo.png)
 
-[Download](Paclets/IGraphM-0.3.97.2.paclet)
-
 IGraph/M – the igraph interface for Mathematica.
+
+---
+
+<a id="install" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+## Install
+
+**Before installing, be sure to check out the ** **[Change Log](https://paclets.github.io/PacletServer/pages/log.html)** ** to make sure that you trust the developer.**
+
+To install this paclet, run:
+
+    PacletInstall[
+      "IGraphM",
+      "Site"->
+        "http://raw.githubusercontent.com/paclets/PacletServer/master"
+      ]
+
+Depending on what the current value of  ```$ContextPath```  is you may also need to first run
+
+    Needs["PacletManager`"]
+
+* To update it, replace  ```PacletInstall```  with  ```PacletUpdate``` . 
+
+* To uninstall replace  ```PacletInstall```  with  ```PacletUninstall```  and remove the  ```"Site"```  parameter.
 
 ---
 
@@ -38,7 +60,7 @@ IGraphM
 
 ### Version
 
-0.3.97.2
+0.3.99
 
 ### Creator
 
@@ -68,12 +90,4 @@ IGraphM
 
 * Root: .
 
-* Context: IGraphM`
-
-### LibraryLink
-
-* This extension has no extra parameters
-
-### Documentation
-
-* MainPage: Tutorials/IGDocumentation
+* Context: PacletName`

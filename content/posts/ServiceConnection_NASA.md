@@ -7,7 +7,7 @@ DisplayName: NASA (ServiceConnection)
 Extensions: <|FrontEnd -> <|Prepend -> True, Prepend -> True|>|>
 Icon: FrontEnd/SystemResources/Bitmaps/nasa@2.png
 LastModified: 2018-01-13 21:22:45
-Modified: 2018-04-28 10:57:35
+Modified: 2018-04-30 16:37:54
 Name: ServiceConnection_NASA
 Slug: serviceconnectionnasa
 Tags: web,serviceconnection,nasa
@@ -19,9 +19,31 @@ Version: 1.0.1
 
 ![ServiceConnection_NASA]({filename}/img/ServiceConnection_NASA/FrontEnd/SystemResources/Bitmaps/nasa%402.png)
 
-[Download](Paclets/ServiceConnection_NASA-1.0.1.paclet)
-
 A service connection to NASA's APIs
+
+---
+
+<a id="install" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+## Install
+
+**Before installing, be sure to check out the ** **[Change Log](https://paclets.github.io/PacletServer/pages/log.html)** ** to make sure that you trust the developer.**
+
+To install this paclet, run:
+
+    PacletInstall[
+      "ServiceConnection_NASA",
+      "Site"->
+        "http://raw.githubusercontent.com/paclets/PacletServer/master"
+      ]
+
+Depending on what the current value of  ```$ContextPath```  is you may also need to first run
+
+    Needs["PacletManager`"]
+
+* To update it, replace  ```PacletInstall```  with  ```PacletUpdate``` . 
+
+* To uninstall replace  ```PacletInstall```  with  ```PacletUninstall```  and remove the  ```"Site"```  parameter.
 
 ---
 
@@ -55,6 +77,8 @@ This package provides no extra information
 
 ## Extensions
 
-### FrontEnd
+### Kernel
 
-* Prepend: True
+* Root: .
+
+* Context: PacletName`
