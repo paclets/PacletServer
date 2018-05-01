@@ -3,9 +3,25 @@
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
 
+*** Commit: ded292a1ce0675c439070e2e935bd7acd7cfee86 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:46:18
+
 *** Commit: 27d969cbec32dc5b0a7dc073a5354d13418d2aa4 ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Monday 30 April 2018 16:31:54
+
+*** Commit: 40b076c07edab0c7f5425aa6a0f4b7c9832ae987 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:22:18
+
+*** Commit: 73ae11a69bff5067f61a918b70ee364a94f3be91 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:14:39
+
+*** Commit: b07fc1558447af8133df0e6d7c5c0f94199ca6e0 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 22:22:39
 
 *** Commit: a12d47df6f014261a6abfaef36ad60aaa4d76809 ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
@@ -69,6 +85,64 @@
 
 
 <hr/>
+<a id="ServiceConnection_WolframCommunity" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## ServiceConnection_WolframCommunity
+
+*** Commit: ded292a1ce0675c439070e2e935bd7acd7cfee86 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:46:18
+
+*** Commit: fb4593a843afccb80a0d0c274f48a849d7c61c0d ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 22:22:18
+
+
+<hr/>
+<a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## PublicPacletServer
+
+*** Commit: 9527f4625e00454e660a0e3e5b68981dac024d1a ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:21:58
+
+*** Commit: e51edb7280fdd9c485b98ca903006c10653f935a ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:14:49
+
+*** Commit: 98b0c63f0faeae89d5d8d36654e000cc99bce075 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 22:24:09
+
+*** Commit: 705a1aa3a76a8ff05c9a771b6adced56f4563933 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 22:23:42
+
+*** Commit: 86e4c039ffea8f79120a409848914b41c7315a43 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:09:25
+
+*** Commit: 9dbf2f6a40d01a02e009ac6ea25dc2397a4be654 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:06:51
+
+*** Commit: 0bbac883c6abcd5d591470ecad421a91677808e1 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:04:53
+
+*** Commit: f205b3e1ce083ce4da4dfec4d2262000eba24542 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:03:03
+
+*** Commit: 02dd082b4e16ff7a9693bd8d6017984a5f095a1d ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:02:09
+
+*** Commit: cff9e836fe4dab109f96952484385a676eaac00b ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 15:06:51
+
+
+<hr/>
 <a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## IGraphM
 
@@ -107,35 +181,6 @@
 *** Commit: cd3de9a28690fd165706666d84a306ee14ba537a ***
 * Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
 * Date: Thursday 19 April 2018 11:27:02
-
-
-<hr/>
-<a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## PublicPacletServer
-
-*** Commit: 86e4c039ffea8f79120a409848914b41c7315a43 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:09:25
-
-*** Commit: 9dbf2f6a40d01a02e009ac6ea25dc2397a4be654 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:06:51
-
-*** Commit: 0bbac883c6abcd5d591470ecad421a91677808e1 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:04:53
-
-*** Commit: f205b3e1ce083ce4da4dfec4d2262000eba24542 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:03:03
-
-*** Commit: 02dd082b4e16ff7a9693bd8d6017984a5f095a1d ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:02:09
-
-*** Commit: cff9e836fe4dab109f96952484385a676eaac00b ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 15:06:51
 
 
 <hr/>
