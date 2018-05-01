@@ -5,16 +5,16 @@ Creator: Szabolcs Horvát <szhorvat@gmail.com>
 Description: IGraph/M – the igraph interface for Mathematica.
 DisplayName: IGraphM
 Extensions: <|Kernel -> <|Root -> ., Context -> IGraphM`|>, LibraryLink -> <||>, Documentation -> <|PacletManager`Private`MainPage -> Tutorials/IGDocumentation|>|>
-LastModified: 2018-04-30 23:44:57
+LastModified: 2018-05-01 10:55:25
 MathematicaVersion: 10.0+
-Modified: 2018-05-01 01:04:35
+Modified: 2018-05-01 10:55:54
 Name: IGraphM
 Slug: igraphm
 SystemID: MacOSX-x86-64,Windows-x86-64,Linux-x86-64
 Tags: 
 Thumbnail: Logo.png
 URL: http://szhorvat.net/mathematica/IGraphM
-Version: 0.3.99
+Version: 0.3.99.1
 
 <a id="igraphm" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -60,7 +60,7 @@ IGraphM
 
 ### Version
 
-0.3.99
+0.3.99.1
 
 ### Creator
 
