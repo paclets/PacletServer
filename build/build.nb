@@ -21,7 +21,7 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
- CellLabel->"In[8]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+ CellLabel->"In[91]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
 
 Cell[CellGroupData[{
 
@@ -51,10 +51,35 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
- CellLabel->"In[9]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+ CellLabel->"In[92]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Building pages..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[92]:=",ExpressionUUID->"fcce6342-dacd-4e28-a0a3-17734b5bfceb"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel[
+    TemplateApply["Generating ``", BTools`Web`Private`page]], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{205., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[92]:=",ExpressionUUID->"7c4f257d-4ac1-402f-8a4d-d2e7372a7693"]
+}, Open  ]]
+}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -326,3 +351,4 @@ FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
 2018)",
 StyleDefinitions->"Default.nb"
 ]
+

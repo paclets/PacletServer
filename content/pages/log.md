@@ -1,5 +1,14 @@
 # Git Commit Log
 
+<a id="CompoundMatrixMethod" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## CompoundMatrixMethod
+
+*** Commit: 667ee06c0ec7b62e37a54a18729fd49b9874a4b7 ***
+* Author:  Simon Pearce <simonppearce@btinternet.com>
+* Date: Tuesday 1 May 2018 19:43:49
+
+
+<hr/>
 <a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## IGraphM
 
