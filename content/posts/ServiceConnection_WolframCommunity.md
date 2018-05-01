@@ -1,25 +1,21 @@
-Title: ServiceConnection_NASA
-Authors: b3m2a1
+Title: ServiceConnection_WolframCommunity
+Authors: 
 Categories: ServiceConnections
-Creator: b3m2a1@gmail.com
-Description: A service connection to NASA's APIs
-DisplayName: NASA (ServiceConnection)
-Extensions: <|FrontEnd -> <|Prepend -> True, Prepend -> True|>|>
-Icon: FrontEnd/SystemResources/Bitmaps/nasa@2.png
-LastModified: 2018-01-13 21:22:45
+Description: A hacked-up ServiceConnection to the Wolfram Community website
+DisplayName: WolframCommunity (ServiceConnection)
+Extensions: <|FrontEnd -> <|Prepend -> True|>|>
+LastModified: 2018-05-01 01:04:28
 Modified: 2018-05-01 01:04:39
-Name: ServiceConnection_NASA
-Slug: serviceconnectionnasa
-Tags: web,serviceconnection,nasa
-Version: 1.0.1
+Name: ServiceConnection_WolframCommunity
+Slug: serviceconnectionwolframcommunity
+Tags: 
+Version: 1.0.3
 
-<a id="nasa-serviceconnection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="wolframcommunity-serviceconnection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-# NASA (ServiceConnection)
+# WolframCommunity (ServiceConnection)
 
-![ServiceConnection_NASA]({filename}/img/ServiceConnection_NASA/FrontEnd/SystemResources/Bitmaps/nasa%402.png)
-
-A service connection to NASA's APIs
+A hacked-up ServiceConnection to the Wolfram Community website
 
 ---
 
@@ -32,7 +28,7 @@ A service connection to NASA's APIs
 To install this paclet, run:
 
     PacletInstall[
-      "ServiceConnection_NASA",
+      "ServiceConnection_WolframCommunity",
       "Site"->
         "http://raw.githubusercontent.com/paclets/PacletServer/master"
       ]
@@ -53,15 +49,11 @@ Depending on what the current value of  ```$ContextPath```  is you may also need
 
 ### Name
 
-ServiceConnection_NASA
+ServiceConnection_WolframCommunity
 
 ### Version
 
-1.0.1
-
-### Creator
-
-[b3m2a1@gmail.com](mailto:b3m2a1@gmail.com)
+1.0.3
 
 ---
 
@@ -79,4 +71,4 @@ This package provides no extra information
 
 ### FrontEnd
 
-* Prepend: True
+* This extension has no extra parameters

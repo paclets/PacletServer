@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-  Categories | Mathematica Paclet Server
+  ServiceConnection_WolframCommunity | Mathematica Paclet Server
     </title>
 <link
       rel='apple-touch-icon'
@@ -71,8 +71,17 @@
   ga('create', 'UA-118356806-1', 'auto');
   ga('send', 'pageview');
 </script>
+      <meta name="description" content="">
+  <link href="https://paclets.github.io/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/prettify.js"></script>
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
+  <script>
+    function moveWindow (){window.location.hash="main-content";}
+  </script>
   </head>
-<body onload="">
+<body onload="
+  PR.prettyPrint(); moveWindow()
+">
   <header class="header">
     <div class="top-bar">
       <div class="site-title">
@@ -122,40 +131,70 @@
   <div class="main" id="main-content">
     <div class="main-content">
       <div class="container center-aligned">
-            <h3 class="page-header">
-  Categories
-            </h3>
         <br>
-  <table class="table table-bordered table-striped table-hover">
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/chemistry.html'>
-              Chemistry</a>
-          </td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/development.html'>
-              Development</a>
-          </td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/misc.html'>
-              misc</a>
-          </td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/serviceconnections.html'>
-              ServiceConnections</a>
-          </td>
-        <td>2</td>
-      </tr>
-  </table>
+  <article class="article center-aligned">
+    <div class="content">
+      <a shape='rect' id='wolframcommunity-serviceconnection' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h1> WolframCommunity (ServiceConnection)</h1>
+<p>A hacked-up ServiceConnection to the Wolfram Community website
+</p>
+<hr />
+<a shape='rect' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Install</h2>
+<p>
+ <strong>Before installing, be sure to check out the </strong>
+ <strong>
+  <a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a>
+ </strong>
+ <strong> to make sure that you trust the developer.</strong>
+</p>
+<p>To install this paclet, run:
+</p>
+<pre>
+ <code class='language-mathematica'>PacletInstall[
+  &quot;ServiceConnection_WolframCommunity&quot;,
+  &quot;Site&quot;-&gt;
+    &quot;http://raw.githubusercontent.com/paclets/PacletServer/master&quot;
+  ]</code>
+</pre>
+<p>Depending on what the current value of <code class='language-mathematica'>$ContextPath</code>  is you may also need to first run
+</p>
+<pre>
+ <code class='language-mathematica'>Needs[&quot;PacletManager`&quot;]</code>
+</pre>
+<ul>
+ <li>
+  <p>To update it, replace <code class='language-mathematica'>PacletInstall</code>  with <code class='language-mathematica'>PacletUpdate</code> .</p>
+ </li>
+ <li>
+  <p>To uninstall replace <code class='language-mathematica'>PacletInstall</code>  with <code class='language-mathematica'>PacletUninstall</code>  and remove the <code class='language-mathematica'>&quot;Site&quot;</code>  parameter.</p>
+ </li>
+</ul>
+<hr />
+<a shape='rect' id='basic-information' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Basic Information</h2>
+<h3> Name</h3>
+<p>ServiceConnection_WolframCommunity
+</p>
+<h3> Version</h3>
+<p>1.0.3
+</p>
+<hr />
+<a shape='rect' id='extra-information' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extra Information</h2>
+<p>This package provides no extra information
+</p>
+<hr />
+<a shape='rect' id='extensions' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extensions</h2>
+<h3> FrontEnd</h3>
+<ul>
+ <li>
+  <p>This extension has no extra parameters</p>
+ </li>
+</ul>
+    </div>
+  </article>
       </div>
     </div>
   </div>
