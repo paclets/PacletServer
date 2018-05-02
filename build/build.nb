@@ -206,16 +206,32 @@ Cell[BoxData[
     "\"\<Add\>\"", ",", " ", "\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], 
     "}"}], "]"}], ";"}]], "Input",
  CellLabel->
-  "In[105]:=",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"],
+  "In[107]:=",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Adding paclets..."], StandardForm],
+   Internal`LoadingPanel["Building pages..."], StandardForm],
   Evaluator->"Local",
   ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
  CellLabel->
   "During evaluation of \
-In[105]:=",ExpressionUUID->"1b3ce6d2-47e7-4866-b780-945d72b4790d"]
+In[107]:=",ExpressionUUID->"f5f6b457-9fb6-4065-a50c-7b5d6a393ef1"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   If[
+    StringQ[BTools`Paclets`Private`md], 
+    Internal`LoadingPanel[
+     TemplateApply["Generating ``", BTools`Paclets`Private`md]], ""], 
+   StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{0., {0., 6.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[107]:=",ExpressionUUID->"7cc4c49c-d4e8-40b8-b3cf-7f09c139d070"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -263,7 +279,7 @@ Cell[BoxData[
        RowBox[{"NotebookFileName", "[", "]"}], ",", " ", "2"}], "]"}], ",", 
      " ", "\"\<SiteConfig.wl\>\""}], "}"}]}]}]], "Input",
  CellLabel->
-  "In[103]:=",ExpressionUUID->"a57a573b-28c7-4d78-97fd-125325b75a69"],
+  "In[106]:=",ExpressionUUID->"a57a573b-28c7-4d78-97fd-125325b75a69"],
 
 Cell["So do that and then run:", "Text",
  CellChangeTimes->{{3.733429991902693*^9, 
