@@ -186,8 +186,7 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
   ";"}]], "Input",
- CellLabel->
-  "In[88]:=",ExpressionUUID->"39508e2c-da5d-46c7-be14-6be2a4d9daee"]
+ CellLabel->"In[102]:=",ExpressionUUID->"39508e2c-da5d-46c7-be14-6be2a4d9daee"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -251,7 +250,8 @@ Cell[BoxData[
       RowBox[{"DirectoryName", ",", " ", 
        RowBox[{"NotebookFileName", "[", "]"}], ",", " ", "2"}], "]"}], ",", 
      " ", "\"\<SiteConfig.wl\>\""}], "}"}]}]}]], "Input",
- CellLabel->"In[10]:=",ExpressionUUID->"a57a573b-28c7-4d78-97fd-125325b75a69"],
+ CellLabel->
+  "In[103]:=",ExpressionUUID->"a57a573b-28c7-4d78-97fd-125325b75a69"],
 
 Cell["So do that and then run:", "Text",
  CellChangeTimes->{{3.733429991902693*^9, 
@@ -306,11 +306,16 @@ Cell[BoxData[
     "\[IndentingNewLine]", 
     RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}]}], 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
+     RowBox[{"Now", "-", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"2", ",", " ", "\"\<Hours\>\""}], "]"}]}]}]}], 
    "\[IndentingNewLine]", "]"}], 
   ";"}]], "Input",ExpressionUUID->"13150e95-20db-45e4-b0e3-cfcf1c35b5dd"]
 }, Open  ]]
