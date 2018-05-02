@@ -17,13 +17,13 @@ anchor styles
 */
 
 a {
-  color: #333;
+  color: #bc3e4b;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #B1788A;
+  color: #bc3e4b;
 }
 
 a code {
@@ -43,7 +43,7 @@ blockquote styles
 */
 
 blockquote {
-  color: #818a91;
+  color: #333;
   font-style: italic;
 }
 
@@ -54,7 +54,7 @@ selection styles
 */
 
 ::selection {
-  background: #6082dd;
+  background: #d9f3f0;
   color: #fff;
   text-shadow: none;
 }
@@ -96,7 +96,7 @@ header styles
 
 .header a:focus,
 .header a:hover {
-  color: #B1788A;
+  color: #bc3e4b;
 }
 
 .header {
@@ -237,7 +237,7 @@ top-bar styles
 }
 
 .site-links a {
-  color: #B1788A;
+  color: #bc3e4b;
   display:inline-block;
   width: auto;
   height: 100%;
@@ -331,6 +331,7 @@ article .content h2 {
 
 article .content h3 {
   color: #B1788A;
+  margin-top: 10px;
 }
 
 
@@ -508,7 +509,7 @@ article styles
 
 .article .content a {
   text-decoration: underline;
-  color: #B1788A;
+  color: #bc3e4b;
 }
 
 /*

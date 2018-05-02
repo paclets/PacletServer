@@ -186,7 +186,7 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
   ";"}]], "Input",
- CellLabel->"In[102]:=",ExpressionUUID->"39508e2c-da5d-46c7-be14-6be2a4d9daee"]
+ CellLabel->"In[108]:=",ExpressionUUID->"39508e2c-da5d-46c7-be14-6be2a4d9daee"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -196,8 +196,6 @@ Cell["Do everything except for the push:", "Subsubsection",
   3.734186246848506*^9}},ExpressionUUID->"742108b4-929a-4a27-b459-\
 4179ecd724c6"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", 
@@ -205,8 +203,22 @@ Cell[BoxData[
     RowBox[{
     "\"\<Add\>\"", ",", " ", "\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], 
     "}"}], "]"}], ";"}]], "Input",
+ CellLabel->"In[107]:=",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Just Build and Push", \
+"Subsubsection",ExpressionUUID->"a8e1b643-ab5d-4d9c-87af-70504ac6fcb0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PublicPacletServerRebuild", "[", 
+  RowBox[{"{", 
+   RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Push\>\""}], "}"}], "]"}]], "Input",
  CellLabel->
-  "In[107]:=",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"],
+  "In[127]:=",ExpressionUUID->"f79e3563-6c15-4efb-9143-a5e5eadbb480"],
 
 Cell[CellGroupData[{
 
@@ -217,7 +229,7 @@ Cell[BoxData[
   ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
  CellLabel->
   "During evaluation of \
-In[107]:=",ExpressionUUID->"f5f6b457-9fb6-4065-a50c-7b5d6a393ef1"],
+In[127]:=",ExpressionUUID->"6daded20-48a1-4a72-afa5-bdfca09d59cc"],
 
 Cell[BoxData[
  DynamicBox[ToBoxes[
@@ -230,7 +242,7 @@ Cell[BoxData[
   ImageSizeCache->{0., {0., 6.}}]], "PrintTemporary",
  CellLabel->
   "During evaluation of \
-In[107]:=",ExpressionUUID->"7cc4c49c-d4e8-40b8-b3cf-7f09c139d070"]
+In[127]:=",ExpressionUUID->"fdc6efcb-f150-44a2-8f26-d250d6924568"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
