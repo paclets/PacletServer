@@ -196,6 +196,8 @@ Cell["Do everything except for the push:", "Subsubsection",
   3.734186246848506*^9}},ExpressionUUID->"742108b4-929a-4a27-b459-\
 4179ecd724c6"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", 
@@ -204,7 +206,17 @@ Cell[BoxData[
     "\"\<Add\>\"", ",", " ", "\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], 
     "}"}], "]"}], ";"}]], "Input",
  CellLabel->
-  "In[87]:=",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"]
+  "In[105]:=",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Adding paclets..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[105]:=",ExpressionUUID->"1b3ce6d2-47e7-4866-b780-945d72b4790d"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 

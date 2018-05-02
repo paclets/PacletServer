@@ -3,6 +3,10 @@
 <a id="CompoundMatrixMethod" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## CompoundMatrixMethod
 
+*** Commit: c6bfd655c827cb4b76506070027ecc8e01f79648 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Tuesday 1 May 2018 12:20:47
+
 *** Commit: 667ee06c0ec7b62e37a54a18729fd49b9874a4b7 ***
 * Author:  Simon Pearce <simonppearce@btinternet.com>
 * Date: Tuesday 1 May 2018 19:43:49
@@ -11,6 +15,10 @@
 <hr/>
 <a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## IGraphM
+
+*** Commit: c6bfd655c827cb4b76506070027ecc8e01f79648 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Tuesday 1 May 2018 12:20:47
 
 *** Commit: f453bd027e289371f74217bc37466193a45a312b ***
 * Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
