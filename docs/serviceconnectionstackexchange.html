@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="">
   <head>
@@ -8,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-  web Articles | Mathematica Paclet Server
+  ServiceConnection_StackExchange | Mathematica Paclet Server
     </title>
 <link
       rel='apple-touch-icon'
@@ -72,8 +71,17 @@
   ga('create', 'UA-118356806-1', 'auto');
   ga('send', 'pageview');
 </script>
+      <meta name="description" content="">
+  <link href="https://paclets.github.io/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/prettify.js"></script>
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
+  <script>
+    function moveWindow (){window.location.hash="main-content";}
+  </script>
   </head>
-<body onload="">
+<body onload="
+  PR.prettyPrint(); moveWindow()
+">
   <header class="header">
     <div class="top-bar">
       <div class="site-title">
@@ -123,83 +131,73 @@
   <div class="main" id="main-content">
     <div class="main-content">
       <div class="container center-aligned">
-            <h3 class="page-header">
-  Tagged: web
-            </h3>
         <br>
-  <h4 class="title">Paclet Listing</h4>
-  <hr>
-    <div class="paclet center-aligned">
-      <article class="teaser">
-          <h4 class="title">
-            <a
-              id='BTools'
-              href='https://paclets.github.io/PacletServer/btools.html'>
-                  BTools
-                <span style="color:gray;">
-                   &nbsp;v2.1.11
-                </span>
-            </a>
-            <br>
-            <a href='https://paclets.github.io/PacletServer/pages/log.html#BTools'>
-              <span style="font-size: 14px">
-                View Log
-              </span>
-            </a>
-          </h4>
-          <div class="content paclet-summary">
-                A general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing
-          </div>
-      </article>
+  <article class="article center-aligned">
+    <div class="content">
+      <a shape='rect' id='stackexchange-serviceconnection' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h1> StackExchange (ServiceConnection)</h1>
+<img src='https://paclets.github.io/PacletServer/img/ServiceConnection_StackExchange/FrontEnd/SystemResources/Bitmaps/stackexchange%402.png' alt='ServiceConnection_StackExchange' />
+<p>A service connection to the Stack Exchange API. Supports the majority of the functions defined in the API
+</p>
+<hr />
+<a shape='rect' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Install</h2>
+<p>
+ <strong>Before installing, be sure to check out the </strong>
+ <strong>
+  <a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a>
+ </strong>
+ <strong> to make sure that you trust the developer.</strong>
+</p>
+<p>To install this paclet, run:
+</p>
+<pre>
+ <code class='language-mathematica'>PacletInstall[
+  &quot;ServiceConnection_StackExchange&quot;,
+  &quot;Site&quot;-&gt;
+    &quot;http://raw.githubusercontent.com/paclets/PacletServer/master&quot;
+  ]</code>
+</pre>
+<p>Depending on what the current value of <code class='language-mathematica'>$ContextPath</code>  is you may also need to first run
+</p>
+<pre>
+ <code class='language-mathematica'>Needs[&quot;PacletManager`&quot;]</code>
+</pre>
+<ul>
+ <li>
+  <p>To update it, replace <code class='language-mathematica'>PacletInstall</code>  with <code class='language-mathematica'>PacletUpdate</code> .</p>
+ </li>
+ <li>
+  <p>To uninstall replace <code class='language-mathematica'>PacletInstall</code>  with <code class='language-mathematica'>PacletUninstall</code>  and remove the <code class='language-mathematica'>&quot;Site&quot;</code>  parameter.</p>
+ </li>
+</ul>
+<hr />
+<a shape='rect' id='basic-information' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Basic Information</h2>
+<h3> Name</h3>
+<p>ServiceConnection_StackExchange
+</p>
+<h3> Version</h3>
+<p>1.1.7
+</p>
+<h3> Creator</h3>
+<a href='mailto:b3m2a1@gmail.com'>b3m2a1@gmail.com</a>
+<hr />
+<a shape='rect' id='extra-information' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extra Information</h2>
+<p>This package provides no extra information
+</p>
+<hr />
+<a shape='rect' id='extensions' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extensions</h2>
+<h3> FrontEnd</h3>
+<ul>
+ <li>
+  <p>This extension has no extra parameters</p>
+ </li>
+</ul>
     </div>
-  <hr>
-    <div class="paclet center-aligned">
-      <article class="teaser">
-          <h4 class="title">
-            <a
-              id='ServiceConnection_NASA'
-              href='https://paclets.github.io/PacletServer/serviceconnectionnasa.html'>
-                  NASA (ServiceConnection)
-                <span style="color:gray;">
-                   &nbsp;v1.0.1
-                </span>
-            </a>
-            <br>
-            <a href='https://paclets.github.io/PacletServer/pages/log.html#ServiceConnection_NASA'>
-              <span style="font-size: 14px">
-                View Log
-              </span>
-            </a>
-          </h4>
-          <div class="content paclet-summary">
-                A service connection to NASA's APIs
-          </div>
-      </article>
-    </div>
-  <hr>
-    <div class="paclet center-aligned">
-      <article class="teaser">
-          <h4 class="title">
-            <a
-              id='ServiceConnection_StackExchange'
-              href='https://paclets.github.io/PacletServer/serviceconnectionstackexchange.html'>
-                  StackExchange (ServiceConnection)
-                <span style="color:gray;">
-                   &nbsp;v1.1.7
-                </span>
-            </a>
-            <br>
-            <a href='https://paclets.github.io/PacletServer/pages/log.html#ServiceConnection_StackExchange'>
-              <span style="font-size: 14px">
-                View Log
-              </span>
-            </a>
-          </h4>
-          <div class="content paclet-summary">
-                A service connection to the Stack Exchange API. Supports the majority of the functions defined in the API
-          </div>
-      </article>
-    </div>
+  </article>
       </div>
     </div>
   </div>
