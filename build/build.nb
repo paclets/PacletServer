@@ -220,30 +220,17 @@ Cell[BoxData[
  CellLabel->
   "In[127]:=",ExpressionUUID->"f79e3563-6c15-4efb-9143-a5e5eadbb480"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Building pages..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[127]:=",ExpressionUUID->"6daded20-48a1-4a72-afa5-bdfca09d59cc"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   If[
-    StringQ[BTools`Paclets`Private`md], 
-    Internal`LoadingPanel[
-     TemplateApply["Generating ``", BTools`Paclets`Private`md]], ""], 
-   StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{0., {0., 6.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[127]:=",ExpressionUUID->"fdc6efcb-f150-44a2-8f26-d250d6924568"]
-}, Open  ]]
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Build\"\>", 
+    "\[Rule]", "\<\"/Users/Mark/Documents/GitHub/PacletServer/docs\"\>"}], 
+   ",", 
+   RowBox[{"\<\"Push\"\>", 
+    "\[Rule]", "\<\"To https://github.com/paclets/PacletServer.git\\n   \
+3d84937..ffad046  master -> master\"\>"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellLabel->"Out[127]=",ExpressionUUID->"23acb9a4-2074-4df2-b6a4-f19be19fb255"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
