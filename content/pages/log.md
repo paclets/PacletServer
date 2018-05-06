@@ -1,7 +1,151 @@
 # Git Commit Log
 
+<a id="CompoundMatrixMethod" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## CompoundMatrixMethod
+
+*** Commit: c6bfd655c827cb4b76506070027ecc8e01f79648 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Tuesday 1 May 2018 12:20:47
+
+*** Commit: 667ee06c0ec7b62e37a54a18729fd49b9874a4b7 ***
+* Author:  Simon Pearce <simonppearce@btinternet.com>
+* Date: Tuesday 1 May 2018 19:43:49
+
+
+<hr/>
+<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## IGraphM
+
+*** Commit: c6bfd655c827cb4b76506070027ecc8e01f79648 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Tuesday 1 May 2018 12:20:47
+
+*** Commit: f453bd027e289371f74217bc37466193a45a312b ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Tuesday 1 May 2018 15:54:21
+
+*** Commit: 9b630571eebac037f2b91f04f8c9f5edd2e71f48 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 15:49:56
+
+*** Commit: 5052eb83b599f5962eb608d465885524adc21c8b ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 11:21:21
+
+*** Commit: 567e55ecae5267158cf7da0f2885606602993756 ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Monday 30 April 2018 22:00:08
+
+*** Commit: 420f12677be28b1b3e9cfca713f93fe2f1e00541 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 12:48:44
+
+*** Commit: cb348ed6570f213c18e98efac2b9dc99332341ba ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Thursday 19 April 2018 13:35:04
+
+*** Commit: db393ee05464e7027fbf7a70dab28b98b3c9b693 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 10:58:08
+
+*** Commit: 6aab8a8234553d51c6fdafec79c68c36508e4cfd ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Saturday 28 April 2018 16:01:32
+
+*** Commit: adfd8a3d33b5bf83e57e9a6ad549d7797d794cca ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Thursday 19 April 2018 13:33:38
+
+*** Commit: cd3de9a28690fd165706666d84a306ee14ba537a ***
+* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
+* Date: Thursday 19 April 2018 11:27:02
+
+
+<hr/>
+<a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## PublicPacletServer
+
+*** Commit: 1d1703bfff429f5d1a02cfdfa5b30fc71768daed ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Tuesday 1 May 2018 01:10:33
+
+*** Commit: 7cd3beb6c2e28543b7462d39b3f06194ee7f7a72 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:47:11
+
+*** Commit: 9527f4625e00454e660a0e3e5b68981dac024d1a ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:21:58
+
+*** Commit: e51edb7280fdd9c485b98ca903006c10653f935a ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:14:49
+
+*** Commit: 98b0c63f0faeae89d5d8d36654e000cc99bce075 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 22:24:09
+
+*** Commit: 705a1aa3a76a8ff05c9a771b6adced56f4563933 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 22:23:42
+
+*** Commit: 86e4c039ffea8f79120a409848914b41c7315a43 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:09:25
+
+*** Commit: 9dbf2f6a40d01a02e009ac6ea25dc2397a4be654 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:06:51
+
+*** Commit: 0bbac883c6abcd5d591470ecad421a91677808e1 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:04:53
+
+*** Commit: f205b3e1ce083ce4da4dfec4d2262000eba24542 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:03:03
+
+*** Commit: 02dd082b4e16ff7a9693bd8d6017984a5f095a1d ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 16:02:09
+
+*** Commit: cff9e836fe4dab109f96952484385a676eaac00b ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Saturday 28 April 2018 15:06:51
+
+
+<hr/>
+<a id="ServiceConnection_WolframCommunity" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## ServiceConnection_WolframCommunity
+
+*** Commit: 0d9b8313537fe59cb275da0be70a65d351d57343 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Tuesday 1 May 2018 01:05:19
+
+*** Commit: d7e9e402a32d3c772d50beaa620b108433426e82 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Tuesday 1 May 2018 00:02:44
+
+*** Commit: ded292a1ce0675c439070e2e935bd7acd7cfee86 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:46:18
+
+*** Commit: fb4593a843afccb80a0d0c274f48a849d7c61c0d ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 22:22:18
+
+
+<hr/>
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Commit: fb83899b69a7e06757397a48e512dd8ff356385a ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Tuesday 1 May 2018 00:44:22
+
+*** Commit: 7cd3beb6c2e28543b7462d39b3f06194ee7f7a72 ***
+* Author:  b3m2a1 <b3m2a1@gmail.com>
+* Date: Monday 30 April 2018 23:47:11
 
 *** Commit: ded292a1ce0675c439070e2e935bd7acd7cfee86 ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
@@ -82,105 +226,6 @@
 *** Commit: cb348ed6570f213c18e98efac2b9dc99332341ba ***
 * Author:  b3m2a1 <b3m2a1@gmail.com>
 * Date: Thursday 19 April 2018 13:35:04
-
-
-<hr/>
-<a id="ServiceConnection_WolframCommunity" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## ServiceConnection_WolframCommunity
-
-*** Commit: ded292a1ce0675c439070e2e935bd7acd7cfee86 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Monday 30 April 2018 23:46:18
-
-*** Commit: fb4593a843afccb80a0d0c274f48a849d7c61c0d ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Monday 30 April 2018 22:22:18
-
-
-<hr/>
-<a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## PublicPacletServer
-
-*** Commit: 9527f4625e00454e660a0e3e5b68981dac024d1a ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Monday 30 April 2018 23:21:58
-
-*** Commit: e51edb7280fdd9c485b98ca903006c10653f935a ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Monday 30 April 2018 23:14:49
-
-*** Commit: 98b0c63f0faeae89d5d8d36654e000cc99bce075 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Monday 30 April 2018 22:24:09
-
-*** Commit: 705a1aa3a76a8ff05c9a771b6adced56f4563933 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Monday 30 April 2018 22:23:42
-
-*** Commit: 86e4c039ffea8f79120a409848914b41c7315a43 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:09:25
-
-*** Commit: 9dbf2f6a40d01a02e009ac6ea25dc2397a4be654 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:06:51
-
-*** Commit: 0bbac883c6abcd5d591470ecad421a91677808e1 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:04:53
-
-*** Commit: f205b3e1ce083ce4da4dfec4d2262000eba24542 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:03:03
-
-*** Commit: 02dd082b4e16ff7a9693bd8d6017984a5f095a1d ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 16:02:09
-
-*** Commit: cff9e836fe4dab109f96952484385a676eaac00b ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 15:06:51
-
-
-<hr/>
-<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## IGraphM
-
-*** Commit: 9b630571eebac037f2b91f04f8c9f5edd2e71f48 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Monday 30 April 2018 15:49:56
-
-*** Commit: 5052eb83b599f5962eb608d465885524adc21c8b ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 11:21:21
-
-*** Commit: 567e55ecae5267158cf7da0f2885606602993756 ***
-* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
-* Date: Monday 30 April 2018 22:00:08
-
-*** Commit: 420f12677be28b1b3e9cfca713f93fe2f1e00541 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 12:48:44
-
-*** Commit: cb348ed6570f213c18e98efac2b9dc99332341ba ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Thursday 19 April 2018 13:35:04
-
-*** Commit: db393ee05464e7027fbf7a70dab28b98b3c9b693 ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Saturday 28 April 2018 10:58:08
-
-*** Commit: 6aab8a8234553d51c6fdafec79c68c36508e4cfd ***
-* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
-* Date: Saturday 28 April 2018 16:01:32
-
-*** Commit: adfd8a3d33b5bf83e57e9a6ad549d7797d794cca ***
-* Author:  b3m2a1 <b3m2a1@gmail.com>
-* Date: Thursday 19 April 2018 13:33:38
-
-*** Commit: cd3de9a28690fd165706666d84a306ee14ba537a ***
-* Author:  Szabolcs HorvaÌt <szhorvat@gmail.com>
-* Date: Thursday 19 April 2018 11:27:02
 
 
 <hr/>

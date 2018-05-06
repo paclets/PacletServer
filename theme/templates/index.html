@@ -76,12 +76,16 @@ This generates the index.html page
               </wolfram:if>
             </a>
             <br>
-            <a href='<wolfram:slot id="SiteURL"/>/pages/install.html?paclet=<wolfram:expr>#IndexItem["Name"]</wolfram:expr>'>
-              <span style="font-size: 14px">
-                Install
-              </span>
-            </a>
-            <span style="font-size: 14px; color:gray;">|</span>
+            <wolfram:comment>
+              Stripping this out because install was moved
+
+              <a href='<wolfram:slot id="SiteURL"/>/pages/install.html?paclet=<wolfram:expr>#IndexItem["Name"]</wolfram:expr>'>
+                <span style="font-size: 14px">
+                  Install
+                </span>
+              </a>
+              <span style="font-size: 14px; color:gray;">|</span>
+            </wolfram:comment>
             <a href='<wolfram:slot id="SiteURL"/>/pages/log.html#<wolfram:expr>#IndexItem["Name"]</wolfram:expr>'>
               <span style="font-size: 14px">
                 View Log

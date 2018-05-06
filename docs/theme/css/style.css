@@ -17,13 +17,13 @@ anchor styles
 */
 
 a {
-  color: #333;
+  color: #bc3e4b;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #B1788A;
+  color: #bc3e4b;
 }
 
 a code {
@@ -43,7 +43,7 @@ blockquote styles
 */
 
 blockquote {
-  color: #818a91;
+  color: #333;
   font-style: italic;
 }
 
@@ -54,7 +54,7 @@ selection styles
 */
 
 ::selection {
-  background: #6082dd;
+  background: #d9f3f0;
   color: #fff;
   text-shadow: none;
 }
@@ -96,11 +96,11 @@ header styles
 
 .header a:focus,
 .header a:hover {
-  color: #B1788A;
+  color: #bc3e4b;
 }
 
 .header {
-  height: 150px;
+  height: 120px;
 }
 
 .header img {
@@ -184,14 +184,15 @@ top-bar styles
   width: 100%;
   max-width: none;
   border-bottom: 1px solid rgba(0,0,0,.1);
-  padding-top: 15px;
+  padding-top: 5px;
   background-image: url(../img/mma-se-bg.png);
   background-repeat: repeat-x;
   color: white;
 }
 
 .top-bar .title {
-  margin-left: 25px;
+  margin: 0px 25px 0px 25px;
+  width: auto;
 }
 
 
@@ -215,30 +216,35 @@ top-bar styles
 }
 
 .site-title {
-  height: 90px;
-  width: 100%;
+  height: 105px;
+  width: auto;
   padding: .5rem 0 .5rem .5rem;
-
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .site-links {
   background-color: white;
+  width: auto;
   height: 45px;
-  width: 100%;
-  border: solid 1px rgba(128,128,128,.5);
+  min-height: 45px;
+  border: solid 1px rgba(128,128,128,.3);
+  margin: 5px 25px 5px 25px;
   padding: 0 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
 }
 
 .site-links a {
-  color: #B1788A;
+  color: #bc3e4b;
   display:inline-block;
-  width: 100%;
+  width: auto;
   height: 100%;
   text-align: center;
   padding: 10px 15px 5px 15px;
   border-right: .5px solid rgba(128,128,128,.3);
   border-left: .5px solid rgba(128,128,128,.3);
-  margin: 0;
 }
 
 .site-links a:hover {
@@ -250,13 +256,17 @@ top-bar styles
 
 .site-links .list-inline {
   height: 100%;
-  text-align: left;
-  margin: 0 0 0 25px;
+  text-align: center;
+  margin: 0 auto 0 auto;
 }
 
-.site-links .list-inline-item {
-  margin: 0 0 0 -5px;
+.site-links .list-inline-item{
   height: 100%;
+  margin: 0 -5px 0 0;
+}
+
+.site-links .list-inline-item:last-child {
+  margin: 0;
 }
 
 /*
@@ -321,6 +331,7 @@ article .content h2 {
 
 article .content h3 {
   color: #B1788A;
+  margin-top: 10px;
 }
 
 
@@ -352,7 +363,7 @@ misc styles
 */
 
 .center-aligned {
-  margin-left: 15;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -489,18 +500,16 @@ article styles
 
 .article .content {
   background: white;
-  width: 80%;
+  width: 100%;
   height: 100%;
   border-radius: 5px;
   padding: 15px 25px;
-  margin-left: 25;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 25px auto;
 }
 
 .article .content a {
   text-decoration: underline;
-  color: #B1788A;
+  color: #bc3e4b;
 }
 
 /*
@@ -510,18 +519,37 @@ media specifications
 */
 
 
-@media (min-width: 576px) {
+@media (min-width: 585px) {
   .header .title {
     font-size: 3rem;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 585px) {
 
-  .right-bar {
-    width: 0px;
-    min-width: 0px;
+  .header .title {
+    font-size: 45px;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    }
+
+  .site-links {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    width: 95%;
+    border-radius: 5px;
+    }
+
+  .paclet {
+    font-size: 14
   }
+
+  .site-links a {
+      width: 100%;
+      padding: 10px auto 5px auto;
+    }
 
   .header,
   .footer {
@@ -535,4 +563,39 @@ media specifications
   .teaser header li:not(:last-child) {
     margin-right: 10px;
   }
+
 }
+
+@media (max-width: 500px) {
+
+    .header .title {
+      font-size: 35px;
+      margin: 0px auto 0px auto;
+      padding: 0px;
+      }
+
+    .site-links a {
+        width: 100%;
+        padding: 10px 8px 5px 8px;
+      }
+
+  }
+
+  @media (max-device-width: 400px) {
+
+    .header .title {
+      font-size: 25px;
+      margin: 0px auto 0px auto;
+      padding: 0px;
+      }
+
+    .site-links {
+      font-size: 12px;
+      margin: 0px;
+      padding: 0px;
+      float: none;
+      width: 95%;
+      border-radius: 5px;
+      }
+
+    }
