@@ -4,9 +4,9 @@ Categories: misc
 Creator: info@c3m.si
 Description: Utilities for importing FEM meshes from other software.
 DisplayName: ImportMesh
-Extensions: <|Kernel -> <|Root -> ., Context -> {ImportMesh`}|>, PacletServer -> <|PacletManager`Private`Tags -> {finite-elements, mesh, import}, PacletManager`Private`Categories -> {FEM}|>|>
+Extensions: <|Kernel -> <|Root -> ., Context -> {ImportMesh`}|>, PacletServer -> <|Tags -> {finite-elements, mesh, import}, Categories -> {FEM}|>|>
 LastModified: 2018-05-08 12:19:58
-Modified: 2018-05-08 12:20:54
+Modified: 2018-05-08 14:50:09
 Name: ImportMesh
 Publisher: C3M d.o.o.
 Slug: importmesh
@@ -14,8 +14,8 @@ Tags:
 URL: https://github.com/c3m-labs/ImportMesh
 Version: 0.3.1
 WolframVersion: 11.+
-StringJoin[Categories, : FEM]
-StringJoin[Tags, : finite-elements,mesh,import]
+Categories: FEM
+Tags: finite-elements,mesh,import
 
 <a id="importmesh" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
