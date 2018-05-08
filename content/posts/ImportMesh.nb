@@ -1,0 +1,444 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     16020,        435]
+NotebookOptionsPosition[      7693,        262]
+NotebookOutlinePosition[     12130,        363]
+CellTagsIndexPosition[     11643,        343]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<ImportMesh\>\""}], ",", 
+   RowBox[{"\"\<Categories\>\"", "\[Rule]", "\"\<misc\>\""}], ",", 
+   RowBox[{"\"\<Slug\>\"", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\"\<Authors\>\"", "\[Rule]", 
+    RowBox[{"{", "\"\<info\>\"", "}"}]}], ",", 
+   RowBox[{"\"\<Tags\>\"", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\"\<Creator\>\"", "\[Rule]", "\"\<info@c3m.si\>\""}], ",", 
+   RowBox[{
+   "\"\<Description\>\"", "\[Rule]", 
+    "\"\<Utilities for importing FEM meshes from other software.\>\""}], ",", 
+   
+   RowBox[{"\"\<Extensions\>\"", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{
+      RowBox[{"\"\<Kernel\>\"", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"Root", "\[Rule]", "\"\<.\>\""}], ",", 
+         RowBox[{"Context", "\[Rule]", 
+          RowBox[{"{", "\"\<ImportMesh`\>\"", "}"}]}]}], 
+        "\[RightAssociation]"}]}], ",", 
+      RowBox[{"\"\<PacletServer\>\"", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"PacletManager`Private`Tags", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{
+           "\"\<finite-elements\>\"", ",", "\"\<mesh\>\"", ",", 
+            "\"\<import\>\""}], "}"}]}], ",", 
+         RowBox[{"PacletManager`Private`Categories", "\[Rule]", 
+          RowBox[{"{", "\"\<FEM\>\"", "}"}]}]}], "\[RightAssociation]"}]}]}], 
+     "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\"\<Name\>\"", "\[Rule]", "\"\<ImportMesh\>\""}], ",", 
+   RowBox[{"\"\<Publisher\>\"", "\[Rule]", "\"\<C3M d.o.o.\>\""}], ",", 
+   RowBox[{
+   "\"\<URL\>\"", "\[Rule]", 
+    "\"\<https://github.com/c3m-labs/ImportMesh\>\""}], ",", 
+   RowBox[{"\"\<Version\>\"", "\[Rule]", "\"\<0.3.1\>\""}], ",", 
+   RowBox[{"\"\<WolframVersion\>\"", "\[Rule]", "\"\<11.+\>\""}], ",", 
+   RowBox[{"PacletManager`Private`Tags", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<finite-elements\>\"", ",", "\"\<mesh\>\"", ",", "\"\<import\>\""}], 
+     "}"}]}], ",", 
+   RowBox[{"PacletManager`Private`Categories", "\[Rule]", 
+    RowBox[{"{", "\"\<FEM\>\"", "}"}]}], ",", 
+   RowBox[{"\"\<DisplayName\>\"", "\[Rule]", "\"\<ImportMesh\>\""}], ",", 
+   RowBox[{"\"\<LastModified\>\"", "\[Rule]", 
+    TemplateBox[{RowBox[{"\"Tue 8 May 2018 12:19:58\"", 
+        StyleBox[
+         RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+           StyleBox[
+            RowBox[{"-", "7.`"}], NumberMarks -> False, StripOnInput -> 
+            False]}], FontColor -> GrayLevel[0.5]]}],
+      RowBox[{"DateObject", "[", 
+        RowBox[{
+          RowBox[{"{", 
+            
+            RowBox[{"2018", ",", "5", ",", "8", ",", "12", ",", "19", ",", 
+              "58.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+          
+          RowBox[{"-", "7.`"}]}], "]"}]},
+     "DateObject",
+     Editable->False]}]}], "\[RightAssociation]"}]], "Metadata",
+ CellTags->"Metadata"],
+
+Cell[CellGroupData[{
+
+Cell["ImportMesh", "Section",
+ CellTags->"PacletName"],
+
+Cell["Utilities for importing FEM meshes from other software.", "Text",
+ CellTags->"DescriptionText"]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Install", "Subsection",
+ CellChangeTimes->{{3.734109986099271*^9, 3.73410998692136*^9}},
+ CellTags->"Installation"],
+
+Cell[TextData[{
+ StyleBox["Before installing, be sure to check out the ",
+  FontWeight->"Bold"],
+ StyleBox[ButtonBox["Change Log",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://paclets.github.io/PacletServer/pages/log.html"], None},
+  ButtonNote->"https://paclets.github.io/PacletServer/pages/log.html"],
+  FontWeight->"Bold"],
+ StyleBox[" to make sure that you trust the developer.",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{
+  3.733539343957526*^9, {3.734110049819099*^9, 3.734110052200994*^9}}],
+
+Cell["To install this paclet, run:", "Text",
+ CellChangeTimes->{{3.734109988289577*^9, 3.7341099944031897`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"PacletInstall", "[", "\n", "\t", 
+  RowBox[{Cell[BoxData["\"\<ImportMesh\>\""], "Text",
+    CellTags->"PacletNameString"], ",", "\n", "\t", 
+   RowBox[{
+   "\"\<Site\>\"", "\[Rule]", "\n", "\t\t", 
+    "\"\<http://raw.githubusercontent.com/paclets/PacletServer/master\>\""}]}]\
+, "\n", "\t", "]"}]], "Code",
+ CellChangeTimes->{{3.734109996462371*^9, 3.734110086704522*^9}, {
+  3.7341103314548597`*^9, 3.734110334083228*^9}, {3.734110504745276*^9, 
+  3.734110509506034*^9}, {3.7341173157894382`*^9, 3.7341173420157022`*^9}, {
+  3.734117550267846*^9, 3.734117569320335*^9}, {3.734117656794383*^9, 
+  3.734117657486534*^9}}],
+
+Cell[TextData[{
+ "Depending on what the current value of ",
+ Cell[BoxData["$ContextPath"], "InlineInput"],
+ " is you may also need to first run"
+}], "Text",
+ CellChangeTimes->{{3.7341173449513597`*^9, 3.734117390719006*^9}, {
+  3.734117520132193*^9, 3.734117539975576*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}]], "Code",
+ CellChangeTimes->{{3.7341175227443247`*^9, 3.734117523793272*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "To update it, replace ",
+ Cell[BoxData["PacletInstall"], "InlineInput"],
+ " with ",
+ Cell[BoxData["PacletUpdate"], "InlineInput"],
+ ". "
+}], "Item",
+ CellChangeTimes->{{3.733150419236821*^9, 3.733150504710637*^9}}],
+
+Cell[TextData[{
+ "To uninstall replace ",
+ Cell[BoxData["PacletInstall"], "InlineInput"],
+ " with ",
+ Cell[BoxData["PacletUninstall"], "InlineInput"],
+ " and remove the ",
+ Cell[BoxData["\"\<Site\>\""], "InlineInput"],
+ " parameter."
+}], "Item",
+ CellChangeTimes->{{3.733150419236821*^9, 3.733150515558354*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Information", "Subsection",
+ CellTags->"BasicInformation"],
+
+Cell[CellGroupData[{
+
+Cell["Name", "Subsubsection",
+ CellTags->{"Info", "Name"}],
+
+Cell["ImportMesh", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Version", "Subsubsection",
+ CellTags->{"Info", "Version"}],
+
+Cell["0.3.1", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Creator", "Subsubsection",
+ CellTags->{"Info", "Creator"}],
+
+Cell["[info@c3m.si](mailto:info@c3m.si)", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["URL", "Subsubsection",
+ CellTags->{"Info", "URL"}],
+
+Cell["\<\
+[https://github.com/c3m-labs/ImportMesh](https://github.com/c3m-labs/\
+ImportMesh)\
+\>", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Publisher", "Subsubsection",
+ CellTags->{"Info", "Publisher"}],
+
+Cell["C3M d.o.o.", "Text"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extra Information", "Subsection",
+ CellTags->"ExtraInformation"],
+
+Cell[CellGroupData[{
+
+Cell["WolframVersion", "Subsubsection",
+ CellTags->{"Info", "WolframVersion"}],
+
+Cell["11.+", "Text"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extensions", "Subsection",
+ CellTags->"Extensions"],
+
+Cell[CellGroupData[{
+
+Cell["Kernel", "Subsubsection",
+ CellTags->{"Info", "Kernel"}],
+
+Cell["Root: .", "Item",
+ CellTags->{"Info", "Line"}],
+
+Cell["Context: ImportMesh`", "Item",
+ CellTags->{"Info", "Line"}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 167}, {Automatic, 34}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Metadata"->{
+  Cell[558, 20, 2980, 68, 70, "Metadata",ExpressionUUID->"de9b1fb6-1ff9-422e-9582-bafd58cbda79",
+   CellTags->"Metadata"]},
+ "PacletName"->{
+  Cell[3563, 92, 54, 1, 70, "Section",ExpressionUUID->"5d6bad20-6208-41b1-8e8f-d24cbead4321",
+   CellTags->"PacletName"]},
+ "DescriptionText"->{
+  Cell[3620, 95, 101, 1, 70, "Text",ExpressionUUID->"4597f839-9077-459e-b916-1e0952310dcf",
+   CellTags->"DescriptionText"]},
+ "Installation"->{
+  Cell[3782, 103, 121, 2, 70, "Subsection",ExpressionUUID->"a9c3bb67-086c-408f-a219-d66091aa6a4b",
+   CellTags->"Installation"]},
+ "BasicInformation"->{
+  Cell[6260, 179, 70, 1, 70, "Subsection",ExpressionUUID->"84253b3b-13b8-484b-861b-eca69421a21b",
+   CellTags->"BasicInformation"]},
+ "Info"->{
+  Cell[6355, 184, 58, 1, 70, "Subsubsection",ExpressionUUID->"7953ad34-e3d4-4fcd-8904-9d47da139916",
+   CellTags->{"Info", "Name"}],
+  Cell[6479, 192, 64, 1, 70, "Subsubsection",ExpressionUUID->"d35fc674-9b56-4b64-a593-d4664b9d4022",
+   CellTags->{"Info", "Version"}],
+  Cell[6604, 200, 64, 1, 70, "Subsubsection",ExpressionUUID->"a9799062-67f6-4ee7-84de-8bcb8d46fd76",
+   CellTags->{"Info", "Creator"}],
+  Cell[6757, 208, 56, 1, 70, "Subsubsection",ExpressionUUID->"c1eec572-4245-498b-b4ca-086da576efa7",
+   CellTags->{"Info", "URL"}],
+  Cell[6959, 219, 68, 1, 70, "Subsubsection",ExpressionUUID->"8ae2b275-e0ed-4f30-8b19-f43db360cba9",
+   CellTags->{"Info", "Publisher"}],
+  Cell[7224, 235, 78, 1, 70, "Subsubsection",ExpressionUUID->"cd3b15f6-d5a3-4106-9d77-23c73ebee744",
+   CellTags->{"Info", "WolframVersion"}],
+  Cell[7480, 251, 62, 1, 70, "Subsubsection",ExpressionUUID->"ddc43a55-f7af-401f-a9fa-e508d2c1a20f",
+   CellTags->{"Info", "Kernel"}],
+  Cell[7545, 254, 52, 1, 70, "Item",ExpressionUUID->"396db7df-103d-4d29-9697-5a61a583dfe6",
+   CellTags->{"Info", "Line"}],
+  Cell[7600, 257, 65, 1, 70, "Item",ExpressionUUID->"31b19b51-d939-4caa-bc4e-04169dc2a58f",
+   CellTags->{"Info", "Line"}]},
+ "Name"->{
+  Cell[6355, 184, 58, 1, 70, "Subsubsection",ExpressionUUID->"7953ad34-e3d4-4fcd-8904-9d47da139916",
+   CellTags->{"Info", "Name"}]},
+ "Version"->{
+  Cell[6479, 192, 64, 1, 70, "Subsubsection",ExpressionUUID->"d35fc674-9b56-4b64-a593-d4664b9d4022",
+   CellTags->{"Info", "Version"}]},
+ "Creator"->{
+  Cell[6604, 200, 64, 1, 70, "Subsubsection",ExpressionUUID->"a9799062-67f6-4ee7-84de-8bcb8d46fd76",
+   CellTags->{"Info", "Creator"}]},
+ "URL"->{
+  Cell[6757, 208, 56, 1, 70, "Subsubsection",ExpressionUUID->"c1eec572-4245-498b-b4ca-086da576efa7",
+   CellTags->{"Info", "URL"}]},
+ "Publisher"->{
+  Cell[6959, 219, 68, 1, 70, "Subsubsection",ExpressionUUID->"8ae2b275-e0ed-4f30-8b19-f43db360cba9",
+   CellTags->{"Info", "Publisher"}]},
+ "ExtraInformation"->{
+  Cell[7129, 230, 70, 1, 70, "Subsection",ExpressionUUID->"24050502-63b8-4df1-a547-884a8383b5cb",
+   CellTags->"ExtraInformation"]},
+ "WolframVersion"->{
+  Cell[7224, 235, 78, 1, 70, "Subsubsection",ExpressionUUID->"cd3b15f6-d5a3-4106-9d77-23c73ebee744",
+   CellTags->{"Info", "WolframVersion"}]},
+ "Extensions"->{
+  Cell[7398, 246, 57, 1, 70, "Subsection",ExpressionUUID->"b03bb929-534e-4b89-bc7d-24373f3ecfc0",
+   CellTags->"Extensions"]},
+ "Kernel"->{
+  Cell[7480, 251, 62, 1, 70, "Subsubsection",ExpressionUUID->"ddc43a55-f7af-401f-a9fa-e508d2c1a20f",
+   CellTags->{"Info", "Kernel"}]},
+ "Line"->{
+  Cell[7545, 254, 52, 1, 70, "Item",ExpressionUUID->"396db7df-103d-4d29-9697-5a61a583dfe6",
+   CellTags->{"Info", "Line"}],
+  Cell[7600, 257, 65, 1, 70, "Item",ExpressionUUID->"31b19b51-d939-4caa-bc4e-04169dc2a58f",
+   CellTags->{"Info", "Line"}]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Metadata", 8071, 274},
+ {"PacletName", 8212, 277},
+ {"DescriptionText", 8357, 280},
+ {"Installation", 8502, 283},
+ {"BasicInformation", 8655, 286},
+ {"Info", 8799, 289},
+ {"Name", 10012, 308},
+ {"Version", 10160, 311},
+ {"Creator", 10311, 314},
+ {"URL", 10458, 317},
+ {"Publisher", 10607, 320},
+ {"ExtraInformation", 10769, 323},
+ {"WolframVersion", 10923, 326},
+ {"Extensions", 11084, 329},
+ {"Kernel", 11224, 332},
+ {"Line", 11371, 335}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2980, 68, 70, "Metadata",ExpressionUUID->"de9b1fb6-1ff9-422e-9582-bafd58cbda79",
+ CellTags->"Metadata"],
+Cell[CellGroupData[{
+Cell[3563, 92, 54, 1, 70, "Section",ExpressionUUID->"5d6bad20-6208-41b1-8e8f-d24cbead4321",
+ CellTags->"PacletName"],
+Cell[3620, 95, 101, 1, 70, "Text",ExpressionUUID->"4597f839-9077-459e-b916-1e0952310dcf",
+ CellTags->"DescriptionText"]
+}, Open  ]],
+Cell[3736, 99, 21, 0, 70, "PageBreak",ExpressionUUID->"46b06d08-8b31-400f-9bd6-bdf80b2ba986"],
+Cell[CellGroupData[{
+Cell[3782, 103, 121, 2, 70, "Subsection",ExpressionUUID->"a9c3bb67-086c-408f-a219-d66091aa6a4b",
+ CellTags->"Installation"],
+Cell[3906, 107, 522, 13, 70, "Text",ExpressionUUID->"23153c9e-318c-4ca2-b851-534d55053ca9"],
+Cell[4431, 122, 112, 1, 70, "Text",ExpressionUUID->"44874b26-f3ca-43e2-9580-9bf20993ace2"],
+Cell[4546, 125, 645, 12, 70, "Code",ExpressionUUID->"7c74680f-3840-4903-9729-3869092bd722"],
+Cell[5194, 139, 273, 6, 70, "Text",ExpressionUUID->"f5e01b6b-8f05-4f7f-bd0b-4246800ec823"],
+Cell[5470, 147, 146, 2, 70, "Code",ExpressionUUID->"a031bc18-1741-48dc-b10e-f6e770858ce4"],
+Cell[CellGroupData[{
+Cell[5641, 153, 232, 7, 70, "Item",ExpressionUUID->"f68ea70d-281e-46e4-a84f-d7c533bbdc10"],
+Cell[5876, 162, 311, 9, 70, "Item",ExpressionUUID->"19a05baf-7487-466e-88c2-bf503bfe5797"]
+}, Open  ]]
+}, Open  ]],
+Cell[6214, 175, 21, 0, 70, "PageBreak",ExpressionUUID->"f8978717-7ef7-43d8-b4ef-e5da78ca761c"],
+Cell[CellGroupData[{
+Cell[6260, 179, 70, 1, 70, "Subsection",ExpressionUUID->"84253b3b-13b8-484b-861b-eca69421a21b",
+ CellTags->"BasicInformation"],
+Cell[CellGroupData[{
+Cell[6355, 184, 58, 1, 70, "Subsubsection",ExpressionUUID->"7953ad34-e3d4-4fcd-8904-9d47da139916",
+ CellTags->{"Info", "Name"}],
+Cell[6416, 187, 26, 0, 70, "Text",ExpressionUUID->"377f9747-12da-47ff-9eae-dd3b2ef556a5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6479, 192, 64, 1, 70, "Subsubsection",ExpressionUUID->"d35fc674-9b56-4b64-a593-d4664b9d4022",
+ CellTags->{"Info", "Version"}],
+Cell[6546, 195, 21, 0, 70, "Text",ExpressionUUID->"180c8bcf-863a-4be2-85a2-8b7df602b6da"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6604, 200, 64, 1, 70, "Subsubsection",ExpressionUUID->"a9799062-67f6-4ee7-84de-8bcb8d46fd76",
+ CellTags->{"Info", "Creator"}],
+Cell[6671, 203, 49, 0, 70, "Text",ExpressionUUID->"41b989d1-c7f8-4c8f-845f-be5d2e9659fd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6757, 208, 56, 1, 70, "Subsubsection",ExpressionUUID->"c1eec572-4245-498b-b4ca-086da576efa7",
+ CellTags->{"Info", "URL"}],
+Cell[6816, 211, 106, 3, 70, "Text",ExpressionUUID->"e2a11e1d-6197-46b6-b437-65e46dc0556b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6959, 219, 68, 1, 70, "Subsubsection",ExpressionUUID->"8ae2b275-e0ed-4f30-8b19-f43db360cba9",
+ CellTags->{"Info", "Publisher"}],
+Cell[7030, 222, 26, 0, 70, "Text",ExpressionUUID->"1c035eee-c2f7-4692-a382-2e66f4e3a8db"]
+}, Open  ]]
+}, Open  ]],
+Cell[7083, 226, 21, 0, 70, "PageBreak",ExpressionUUID->"113ba534-ebd3-4c50-a9ad-3f939dd0f145"],
+Cell[CellGroupData[{
+Cell[7129, 230, 70, 1, 70, "Subsection",ExpressionUUID->"24050502-63b8-4df1-a547-884a8383b5cb",
+ CellTags->"ExtraInformation"],
+Cell[CellGroupData[{
+Cell[7224, 235, 78, 1, 70, "Subsubsection",ExpressionUUID->"cd3b15f6-d5a3-4106-9d77-23c73ebee744",
+ CellTags->{"Info", "WolframVersion"}],
+Cell[7305, 238, 20, 0, 70, "Text",ExpressionUUID->"a4aced57-3e35-4043-9971-8227818c1154"]
+}, Open  ]]
+}, Open  ]],
+Cell[7352, 242, 21, 0, 70, "PageBreak",ExpressionUUID->"29580b28-0f10-4db6-a57f-128736dd842d"],
+Cell[CellGroupData[{
+Cell[7398, 246, 57, 1, 70, "Subsection",ExpressionUUID->"b03bb929-534e-4b89-bc7d-24373f3ecfc0",
+ CellTags->"Extensions"],
+Cell[CellGroupData[{
+Cell[7480, 251, 62, 1, 70, "Subsubsection",ExpressionUUID->"ddc43a55-f7af-401f-a9fa-e508d2c1a20f",
+ CellTags->{"Info", "Kernel"}],
+Cell[7545, 254, 52, 1, 70, "Item",ExpressionUUID->"396db7df-103d-4d29-9697-5a61a583dfe6",
+ CellTags->{"Info", "Line"}],
+Cell[7600, 257, 65, 1, 70, "Item",ExpressionUUID->"31b19b51-d939-4caa-bc4e-04169dc2a58f",
+ CellTags->{"Info", "Line"}]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

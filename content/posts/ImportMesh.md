@@ -1,21 +1,27 @@
-Title: ServiceConnection_WolframCommunity
-Authors: 
-Categories: ServiceConnections
-Description: A hacked-up ServiceConnection to the Wolfram Community website
-DisplayName: WolframCommunity (ServiceConnection)
-Extensions: <|FrontEnd -> <|Prepend -> True|>|>
-LastModified: 2018-05-01 01:04:28
-Modified: 2018-05-08 12:21:00
-Name: ServiceConnection_WolframCommunity
-Slug: serviceconnectionwolframcommunity
+Title: ImportMesh
+Authors: info
+Categories: misc
+Creator: info@c3m.si
+Description: Utilities for importing FEM meshes from other software.
+DisplayName: ImportMesh
+Extensions: <|Kernel -> <|Root -> ., Context -> {ImportMesh`}|>, PacletServer -> <|PacletManager`Private`Tags -> {finite-elements, mesh, import}, PacletManager`Private`Categories -> {FEM}|>|>
+LastModified: 2018-05-08 12:19:58
+Modified: 2018-05-08 12:20:54
+Name: ImportMesh
+Publisher: C3M d.o.o.
+Slug: importmesh
 Tags: 
-Version: 1.0.3
+URL: https://github.com/c3m-labs/ImportMesh
+Version: 0.3.1
+WolframVersion: 11.+
+StringJoin[Categories, : FEM]
+StringJoin[Tags, : finite-elements,mesh,import]
 
-<a id="wolframcommunity-serviceconnection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="importmesh" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-# WolframCommunity (ServiceConnection)
+# ImportMesh
 
-A hacked-up ServiceConnection to the Wolfram Community website
+Utilities for importing FEM meshes from other software.
 
 ---
 
@@ -28,7 +34,7 @@ A hacked-up ServiceConnection to the Wolfram Community website
 To install this paclet, run:
 
     PacletInstall[
-      "ServiceConnection_WolframCommunity",
+      "ImportMesh",
       "Site"->
         "http://raw.githubusercontent.com/paclets/PacletServer/master"
       ]
@@ -49,11 +55,23 @@ Depending on what the current value of  ```$ContextPath```  is you may also need
 
 ### Name
 
-ServiceConnection_WolframCommunity
+ImportMesh
 
 ### Version
 
-1.0.3
+0.3.1
+
+### Creator
+
+[info@c3m.si](mailto:info@c3m.si)
+
+### URL
+
+[https://github.com/c3m-labs/ImportMesh](https://github.com/c3m-labs/ImportMesh)
+
+### Publisher
+
+C3M d.o.o.
 
 ---
 
@@ -61,7 +79,9 @@ ServiceConnection_WolframCommunity
 
 ## Extra Information
 
-This package provides no extra information
+### WolframVersion
+
+11.+
 
 ---
 
@@ -69,6 +89,8 @@ This package provides no extra information
 
 ## Extensions
 
-### FrontEnd
+### Kernel
 
-* This extension has no extra parameters
+* Root: .
+
+* Context: ImportMesh`
