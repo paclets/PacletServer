@@ -11,34 +11,34 @@
     </title>
 <link
       rel='apple-touch-icon'
-      href='../apple-touch-icon.png'
+      href='https://paclets.github.io/PacletServer/apple-touch-icon.png'
       sizes='180x180'
   >
 <link
       rel='icon'
-      href='../favicon-32x32.png'
+      href='https://paclets.github.io/PacletServer/favicon-32x32.png'
       sizes='32x32'
   >
 <link
       rel='icon'
-      href='../favicon-16x16.png'
+      href='https://paclets.github.io/PacletServer/favicon-16x16.png'
       sizes='16x16'
   >
 <link
       rel='manifest'
-      href='../manifest.json'
+      href='https://paclets.github.io/PacletServer/manifest.json'
   >
 <link
       rel='stylesheet'
-      href='../theme/css/pygments/default.min.css'
+      href='https://paclets.github.io/PacletServer/theme/css/pygments/default.min.css'
   >
 <link
       rel='stylesheet'
-      href='../theme/css/bootstrap.css'
+      href='https://paclets.github.io/PacletServer/theme/css/bootstrap.css'
   >
 <link
       rel='stylesheet'
-      href='../theme/css/font-awesome.css'
+      href='https://paclets.github.io/PacletServer/theme/css/font-awesome.css'
   >
 <link
       rel='stylesheet'
@@ -50,16 +50,31 @@
   >
 <link
       rel='stylesheet'
-      href='../theme/css/common.css'
+      href='https://paclets.github.io/PacletServer/theme/css/common.css'
   >
 <link
       rel='stylesheet'
-      href='../theme/css/style.css'
+      href='https://paclets.github.io/PacletServer/theme/css/style.css'
   >
+<script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o);
+    a.async = 1;
+    a.src = g;
+    m = s.getElementsByTagName(o)[0];
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-118356806-1', 'auto');
+  ga('send', 'pageview');
+</script>
       <meta name="description" content="">
-  <link href="../theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
-  <script src="../theme/prettify/src/prettify.js"></script>
-  <script src="../theme/prettify/src/lang-mma.min.js"></script>
+  <link href="https://paclets.github.io/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/prettify.js"></script>
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
   <script>
     function moveWindow (){window.location.hash="main-content";}
   </script>
@@ -70,34 +85,33 @@
       <div class="site-title">
         <h1 class="title">
 <a
-      href='../'
+      href='https://paclets.github.io/PacletServer/'
   >
       Mathematica Paclet Server</a>
         </h1>
-      </div>
-      <div class="site-links">
-        <ul class="list-inline row">
+        <div class="site-links">
+          <ul class="list-inline row">
 <li class="list-inline-item">
 <a
-      href='../pages/about.html'
+      href='https://paclets.github.io/PacletServer/pages/about.html'
   >
       About</a>
 </li>
 <li class="list-inline-item">
 <a
-      href='../categories.html'
+      href='https://paclets.github.io/PacletServer/categories.html'
   >
       Categories</a>
 </li>
 <li class="list-inline-item">
 <a
-      href='../tags.html'
+      href='https://paclets.github.io/PacletServer/tags.html'
   >
       Tags</a>
 </li>
 <li class="list-inline-item">
 <a
-      href='../authors.html'
+      href='https://paclets.github.io/PacletServer/authors.html'
   >
       Authors</a>
 </li>
@@ -108,6 +122,7 @@
       GitHub</a>
 </li>
 </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -151,7 +166,7 @@
     var query_strings = pullAuthCode();
     document.getElementById("paclet-install").innerHTML=(
    "<pre class=\"prettyprint\">\n"+
-      "<code class=\"language-mathematica\">Needs[\"PacletManager`\"];\n"+
+      "<code class=\"language-mathematica\">"+
       "PacletInstall[\n"+
       " \"<paclet>\",\n"+
       " \"Site\"->\n"+
@@ -165,9 +180,17 @@
 <a shape='rect' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h1> Install</h1>
 <p>To install this paclet, run this from inside Mathematica:</p>
+<p>
+ <strong>Before installing, be sure to check out the </strong>
+ <strong>
+  <a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a>
+ </strong>
+ <strong> to make sure that you trust the developer.</strong>
+</p>
+<p>To install this paclet, run:</p>
 <div id='paclet-install'>
 <pre class='prettyprint'>
- <code class='language-mathematica'>Needs[&quot;PacletManager`&quot;];
+ <code class='language-mathematica'>
 PacletInstall[
  paclet_name,
  &quot;Site&quot;-&gt;
@@ -175,13 +198,11 @@ PacletInstall[
  ]</code>
 </pre>
 </div>
-<p>
- <strong>Before installing, be sure to check out the </strong>
- <strong>
-  <a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a>
- </strong>
- <strong> to make sure that you trust the developer of the package you&apos;re going to install.</strong>
+<p>Depending on what the current value of <code class='language-mathematica'>$ContextPath</code>  is you may also need to first run
 </p>
+<pre>
+ <code class='language-mathematica'>Needs[&quot;PacletManager`&quot;]</code>
+</pre>
 <ul>
  <li>
   <p>To update it, replace <code class='language-mathematica'>PacletInstall</code>  with <code class='language-mathematica'>PacletUpdate</code> .</p>
@@ -197,7 +218,7 @@ PacletInstall[
     </div>
   </div>
 <footer class="footer">
-  <p class="col-sm-6 text-sm-right text-muted acknowledgement">
+  <p class="text-sm-right text-muted acknowledgement">
         Brought to you by the
           <a href="https://mathematica.stackexchange.com/">Mathematica StackExchange</a>
   </p>

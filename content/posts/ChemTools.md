@@ -6,7 +6,7 @@ Description: A collection of packages for object oriented chemistry. The primary
 DisplayName: ChemTools
 Extensions: <|Kernel -> <|Root -> ., Context -> {ChemTools`}|>, FrontEnd -> <||>, Formats -> <||>, Resource -> <|Root -> Resources, Resources -> {Datasets, Extensions, PaletteGenerators, Templates}, SystemID -> *|>, PacletServer -> <|Tags -> {chemistry}, Categories -> {Chemistry}, Description -> A collection of packages for object oriented chemistry. The primary packages implement an object and data framework. Support is included for basic spectroscopy and a few different external programs. A moderately sophisticated discrete variable representation framework is included as well.|>|>
 LastModified: 2018-04-25 23:42:26
-Modified: 2018-05-08 14:50:05
+Modified: 2018-05-08 14:57:11
 Name: ChemTools
 Slug: chemtools
 Tags: chemistry
