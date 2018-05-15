@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7780,        216]
-NotebookOptionsPosition[      6568,        189]
-NotebookOutlinePosition[      6995,        206]
-CellTagsIndexPosition[      6952,        203]
+NotebookDataLength[      8840,        241]
+NotebookOptionsPosition[      7351,        211]
+NotebookOutlinePosition[      7778,        228]
+CellTagsIndexPosition[      7735,        225]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -66,8 +66,7 @@ query_string[pair[0]],decodeURIComponent(pair[1]) ];
 \t\t\t\tvar query_strings = pullAuthCode();
 \t\t\t\tdocument.getElementById(\"paclet-install\").innerHTML=(
 \t\t\t\"<pre class=\\\"prettyprint\\\">\\n\"+
-      \"<code \
-class=\\\"language-mathematica\\\">Needs[\\\"PacletManager`\\\"];\\n\"+
+      \"<code class=\\\"language-mathematica\\\">\"+
       \"PacletInstall[\\n\"+
       \" \\\"<paclet>\\\",\\n\"+
       \" \\\"Site\\\"->\\n\"+
@@ -89,8 +88,8 @@ class=\\\"language-mathematica\\\">Needs[\\\"PacletManager`\\\"];\\n\"+
    3.733154337429175*^9, {3.7331555418089943`*^9, 3.733155560870707*^9}, {
    3.733157601127351*^9, 3.73315766428508*^9}, {3.733157853699399*^9, 
    3.733157857963354*^9}, {3.7333562454580517`*^9, 3.7333562463816423`*^9}, {
-   3.73345589841061*^9, 
-   3.733455921408564*^9}},ExpressionUUID->"54b98d20-98b1-4393-a1b0-\
+   3.73345589841061*^9, 3.733455921408564*^9}, {3.7348054026547937`*^9, 
+   3.7348054196964283`*^9}},ExpressionUUID->"54b98d20-98b1-4393-a1b0-\
 22ec1a1ed095"],
 
 Cell[CellGroupData[{
@@ -106,10 +105,32 @@ Cell["To install this paclet, run this from inside Mathematica:", "Text",
   3.733149079399476*^9}},ExpressionUUID->"f9094fb8-3fca-4406-b292-\
 e0ff9aa38a93"],
 
+Cell[TextData[{
+ StyleBox["Before installing, be sure to check out the ",
+  FontWeight->"Bold"],
+ StyleBox[ButtonBox["Change Log",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://paclets.github.io/PacletServer/pages/log.html"], None},
+  ButtonNote->"https://paclets.github.io/PacletServer/pages/log.html"],
+  FontWeight->"Bold"],
+ StyleBox[" to make sure that you trust the developer.",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{
+  3.733539343957526*^9, {3.734110049819099*^9, 
+   3.734110052200994*^9}},ExpressionUUID->"e74f5a22-2cc3-4242-a735-\
+039739f039b6"],
+
+Cell["To install this paclet, run:", "Text",
+ CellChangeTimes->{{3.734109988289577*^9, 
+  3.7341099944031897`*^9}},ExpressionUUID->"7ac1f29a-b5b4-49ba-8f55-\
+196ee550587c"],
+
 Cell["\<\
 <div id='paclet-install'>
 <pre class='prettyprint'>
- <code class='language-mathematica'>Needs[\"PacletManager`\"];
+ <code class='language-mathematica'>
 PacletInstall[
  paclet_name,
  &quot;Site&quot;-&gt;
@@ -121,26 +142,27 @@ PacletInstall[
  CellChangeTimes->{
   3.733149522865962*^9, {3.73314967627829*^9, 3.7331497052821836`*^9}, 
    3.733356250122498*^9, {3.7334559460744762`*^9, 3.7334559572445498`*^9}, {
-   3.733456028160269*^9, 
-   3.733456029042735*^9}},ExpressionUUID->"8af410cb-782d-459e-a787-\
-3403f289bef6"],
+   3.733456028160269*^9, 3.733456029042735*^9}, 
+   3.734805386246019*^9},ExpressionUUID->"829a1dbf-9919-4152-8029-\
+4a79c3bb1fe0"],
 
 Cell[TextData[{
- StyleBox["Before installing, be sure to check out the ",
-  FontWeight->"Bold"],
- StyleBox[ButtonBox["Change Log",
-  BaseStyle->"Hyperlink",
-  ButtonData->{
-    URL["https://paclets.github.io/PacletServer/pages/log.html"], None},
-  ButtonNote->"https://paclets.github.io/PacletServer/pages/log.html"],
-  FontWeight->"Bold"],
- StyleBox[" to make sure that you trust the developer of the package you\
-\[CloseCurlyQuote]re going to install.",
-  FontWeight->"Bold"]
+ "Depending on what the current value of ",
+ Cell[BoxData[
+ "$ContextPath"], "InlineInput",ExpressionUUID->
+  "124938b2-1894-4b84-83a7-754de4458318"],
+ " is you may also need to first run"
 }], "Text",
- CellChangeTimes->{
-  3.733539343957526*^9},ExpressionUUID->"2bd92d2a-44ba-4890-899e-\
-59836b6c1220"],
+ CellChangeTimes->{{3.7341173449513597`*^9, 3.734117390719006*^9}, {
+  3.734117520132193*^9, 
+  3.734117539975576*^9}},ExpressionUUID->"17c79005-8faa-4c54-8636-\
+bcb5fd7ebdb8"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}]], "Code",
+ CellChangeTimes->{{3.7341175227443247`*^9, 
+  3.734117523793272*^9}},ExpressionUUID->"987b9ba6-0b06-40b4-8896-\
+2dd770512d43"],
 
 Cell[CellGroupData[{
 
@@ -206,17 +228,20 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 380, 9, 112, "Metadata",ExpressionUUID->"89c7c6e2-3c38-4d40-9c94-20aa6c79f5f1"],
-Cell[941, 31, 2596, 62, 771, "RawMarkdown",ExpressionUUID->"54b98d20-98b1-4393-a1b0-22ec1a1ed095"],
+Cell[941, 31, 2611, 61, 771, "RawMarkdown",ExpressionUUID->"54b98d20-98b1-4393-a1b0-22ec1a1ed095"],
 Cell[CellGroupData[{
-Cell[3562, 97, 209, 4, 51, "Section",ExpressionUUID->"d46f7377-7dbe-4197-9419-1e81ecd49433"],
-Cell[3774, 103, 199, 3, 35, "Text",ExpressionUUID->"f9094fb8-3fca-4406-b292-e0ff9aa38a93"],
-Cell[3976, 108, 575, 17, 179, "RawMarkdown",ExpressionUUID->"8af410cb-782d-459e-a787-3403f289bef6"],
-Cell[4554, 127, 591, 15, 58, "Text",ExpressionUUID->"2bd92d2a-44ba-4890-899e-59836b6c1220"],
+Cell[3577, 96, 209, 4, 51, "Section",ExpressionUUID->"d46f7377-7dbe-4197-9419-1e81ecd49433"],
+Cell[3789, 102, 199, 3, 35, "Text",ExpressionUUID->"f9094fb8-3fca-4406-b292-e0ff9aa38a93"],
+Cell[3991, 107, 583, 15, 35, "Text",ExpressionUUID->"e74f5a22-2cc3-4242-a735-039739f039b6"],
+Cell[4577, 124, 172, 3, 35, "Text",ExpressionUUID->"7ac1f29a-b5b4-49ba-8f55-196ee550587c"],
+Cell[4752, 129, 571, 17, 179, "RawMarkdown",ExpressionUUID->"829a1dbf-9919-4152-8029-4a79c3bb1fe0"],
+Cell[5326, 148, 393, 10, 35, "Text",ExpressionUUID->"17c79005-8faa-4c54-8636-bcb5fd7ebdb8"],
+Cell[5722, 160, 206, 4, 52, "Code",ExpressionUUID->"987b9ba6-0b06-40b4-8896-2dd770512d43"],
 Cell[CellGroupData[{
-Cell[5170, 146, 468, 13, 32, "Item",ExpressionUUID->"acf59080-7def-4f70-bedf-26a9c7891e16"],
-Cell[5641, 161, 635, 17, 32, "Item",ExpressionUUID->"9e6caf6a-0e86-4a1f-b1e2-a255949920fa"]
+Cell[5953, 168, 468, 13, 32, "Item",ExpressionUUID->"acf59080-7def-4f70-bedf-26a9c7891e16"],
+Cell[6424, 183, 635, 17, 32, "Item",ExpressionUUID->"9e6caf6a-0e86-4a1f-b1e2-a255949920fa"]
 }, Open  ]],
-Cell[6291, 181, 261, 5, 35, "RawMarkdown",ExpressionUUID->"2b8006a5-06ba-4e76-972a-debe89041ce8"]
+Cell[7074, 203, 261, 5, 35, "RawMarkdown",ExpressionUUID->"2b8006a5-06ba-4e76-972a-debe89041ce8"]
 }, Open  ]]
 }
 ]

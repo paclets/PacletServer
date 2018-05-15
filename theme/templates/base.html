@@ -96,21 +96,22 @@
               ]
           </wolfram:expr>
         </h1>
-      </div>
 
-      <div class="site-links">
-        <wolfram:expr>
-          $$templateLib["makeSiteLinkList"][
-            Replace[#PageLinks,{
-              Except[_List]:>
-                Replace[
-                  Import[FileNameJoin@{"include","config","page_links.m"}],
-                  f_Function:>f[#]
-                  ]
-              }],
-            #
-            ]
-        </wolfram:expr>
+        <div class="site-links">
+          <wolfram:expr>
+            $$templateLib["makeSiteLinkList"][
+              Replace[#PageLinks,{
+                Except[_List]:>
+                  Replace[
+                    Import[FileNameJoin@{"include","config","page_links.m"}],
+                    f_Function:>f[#]
+                    ]
+                }],
+              #
+              ]
+          </wolfram:expr>
+        </div>
+
       </div>
 
     </div>
@@ -147,7 +148,7 @@
   </div>
 
 <footer class="footer">
-  <p class="col-sm-6 text-sm-right text-muted acknowledgement">
+  <p class="text-sm-right text-muted acknowledgement">
     <wolfram:slot id="Footer">
     <wolfram:get path="include/lib/templates/varDefinedBlock.html">
       <wolfram:slot id="var">Footer</wolfram:slot>

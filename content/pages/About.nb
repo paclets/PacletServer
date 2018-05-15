@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      6679,        184]
-NotebookOptionsPosition[      5260,        153]
-NotebookOutlinePosition[      5688,        170]
-CellTagsIndexPosition[      5645,        167]
+NotebookDataLength[      8925,        250]
+NotebookOptionsPosition[      7010,        212]
+NotebookOutlinePosition[      7437,        229]
+CellTagsIndexPosition[      7394,        226]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -44,7 +44,15 @@ available paclets for installation. You can install paclets via ",
  ButtonBox["PacletInstall",
   BaseStyle->"Link",
   ButtonData->"paclet:PacletManager/ref/PacletInstall"],
- ". ",
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.712804327672019*^9, 3.712804426020475*^9}, {
+   3.7128093567389812`*^9, 3.712809358703854*^9}, 3.733112439256976*^9, {
+   3.7335370383514967`*^9, 3.733537126114045*^9}, 
+   3.734805297301898*^9},ExpressionUUID->"e54a3b6f-33dd-45aa-b664-\
+ae0bb2a267fa"],
+
+Cell[TextData[{
  StyleBox["Before installing, be sure to check out the ",
   FontWeight->"Bold"],
  StyleBox[ButtonBox["Change Log",
@@ -53,37 +61,88 @@ available paclets for installation. You can install paclets via ",
     URL["https://paclets.github.io/PacletServer/pages/log.html"], None},
   ButtonNote->"https://paclets.github.io/PacletServer/pages/log.html"],
   FontWeight->"Bold"],
- StyleBox[" to make sure that you trust the developer of the package you\
-\[CloseCurlyQuote]re going to install.",
+ StyleBox[" to make sure that you trust the developer.",
   FontWeight->"Bold"]
 }], "Text",
- CellChangeTimes->{{3.712804327672019*^9, 3.712804426020475*^9}, {
-   3.7128093567389812`*^9, 3.712809358703854*^9}, 3.733112439256976*^9, {
-   3.7335370383514967`*^9, 
-   3.733537126114045*^9}},ExpressionUUID->"e54a3b6f-33dd-45aa-b664-\
-ae0bb2a267fa"],
+ CellChangeTimes->{
+  3.733539343957526*^9, {3.734110049819099*^9, 
+   3.734110052200994*^9}},ExpressionUUID->"5c339940-f516-4ef5-a817-\
+12cf12866ca3"],
 
-Cell["To do so run:", "Text",
- CellChangeTimes->{{3.733112449045138*^9, 
-  3.7331124520841923`*^9}},ExpressionUUID->"22c24487-c74f-407c-9f6c-\
-3d1bcc2b41fb"],
+Cell["To install a paclet, run:", "Text",
+ CellChangeTimes->{{3.734109988289577*^9, 3.7341099944031897`*^9}, 
+   3.734805372757869*^9},ExpressionUUID->"c16f3479-d54f-464d-81ad-\
+fcd48720ad26"],
 
-Cell[BoxData[{
- RowBox[{
-  RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}], ";"}], "\n", 
+Cell[BoxData[
  RowBox[{"PacletInstall", "[", "\n", "\t", 
   RowBox[{"\"\<PacletName\>\"", ",", "\n", "\t", 
    RowBox[{
    "\"\<Site\>\"", "->", "\n", "\t\t", 
     "\"\<http://raw.githubusercontent.com/paclets/PacletServer/master\>\""}]}]\
-, "\n", "\t", "]"}]}], "Code",
- CellChangeTimes->{
-  3.733109652340766*^9, {3.7331118001857986`*^9, 3.7331118005024223`*^9}, {
-   3.733209271927083*^9, 3.733209275741007*^9}, {3.733355770720593*^9, 
-   3.7333557715019293`*^9}, {3.733455974358182*^9, 3.7334559750606747`*^9}, {
-   3.733456016425254*^9, 
-   3.7334560169748373`*^9}},ExpressionUUID->"1f56ae62-09ae-421c-a3c1-\
-d2b882b89b68"]
+, "\n", "\t", "]"}]], "Code",
+ CellChangeTimes->{{3.734109996462371*^9, 3.734110086704522*^9}, {
+   3.7341103314548597`*^9, 3.734110334083228*^9}, {3.734110504745276*^9, 
+   3.734110509506034*^9}, {3.7341173157894382`*^9, 3.7341173420157022`*^9}, {
+   3.734117550267846*^9, 3.734117569320335*^9}, {3.734117656794383*^9, 
+   3.734117657486534*^9}, 
+   3.7348052824698067`*^9},ExpressionUUID->"576f3689-26ff-455e-9204-\
+bede2b65bd76"],
+
+Cell[TextData[{
+ "Depending on what the current value of ",
+ Cell[BoxData[
+ "$ContextPath"], "InlineInput",ExpressionUUID->
+  "2f4b69d3-2802-4a29-ace1-66202ce2a93b"],
+ " is you may also need to first run"
+}], "Text",
+ CellChangeTimes->{{3.7341173449513597`*^9, 3.734117390719006*^9}, {
+  3.734117520132193*^9, 
+  3.734117539975576*^9}},ExpressionUUID->"1e0953ee-ff7a-4404-bd9b-\
+4f14692ebe7c"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}]], "Code",
+ CellChangeTimes->{{3.7341175227443247`*^9, 
+  3.734117523793272*^9}},ExpressionUUID->"aa5bdc37-fb0f-41c8-be7d-\
+468df4df6b5c"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "To update it, replace ",
+ Cell[BoxData[
+ "PacletInstall"], "InlineInput",ExpressionUUID->
+  "cdbaefc8-c726-4c3b-a8da-ac54b2f23692"],
+ " with ",
+ Cell[BoxData[
+ "PacletUpdate"], "InlineInput",ExpressionUUID->
+  "1ec0876a-21a6-497d-b115-657d3c47038e"],
+ ". "
+}], "Item",
+ CellChangeTimes->{{3.733150419236821*^9, 
+  3.733150504710637*^9}},ExpressionUUID->"2c002e55-ae76-4915-bd1e-\
+034ca11b4b12"],
+
+Cell[TextData[{
+ "To uninstall replace ",
+ Cell[BoxData[
+ "PacletInstall"], "InlineInput",ExpressionUUID->
+  "0c63077b-84b4-44ec-b791-2df79d09c45b"],
+ " with ",
+ Cell[BoxData[
+ "PacletUninstall"], "InlineInput",ExpressionUUID->
+  "aa73d8c4-b2e0-4a38-ba9d-024eff08f495"],
+ " and remove the ",
+ Cell[BoxData[
+ "\"\<Site\>\""], "InlineInput",ExpressionUUID->
+  "f1c80291-8ff3-4f3c-8c90-f2eac8c984cb"],
+ " parameter."
+}], "Item",
+ CellChangeTimes->{{3.733150419236821*^9, 
+  3.733150515558354*^9}},ExpressionUUID->"12d4349a-551d-47e3-a936-\
+18d0e05e54cb"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -152,7 +211,7 @@ Cell[TextData[{
 }, Open  ]]
 },
 WindowSize->{808, 755},
-WindowMargins->{{123, Automatic}, {33, Automatic}},
+WindowMargins->{{Automatic, 21}, {-9, Automatic}},
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
 2018)",
 StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
@@ -172,19 +231,26 @@ Notebook[{
 Cell[558, 20, 431, 10, 112, "Metadata",ExpressionUUID->"5485d360-c7b1-4db9-843c-9d0ac3d5b893"],
 Cell[CellGroupData[{
 Cell[1014, 34, 218, 4, 41, "Subsection",ExpressionUUID->"d46f7377-7dbe-4197-9419-1e81ecd49433"],
-Cell[1235, 40, 998, 23, 81, "Text",ExpressionUUID->"e54a3b6f-33dd-45aa-b664-ae0bb2a267fa"],
-Cell[2236, 65, 157, 3, 35, "Text",ExpressionUUID->"22c24487-c74f-407c-9f6c-3d1bcc2b41fb"],
-Cell[2396, 70, 710, 15, 148, "Code",ExpressionUUID->"1f56ae62-09ae-421c-a3c1-d2b882b89b68"]
+Cell[1235, 40, 557, 12, 58, "Text",ExpressionUUID->"e54a3b6f-33dd-45aa-b664-ae0bb2a267fa"],
+Cell[1795, 54, 583, 15, 35, "Text",ExpressionUUID->"5c339940-f516-4ef5-a817-12cf12866ca3"],
+Cell[2381, 71, 192, 3, 35, "Text",ExpressionUUID->"c16f3479-d54f-464d-81ad-fcd48720ad26"],
+Cell[2576, 76, 672, 13, 129, "Code",ExpressionUUID->"576f3689-26ff-455e-9204-bede2b65bd76"],
+Cell[3251, 91, 393, 10, 35, "Text",ExpressionUUID->"1e0953ee-ff7a-4404-bd9b-4f14692ebe7c"],
+Cell[3647, 103, 206, 4, 52, "Code",ExpressionUUID->"aa5bdc37-fb0f-41c8-be7d-468df4df6b5c"],
+Cell[CellGroupData[{
+Cell[3878, 111, 412, 13, 32, "Item",ExpressionUUID->"2c002e55-ae76-4915-bd1e-034ca11b4b12"],
+Cell[4293, 126, 551, 17, 32, "Item",ExpressionUUID->"12d4349a-551d-47e3-a936-18d0e05e54cb"]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3143, 90, 163, 3, 41, "Subsection",ExpressionUUID->"54420006-9486-499d-8c89-28778d0154f1"],
-Cell[3309, 95, 362, 7, 58, "Text",ExpressionUUID->"042b2a10-81de-4511-9349-1b0d134280b6"],
-Cell[3674, 104, 572, 14, 58, "Text",ExpressionUUID->"3d9ce83e-c993-40ab-a74e-ac3336d8ccd2"]
+Cell[4893, 149, 163, 3, 41, "Subsection",ExpressionUUID->"54420006-9486-499d-8c89-28778d0154f1"],
+Cell[5059, 154, 362, 7, 58, "Text",ExpressionUUID->"042b2a10-81de-4511-9349-1b0d134280b6"],
+Cell[5424, 163, 572, 14, 58, "Text",ExpressionUUID->"3d9ce83e-c993-40ab-a74e-ac3336d8ccd2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4283, 123, 217, 4, 41, "Subsection",ExpressionUUID->"ab1b55ab-027c-4bde-bcb9-2677f922266d"],
-Cell[4503, 129, 258, 6, 35, "Text",ExpressionUUID->"3f1bb202-68bb-4137-82ec-00f5017beded"],
-Cell[4764, 137, 480, 13, 35, "Text",ExpressionUUID->"f401c58b-76e1-40ae-80ab-81d8e490bc13"]
+Cell[6033, 182, 217, 4, 41, "Subsection",ExpressionUUID->"ab1b55ab-027c-4bde-bcb9-2677f922266d"],
+Cell[6253, 188, 258, 6, 35, "Text",ExpressionUUID->"3f1bb202-68bb-4137-82ec-00f5017beded"],
+Cell[6514, 196, 480, 13, 35, "Text",ExpressionUUID->"f401c58b-76e1-40ae-80ab-81d8e490bc13"]
 }, Open  ]]
 }
 ]

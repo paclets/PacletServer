@@ -15,10 +15,10 @@ To install a paclet from this repository all you need to do is run
 ```mathematica
  Needs["PacletManager`"];
  PacletInstall[
- "PacletName",
- "Site"->
-  "http://raw.githubusercontent.com/paclets/PacletServer/master"
- ]
+  "PacletName",
+  "Site"->
+    "http://raw.githubusercontent.com/paclets/PacletServer/master"
+  ]
 ```
 
 ---
@@ -45,7 +45,17 @@ Alternately, instead of cloning locally, you can make changes via the GitHub web
 
  ![readme-535681948188610017](project/img/readme-535681948188610017.png)
 
-You can submit your own paclet shingle by providing a Markdown notebook like those that are already in the  ```content```  directory. If you don't provide a notebook one will be automatically generated from the metadata in your  ```PacletInfo.m```  file. A good example of a well-written  ```PacletInfo.m```  can be found  [here](https://github.com/szhorvat/MaTeX/blob/master/MaTeX/PacletInfo.m) . The extra parameters the site generator uses can be found  [here](https://www.wolframcloud.com/objects/b3m2a1/home/building-a-mathematica-package-ecosystem-part-1.html#package-distribution) .
+You can submit your own paclet shingle by providing a Markdown notebook like those that are already in the  ```content```  directory. If you don't provide a notebook one will be automatically generated from the metadata in your  ```PacletInfo.m```  file. A good example of a well-written  ```PacletInfo.m```  can be found  [here](https://github.com/szhorvat/MaTeX/blob/master/MaTeX/PacletInfo.m)  or  [here](https://github.com/b3m2a1/mathematica-BTools/blob/master/PacletInfo.m) . The extra parameters the site generator uses will be placed into a  ```"PacletServer"```  extension, e.g. add the extension:
+
+```mathematica
+ {
+    "PacletServer",
+    "Tags" -> { "tag1", "tag2", ...},
+    "Categories" -> {"Category1", "Category2", ...},
+    "Description" -> "Long-form description for the page",
+    "License" -> "YourLicense"
+  }
+```
 
 ---
 
