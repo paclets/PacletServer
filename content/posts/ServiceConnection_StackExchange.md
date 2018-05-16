@@ -7,7 +7,7 @@ DisplayName: StackExchange (ServiceConnection)
 Extensions: <|FrontEnd -> <|Prepend -> True|>|>
 Icon: FrontEnd/SystemResources/Bitmaps/stackexchange@2.png
 LastModified: 2018-05-05 19:11:08
-Modified: 2018-05-08 14:57:17
+Modified: 2018-05-09 14:25:23
 Name: ServiceConnection_StackExchange
 Slug: serviceconnectionstackexchange
 Tags: web,serviceconnection

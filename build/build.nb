@@ -22,7 +22,7 @@ Cell[BoxData[
       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
  CellLabel->
-  "In[521]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+  "In[167]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
 
 Cell[CellGroupData[{
 
@@ -254,66 +254,29 @@ loaded properly).\
   3.733430030038975*^9}},ExpressionUUID->"df30fbdd-b74e-4a0d-8a64-\
 0eb6f5e7e0ff"],
 
-Cell[TextData[{
- "First, you will probably want to run a build with the ",
- Cell[BoxData[
-  FormBox["\"\<SiteURL\>\"", TraditionalForm]],ExpressionUUID->
-  "6ee0d706-859a-4d5d-a9b0-008d098aafcf"],
- " parameter in the ",
- Cell[BoxData[
-  FormBox["\"\<SiteConfig.wl\>\"", TraditionalForm]],ExpressionUUID->
-  "07d8a077-c208-47ba-b498-a5bd5b0f36cc"],
- " file commented out, though. Here\[CloseCurlyQuote]s a quick way to open \
-that file:"
-}], "Text",
- CellChangeTimes->{{3.733429991902693*^9, 
-  3.733430067217547*^9}},ExpressionUUID->"1ad00ca1-026e-434c-afc1-\
-50ddf39b0aca"],
-
-Cell[BoxData[
- RowBox[{"SystemOpen", "@", 
-  RowBox[{"FileNameJoin", "@", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"Nest", "[", 
-      RowBox[{"DirectoryName", ",", " ", 
-       RowBox[{"NotebookFileName", "[", "]"}], ",", " ", "2"}], "]"}], ",", 
-     " ", "\"\<SiteConfig.wl\>\""}], "}"}]}]}]], "Input",
- CellLabel->
-  "In[106]:=",ExpressionUUID->"a57a573b-28c7-4d78-97fd-125325b75a69"],
-
-Cell["So do that and then run:", "Text",
- CellChangeTimes->{{3.733429991902693*^9, 
-  3.733430037383151*^9}},ExpressionUUID->"1849246f-6020-4355-8fd5-\
-433ffaf04c40"],
+Cell["\<\
+This will build it out with relative linking in the URLs and open the server \
+to test\
+\>", "Text",ExpressionUUID->"d6e4683f-4328-4a68-bba2-3485b6648286"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", 
-   RowBox[{"{", 
-    RowBox[{
-    "\"\<Add\>\"", ",", " ", "\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], 
-    "}"}], "]"}], ";"}]], "Input",
- CellChangeTimes->{{3.7334296927828283`*^9, 3.733429699740556*^9}, {
-   3.73342977622425*^9, 3.733429778108616*^9}, {3.733429816543317*^9, 
-   3.733429835278741*^9}, {3.733429989792542*^9, 3.733429990431633*^9}, {
-   3.733430040129479*^9, 3.7334300440316763`*^9}, {3.733431756221613*^9, 
-   3.733431757290666*^9}, {3.733455549012815*^9, 3.733455549268218*^9}, {
-   3.7334557518317738`*^9, 3.733455752197596*^9}, {3.733455805935396*^9, 
-   3.733455806946043*^9}, {3.7337074137855988`*^9, 3.733707450710368*^9}, {
-   3.733708288733644*^9, 3.7337082914591846`*^9}, 3.733708544326535*^9, {
-   3.7337099268148947`*^9, 3.733709928809061*^9}, {3.733710884650332*^9, 
-   3.733710914363608*^9}, {3.733711151316334*^9, 3.7337111518843193`*^9}, {
-   3.733713862584881*^9, 3.733713862892603*^9}, {3.734048949896471*^9, 
-   3.73404895009484*^9}, 3.73411103220681*^9, 3.734148528198182*^9, 
-   3.734149377880657*^9},
- CellLabel->"In[87]:=",ExpressionUUID->"57c891a9-0d23-417a-8011-40c6a0a2e8a3"],
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Add\>\"", ",", " ", "\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], "}"}]}]}], 
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"57c891a9-0d23-417a-8011-40c6a0a2e8a3"],
 
-Cell["And it\[CloseCurlyQuote]ll open up a local version of your server", \
-"Text",
- CellChangeTimes->{{3.733430045679503*^9, 
-  3.733430053104932*^9}},ExpressionUUID->"5d05dda4-0875-4a89-aeeb-\
-9a2d1a985ee9"],
+Cell[CellGroupData[{
+
+Cell["Targeted rebuilds", \
+"Subsubsection",ExpressionUUID->"24506803-0fb5-4cb8-a941-53e8f979e74e"],
 
 Cell["\<\
 You can always tweak this as well, say to only regenerate the metadata and \
@@ -325,15 +288,6 @@ index pages, or any combination of things you\[CloseCurlyQuote]d like:\
 11f348d3b62b"],
 
 Cell[BoxData[
- RowBox[{"PublicPacletServerRebuild", "[", 
-  RowBox[{"{", 
-   RowBox[{"(*", 
-    RowBox[{"\"\<Add\>\"", ","}], " ", "*)"}], 
-   RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], "}"}], "]"}]], "Input",
- CellLabel->
-  "In[525]:=",ExpressionUUID->"a33e2cd3-9929-4f89-95c2-454649abcedb"],
-
-Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", 
    RowBox[{
@@ -341,6 +295,10 @@ Cell[BoxData[
      RowBox[{"(*", 
       RowBox[{"\"\<Add\>\"", ","}], " ", "*)"}], 
      RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], "}"}]}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
@@ -358,9 +316,10 @@ Cell[BoxData[
   ";"}]], "Input",ExpressionUUID->"13150e95-20db-45e4-b0e3-cfcf1c35b5dd"]
 }, Open  ]]
 }, Open  ]]
+}, Open  ]]
 },
 WindowSize->{808, 755},
-WindowMargins->{{51, Automatic}, {Automatic, 0}},
+WindowMargins->{{12, Automatic}, {-36, Automatic}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,
