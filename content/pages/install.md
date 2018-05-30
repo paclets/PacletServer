@@ -1,5 +1,5 @@
 Title: install
-Modified: 2018-04-23 23:21:58
+Modified: 2018-05-08 14:57:00
 Slug: install
 
 <script>
@@ -37,7 +37,7 @@ Slug: install
     var query_strings = pullAuthCode();
     document.getElementById("paclet-install").innerHTML=(
    "<pre class=\"prettyprint\">\n"+
-      "<code class=\"language-mathematica\">Needs[\"PacletManager`\"];\n"+
+      "<code class=\"language-mathematica\">"+
       "PacletInstall[\n"+
       " \"<paclet>\",\n"+
       " \"Site\"->\n"+
@@ -56,9 +56,13 @@ Slug: install
 
 To install this paclet, run this from inside Mathematica:
 
+**Before installing, be sure to check out the ** **[Change Log](https://paclets.github.io/PacletServer/pages/log.html)** ** to make sure that you trust the developer.**
+
+To install this paclet, run:
+
 <div id='paclet-install'>
 <pre class='prettyprint'>
- <code class='language-mathematica'>Needs["PacletManager`"];
+ <code class='language-mathematica'>
 PacletInstall[
  paclet_name,
  &quot;Site&quot;-&gt;
@@ -67,7 +71,9 @@ PacletInstall[
 </pre>
 </div>
 
-**Before installing, be sure to check out the ** **[Change Log](https://paclets.github.io/PacletServer/pages/log.html)** ** to make sure that you trust the developer of the package you're going to install.**
+Depending on what the current value of  ```$ContextPath```  is you may also need to first run
+
+    Needs["PacletManager`"]
 
 * To update it, replace  ```PacletInstall```  with  ```PacletUpdate``` . 
 

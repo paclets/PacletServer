@@ -1,21 +1,30 @@
 Title: About
-Modified: 2018-04-23 23:21:41
+Modified: 2018-05-08 14:57:03
 Slug: about
 
 <a id="about-this-site" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## About This Site
 
-This is a paclet server, built with Mathematica. It lists the currently available paclets for installation. You can install paclets via  [```PacletInstall```](https://www.wolframcloud.com/objects/b3m2a1.docs/reference/PacletManager/ref/PacletInstall.html) .  **Before installing, be sure to check out the ** **[Change Log](https://paclets.github.io/PacletServer/pages/log.html)** ** to make sure that you trust the developer of the package you're going to install.**
+This is a paclet server, built with Mathematica. It lists the currently available paclets for installation. You can install paclets via  [```PacletInstall```](https://www.wolframcloud.com/objects/b3m2a1.docs/reference/PacletManager/ref/PacletInstall.html) . 
 
-To do so run:
+**Before installing, be sure to check out the ** **[Change Log](https://paclets.github.io/PacletServer/pages/log.html)** ** to make sure that you trust the developer.**
 
-    Needs["PacletManager`"];
+To install a paclet, run:
+
     PacletInstall[
-     "PacletName",
-     "Site"->
-      "http://raw.githubusercontent.com/paclets/PacletServer/master"
-     ]
+      "PacletName",
+      "Site"->
+        "http://raw.githubusercontent.com/paclets/PacletServer/master"
+      ]
+
+Depending on what the current value of  ```$ContextPath```  is you may also need to first run
+
+    Needs["PacletManager`"]
+
+* To update it, replace  ```PacletInstall```  with  ```PacletUpdate``` . 
+
+* To uninstall replace  ```PacletInstall```  with  ```PacletUninstall```  and remove the  ```"Site"```  parameter.
 
 <a id="about-paclets" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
