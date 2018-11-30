@@ -1,0 +1,524 @@
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Build Script", "Section",
+ CellChangeTimes->{{3.733429569855198*^9, 
+  3.733429571718788*^9}},ExpressionUUID->"e24bbfb2-2223-47f1-809b-\
+4df1da7618be"],
+
+Cell["\<\
+This will rebuild the paclet server. First we load the package:\
+\>", "Text",
+ CellChangeTimes->{{3.733429572885371*^9, 
+  3.733429643648531*^9}},ExpressionUUID->"ba08ff50-8dbd-4bf9-9e1d-\
+7f9d90db5b55"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Get", "[", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
+      " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
+ CellLabel->"In[44]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+
+Cell[CellGroupData[{
+
+Cell["Helpful note", "Subsubsection",
+ CellChangeTimes->{{3.733429856807392*^9, 
+  3.7334298595254*^9}},ExpressionUUID->"92f16a5c-3f53-4666-a19b-1acb89ff4dd1"],
+
+Cell["\<\
+You may get a note about entering the password for your keychain. You don\
+\[CloseCurlyQuote]t need to enter one, but if you do it will make a keychain \
+where you can store things in an encrypted manner.\
+\>", "Text",
+ CellChangeTimes->{{3.733429860980071*^9, 
+  3.73342990449436*^9}},ExpressionUUID->"ffdf9bc9-1d14-4ab3-bc3d-7fb86a48607e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Basic Build", "Subsection",
+ CellChangeTimes->{{3.7334299248796577`*^9, 3.7334299270470963`*^9}, 
+   3.733432121809342*^9},ExpressionUUID->"eda1be1b-939a-48c2-9931-\
+d83b89f43caa"],
+
+Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
+"Text",
+ CellChangeTimes->{{3.733429623398446*^9, 
+  3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
+f006baabc747"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
+ CellLabel->"In[45]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell["It just rebuilds everything.", "Text",
+ CellChangeTimes->{{3.7334296849200993`*^9, 
+  3.7334296891852627`*^9}},ExpressionUUID->"d2a8dae0-e90f-45e1-a72c-\
+02009be00a33"],
+
+Cell["\<\
+If you haven\[CloseCurlyQuote]t added any new paclets this might be more \
+appropriate but are just adding edits to old ones:\
+\>", "Text",ExpressionUUID->"918ae388-cf16-4884-b39d-e7b110cdd7b8"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], 
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"e3623f48-aba6-442b-a0b9-3d6aa229391d"],
+
+Cell[CellGroupData[{
+
+Cell["Rebuild since date", "Subsubsection",
+ CellChangeTimes->{{3.7335365791900682`*^9, 
+  3.733536582929451*^9}},ExpressionUUID->"ffce6575-f99a-41b3-8117-\
+e7979e559173"],
+
+Cell["\<\
+This is often desired when things have been added with a file modification \
+date before the last build.\
+\>", "Text",
+ CellChangeTimes->{{3.7334296591050797`*^9, 
+  3.733429676017243*^9}},ExpressionUUID->"8b5c199e-e8b2-484f-9c4d-\
+4707da863192"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "date"}], "\[IndentingNewLine]", 
+   "]"}], ";"}]], \
+"Input",ExpressionUUID->"a19c2cee-46d1-47d5-b99a-403e76338ae3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rebuild without regenerating pages", "Subsubsection",
+ CellChangeTimes->{{3.733536584845273*^9, 3.7335365923030777`*^9}, {
+  3.733536636798992*^9, 
+  3.733536637598884*^9}},ExpressionUUID->"4cc4404c-c060-48de-a2f4-\
+6dd858b598c6"],
+
+Cell["\<\
+This rebuilds without remaking the paclet pages, the tags / categories / \
+authors pages, or the index file. Generally if only paclets have been updated \
+this is the desired build\
+\>", "Text",
+ CellChangeTimes->{{3.733536593557015*^9, 3.733536630701928*^9}, {
+  3.733536683552189*^9, 
+  3.733536724260676*^9}},ExpressionUUID->"88c6d587-b89c-48ce-a141-\
+a1a8cf90f3d5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{"\"\<BuildSite\>\"", "\[Rule]", "False"}], "\[IndentingNewLine]", 
+   "]"}], ";"}]], \
+"Input",ExpressionUUID->"99fb617e-b851-4459-a854-86027786b076"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Targeted Builds", "Subsection",
+ CellChangeTimes->{{3.733432135823681*^9, 
+  3.7334321383355417`*^9}},ExpressionUUID->"e6a364a0-0bf4-47f6-b2fa-\
+a81c5c76ff66"],
+
+Cell[CellGroupData[{
+
+Cell["Just download paclets", \
+"Subsubsection",ExpressionUUID->"26850287-4f9e-41bb-9ca2-d8a663097626"],
+
+Cell["This will download any new updated paclets", \
+"Text",ExpressionUUID->"589c3adf-aee6-4123-8184-ee654d06733e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\"\<UpdateQueue\>\"", "]"}], 
+  ";"}]], "Input",
+ CellLabel->"In[328]:=",ExpressionUUID->"d4cf424c-a9ef-42dd-b76c-fd842c88e55e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Just add paclets", "Subsubsection",
+ CellChangeTimes->{{3.7334296521290073`*^9, 3.733429656048793*^9}, {
+  3.733429706442663*^9, 
+  3.733429709537541*^9}},ExpressionUUID->"5fab9028-2b00-4392-861f-\
+2146ca83469c"],
+
+Cell["\<\
+This will just add the paclets to the index without rebuilding the pages\
+\>", "Text",
+ CellChangeTimes->{{3.733429781451778*^9, 
+  3.7334297919173527`*^9}},ExpressionUUID->"eb7c7086-5bee-426c-9a20-\
+1701b0f05ae6"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\"\<Add\>\"", "]"}], 
+  ";"}]], "Input",
+ CellLabel->"In[144]:=",ExpressionUUID->"0ebc48bb-f7cf-42c0-9dcf-8a390f7175fa"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Just build the pages", "Subsubsection",
+ CellChangeTimes->{{3.7334297942941313`*^9, 
+  3.7334297980057917`*^9}},ExpressionUUID->"41855600-f3df-4d7a-b23c-\
+76da91843956"],
+
+Cell["\<\
+Probably most common, regenerate without new aggregation pages:\
+\>", "Text",ExpressionUUID->"a6d46dbe-ba88-4073-9b26-a7b5b1c00515"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}]}], 
+   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
+ CellLabel->
+  "In[145]:=",ExpressionUUID->"31b51a22-b313-49d2-b418-12e381c7d876"],
+
+Cell["This will just build the pages", "Text",
+ CellChangeTimes->{{3.733429781451778*^9, 
+  3.7334298227168207`*^9}},ExpressionUUID->"839e96aa-25a8-4f72-bfe9-\
+f5e5d6496191"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\"\<Build\>\"", "]"}], 
+  ";"}]], "Input",
+ CellLabel->
+  "In[159]:=",ExpressionUUID->"2eff8a5b-9010-40b1-b50e-0f550470c940"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Building pages..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[159]:=",ExpressionUUID->"cf3c31cf-af52-48d5-8d47-ea50c3b64a4b"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel[
+    TemplateApply["Generating ``", BTools`Web`Private`page]], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{181., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[159]:=",ExpressionUUID->"7028f664-aa44-45f8-ab55-e524e29804cd"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["Regenerate all the content pages", "Text",
+ CellChangeTimes->{{3.733431732585972*^9, 
+  3.733431739372777*^9}},ExpressionUUID->"7f7dfba3-68cd-4aab-97be-\
+72f706429312"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}]}], 
+   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
+ CellLabel->
+  "In[95]:=",ExpressionUUID->"f759ae11-2fae-406b-b034-02d0aa547eb0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Just push to GitHub", "Subsubsection",
+ CellChangeTimes->{{3.7334297942941313`*^9, 
+  3.7334298287979097`*^9}},ExpressionUUID->"16dd937d-a114-41da-b8c0-\
+c30bf615079b"],
+
+Cell["This will just push the repo", "Text",
+ CellChangeTimes->{{3.733429781451778*^9, 
+  3.733429833421171*^9}},ExpressionUUID->"2bb89c64-7595-4660-a3a8-\
+fab146574e8f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"8d3ec9ba-76e0-4504-8fe8-cc1ec16a8321"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Do everything except for the push:", "Subsubsection",
+ CellChangeTimes->{{3.734186241809811*^9, 
+  3.734186246848506*^9}},ExpressionUUID->"742108b4-929a-4a27-b459-\
+4179ecd724c6"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+    "\"\<UpdateQueue\>\"", ",", "\[IndentingNewLine]", "\"\<Add\>\"", ",", 
+     "\[IndentingNewLine]", "\"\<Log\>\"", ",", "\[IndentingNewLine]", 
+     "\"\<Build\>\"", ",", " ", "\[IndentingNewLine]", "\"\<Test\>\""}], 
+    "\[IndentingNewLine]", "}"}], "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Just Build and Test", \
+"Subsubsection",ExpressionUUID->"6f39f6a9-ee08-4cde-a414-6464bdaab5b0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], "}"}], "]"}], 
+  ";"}]], "Input",
+ EmphasizeSyntaxErrors->
+  True,ExpressionUUID->"550d77ff-f86f-481e-9ebc-acc59a2d0384"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Just Build and Push", \
+"Subsubsection",ExpressionUUID->"a8e1b643-ab5d-4d9c-87af-70504ac6fcb0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Push\>\""}], "}"}], "]"}], 
+  ";"}]], "Input",
+ CellLabel->"In[180]:=",ExpressionUUID->"f79e3563-6c15-4efb-9143-a5e5eadbb480"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["More Sophisticated Testing", "Subsection",
+ CellChangeTimes->{{3.7334299248796577`*^9, 
+  3.7334299362630253`*^9}},ExpressionUUID->"24619256-60f6-4a44-8517-\
+29bf42e6cbaa"],
+
+Cell["\<\
+You can test out your paclet server by running a SimpleHTTPServer to see what\
+\[CloseCurlyQuote]s going on (to make sure any HTTP-only resources do get \
+loaded properly).\
+\>", "Text",
+ CellChangeTimes->{{3.733429939046317*^9, 3.73342998484726*^9}, {
+  3.733430027865416*^9, 
+  3.733430030038975*^9}},ExpressionUUID->"df30fbdd-b74e-4a0d-8a64-\
+0eb6f5e7e0ff"],
+
+Cell["\<\
+This will build it out with relative linking in the URLs and open the server \
+to test\
+\>", "Text",ExpressionUUID->"d6e4683f-4328-4a68-bba2-3485b6648286"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Add\>\"", ",", " ", "\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], "}"}]}]}], 
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"57c891a9-0d23-417a-8011-40c6a0a2e8a3"],
+
+Cell[CellGroupData[{
+
+Cell["Targeted rebuilds", \
+"Subsubsection",ExpressionUUID->"24506803-0fb5-4cb8-a941-53e8f979e74e"],
+
+Cell["\<\
+You can always tweak this as well, say to only regenerate the metadata and \
+index pages, or any combination of things you\[CloseCurlyQuote]d like:\
+\>", "Text",
+ CellChangeTimes->{{3.733713865212619*^9, 3.7337138996592817`*^9}, {
+  3.733716771169029*^9, 
+  3.733716781700053*^9}},ExpressionUUID->"770b33f9-cd16-4933-899d-\
+11f348d3b62b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"(*", 
+      RowBox[{"\"\<Add\>\"", ","}], " ", "*)"}], 
+     RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], "}"}]}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
+     RowBox[{"Now", "-", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"2", ",", " ", "\"\<Hours\>\""}], "]"}]}]}]}], 
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"13150e95-20db-45e4-b0e3-cfcf1c35b5dd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Log, Build, Test", \
+"Subsubsection",ExpressionUUID->"b5763edc-d6cb-4634-b476-f7a05deb38b4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Log\>\"", ",", " ", "\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}]}], 
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"c3b6d18e-90be-4a9c-9637-1b7fbef0131a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Just Test Pages", \
+"Subsubsection",ExpressionUUID->"49f4ec22-0788-4e46-8b43-c3eb8e31a1d0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateSearchPage\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], 
+      "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",
+ CellLabel->"In[367]:=",ExpressionUUID->"f50bb886-c400-47ed-9348-321fef82da3a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Build and Push Index", \
+"Subsubsection",ExpressionUUID->"7e936c65-cf64-48b4-941e-74a351e5616d"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Push\>\""}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "None"}]}], "\[IndentingNewLine]",
+    "]"}], ";"}]], "Input",
+ CellLabel->
+  "In[26]:=",ExpressionUUID->"6eb142e0-8408-4940-8857-c723bb3e23a6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Build and Push without Aggregation", \
+"Subsubsection",ExpressionUUID->"2246f796-7486-4a24-ac4b-d813b3f78e75"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"(*", 
+      RowBox[{"\"\<Add\>\"", ","}], " ", "*)"}], 
+     RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Push\>\""}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "None"}]}], "\[IndentingNewLine]",
+    "]"}], ";"}]], "Input",
+ CellLabel->"In[10]:=",ExpressionUUID->"cb92c5ed-d08f-4fe3-bc67-52582fdd8e67"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"(*", 
+      RowBox[{"\"\<Add\>\"", ","}], " ", "*)"}], 
+     RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Push\>\""}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "None"}]}], "\[IndentingNewLine]",
+    "]"}], ";"}]], "Input",
+ CellLabel->
+  "In[27]:=",ExpressionUUID->"659177d8-c7f7-48d1-a664-d110e06d3a8c"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 759},
+WindowMargins->{{Automatic, 144}, {Automatic, 0}},
+PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
+"FileOutlineCache"->False},
+TrackCellChangeTimes->False,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+

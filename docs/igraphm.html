@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+  IGraphM | Mathematica Paclet Server
+    </title>
+<link
+      rel='apple-touch-icon'
+      href='https://paclets.github.io/PacletServer/apple-touch-icon.png'
+      sizes='180x180'
+  >
+<link
+      rel='icon'
+      href='https://paclets.github.io/PacletServer/favicon-32x32.png'
+      sizes='32x32'
+  >
+<link
+      rel='icon'
+      href='https://paclets.github.io/PacletServer/favicon-16x16.png'
+      sizes='16x16'
+  >
+<link
+      rel='manifest'
+      href='https://paclets.github.io/PacletServer/manifest.json'
+  >
+<link
+      rel='stylesheet'
+      href='https://paclets.github.io/PacletServer/theme/css/pygments/default.min.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://paclets.github.io/PacletServer/theme/css/bootstrap.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://paclets.github.io/PacletServer/theme/css/font-awesome.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://fonts.googleapis.com/css?family=Source+Code+Pro'
+  >
+<link
+      rel='stylesheet'
+      href='https://reference.wolfram.com/language-assets/css/special-styles.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://paclets.github.io/PacletServer/theme/css/common.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://paclets.github.io/PacletServer/theme/css/style.css'
+  >
+<script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o);
+    a.async = 1;
+    a.src = g;
+    m = s.getElementsByTagName(o)[0];
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-118356806-1', 'auto');
+  ga('send', 'pageview');
+</script>
+      <meta name="description" content="">
+  <link href="https://paclets.github.io/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/prettify.js"></script>
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
+  <script>
+    function moveWindow (){window.location.hash="main-content";}
+  </script>
+  </head>
+<body onload="
+  PR.prettyPrint(); moveWindow()
+">
+  <header class="header">
+    <div class="top-bar">
+      <div class="site-title">
+        <h1 class="title">
+<a
+      href='https://paclets.github.io/PacletServer/'
+  >
+      Mathematica Paclet Server</a>
+        </h1>
+            <div class="site-links-search-row">
+              <div class="site-links">
+                <ul class="list-inline row" id="">
+<li class="list-inline-item">
+<a
+      href='https://paclets.github.io/PacletServer/pages/about.html'
+  >
+      About</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://paclets.github.io/PacletServer/categories.html'
+  >
+      Categories</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://paclets.github.io/PacletServer/tags.html'
+  >
+      Tags</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://paclets.github.io/PacletServer/authors.html'
+  >
+      Authors</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://github.com/paclets'
+  >
+      GitHub</a>
+</li>
+</ul>
+              </div>
+<div class="search-box">
+  <script>
+    var search_SiteURL = "https://paclets.github.io/PacletServer"
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://paclets.github.io/PacletServer/theme/tipuesearch/tipuesearch.css">
+  <form action="https://paclets.github.io/PacletServer/search.html">
+    <div class="tipue_search_group">
+      <input
+        type="text"
+        name="q"
+        id="tipue_search_input"
+        pattern=".{3,}"
+        title="At least 3 characters" required>
+      <button type="submit" class="tipue_search_button">
+        <div class="tipue_search_icon">&#9906;</div>
+      </button>
+    </div>
+  </form>
+</div>
+            </div>
+      </div>
+    </div>
+  </header>
+  <div class="main" id="main-content">
+    <div class="main-content">
+      <div class="container center-aligned">
+        <br>
+  <article class="article center-aligned">
+    <div class="content">
+      <a shape='rect' class='Section' id='igraphm' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h1> IGraphM</h1>
+<p><img src='https://paclets.github.io/PacletServer/img/IGraphM/Logo.png' alt='IGraphM' /></p>
+<p>IGraph/M &#8211; the igraph interface for Mathematica.
+</p>
+<hr />
+<a shape='rect' class='Subsection' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Install</h2>
+<p><strong>Before installing, be sure to check out the </strong> **<a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a><strong> </strong> to make sure that you trust the developer.**</p>
+<p>To install this paclet, run:
+</p>
+<pre>
+ <code>&lt;&lt; https://paclets.github.io/PacletServer/Install.wl
+PublicPacletInstall[&quot;IGraphM&quot;]</code>
+</pre>
+<p>Depending on what the current value of  <code>$ContextPath</code> is you may also need to first run
+</p>
+<pre>
+ <code>Needs[&quot;PacletManager`&quot;]</code>
+</pre>
+<ul>
+ <li>To update it, replace  <code>PacletInstall</code> with  <code>PacletUpdate</code> .</li>
+ <li>To uninstall replace  <code>PacletInstall</code> with  <code>PacletUninstall</code> and remove the  <code>&quot;Site&quot;</code> parameter.</li>
+</ul>
+<hr />
+<a shape='rect' class='Subsection' id='basic-information' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Basic Information</h2>
+<a shape='rect' class='Subsubsection' id='name' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> Name</h3>
+<p>IGraphM</p>
+<a shape='rect' class='Subsubsection' id='version' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> Version</h3>
+<p>0.3.103</p>
+<a shape='rect' class='Subsubsection' id='creator' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> Creator</h3>
+<p><a href='mailto:szhorvat@gmail.com'>Szabolcs Horv&#225;t</a></p>
+<a shape='rect' class='Subsubsection' id='url' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> URL</h3>
+<p><a href='http://szhorvat.net/mathematica/IGraphM'>http://szhorvat.net/mathematica/IGraphM</a></p>
+<hr />
+<a shape='rect' class='Subsection' id='extra-information' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extra Information</h2>
+<a shape='rect' class='Subsubsection' id='mathematicaversion' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> MathematicaVersion</h3>
+<p>10.0+</p>
+<a shape='rect' class='Subsubsection' id='systemid' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> SystemID</h3>
+<p>MacOSX-x86-64, Windows-x86-64, Linux-x86-64, Linux-ARM
+</p>
+<hr />
+<a shape='rect' class='Subsection' id='extensions' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extensions</h2>
+<a shape='rect' class='Subsubsection' id='kernel' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> Kernel</h3>
+<ul>
+ <li>Root: .</li>
+ <li>Context: IGraphM`</li>
+</ul>
+<a shape='rect' class='Subsubsection' id='librarylink' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> LibraryLink</h3>
+<ul>
+ <li>This extension has no extra parameters</li>
+</ul>
+<a shape='rect' class='Subsubsection' id='documentation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3> Documentation</h3>
+<ul>
+ <li>MainPage: Tutorials/IGDocumentation</li>
+</ul>
+    </div>
+  </article>
+      </div>
+    </div>
+  </div>
+<footer class="footer">
+  <p class="text-sm-right text-muted acknowledgement">
+        Brought to you by the
+          <a href="https://mathematica.stackexchange.com/">Mathematica StackExchange</a>
+  </p>
+</footer>
+</body>
+</html>

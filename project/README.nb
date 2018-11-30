@@ -1,0 +1,178 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6345,        170]
+NotebookOptionsPosition[      3900,        111]
+NotebookOutlinePosition[      5645,        160]
+CellTagsIndexPosition[      5602,        157]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<|", "\[IndentingNewLine]", 
+  RowBox[{"\"\<ExportOptions\>\"", "\[Rule]", "\[IndentingNewLine]", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"\"\<Directory\>\"", "\[Rule]", "\"\<..\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"\"\<ContentExtension\>\"", "\[Rule]", "\"\<project\>\""}]}], 
+    "\[IndentingNewLine]", "}"}]}], "\[IndentingNewLine]", "|>"}]], "Metadata",\
+
+ CellChangeTimes->{{3.732830406695567*^9, 3.732830432925774*^9}, {
+  3.7328323350873213`*^9, 3.7328323409624166`*^9}, {3.737252361301955*^9, 
+  3.737252376535769*^9}, {3.737252498001544*^9, 3.737252523498064*^9}, {
+  3.737252573922865*^9, 
+  3.7372525751526546`*^9}},ExpressionUUID->"b5bd2484-f7c7-4aed-937a-\
+9c7a956deb40"],
+
+Cell[CellGroupData[{
+
+Cell["Helpers", "HiddenSection",
+ CellChangeTimes->{{3.712937864356105*^9, 3.712937877188964*^9}, {
+  3.712937963780888*^9, 
+  3.712937964483138*^9}},ExpressionUUID->"a7091b20-076c-4341-b8e9-\
+ea10514c4469"],
+
+Cell[, "Input",ExpressionUUID->"7795aae7-ce81-4e37-8ad2-d044b1d83c09"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Paclet Server", "Section",
+ CellChangeTimes->{{3.71293841054522*^9, 3.712938421466749*^9}, {
+   3.732832596773106*^9, 3.7328326164583187`*^9}, 3.732832665161824*^9, {
+   3.733107956783772*^9, 
+   3.733107958438086*^9}},ExpressionUUID->"e6488658-bf42-450e-9bdc-\
+737b56968a02"],
+
+Cell["\<\
+This is a Mathematica paclet server. It hosts paclets that can be installed \
+locally.\
+\>", "Text",
+ CellChangeTimes->{{3.712938427698472*^9, 3.712938432754331*^9}, {
+  3.732832608642542*^9, 3.732832615291259*^9}, {3.733107959629765*^9, 
+  3.733107977320752*^9}},ExpressionUUID->"fe7ec65c-b79b-432f-92a9-\
+9945b4ca437c"],
+
+Cell[TextData[{
+ "Installation and contribution instructions for paclets as well as a number \
+of other details can be found on the ",
+ ButtonBox["Wiki",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/paclets/PacletServer/wiki"], None},
+  ButtonNote->"https://github.com/paclets/PacletServer/wiki"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.737311693461424*^9, 3.737311748672476*^9}, {
+  3.737313256318398*^9, 
+  3.737313264285886*^9}},ExpressionUUID->"5260bff9-ab93-4fa9-b4ad-\
+d5f02eeedc10"]
+}, Open  ]],
+
+Cell["", "PageBreak",
+ PageBreakBelow->True,ExpressionUUID->"6e284aad-d1f0-478d-995a-d5c61a7cb307"],
+
+Cell[TextData[{
+ "The idea behind this is described in detail in ",
+ ButtonBox["this blog post",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://www.wolframcloud.com/objects/b3m2a1/home/building-a-\
+mathematica-package-ecosystem-part-1.html#main-content"], None},
+  ButtonNote->
+   "https://www.wolframcloud.com/objects/b3m2a1/home/building-a-mathematica-\
+package-ecosystem-part-1.html#main-content"],
+ ". You can find when the last build was by looking at the ",
+ ButtonBox["BuildInfo.m",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/MathematicaPacletServer/PacletServer/blob/master/\
+BuildInfo.m"], None},
+  ButtonNote->
+   "https://github.com/MathematicaPacletServer/PacletServer/blob/master/\
+BuildInfo.m"],
+ " file."
+}], "Text",
+ CellChangeTimes->{{3.733108542502804*^9, 3.73310855290257*^9}, {
+  3.733108633608136*^9, 3.733108673868827*^9}, {3.733108710789248*^9, 
+  3.7331087107938957`*^9}},ExpressionUUID->"0d0c6fbf-540a-42b8-9cc7-\
+acba25ff89da"]
+},
+WindowSize->{808, 755},
+WindowMargins->{{107, Automatic}, {Automatic, 10}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> 
+     FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", CharacterEncoding -> 
+       "UTF-8"]]], 
+   Cell[
+    BoxData[
+     RowBox[{"SSNew", "[", 
+       RowBox[{"\"HiddenSection\"", ",", "\"Section\""}], "]"}]], "Input", 
+    CellChangeTimes -> {{3.712937945363078*^9, 3.712937960253202*^9}}], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["HiddenSection", StyleDefinitions -> StyleData["Section"]], 
+       CellBracketOptions -> {"Color" -> GrayLevel[0.5]}, FontColor -> 
+       GrayLevel[0.5]], 
+      Cell[
+       BoxData[
+        RowBox[{"SSEdit", "[", 
+          RowBox[{"\"HiddenSection\"", ",", 
+            RowBox[{"{", "\[IndentingNewLine]", 
+              RowBox[{
+                RowBox[{"FontColor", "\[Rule]", "Gray"}], ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"CellBracketOptions", "\[Rule]", 
+                  RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{"\"Color\"", "\[Rule]", "Gray"}], 
+                    "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", 
+              "}"}]}], "]"}]], "Input", 
+       CellChangeTimes -> {{3.71293797195337*^9, 3.712938000386712*^9}}]}, 
+     Open]]}, Visible -> False, FrontEndVersion -> 
+  "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, 2018)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 754, 15, 175, "Metadata",ExpressionUUID->"b5bd2484-f7c7-4aed-937a-9c7a956deb40"],
+Cell[CellGroupData[{
+Cell[1337, 39, 207, 4, 51, "HiddenSection",ExpressionUUID->"a7091b20-076c-4341-b8e9-ea10514c4469"],
+Cell[1547, 45, 70, 0, 915, "Input",ExpressionUUID->"7795aae7-ce81-4e37-8ad2-d044b1d83c09"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1654, 50, 282, 5, 47, "Section",ExpressionUUID->"e6488658-bf42-450e-9bdc-737b56968a02"],
+Cell[1939, 57, 331, 7, 35, "Text",ExpressionUUID->"fe7ec65c-b79b-432f-92a9-9945b4ca437c"],
+Cell[2273, 66, 514, 13, 58, "Text",ExpressionUUID->"5260bff9-ab93-4fa9-b4ad-d5f02eeedc10"]
+}, Open  ]],
+Cell[2802, 82, 99, 1, 22, "PageBreak",ExpressionUUID->"6e284aad-d1f0-478d-995a-d5c61a7cb307",
+ PageBreakBelow->True],
+Cell[2904, 85, 992, 24, 58, "Text",ExpressionUUID->"0d0c6fbf-540a-42b8-9cc7-acba25ff89da"]
+}
+]
+*)
+
