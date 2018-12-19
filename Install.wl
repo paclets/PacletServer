@@ -1,14 +1,23 @@
 (* ::Package:: *)
 
+(* ::Section:: *)
+(*PublicPacletInstall*)
+
+
 BeginPackage["PublicPacletInstall`"]
 
 PublicPacletInstall::usage=
   "Custom version of PacletInstall for the PublicPacletServer";
 
+
+(* ::Subsection:: *)
+(*Private*)
+
+
 Begin["`Private`"]
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*downloadRawPacletsToo*)
 
 
@@ -90,11 +99,11 @@ downloadRawPacletsToo[
 			]
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*setNonRemoteLocation*)
 
 
-setNonRemoteLocation[paclets:_Paclet,location_String]:=
+setNonRemoteLocation[paclets:_PacletManager`Paclet, location_String]:=
 	setNonRemoteLocation[{paclets},location][[1]];
 setNonRemoteLocation[paclets:{___PacletManager`Paclet}, location_String]:=
   Module[
@@ -122,24 +131,50 @@ setNonRemoteLocation[paclets:{___PacletManager`Paclet}, location_String]:=
     ];
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*PublicPacletInstall*)
 
 
 PublicPacletInstall[name_, ops:OptionsPattern[]]:=
-	Block[
-		{
-			PacletManager`Package`setLocation=setNonRemoteLocation,
-			PacletManager`Package`downloadPaclet=downloadRawPacletsToo
-			},
-		PacletManager`PacletInstall[
-			name,
-			ops,
-			"Site"->"http://paclets.github.io/PacletServer"
-			]
-		]
+  Catch[
+    Catch[
+      GeneralUtilities`WithMessageHandler[
+        Block[
+          {
+            PacletManager`Package`setLocation=setNonRemoteLocation,
+            PacletManager`Package`downloadPaclet=downloadRawPacletsToo
+            },
+          PacletManager`PacletInstall[
+            name,
+            ops,
+            "Site"->"http://paclets.github.io/PacletServer"
+            ]
+          ],
+        If[
+          Extract[#[[2]], "MessageTemplate", Hold]===
+            Hold[PacletManager`PacletInstall::instl]&&
+            FileExistsQ[#[[2, "MessageParameters", 1]]],
+          Throw[PacletManager`CreatePaclet@#[[2, "MessageParameters", 1]], "Paclet"],
+          Throw[#, "Exception"]
+          ]&
+        ],
+      "Exception",
+      (GeneralUtilities`ReissueMessage[#];#)&
+      ],
+   "Paclet",
+   #&
+   ]
+
+
+(* ::Subsubsection::Closed:: *)
+(*End*)
 
 
 End[]
+
+
+(* ::Subsection::Closed:: *)
+(*EndPackage*)
+
 
 EndPackage[]
