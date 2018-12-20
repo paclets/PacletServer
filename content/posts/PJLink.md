@@ -4,11 +4,11 @@ Categories: misc
 Creator: b3m2a1@gmail.com
 Description: A JLink-like interface for python
 DisplayName: PJLink
-Extensions: <|Kernel -> <|Root -> Mathematica, Context -> PJLink`|>|>
+Extensions: Kernel:<|Root -> Mathematica, Context -> PJLink`|>
 Modified: Missing[NotAvailable]
 Name: PJLink
 Slug: pjlink
-Tags: <||>
+Tags: 
 Version: 1.0.3
 
 <a id="pjlink" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>

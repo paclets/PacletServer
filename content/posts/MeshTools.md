@@ -5,7 +5,7 @@ Categories: FEM
 Creator: C3M d.o.o. <info@c3m.si>
 Description: A package with utilities for  creating and manipulating ElementMesh objects.
 DisplayName: MeshTools
-Extensions: <|Kernel -> <|Root -> ., Context -> {MeshTools`}|>, Documentation -> <|Language -> English, MainPage -> Guides/MeshTools|>, PacletServer -> <|Tags -> {finite-elements, mesh, FEM}, Categories -> {FEM}, Description -> A package with utilities for  creating and manipulating ElementMesh objects., License -> MIT|>|>
+Extensions: Kernel:<|Root -> ., Context -> {MeshTools`}|>,Documentation:<|Language -> English, MainPage -> Guides/MeshTools|>,PacletServer:<|Tags -> {finite-elements, mesh, FEM}, Categories -> {FEM}, Description -> A package with utilities for  creating and manipulating ElementMesh objects., License -> MIT|>
 Hash: v0.3.1-0-gce5537b
 Internal: False
 License: MIT

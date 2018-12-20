@@ -3,11 +3,11 @@ Authors: Sasaki Saki
 Categories: misc
 Creator: Sasaki Saki <galaster@foxmail.com>
 DisplayName: Deus
-Extensions: <|Kernel -> <|Root -> ., Context -> {Deus`}|>, Documentation -> <|Language -> English, MainPage -> Guides/Deus|>|>
+Extensions: Kernel:<|Root -> ., Context -> {Deus`}|>,Documentation:<|Language -> English, MainPage -> Guides/Deus|>
 Modified: Missing[NotAvailable]
 Name: Deus
 Slug: deus
-Tags: <||>
+Tags: 
 Version: 1.0.2
 
 <a id="deus" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>

@@ -4,7 +4,7 @@ Categories: Mathematics
 Creator: Albert D. Rich
 Description: Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives.
 DisplayName: Rubi
-Extensions: <|Kernel -> <|Root -> ., Context -> Rubi`|>, PacletServer -> <|Tags -> {integration, rule, antiderivative}, Categories -> {Mathematics}, Description -> Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives., License -> MIT|>|>
+Extensions: Kernel:<|Root -> ., Context -> Rubi`|>,PacletServer:<|Tags -> {integration, rule, antiderivative}, Categories -> {Mathematics}, Description -> Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives., License -> MIT|>
 License: MIT
 MathematicaVersion: 11+
 Modified: Missing[NotAvailable]

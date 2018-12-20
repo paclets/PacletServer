@@ -200,37 +200,12 @@ Cell["This will just build the pages", "Text",
   3.7334298227168207`*^9}},ExpressionUUID->"839e96aa-25a8-4f72-bfe9-\
 f5e5d6496191"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Build\>\"", "]"}], 
   ";"}]], "Input",
  CellLabel->
   "In[159]:=",ExpressionUUID->"2eff8a5b-9010-40b1-b50e-0f550470c940"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Building pages..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[159]:=",ExpressionUUID->"cf3c31cf-af52-48d5-8d47-ea50c3b64a4b"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel[
-    TemplateApply["Generating ``", BTools`Web`Private`page]], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{104., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[159]:=",ExpressionUUID->"7028f664-aa44-45f8-ab55-e524e29804cd"]
-}, Open  ]]
-}, Open  ]],
 
 Cell["Regenerate all the content pages", "Text",
  CellChangeTimes->{{3.733431732585972*^9, 

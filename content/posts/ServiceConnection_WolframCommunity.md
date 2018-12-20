@@ -1,13 +1,13 @@
 Title: ServiceConnection_WolframCommunity
-Authors: <||>
+Authors: 
 Categories: ServiceConnections
 Description: A hacked-up ServiceConnection to the Wolfram Community website
 DisplayName: WolframCommunity (ServiceConnection)
-Extensions: <|FrontEnd -> <|Prepend -> True|>|>
+Extensions: FrontEnd:<|Prepend -> True|>
 Modified: Missing[NotAvailable]
 Name: ServiceConnection_WolframCommunity
 Slug: serviceconnectionwolframcommunity
-Tags: <||>
+Tags: 
 Version: 1.0.3
 
 <a id="wolframcommunityserviceconnection" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>

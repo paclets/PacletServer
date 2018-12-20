@@ -17,21 +17,21 @@
 		{
 			"title":"CompoundMatrixMethod",
 			"text":"‌   CompoundMatrixMethod  \nSolve Eigenvalue Boundary Value Problems using the Compound Matrix Method to generate the Evans function.  \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"CompoundMatrixMethod\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nCompoundMatrixMethod   ‌   Version  \n0.9   ‌   Creator  \nSimon Pearce   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n10+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: CompoundMatrixMethod`",
-			"tags":"<||>",
+			"tags":"",
 			"url":"compoundmatrixmethod.html",
 			"note":""
 		},
 		{
 			"title":"Deus",
 			"text":"‌   Deus  \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"Deus\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nDeus   ‌   Version  \n1.0.2   ‌   Creator   Sasaki Saki  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: Deus`   ‌   Documentation  \nLanguage: English MainPage: Guides\/Deus",
-			"tags":"<||>",
+			"tags":"",
 			"url":"deus.html",
 			"note":""
 		},
 		{
 			"title":"IGraphM",
 			"text":"‌   IGraphM     \nIGraph\/M – the igraph interface for Mathematica.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"IGraphM\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nIGraphM   ‌   Version  \n0.3.108   ‌   Creator   Szabolcs Horvát   ‌   URL   http:\/\/szhorvat.net\/mathematica\/IGraphM  \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n10.0+   ‌   SystemID  \nMacOSX-x86-64, Windows-x86-64, Linux-x86-64, Linux-ARM   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: IGraphM`   ‌   LibraryLink  \nThis extension has no extra parameters   ‌   Documentation  \nMainPage: Tutorials\/IGDocumentation",
-			"tags":"<||>",
+			"tags":"",
 			"url":"igraphm.html",
 			"note":""
 		},
@@ -45,21 +45,21 @@
 		{
 			"title":"MaTeX",
 			"text":"‌   MaTeX     \nCreate LaTeX-typeset labels within Mathematica.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"MaTeX\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nMaTeX   ‌   Version  \n1.7.4   ‌   Creator   Szabolcs Horvát   ‌   URL   http:\/\/szhorvat.net\/mathematica\/MaTeX  \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n10.0+   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: All MainPage: Guides\/MaTeX   ‌   Kernel  \nRoot: . Context: MaTeX`",
-			"tags":"<||>",
+			"tags":"",
 			"url":"matex.html",
 			"note":""
 		},
 		{
 			"title":"PJLink",
 			"text":"‌   PJLink  \nA JLink-like interface for python   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"PJLink\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nPJLink   ‌   Version  \n1.0.3   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: Mathematica Context: PJLink`",
-			"tags":"<||>",
+			"tags":"",
 			"url":"pjlink.html",
 			"note":""
 		},
 		{
 			"title":"PublicPacletServer",
 			"text":"‌   PublicPacletServer     \nA beta version of a paclet for interfacing with the public paclet server Current supports:     forking the server, submitting paclets, sending PRs, cloning the server, and building the server    \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"PublicPacletServer\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nPublicPacletServer   ‌   Version  \n0.0.7   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: PublicPacletServer`",
-			"tags":"<||>",
+			"tags":"",
 			"url":"publicpacletserver.html",
 			"note":""
 		},
@@ -94,21 +94,21 @@
 		{
 			"title":"ServiceConnection_WolframCommunity",
 			"text":"‌   WolframCommunity (ServiceConnection)  \nA hacked-up ServiceConnection to the Wolfram Community website   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"ServiceConnection_WolframCommunity\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_WolframCommunity   ‌   Version  \n1.0.3   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
-			"tags":"<||>",
+			"tags":"",
 			"url":"serviceconnectionwolframcommunity.html",
 			"note":""
 		},
 		{
 			"title":"SymbolObjects",
 			"text":"‌   SymbolObjects  \nA light-weight object framework for Mathematica   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"SymbolObjects\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nSymbolObjects   ‌   Version  \n1.0.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: SymbolObjects`",
-			"tags":"<||>",
+			"tags":"",
 			"url":"symbolobjects.html",
 			"note":""
 		},
 		{
 			"title":"Ems",
 			"text":"‌   Ems  \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"Ems\"]    \nDepending on what the current value of $ContextPath is you may also need to first run      Needs[\"PacletManager`\"]    \nTo update it, replace PacletInstall with PacletUpdate . To uninstall replace PacletInstall with PacletUninstall and remove the \"Site\" parameter.  \n\n  ‌   Basic Information   ‌   Name  \nEms   ‌   Version  \n1.0.6   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: Ems`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\nIcons Templates Themes {banner, Icons\/banner.png} {banner tall, Icons\/banner tall.png} {favicon-16x16, Icons\/favicon-16x16.png} {favicon-32x32, Icons\/favicon-32x32.png} {SiteConfig, Templates\/blog\/SiteConfig.wl} {blog, Templates\/blog} {content, Templates\/blog\/content} {docs, Templates\/docs} {portfolio, Templates\/portfolio} {scroll, Templates\/scroll} {bootstrap-blog, Themes\/bootstrap-blog} {static, Themes\/bootstrap-blog\/static} {templates, Themes\/bootstrap-blog\/templates} {bootstrap-docs, Themes\/bootstrap-docs} {bootstrap-portfolio, Themes\/bootstrap-portfolio} {bootstrap-single-page, Themes\/bootstrap-single-page}",
-			"tags":"<||>",
+			"tags":"",
 			"url":"ems.html",
 			"note":""
 		},

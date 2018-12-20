@@ -4,7 +4,7 @@ Categories: ServiceConnections
 Creator: b3m2a1@gmail.com
 Description: A service connection to the Stack Exchange API. Supports the majority of the functions defined in the API
 DisplayName: StackExchange (ServiceConnection)
-Extensions: <|FrontEnd -> <|Prepend -> True|>|>
+Extensions: FrontEnd:<|Prepend -> True|>
 Icon: FrontEnd/SystemResources/Bitmaps/stackexchange@2.png
 Modified: Missing[NotAvailable]
 Name: ServiceConnection_StackExchange
