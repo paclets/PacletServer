@@ -45,43 +45,43 @@ Depending on what the current value of  ```$ContextPath``` is you may also need 
 
 ---
 
-<a id="basic-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="basicinformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
 
 <a id="name" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Name
+###Name
 
 MaTeX
 
 <a id="version" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Version
+###Version
 
 1.7.4
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Creator
+###Creator
 
 [Szabolcs Horvát](mailto:szhorvat@gmail.com)
 
 <a id="url" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### URL
+###URL
 
 [http://szhorvat.net/mathematica/MaTeX](http://szhorvat.net/mathematica/MaTeX)
 
 ---
 
-<a id="extra-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="extrainformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extra Information
 
 <a id="mathematicaversion" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### MathematicaVersion
+###MathematicaVersion
 
 10.0+
 
@@ -93,7 +93,7 @@ MaTeX
 
 <a id="documentation" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Documentation
+###Documentation
 
 *  Language: All
 
@@ -101,7 +101,7 @@ MaTeX
 
 <a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Kernel
+###Kernel
 
 *  Root: .
 

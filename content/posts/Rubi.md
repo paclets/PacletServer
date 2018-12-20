@@ -46,49 +46,49 @@ Depending on what the current value of  ```$ContextPath``` is you may also need 
 
 ---
 
-<a id="basic-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="basicinformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
 
 <a id="name" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Name
+###Name
 
 Rubi
 
 <a id="version" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Version
+###Version
 
 4.15.2.1
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Creator
+###Creator
 
 Albert D. Rich
 
 <a id="url" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### URL
+###URL
 
 [https://rulebasedintegration.org](https://rulebasedintegration.org)
 
 <a id="license" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### License
+###License
 
 MIT
 
 ---
 
-<a id="extra-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="extrainformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extra Information
 
 <a id="mathematicaversion" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### MathematicaVersion
+###MathematicaVersion
 
 11+
 
@@ -100,7 +100,7 @@ MIT
 
 <a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Kernel
+###Kernel
 
 *  Root: .
 

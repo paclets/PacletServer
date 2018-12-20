@@ -10,7 +10,7 @@ Slug: serviceconnectionwolframcommunity
 Tags: <||>
 Version: 1.0.3
 
-<a id="wolframcommunity-serviceconnection" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="wolframcommunityserviceconnection" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # WolframCommunity (ServiceConnection)
 
@@ -39,25 +39,25 @@ Depending on what the current value of  ```$ContextPath``` is you may also need 
 
 ---
 
-<a id="basic-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="basicinformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
 
 <a id="name" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Name
+###Name
 
 ServiceConnection_WolframCommunity
 
 <a id="version" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Version
+###Version
 
 1.0.3
 
 ---
 
-<a id="extra-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="extrainformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extra Information
 
@@ -71,6 +71,6 @@ This package provides no extra information
 
 <a id="frontend" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### FrontEnd
+###FrontEnd
 
 *  This extension has no extra parameters

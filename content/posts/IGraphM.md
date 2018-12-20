@@ -13,7 +13,7 @@ SystemID: MacOSX-x86-64,Windows-x86-64,Linux-x86-64,Linux-ARM
 Tags: <||>
 Thumbnail: Logo.png
 URL: http://szhorvat.net/mathematica/IGraphM
-Version: 0.3.103
+Version: 0.3.108
 
 <a id="igraphm" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -46,49 +46,49 @@ Depending on what the current value of  ```$ContextPath``` is you may also need 
 
 ---
 
-<a id="basic-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="basicinformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
 
 <a id="name" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Name
+###Name
 
 IGraphM
 
 <a id="version" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Version
+###Version
 
-0.3.103
+0.3.108
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Creator
+###Creator
 
 [Szabolcs Horvát](mailto:szhorvat@gmail.com)
 
 <a id="url" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### URL
+###URL
 
 [http://szhorvat.net/mathematica/IGraphM](http://szhorvat.net/mathematica/IGraphM)
 
 ---
 
-<a id="extra-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="extrainformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extra Information
 
 <a id="mathematicaversion" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### MathematicaVersion
+###MathematicaVersion
 
 10.0+
 
 <a id="systemid" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### SystemID
+###SystemID
 
 MacOSX-x86-64, Windows-x86-64, Linux-x86-64, Linux-ARM
 
@@ -100,7 +100,7 @@ MacOSX-x86-64, Windows-x86-64, Linux-x86-64, Linux-ARM
 
 <a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Kernel
+###Kernel
 
 *  Root: .
 
@@ -108,12 +108,12 @@ MacOSX-x86-64, Windows-x86-64, Linux-x86-64, Linux-ARM
 
 <a id="librarylink" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### LibraryLink
+###LibraryLink
 
 *  This extension has no extra parameters
 
 <a id="documentation" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Documentation
+###Documentation
 
 *  MainPage: Tutorials/IGDocumentation

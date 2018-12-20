@@ -12,7 +12,7 @@ Slug: serviceconnectionstackexchange
 Tags: web,serviceconnection
 Version: 1.1.7
 
-<a id="stackexchange-serviceconnection" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="stackexchangeserviceconnection" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # StackExchange (ServiceConnection)
 
@@ -43,31 +43,31 @@ Depending on what the current value of  ```$ContextPath``` is you may also need 
 
 ---
 
-<a id="basic-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="basicinformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
 
 <a id="name" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Name
+###Name
 
 ServiceConnection_StackExchange
 
 <a id="version" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Version
+###Version
 
 1.1.7
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Creator
+###Creator
 
 [b3m2a1@gmail.com](mailto:b3m2a1@gmail.com)
 
 ---
 
-<a id="extra-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="extrainformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extra Information
 
@@ -81,6 +81,6 @@ This package provides no extra information
 
 <a id="frontend" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### FrontEnd
+###FrontEnd
 
 *  This extension has no extra parameters

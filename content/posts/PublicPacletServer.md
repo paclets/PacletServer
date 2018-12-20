@@ -1,9 +1,9 @@
 Title: PublicPacletServer
 Authors: <||>
 Categories: misc
-Description: A beta version of a paclet for interfacing with the public paclet server 		Current supports: 		  forking the server, submitting paclets, sending PRs, 		  cloning the server, and building the server
+Description: A beta version of a paclet for interfacing with the public paclet server 			Current supports: 			  forking the server, submitting paclets, sending PRs, 			  cloning the server, and building the server
 DisplayName: PublicPacletServer
-Extensions: <|Kernel -> <|Root -> ., Context -> {PublicPacletServer`}|>, PacletServer -> <|Description -> A beta version of a paclet for interfacing with the public paclet server|>|>                                                                                               		Current supports:                                                                                               		  forking the server, submitting paclets, sending PRs,                                                                                               		  cloning the server, and building the server
+Extensions: <|Kernel -> <|Root -> ., Context -> {PublicPacletServer`}|>, PacletServer -> <|Description -> A beta version of a paclet for interfacing with the public paclet server|>|>                                                                                               			Current supports:                                                                                               			  forking the server, submitting paclets, sending PRs,                                                                                               			  cloning the server, and building the server
 Modified: Missing[NotAvailable]
 Name: PublicPacletServer
 Slug: publicpacletserver
@@ -18,9 +18,9 @@ Version: 0.0.7
 ![PublicPacletServer]({filename}/img/PublicPacletServer/PacletIcon.png)
 
 A beta version of a paclet for interfacing with the public paclet server
-  Current supports:
-    forking the server, submitting paclets, sending PRs,
-    cloning the server, and building the server
+   Current supports:
+     forking the server, submitting paclets, sending PRs,
+     cloning the server, and building the server
 
 ---
 
@@ -45,25 +45,25 @@ Depending on what the current value of  ```$ContextPath``` is you may also need 
 
 ---
 
-<a id="basic-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="basicinformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Basic Information
 
 <a id="name" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Name
+###Name
 
 PublicPacletServer
 
 <a id="version" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Version
+###Version
 
 0.0.7
 
 ---
 
-<a id="extra-information" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="extrainformation" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extra Information
 
@@ -77,7 +77,7 @@ This package provides no extra information
 
 <a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-### Kernel
+###Kernel
 
 *  Root: .
 
