@@ -4,7 +4,7 @@
   "IGraphM"->
     <|
       "Location"->
-        "https://github.com/szhorvat/IGraphM/releases/download/v0.3.103/IGraphM-0.3.103.paclet"
+        "https://github.com/szhorvat/IGraphM/releases/download/v0.3.108/IGraphM-0.3.108.paclet"
       |>,
   "MaTeX"->
     <|

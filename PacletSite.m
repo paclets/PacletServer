@@ -178,8 +178,8 @@ PacletSite[
 	     		"Categories" -> {"Development"},
 	     		"Description" -> 
 	      "A general purpose package that implements useful functionality for application development.
-	\t\tFeatures include: distribution tools, documentation generation, front-end manipulation, and application editing
-	\t\t  ",
+	\t\t\tFeatures include: distribution tools, documentation generation, front-end manipulation, and application editing
+	\t\t\t  ",
 	     		"License" -> "MIT"
 	     	},
 	    	{
@@ -435,7 +435,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "IGraphM",
-	  Version -> "0.3.103",
+	  Version -> "0.3.108",
 	  Creator -> "Szabolcs Horvát <szhorvat@gmail.com>",
 	  URL -> "http://szhorvat.net/mathematica/IGraphM",
 	  Description -> "IGraph/M \[Dash] the igraph interface for Mathematica.",
@@ -459,7 +459,7 @@ PacletSite[
 	     		MainPage -> "Tutorials/IGDocumentation"
 	     	}
 	    },
-	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.103/IGraphM-0.3.103.paclet"
+	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.108/IGraphM-0.3.108.paclet"
 	 ],
 	Paclet[
 	  Name -> "ImportMesh",
@@ -575,9 +575,9 @@ PacletSite[
 	     		"PacletServer",
 	     		"Description" -> 
 	      "A beta version of a paclet for interfacing with the public paclet server
-	\tCurrent supports:
-	\t  forking the server, submitting paclets, sending PRs,
-	\t  cloning the server, and building the server"
+	\t\tCurrent supports:
+	\t\t  forking the server, submitting paclets, sending PRs,
+	\t\t  cloning the server, and building the server"
 	     	}
 	    },
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
@@ -587,7 +587,7 @@ PacletSite[
 	  Version -> "1.0.10",
 	  Creator -> "b3m2a1@gmail.com",
 	  Description -> "A process-based link between Mathematica and python.
-	\t\t  Includes tools based off of this link",
+	\t\t\t  Includes tools based off of this link",
 	  Tags -> {
 	    	"mathematica",
 	    	"python"

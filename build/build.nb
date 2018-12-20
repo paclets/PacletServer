@@ -21,7 +21,8 @@ Cell[BoxData[
      RowBox[{
       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
- CellLabel->"In[44]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+ CellLabel->
+  "In[1344]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
 
 Cell[CellGroupData[{
 
@@ -61,6 +62,11 @@ Cell["It just rebuilds everything.", "Text",
   3.7334296891852627`*^9}},ExpressionUUID->"d2a8dae0-e90f-45e1-a72c-\
 02009be00a33"],
 
+Cell[CellGroupData[{
+
+Cell["No Aggregations", \
+"Subsubsection",ExpressionUUID->"90b69235-f91e-4fea-8a03-90acef8e9543"],
+
 Cell["\<\
 If you haven\[CloseCurlyQuote]t added any new paclets this might be more \
 appropriate but are just adding edits to old ones:\
@@ -71,7 +77,8 @@ Cell[BoxData[
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], 
    "\[IndentingNewLine]", "]"}], 
-  ";"}]], "Input",ExpressionUUID->"e3623f48-aba6-442b-a0b9-3d6aa229391d"],
+  ";"}]], "Input",ExpressionUUID->"e3623f48-aba6-442b-a0b9-3d6aa229391d"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -217,7 +224,7 @@ Cell[BoxData[
    Internal`LoadingPanel[
     TemplateApply["Generating ``", BTools`Web`Private`page]], StandardForm],
   Evaluator->"Local",
-  ImageSizeCache->{181., {20., 26.}}]], "PrintTemporary",
+  ImageSizeCache->{104., {20., 26.}}]], "PrintTemporary",
  CellLabel->
   "During evaluation of \
 In[159]:=",ExpressionUUID->"7028f664-aa44-45f8-ab55-e524e29804cd"]
