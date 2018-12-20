@@ -195,17 +195,43 @@ Cell[BoxData[
  CellLabel->
   "In[145]:=",ExpressionUUID->"31b51a22-b313-49d2-b418-12e381c7d876"],
 
-Cell["This will just build the pages", "Text",
- CellChangeTimes->{{3.733429781451778*^9, 
-  3.7334298227168207`*^9}},ExpressionUUID->"839e96aa-25a8-4f72-bfe9-\
-f5e5d6496191"],
+Cell["This will build pages and generate nothing new", \
+"Text",ExpressionUUID->"839e96aa-25a8-4f72-bfe9-f5e5d6496191"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Build\>\"", "]"}], 
   ";"}]], "Input",
  CellLabel->
-  "In[159]:=",ExpressionUUID->"2eff8a5b-9010-40b1-b50e-0f550470c940"],
+  "In[1443]:=",ExpressionUUID->"2eff8a5b-9010-40b1-b50e-0f550470c940"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Building pages..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[1443]:=",ExpressionUUID->"343a5ea1-ef48-419e-90a9-4921c1cc9a89"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   If[
+    StringQ[BTools`Paclets`PacletTools`Private`md], 
+    Internal`LoadingPanel[
+     TemplateApply["Generating ``", BTools`Paclets`PacletTools`Private`md]], 
+    ""], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{411., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[1443]:=",ExpressionUUID->"b57b71bd-3595-4563-908c-d40cb59baea6"]
+}, Open  ]]
+}, Open  ]],
 
 Cell["Regenerate all the content pages", "Text",
  CellChangeTimes->{{3.733431732585972*^9, 
@@ -216,12 +242,9 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", 
    RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
-    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
-    "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "True"}]}], 
-   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
- CellLabel->
-  "In[1433]:=",ExpressionUUID->"f759ae11-2fae-406b-b034-02d0aa547eb0"]
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}]}], 
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"f759ae11-2fae-406b-b034-02d0aa547eb0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -241,7 +264,7 @@ Cell[BoxData[
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
   ";"}]], "Input",
  CellLabel->
-  "In[1423]:=",ExpressionUUID->"8d3ec9ba-76e0-4504-8fe8-cc1ec16a8321"]
+  "In[1434]:=",ExpressionUUID->"8d3ec9ba-76e0-4504-8fe8-cc1ec16a8321"]
 }, Open  ]],
 
 Cell[CellGroupData[{
