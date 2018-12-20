@@ -4,7 +4,7 @@ Categories: ServiceConnections
 Creator: b3m2a1@gmail.com
 Description: A service connection to NASA's APIs
 DisplayName: NASA (ServiceConnection)
-Extensions: FrontEnd:<|Prepend -> True, Prepend -> True|>
+Extensions: <|FrontEnd -> <|Prepend -> True, Prepend -> True|>|>
 Icon: FrontEnd/SystemResources/Bitmaps/nasa@2.png
 Modified: Missing[NotAvailable]
 Name: ServiceConnection_NASA

@@ -4,7 +4,7 @@ Categories: misc
 Creator: Szabolcs Horvát <szhorvat@gmail.com>
 Description: Create LaTeX-typeset labels within Mathematica.
 DisplayName: MaTeX
-Extensions: Documentation:<|Language -> All, MainPage -> Guides/MaTeX|>,Kernel:<|Root -> ., Context -> MaTeX`|>
+Extensions: <|Documentation -> <|Language -> All, MainPage -> Guides/MaTeX|>, Kernel -> <|Root -> ., Context -> MaTeX`|>|>
 MathematicaVersion: 10.0+
 Modified: Missing[NotAvailable]
 Name: MaTeX

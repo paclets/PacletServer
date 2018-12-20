@@ -4,7 +4,7 @@ Categories: misc
 Creator: b3m2a1@gmail.com
 Description: A light-weight object framework for Mathematica
 DisplayName: SymbolObjects
-Extensions: Kernel:<|Root -> ., Context -> {SymbolObjects`}|>
+Extensions: <|Kernel -> <|Root -> ., Context -> {SymbolObjects`}|>|>
 Modified: Missing[NotAvailable]
 Name: SymbolObjects
 Slug: symbolobjects

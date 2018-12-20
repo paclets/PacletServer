@@ -216,10 +216,12 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", 
    RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
-    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}]}], 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "True"}]}], 
    "\[IndentingNewLine]", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[95]:=",ExpressionUUID->"f759ae11-2fae-406b-b034-02d0aa547eb0"]
+  "In[1433]:=",ExpressionUUID->"f759ae11-2fae-406b-b034-02d0aa547eb0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -237,7 +239,9 @@ fab146574e8f"],
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
-  ";"}]], "Input",ExpressionUUID->"8d3ec9ba-76e0-4504-8fe8-cc1ec16a8321"]
+  ";"}]], "Input",
+ CellLabel->
+  "In[1423]:=",ExpressionUUID->"8d3ec9ba-76e0-4504-8fe8-cc1ec16a8321"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -496,7 +500,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{43, Automatic}, {Automatic, 0}},
+WindowMargins->{{264, Automatic}, {Automatic, 0}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,

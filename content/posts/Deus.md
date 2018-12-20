@@ -3,7 +3,7 @@ Authors: Sasaki Saki
 Categories: misc
 Creator: Sasaki Saki <galaster@foxmail.com>
 DisplayName: Deus
-Extensions: Kernel:<|Root -> ., Context -> {Deus`}|>,Documentation:<|Language -> English, MainPage -> Guides/Deus|>
+Extensions: <|Kernel -> <|Root -> ., Context -> {Deus`}|>, Documentation -> <|Language -> English, MainPage -> Guides/Deus|>|>
 Modified: Missing[NotAvailable]
 Name: Deus
 Slug: deus

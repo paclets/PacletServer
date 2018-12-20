@@ -4,7 +4,7 @@ Categories: misc
 Creator: b3m2a1@gmail.com
 Description: A JLink-like interface for python
 DisplayName: PJLink
-Extensions: Kernel:<|Root -> Mathematica, Context -> PJLink`|>
+Extensions: <|Kernel -> <|Root -> Mathematica, Context -> PJLink`|>|>
 Modified: Missing[NotAvailable]
 Name: PJLink
 Slug: pjlink
