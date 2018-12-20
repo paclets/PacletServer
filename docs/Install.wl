@@ -166,6 +166,57 @@ PublicPacletInstall[name_, ops:OptionsPattern[]]:=
    ]
 
 
+(* ::Subsubsection:: *)
+(*Autocompletions*)
+
+
+$psMZ="https://raw.githubusercontent.com/paclets/PacletServer/master/PacletSite.mz";
+
+
+getACNames[]:=
+  Module[{ctxt},
+    Internal`WithLocalSettings[
+      ctxt=$Context;
+      $Context="PacletManager`Private`";
+      System`Private`NewContextPath@{"System`", "PacletManager`Private`"},
+      DeleteDuplicates@
+        Lookup[
+          List@@@ 
+          Apply[
+            List,
+            Import[$psMZ, {"ZIP", "PacletSite.m"}]
+            ],
+          PacletManager`Private`Name
+          ],
+      System`Private`RestoreContextPath[];
+      $Context=ctxt
+      ]
+    ]
+
+
+If[!ValueQ@$acNames, $acNames:=getACNames[]]
+
+
+setACs[names_]:=
+  If[$Notebooks&&
+    Internal`CachedSystemInformation["FrontEnd","VersionNumber"]>10.0,
+    FrontEndExecute@FrontEnd`Value@
+      FEPrivate`AddSpecialArgCompletion["PublicPacletInstall"->{names}],
+    $Failed
+    ] 
+
+
+setACs[$acNames]
+
+
+(*PublicPacletInstall:=
+  (
+    setACs[$acNames];
+    OwnValues[PublicPacletInstall]={};
+    PublicPacletInstall
+    )*)
+
+
 (* ::Subsubsection::Closed:: *)
 (*End*)
 
