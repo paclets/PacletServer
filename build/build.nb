@@ -510,63 +510,28 @@ Cell[BoxData[
  CellLabel->
   "In[2849]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
- RowBox[{"PublicPacletServerRebuild", "[", 
-  RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
-   RowBox[{"\"\<CopyContent\>\"", "\[Rule]", "True"}], ",", 
-   "\[IndentingNewLine]", 
-   RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "False"}], ",", 
-   "\[IndentingNewLine]", 
-   RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
-   "\[IndentingNewLine]", " ", 
-   RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
-    RowBox[{"Today", "-", 
-     RowBox[{"Quantity", "[", 
-      RowBox[{"50", ",", " ", "\"\<Days\>\""}], "]"}]}]}]}], 
-  "\[IndentingNewLine]", "]"}]], "Input",
- CellLabel->
-  "In[2863]:=",ExpressionUUID->"24518642-7fac-467b-b90f-0d6836cc37cb"],
-
-Cell[BoxData[
- RowBox[{"\[LeftAssociation]", 
-  RowBox[{"\<\"Build\"\>", 
-   "\[Rule]", \
-"\<\"/Users/Mark/Documents/GitHub/PacletServer/docs/PacletSite.mz\"\>"}], 
-  "\[RightAssociation]"}]], "Output",
- CellLabel->
-  "Out[2863]=",ExpressionUUID->"7bdfa724-40b8-4124-a718-d867a4b66dd9"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"PublicPacletServerRebuild", "[", 
-  RowBox[{"\"\<Build\>\"", ",", " ", 
-   RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
-    RowBox[{"Today", "-", 
-     RowBox[{"Quantity", "[", 
-      RowBox[{"50", ",", " ", "\"\<Days\>\""}], "]"}]}]}]}], "]"}]], "Input",
- CellLabel->
-  "In[2853]:=",ExpressionUUID->"939e8b76-bdd0-49be-bcd5-3cf9c92c68c9"],
-
-Cell[BoxData["$Aborted"], "Output",
- CellLabel->
-  "Out[2853]=",ExpressionUUID->"a83f1ae8-ed81-4852-a02c-c213eb34f778"]
-}, Open  ]],
-
-Cell[BoxData[
- RowBox[{"WithLocalPublicPacletServer", "@", "\[IndentingNewLine]", 
-  RowBox[{"PublicPacletServer", "[", "\"\<TestServer\>\"", "]"}]}]], "Input",
- CellLabel->
-  "In[2852]:=",ExpressionUUID->"69795a9a-fff7-43ed-996f-240696713327"]
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
+    RowBox[{"\"\<CopyContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", " ", 
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
+     RowBox[{"Today", "-", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"50", ",", " ", "\"\<Days\>\""}], "]"}]}]}]}], 
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"24518642-7fac-467b-b90f-0d6836cc37cb"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{Automatic, 220}, {0, Automatic}},
+WindowMargins->{{Automatic, 206}, {-66, Automatic}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,
