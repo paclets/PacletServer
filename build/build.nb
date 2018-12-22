@@ -22,7 +22,7 @@ Cell[BoxData[
       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
  CellLabel->
-  "In[1344]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+  "In[2835]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
 
 Cell[CellGroupData[{
 
@@ -198,40 +198,12 @@ Cell[BoxData[
 Cell["This will build pages and generate nothing new", \
 "Text",ExpressionUUID->"839e96aa-25a8-4f72-bfe9-f5e5d6496191"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Build\>\"", "]"}], 
   ";"}]], "Input",
  CellLabel->
   "In[1443]:=",ExpressionUUID->"2eff8a5b-9010-40b1-b50e-0f550470c940"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Building pages..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[1443]:=",ExpressionUUID->"343a5ea1-ef48-419e-90a9-4921c1cc9a89"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   If[
-    StringQ[BTools`Paclets`PacletTools`Private`md], 
-    Internal`LoadingPanel[
-     TemplateApply["Generating ``", BTools`Paclets`PacletTools`Private`md]], 
-    ""], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{411., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[1443]:=",ExpressionUUID->"b57b71bd-3595-4563-908c-d40cb59baea6"]
-}, Open  ]]
-}, Open  ]],
 
 Cell["Regenerate all the content pages", "Text",
  CellChangeTimes->{{3.733431732585972*^9, 
@@ -519,11 +491,30 @@ Cell[BoxData[
  CellLabel->
   "In[27]:=",ExpressionUUID->"659177d8-c7f7-48d1-a664-d110e06d3a8c"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Experimental", \
+"Subsection",ExpressionUUID->"6c3b9684-0c24-40ab-a36d-ef4a35116add"],
+
+Cell[CellGroupData[{
+
+Cell["Analytics", \
+"Subsubsection",ExpressionUUID->"7e9d3058-f7eb-4dc5-abc1-d284358db526"],
+
+Cell[BoxData[
+ RowBox[{"WithLocalPublicPacletServer", "@", "\[IndentingNewLine]", 
+  RowBox[{
+  "PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", "]"}]}]], "Input",
+ CellLabel->
+  "In[2849]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{264, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 220}, {0, Automatic}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,

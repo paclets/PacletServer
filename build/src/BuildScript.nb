@@ -17,15 +17,17 @@ Cell[BoxData[
    3.733947469078689*^9},ExpressionUUID->"7ee1c70b-8691-49d7-ac9d-\
 976451ec8f21"],
 
-Cell[BoxData[
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"WithLocalPublicPacletServer", "::", "usage"}], "=", "\n", "\t", 
+   "\"\<Does stuff with paclet server override stuff\>\""}], ";"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"PublicPacletServerRebuild", "::", "usage"}], "=", "\n", "\t", 
-   "\"\<Rebuilds and pushes the paclet server\>\""}], ";"}]], "CodeInput",
- CellChangeTimes->{{3.7331106889897413`*^9, 3.7331106953548307`*^9}, {
-  3.733110786694009*^9, 3.733110802153084*^9}, {3.733705720296381*^9, 
-  3.7337057376324053`*^9}},ExpressionUUID->"398b81ea-72f6-4fa4-a6bb-\
-204244c018bc"]
+   "\"\<Rebuilds and pushes the paclet server\>\""}], 
+  ";"}]}], "CodeInput",ExpressionUUID->"db391ad3-88f5-41ca-9ca8-53b0ce3717b1"]\
+
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -68,24 +70,33 @@ Cell[BoxData[{
       "\"\<Repository\>\""}], "}"}]}]}], 
   ";"}]}], "CodeInput",ExpressionUUID->"4d986a40-66d6-42eb-858e-c977e2304301"],
 
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"WithLocalPublicPacletServer", "[", "e_", "]"}], ":=", "\n", "\t", 
+   
+   RowBox[{"Block", "[", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"{", "\n", "\t\t\t", 
+      RowBox[{
+       RowBox[{"$Clone", "=", "mainDir"}], ",", "\n", "\t\t\t", 
+       RowBox[{"$Paclets", "=", "pacletsDir"}], ",", "\n", "\t\t\t", 
+       RowBox[{"$ReviewQueueDir", "=", "reviewDir"}], ",", "\n", "\t\t\t", 
+       RowBox[{"$BuildDir", "=", "buildDir"}]}], "\n", "\t\t\t", "}"}], ",", 
+     "\n", "\t\t", "e"}], "\n", "\t\t", "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+  "WithLocalPublicPacletServer", "~", "SetAttributes", "~", "HoldFirst"}], 
+  ";"}]}], "CodeInput",ExpressionUUID->"6e5d5a2c-09ac-4bd7-8cf5-947ed0075d43"],
+
 Cell[BoxData[
  RowBox[{
-  RowBox[{"PublicPacletServerRebuild", "[", "args___", "]"}], ":=", "\n", 
-  "\t", 
-  RowBox[{"Block", "[", "\n", "\t\t", 
-   RowBox[{
-    RowBox[{"{", "\n", "\t\t\t", 
-     RowBox[{
-      RowBox[{"$Clone", "=", "mainDir"}], ",", "\n", "\t\t\t", 
-      RowBox[{"$Paclets", "=", "pacletsDir"}], ",", "\n", "\t\t\t", 
-      RowBox[{"$ReviewQueueDir", "=", "reviewDir"}], ",", "\n", "\t\t\t", 
-      RowBox[{"$BuildDir", "=", "buildDir"}], ",", "\n", "\t\t\t", "res"}], 
-     "\n", "\t\t\t", "}"}], ",", "\n", "\t\t", 
-    RowBox[{
-     RowBox[{"res", "=", 
-      RowBox[{"RebuildServer", "[", "args", "]"}]}], ";"}]}], "\n", "\t\t", 
-   "]"}]}]], \
-"CodeInput",ExpressionUUID->"5f0dac61-2563-49ee-b9c8-46cdbea863f7"]
+  RowBox[{
+   RowBox[{"PublicPacletServerRebuild", "[", "args___", "]"}], ":=", "\n", 
+   "\t", 
+   RowBox[{"WithLocalPublicPacletServer", "[", 
+    RowBox[{"RebuildServer", "[", "args", "]"}], "]"}]}], 
+  ";"}]], "CodeInput",ExpressionUUID->"5f0dac61-2563-49ee-b9c8-46cdbea863f7"]
 }, Open  ]],
 
 Cell[BoxData[

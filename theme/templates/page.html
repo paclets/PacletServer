@@ -28,6 +28,9 @@
       <wolfram:slot id="Content"/>
     </div>
   </article>
+  <wolfram:if test='TrueQ@#IncludeComments||#IncludeComments=="True"'>
+    <wolfram:get path="include/comments.html"/>
+  </wolfram:if>
 </wolfram:slot>
 
 </wolfram:get>

@@ -5,6 +5,8 @@
 BeginPackage["PublicPacletServerBuild`"];
 
 
+WithLocalPublicPacletServer::usage=
+  "Does stuff with paclet server override stuff";
 PublicPacletServerRebuild::usage=
   "Rebuilds and pushes the paclet server";
 
@@ -22,17 +24,21 @@ buildDir=FileNameJoin@{mainDir, "build"};
 pacletsDir=FileNameJoin@{ParentDirectory@mainDir, "Repository"};
 
 
-PublicPacletServerRebuild[args___]:=
+WithLocalPublicPacletServer[e_]:=
   Block[
     {
       $Clone=mainDir,
       $Paclets=pacletsDir,
       $ReviewQueueDir=reviewDir,
-      $BuildDir=buildDir,
-      res
+      $BuildDir=buildDir
       },
-    res=RebuildServer[args];
-    ]
+    e
+    ];
+WithLocalPublicPacletServer~SetAttributes~HoldFirst;
+
+
+PublicPacletServerRebuild[args___]:=
+  WithLocalPublicPacletServer[RebuildServer[args]];
 
 
 End[];
