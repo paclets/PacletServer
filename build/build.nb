@@ -58,10 +58,20 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[259]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "In[260]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
-Cell[BoxData["$Aborted"], "Output",
- CellLabel->"Out[259]=",ExpressionUUID->"372aee1e-b494-412b-8fb6-ad43b6c3f675"]
+Cell[BoxData[
+ TemplateBox[{
+  "Import","noelem",
+   "\"The Import element \
+\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"EcoEvo-0.9.3/Logo.png\\\\\\\"\\\"}]\\)\\\" \
+is not present when importing as \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"ZIP\\\\\\\"\\\"}]\\).\"",2,260,123,
+   28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[260]:=",ExpressionUUID->"01ef1a96-0237-48bd-b55d-b092ca25ae5b"]
 }, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",

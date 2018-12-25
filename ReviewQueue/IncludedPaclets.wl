@@ -1,5 +1,3 @@
-(* ::Package:: *)
-
 {
 	<|
 		"Name" -> "BTools",
@@ -9,13 +7,13 @@
 	|>,
 	<|
 		"Name" -> "MaTeX",
-		"Author" -> "Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
 		"URL" -> "github-release:szhorvat/MaTeX/latest",
 		"Update" -> "DownloadNever"
 	|>,
 	<|
 		"Name" -> "IGraphM",
-		"Author" -> "Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
 		"URL" -> "github-release:szhorvat/IGraphM/v0.3.108",
 		"Update" -> "DownloadNever"
 	|>,
