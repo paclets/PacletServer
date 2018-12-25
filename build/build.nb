@@ -22,7 +22,7 @@ Cell[BoxData[
       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
  CellLabel->
-  "In[240]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+  "In[262]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
 
 Cell[CellGroupData[{
 
@@ -58,20 +58,28 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[260]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "In[263]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
- TemplateBox[{
-  "Import","noelem",
-   "\"The Import element \
-\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"EcoEvo-0.9.3/Logo.png\\\\\\\"\\\"}]\\)\\\" \
-is not present when importing as \
-\\!\\(\\*RowBox[{\\\"\\\\\\\"ZIP\\\\\\\"\\\"}]\\).\"",2,260,123,
-   28060323837238360778,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Building pages..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
  CellLabel->
   "During evaluation of \
-In[260]:=",ExpressionUUID->"01ef1a96-0237-48bd-b55d-b092ca25ae5b"]
+In[263]:=",ExpressionUUID->"f10c18d9-68b7-424a-8f23-7939ca50372f"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Generating search index..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{150., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[263]:=",ExpressionUUID->"ae7157b9-d260-4dad-929a-82849605ca76"]
+}, Open  ]]
 }, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
@@ -528,19 +536,8 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"PublicPacletServerRebuild", "[", 
-   RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
-    RowBox[{"\"\<CopyContent\>\"", "\[Rule]", "True"}], ",", 
-    "\[IndentingNewLine]", 
-    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
-    "\[IndentingNewLine]", " ", 
-    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
-     RowBox[{"Today", "-", 
-      RowBox[{"Quantity", "[", 
-       RowBox[{"50", ",", " ", "\"\<Days\>\""}], "]"}]}]}]}], 
-   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
- CellLabel->
-  "In[2876]:=",ExpressionUUID->"24518642-7fac-467b-b90f-0d6836cc37cb"]
+  RowBox[{"PublicPacletServerRebuild", "[", "\"\<Build\>\"", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"24518642-7fac-467b-b90f-0d6836cc37cb"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
