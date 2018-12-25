@@ -1,10 +1,10 @@
 Title: PublicPacletServer
 Authors: 
 Categories: misc
-Description: A beta version of a paclet for interfacing with the public paclet server 		Current supports: 		  forking the server, submitting paclets, sending PRs, 		  cloning the server, and building the server
+Description: A beta version of a paclet for interfacing with the public paclet serverCurrent supports:  forking the server, submitting paclets, sending PRs,  cloning the server, and building the server
 DisplayName: PublicPacletServer
-Extensions: <|Kernel -> <|Root -> ., Context -> {PublicPacletServer`}|>, PacletServer -> <|Description -> A beta version of a paclet for interfacing with the public paclet server|>|>                                                                                               		Current supports:                                                                                               		  forking the server, submitting paclets, sending PRs,                                                                                               		  cloning the server, and building the server
-Modified: Missing[NotAvailable]
+Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"PublicPacletServer`"}|>, "PacletServer" -> <|"Description" -> "A beta version of a paclet for interfacing with the public paclet server\n\t\tCurrent supports:\n\t\t  forking the server, submitting paclets, sending PRs,\n\t\t  cloning the server, and building the server"|>|>
+Modified: Missing["NotAvailable"]
 Name: PublicPacletServer
 Slug: publicpacletserver
 Tags: 

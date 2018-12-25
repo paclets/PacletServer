@@ -4,9 +4,9 @@ Categories: misc
 Creator: Christopher Klausmeier <klausme1@msu.edu>
 Description: Species- and trait-based ecological and eco-evolutionary modeling.
 DisplayName: EcoEvo
-Extensions: <|Documentation -> <|Language -> All, MainPage -> Guides/EcoEvo|>, Kernel -> <|Root -> ., Context -> EcoEvo`|>|>
+Extensions: <|"Documentation" -> <|Language -> All, MainPage -> "Guides/EcoEvo"|>, "Kernel" -> <|Root -> ".", Context -> "EcoEvo`"|>|>
 MathematicaVersion: 10.0+
-Modified: Missing[NotAvailable]
+Modified: Missing["NotAvailable"]
 Name: EcoEvo
 Root: EcoEvo
 Slug: ecoevo

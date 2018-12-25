@@ -2,11 +2,11 @@ Title: ErrorPlot
 Authors: Guillermo Hernandez
 Categories: misc
 Creator: Guillermo Hernandez
-Description: An alternative to the ErrorBar Plotting Package included in Mathematica. 									It allows for log-scale plotting and a freer syntax.
+Description: An alternative to the ErrorBar Plotting Package included in Mathematica.It allows for log-scale plotting and a freer syntax.
 DisplayName: ErrorPlot
-Extensions: <|Documentation -> <|Resources -> {Guides/Plotting data with error bars}, Language -> English|>|>
+Extensions: <|"Documentation" -> <|Resources -> {"Guides/Plotting data with error bars"}, Language -> "English"|>|>
 MathematicaVersion: 6+
-Modified: Missing[NotAvailable]
+Modified: Missing["NotAvailable"]
 Name: ErrorPlot
 Slug: errorplot
 Tags: 

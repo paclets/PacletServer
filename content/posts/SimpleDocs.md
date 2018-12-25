@@ -4,9 +4,9 @@ Categories: Development
 Creator: b3m2a1 <b3m2a1@gmail.com>
 Description: A simple package to make simple documentation
 DisplayName: SimpleDocs
-Extensions: <|Kernel -> <|Root -> ., Context -> {SimpleDocs`}|>, FrontEnd -> <||>, Documentation -> <|Language -> English, MainPage -> Guides/SimpleDocs|>, Resource -> <|Root -> Resources, Resources -> {{icon, icon.png}}|>, PacletServer -> <|Tags -> {documentation}, Categories -> {Development}, Description -> A simple package to make simple documentation, License -> MIT|>|>
+Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"SimpleDocs`"}|>, "FrontEnd" -> <||>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/SimpleDocs"|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {{"icon", "icon.png"}}|>, "PacletServer" -> <|"Tags" -> {"documentation"}, "Categories" -> {"Development"}, "Description" -> "A simple package to make simple documentation", "License" -> "MIT"|>|>
 License: MIT
-Modified: Missing[NotAvailable]
+Modified: Missing["NotAvailable"]
 Name: SimpleDocs
 Slug: simpledocs
 Tags: documentation

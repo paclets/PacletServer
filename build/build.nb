@@ -22,7 +22,7 @@ Cell[BoxData[
       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
  CellLabel->
-  "In[262]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+  "In[105]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
 
 Cell[CellGroupData[{
 
@@ -52,35 +52,11 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
   "In[263]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Building pages..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[263]:=",ExpressionUUID->"f10c18d9-68b7-424a-8f23-7939ca50372f"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Generating search index..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{150., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[263]:=",ExpressionUUID->"ae7157b9-d260-4dad-929a-82849605ca76"]
-}, Open  ]]
-}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -528,22 +504,39 @@ Cell["Analytics", \
 "Subsubsection",ExpressionUUID->"7e9d3058-f7eb-4dc5-abc1-d284358db526"],
 
 Cell[BoxData[
+ RowBox[{"ContextRemove", "[", "\"\<PublicPacletServer`\>\"", "]"}]], "Input",
+ 
+ CellLabel->
+  "In[104]:=",ExpressionUUID->"3366d37b-ffbc-4041-b6e8-e65a4ab7f325"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "PublicPacletServer`Dependencies`BTools`External`GoogleAPIData", "[", 
+   RowBox[{"\"\<SetUseKeychain\>\"", ",", " ", "True"}], "]"}], 
+  ";"}]], "Input",
+ CellLabel->
+  "In[111]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
+
+Cell[BoxData[
  RowBox[{"WithLocalPublicPacletServer", "@", "\[IndentingNewLine]", 
   RowBox[{
-  "PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", "]"}]}]], "Input",
+  "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
+   "]"}]}]], "Input",
  CellLabel->
-  "In[2849]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+  "In[119]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Build\>\"", "]"}], 
-  ";"}]], "Input",ExpressionUUID->"24518642-7fac-467b-b90f-0d6836cc37cb"]
+  ";"}]], "Input",
+ CellLabel->"In[120]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{110, Automatic}, {35, Automatic}},
+WindowMargins->{{252, Automatic}, {Automatic, 35}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,

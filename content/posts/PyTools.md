@@ -2,10 +2,10 @@ Title: PyTools
 Authors: b3m2a1
 Categories: misc
 Creator: b3m2a1@gmail.com
-Description: A process-based link between Mathematica and python. 														  Includes tools based off of this link
+Description: A process-based link between Mathematica and python.  Includes tools based off of this link
 DisplayName: PyTools
-Extensions: <|Kernel -> <|Root -> ., Context -> {PyTools`}, Root -> ., Context -> {PyTools`}|>, Resource -> <|Root -> Resources, Resources -> {MLib}, SystemID -> *|>, FrontEnd -> <||>|>
-Modified: Missing[NotAvailable]
+Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"PyTools`"}, Root -> ".", Context -> {"PyTools`"}|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {"MLib"}, "SystemID" -> "*"|>, "FrontEnd" -> <||>|>
+Modified: Missing["NotAvailable"]
 Name: PyTools
 Slug: pytools
 Tags: mathematica,python
