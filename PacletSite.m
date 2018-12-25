@@ -370,7 +370,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "Ems",
-	  Version -> "1.0.6",
+	  Version -> "1.0.8",
 	  Extensions -> {
 	    	{
 	     		"Kernel",
@@ -459,7 +459,7 @@ PacletSite[
 	  Version -> "1.0.0",
 	  Creator -> "Guillermo Hernandez",
 	  Description -> "An alternative to the ErrorBar Plotting Package included in Mathematica.\r
-	\tIt allows for log-scale plotting and a freer syntax.",
+	\t\t\t\t\t\tIt allows for log-scale plotting and a freer syntax.",
 	  MathematicaVersion -> "6+",
 	  Extensions -> {
 	    	{
@@ -612,9 +612,9 @@ PacletSite[
 	     		"PacletServer",
 	     		"Description" -> 
 	      "A beta version of a paclet for interfacing with the public paclet server
-	\t\t\t\t\tCurrent supports:
-	\t\t\t\t\t  forking the server, submitting paclets, sending PRs,
-	\t\t\t\t\t  cloning the server, and building the server"
+	\t\tCurrent supports:
+	\t\t  forking the server, submitting paclets, sending PRs,
+	\t\t  cloning the server, and building the server"
 	     	}
 	    },
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
@@ -624,7 +624,7 @@ PacletSite[
 	  Version -> "1.0.10",
 	  Creator -> "b3m2a1@gmail.com",
 	  Description -> "A process-based link between Mathematica and python.
-	\t\t\t\t\t\t  Includes tools based off of this link",
+	\t\t\t\t\t\t\t\t\t\t\t  Includes tools based off of this link",
 	  Tags -> {
 	    	"mathematica",
 	    	"python"
