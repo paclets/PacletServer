@@ -7,7 +7,7 @@ Modified: Missing[NotAvailable]
 Name: Ems
 Slug: ems
 Tags: 
-Version: 1.0.6
+Version: 1.0.8
 
 <a id="ems" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -50,7 +50,7 @@ Ems
 
 ###Version
 
-1.0.6
+1.0.8
 
 ---
 

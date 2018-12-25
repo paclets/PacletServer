@@ -52,11 +52,17 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[235]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "In[259]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellLabel->"Out[259]=",ExpressionUUID->"372aee1e-b494-412b-8fb6-ad43b6c3f675"]
+}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -530,7 +536,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{9, Automatic}, {34, Automatic}},
+WindowMargins->{{110, Automatic}, {35, Automatic}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,
