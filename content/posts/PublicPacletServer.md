@@ -1,15 +1,15 @@
 Title: PublicPacletServer
 Authors: 
 Categories: misc
-Description: A beta version of a paclet for interfacing with the public paclet server 			Current supports: 			  forking the server, submitting paclets, sending PRs, 			  cloning the server, and building the server
+Description: A beta version of a paclet for interfacing with the public paclet server 		Current supports: 		  forking the server, submitting paclets, sending PRs, 		  cloning the server, and building the server
 DisplayName: PublicPacletServer
-Extensions: <|Kernel -> <|Root -> ., Context -> {PublicPacletServer`}|>, PacletServer -> <|Description -> A beta version of a paclet for interfacing with the public paclet server|>|>                                                                                               			Current supports:                                                                                               			  forking the server, submitting paclets, sending PRs,                                                                                               			  cloning the server, and building the server
+Extensions: <|Kernel -> <|Root -> ., Context -> {PublicPacletServer`}|>, PacletServer -> <|Description -> A beta version of a paclet for interfacing with the public paclet server|>|>                                                                                               		Current supports:                                                                                               		  forking the server, submitting paclets, sending PRs,                                                                                               		  cloning the server, and building the server
 Modified: Missing[NotAvailable]
 Name: PublicPacletServer
 Slug: publicpacletserver
 Tags: 
 Thumbnail: PacletIcon.png
-Version: 0.0.7
+Version: 0.0.8
 
 <a id="publicpacletserver" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -18,9 +18,9 @@ Version: 0.0.7
 ![PublicPacletServer]({filename}/img/PublicPacletServer/PacletIcon.png)
 
 A beta version of a paclet for interfacing with the public paclet server
-   Current supports:
-     forking the server, submitting paclets, sending PRs,
-     cloning the server, and building the server
+  Current supports:
+    forking the server, submitting paclets, sending PRs,
+    cloning the server, and building the server
 
 ---
 
@@ -59,7 +59,7 @@ PublicPacletServer
 
 ###Version
 
-0.0.7
+0.0.8
 
 ---
 

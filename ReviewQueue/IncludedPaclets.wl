@@ -1,3 +1,5 @@
+(* ::Package:: *)
+
 {
 	<|
 		"Name" -> "BTools",
@@ -7,13 +9,13 @@
 	|>,
 	<|
 		"Name" -> "MaTeX",
-		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
+		"Author" -> "Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>",
 		"URL" -> "github-release:szhorvat/MaTeX/latest",
 		"Update" -> "DownloadNever"
 	|>,
 	<|
 		"Name" -> "IGraphM",
-		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
+		"Author" -> "Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>",
 		"URL" -> "github-release:szhorvat/IGraphM/v0.3.108",
 		"Update" -> "DownloadNever"
 	|>,
@@ -74,7 +76,7 @@
 	<|
 		"Name" -> "ErrorPlot",
 		"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>",
-		"URL" -> "github:b3m2a1/ErrorPlot",
+		"URL" -> "github:Dih5/ErrorPlot",
 		"Update" -> "DownloadNever"
 	|>
 }
