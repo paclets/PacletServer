@@ -16,9 +16,7 @@ Version: 1.0.0
 
 # ErrorPlot
 
-An alternative to the ErrorBar Plotting Package included in Mathematica.
-
-         It allows for log-scale plotting and a freer syntax.
+An alternative to the ErrorBar Plotting Package included in Mathematica. It allows for log-scale plotting and a freer syntax.
 
 ---
 

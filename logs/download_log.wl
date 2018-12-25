@@ -278,5 +278,20 @@
 		"Date" -> "Tue 25 Dec 2018 03:45:40",
 		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Tue 25 Dec 2018 05:59:53",
+		"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"PublicPacletServer" -> <|
+		"Date" -> "Tue 25 Dec 2018 05:59:54",
+		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"ErrorPlot" -> <|
+		"Date" -> "Tue 25 Dec 2018 05:59:55",
+		"Message" -> "Downloaded paclet ErrorPlot from github:Dih5/ErrorPlot",
+		"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
 	|>
 }
