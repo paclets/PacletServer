@@ -1,5 +1,22 @@
 <|
+	"ErrorPlot" -> {
+		<|
+			"Date" -> "Tue 25 Dec 2018 05:59:55",
+			"Message" -> "Downloaded paclet ErrorPlot from github:Dih5/ErrorPlot",
+			"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:07:03",
+			"Message" -> "Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot",
+			"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
+		|>
+	},
 	"PublicPacletServer" -> {
+		<|
+			"Date" -> "Tue 25 Dec 2018 05:59:54",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Tue 25 Dec 2018 03:45:40",
 			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -42,6 +59,11 @@
 		|>
 	},
 	"BTools" -> {
+		<|
+			"Date" -> "Tue 25 Dec 2018 05:59:53",
+			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Tue 25 Dec 2018 03:45:39",
 			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -237,13 +259,6 @@
 			"Date" -> "Thu 27 Sep 2018 22:41:29",
 			"Message" -> "Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
-	"ErrorPlot" -> {
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:07:03",
-			"Message" -> "Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot",
-			"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
 		|>
 	},
 	"IGraphM" -> {

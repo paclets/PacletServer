@@ -16,7 +16,7 @@ Version: 1.0.10
 # PyTools
 
 A process-based link between Mathematica and python.
-                Includes tools based off of this link
+               Includes tools based off of this link
 
 ---
 

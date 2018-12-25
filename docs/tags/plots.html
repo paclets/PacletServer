@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="">
   <head>
@@ -7,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-  PublicPacletServer | Mathematica Paclet Server
+  plots Articles | Mathematica Paclet Server
     </title>
 <link
       rel='apple-touch-icon'
@@ -71,17 +72,8 @@
   ga('create', 'UA-118356806-1', 'auto');
   ga('send', 'pageview');
 </script>
-      <meta name="description" content="">
-  <link href="https://paclets.github.io/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
-  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/prettify.js"></script>
-  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
-  <script>
-    function moveWindow (){window.location.hash="main-content";}
-  </script>
   </head>
-<body onload="
-  PR.prettyPrint(); moveWindow()
-">
+<body onload="">
   <header class="header">
     <div class="top-bar">
       <div class="site-title">
@@ -153,80 +145,35 @@
   <div class="main" id="main-content">
     <div class="main-content">
       <div class="container center-aligned">
+            <h3 class="page-header">
+  Tagged: plots
+            </h3>
         <br>
-  <article class="article center-aligned">
-    <div class="content">
-      <a shape='rect' class='Section' id='publicpacletserver' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h1> PublicPacletServer</h1>
-<img src='https://paclets.github.io/PacletServer/img/PublicPacletServer/PacletIcon.png' alt='PublicPacletServer' />
-<p>A beta version of a paclet for interfacing with the public paclet server
-Current supports:
-  forking the server, submitting paclets, sending PRs,
-  cloning the server, and building the server
-</p>
-<hr />
-<a shape='rect' class='Subsection' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h2> Install</h2>
-<p><strong>Before installing, be sure to check out the </strong><strong><a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a><strong> </strong> to make sure that you trust the developer.</strong></p>
-<p>To install this paclet, run:
-</p>
-<pre>
- <code>&lt;&lt; https://paclets.github.io/PacletServer/Install.wl
-PublicPacletInstall[&quot;PublicPacletServer&quot;]</code>
-</pre>
-<p>Depending on what the current value of  <code>$ContextPath</code> is you may also need to first run
-</p>
-<pre>
- <code>Needs[&quot;PacletManager`&quot;]</code>
-</pre>
-<ul>
- <li>To update it, replace  <code>PacletInstall</code> with  <code>PacletUpdate</code> .</li>
- <li>To uninstall replace  <code>PacletInstall</code> with  <code>PacletUninstall</code> and remove the  <code>&quot;Site&quot;</code> parameter.</li>
-</ul>
-<hr />
-<a shape='rect' class='Subsection' id='basicinformation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h2> Basic Information</h2>
-<a shape='rect' class='Subsubsection' id='name' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h3>Name</h3>
-<p>PublicPacletServer</p>
-<a shape='rect' class='Subsubsection' id='version' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h3>Version</h3>
-<p>0.0.8
-</p>
-<hr />
-<a shape='rect' class='Subsection' id='extrainformation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h2> Extra Information</h2>
-<p>This package provides no extra information
-</p>
-<hr />
-<a shape='rect' class='Subsection' id='extensions' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h2> Extensions</h2>
-<a shape='rect' class='Subsubsection' id='kernel' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h3>Kernel</h3>
-<ul>
- <li>Root: .</li>
- <li>Context: PublicPacletServer`</li>
-</ul>
+  <h4 class="title">Paclet Listing</h4>
+  <hr>
+    <div class="paclet center-aligned">
+      <article class="teaser">
+          <h4 class="title">
+            <a
+              id='ErrorPlot'
+              href='https://paclets.github.io/PacletServer/errorplot.html'>
+                  ErrorPlot
+                <span style="color:gray;">
+                   &nbsp;v1.0.0
+                </span>
+            </a>
+            <br>
+            <a href='https://paclets.github.io/PacletServer/pages/log.html#ErrorPlot'>
+              <span style="font-size: 14px">
+                View Log
+              </span>
+            </a>
+          </h4>
+          <div class="content paclet-summary">
+                An alternative to the ErrorBar Plotting Package included in Mathematica.It allows for log-scale plotting and a freer syntax.
+          </div>
+      </article>
     </div>
-  </article>
-<hr>
-<div id="disqus_thread"></div>
-<script>
-  var disqus_config = function() {
-    this.page.url = 'https://paclets.github.io/PacletServer/publicpacletserver.html';
-    this.page.identifier = 'publicpacletserver';
-  };
-  (function() {
-    var d = document;
-    var s = d.createElement('script');
-    s.src = '//paclet-server.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript class="text-muted">
-  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-</noscript>
       </div>
     </div>
   </div>

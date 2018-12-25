@@ -1,22 +1,26 @@
 Title: ErrorPlot
 Authors: Guillermo Hernandez
-Categories: misc
-Creator: Guillermo Hernandez
-Description: An alternative to the ErrorBar Plotting Package included in Mathematica.It allows for log-scale plotting and a freer syntax.
+Categories: Plotting
+Creator: Guillermo Hernandez <dihedralfive@gmail.com>
+Description: An alternative to the ErrorBar Plotting Package included in Mathematica.It allows for log-scale plotting and a freer syntax.
 DisplayName: ErrorPlot
-Extensions: <|"Documentation" -> <|Resources -> {"Guides/Plotting data with error bars"}, Language -> "English"|>|>
+Extensions: <|"Kernel" -> <|"Context" -> {"ErrorPlot`"}, "Root" -> "."|>, "Documentation" -> <|Resources -> {"Guides/Plotting data with error bars"}, Language -> "English"|>, "PacletServer" -> <|"License" -> "MIT", "Tags" -> {"plots"}, "Categories" -> {"Plotting"}|>|>
+License: MIT
 MathematicaVersion: 6+
 Modified: Missing["NotAvailable"]
 Name: ErrorPlot
 Slug: errorplot
-Tags: 
+Tags: plots
+URL: https://github.com/Dih5/ErrorPlot
 Version: 1.0.0
 
 <a id="errorplot" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # ErrorPlot
 
-An alternative to the ErrorBar Plotting Package included in Mathematica. It allows for log-scale plotting and a freer syntax.
+An alternative to the ErrorBar Plotting Package included in Mathematica.
+
+It allows for log-scale plotting and a freer syntax.
 
 ---
 
@@ -61,7 +65,19 @@ ErrorPlot
 
 ###Creator
 
-Guillermo Hernandez
+[Guillermo Hernandez](mailto:dihedralfive@gmail.com)
+
+<a id="url" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###URL
+
+[https://github.com/Dih5/ErrorPlot](https://github.com/Dih5/ErrorPlot)
+
+<a id="license" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###License
+
+MIT
 
 ---
 
@@ -80,6 +96,14 @@ Guillermo Hernandez
 <a id="extensions" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extensions
+
+<a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###Kernel
+
+*  Context: ErrorPlot`
+
+*  Root: .
 
 <a id="documentation" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

@@ -1,7 +1,27 @@
 # Paclet Server Log
 
+<a id="ErrorPlot" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## ErrorPlot
+
+*** Tuesday 25 December 2018 ***
+* Author: Guillermo Hernandez <dihedralfive@gmail.com>
+
+>Downloaded paclet ErrorPlot from github:Dih5/ErrorPlot
+
+*** Tuesday 25 December 2018 ***
+* Author: Guillermo Hernandez <dihedralfive@gmail.com>
+
+>Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot
+
+
+---
 <a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## PublicPacletServer
+
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 25 December 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -47,6 +67,11 @@
 ---
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 25 December 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -252,16 +277,6 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
-<a id="ErrorPlot" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## ErrorPlot
-
-*** Tuesday 25 December 2018 ***
-* Author: Guillermo Hernandez <dihedralfive@gmail.com>
-
->Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot
 
 
 ---
