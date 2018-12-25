@@ -228,5 +228,20 @@
 		"Date" -> "Wed 28 Nov 2018 06:30:42",
 		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Tue 25 Dec 2018 03:06:56",
+		"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EcoEvo" -> <|
+		"Date" -> "Tue 25 Dec 2018 03:06:58",
+		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+	|>,
+	"ErrorPlot" -> <|
+		"Date" -> "Tue 25 Dec 2018 03:07:03",
+		"Message" -> "Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot",
+		"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
 	|>
 }

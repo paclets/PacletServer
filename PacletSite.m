@@ -1,10 +1,11 @@
 PacletSite[
 	Paclet[
 	  Name -> "BTools",
-	  Version -> "2.1.37",
+	  Version -> "2.1.38",
 	  Creator -> "b3m2a1@gmail.com",
 	  URL -> "https://github.com/b3m2a1/mathematica-BTools",
 	  Description -> "A suite of development tools",
+	  WolframVersion -> "11+",
 	  Thumbnail -> "PacletIcon.png",
 	  Extensions -> {
 	    	{
@@ -177,9 +178,7 @@ PacletSite[
 	       		},
 	     		"Categories" -> {"Development"},
 	     		"Description" -> 
-	      "A general purpose package that implements useful functionality for application development.
-	\t\t\tFeatures include: distribution tools, documentation generation, front-end manipulation, and application editing
-	\t\t\t  ",
+	      "A general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing",
 	     		"License" -> "MIT"
 	     	},
 	    	{
@@ -348,6 +347,28 @@ PacletSite[
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
+	  Name -> "EcoEvo",
+	  Version -> "0.9.3",
+	  Creator -> "Christopher Klausmeier <klausme1@msu.edu>",
+	  Description -> "Species- and trait-based ecological and eco-evolutionary modeling.",
+	  Root -> "EcoEvo",
+	  MathematicaVersion -> "10.0+",
+	  Thumbnail -> "Logo.png",
+	  Extensions -> {
+	    	{
+	     		"Documentation",
+	     		Language -> All,
+	     		MainPage -> "Guides/EcoEvo"
+	     	},
+	    	{
+	     		"Kernel",
+	     		Root -> ".",
+	     		Context -> "EcoEvo`"
+	     	}
+	    },
+	  Location -> "https://github.com/cklausme/EcoEvo/releases/download/v0.9.3/EcoEvo-0.9.3.paclet"
+	 ],
+	Paclet[
 	  Name -> "Ems",
 	  Version -> "1.0.6",
 	  Extensions -> {
@@ -429,6 +450,22 @@ PacletSite[
 	        				"Themes/bootstrap-single-page"
 	        			}
 	       		}
+	     	}
+	    },
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
+	 ],
+	Paclet[
+	  Name -> "ErrorPlot",
+	  Version -> "1.0.0",
+	  Creator -> "Guillermo Hernandez",
+	  Description -> "An alternative to the ErrorBar Plotting Package included in Mathematica.\r
+	\tIt allows for log-scale plotting and a freer syntax.",
+	  MathematicaVersion -> "6+",
+	  Extensions -> {
+	    	{
+	     		"Documentation",
+	     		Resources -> {"Guides/Plotting data with error bars"},
+	     		Language -> "English"
 	     	}
 	    },
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
@@ -575,9 +612,9 @@ PacletSite[
 	     		"PacletServer",
 	     		"Description" -> 
 	      "A beta version of a paclet for interfacing with the public paclet server
-	\t\tCurrent supports:
-	\t\t  forking the server, submitting paclets, sending PRs,
-	\t\t  cloning the server, and building the server"
+	\t\t\t\t\tCurrent supports:
+	\t\t\t\t\t  forking the server, submitting paclets, sending PRs,
+	\t\t\t\t\t  cloning the server, and building the server"
 	     	}
 	    },
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
@@ -587,7 +624,7 @@ PacletSite[
 	  Version -> "1.0.10",
 	  Creator -> "b3m2a1@gmail.com",
 	  Description -> "A process-based link between Mathematica and python.
-	\t\t\t  Includes tools based off of this link",
+	\t\t\t\t\t\t  Includes tools based off of this link",
 	  Tags -> {
 	    	"mathematica",
 	    	"python"
