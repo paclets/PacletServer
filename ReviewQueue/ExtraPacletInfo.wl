@@ -15,5 +15,10 @@
     <|
       "Location"->
         "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet"
+      |>,
+  "EcoEvo"->
+    <|
+      "Location"->
+        "https://github.com/cklausme/EcoEvo/releases/download/v0.9.3/EcoEvo-0.9.3.paclet"
       |>
   |>

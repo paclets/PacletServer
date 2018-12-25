@@ -64,5 +64,17 @@
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
 		"Site" -> "http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Update" -> "DownloadNever"
+	|>,
+	<|
+		"Name" -> "EcoEvo",
+		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>",
+		"URL" -> "github-release:cklausme/EcoEvo/v0.9.3",
+		"Update" -> "DownloadNever"
+	|>,
+	<|
+		"Name" -> "ErrorPlot",
+		"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>",
+		"URL" -> "github:b3m2a1/ErrorPlot",
+		"Update" -> "DownloadNever"
 	|>
 }

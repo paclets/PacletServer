@@ -22,7 +22,7 @@ Cell[BoxData[
       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
  CellLabel->
-  "In[2835]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+  "In[228]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
 
 Cell[CellGroupData[{
 
@@ -52,11 +52,347 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[1421]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "In[229]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DeleteDuplicatesBy","normal",
+   "\"Nonatomic expression expected at position \
+\\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
+\\!\\(\\*RowBox[{\\\"DeleteDuplicatesBy\\\", \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"Name\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"Name\\\\\\\"\\\"}], \\\"]\\\"}]\\).\"",2,229,75,
+   28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"f1db59fa-7d91-4ac9-9ee4-605a16d581e8"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Join","incpt",
+   "\"Incompatible elements in \\!\\(\\*RowBox[{\\\"Join\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"DeleteDuplicatesBy\\\", \\\"[\\\", \\\"\\\\\\\"Name\\\\\\\
+\"\\\", \\\"]\\\"}], \\\",\\\", RowBox[{\\\"\[LeftAssociation]\\\", \\\"\
+\[RightAssociation]\\\"}]}], \\\"]\\\"}]\\) cannot be joined.\"",2,229,76,
+   28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"cd5be381-bc27-4dfd-83ed-b957ee052cfa"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Lookup","invrl",
+   "\"The argument \\!\\(\\*RowBox[{\\\"Join\\\", \\\"[\\\", RowBox[{RowBox[{\
+\\\"DeleteDuplicatesBy\\\", \\\"[\\\", \\\"\\\\\\\"Name\\\\\\\"\\\", \
+\\\"]\\\"}], \\\",\\\", RowBox[{\\\"\[LeftAssociation]\\\", \\\"\
+\[RightAssociation]\\\"}]}], \\\"]\\\"}]\\) is not a valid Association or a \
+list of rules.\"",2,229,77,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"577c1509-f140-4506-a9de-cc035dcc516e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Join","incpt",
+   "\"Incompatible elements in \\!\\(\\*RowBox[{\\\"Join\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"DeleteDuplicatesBy\\\", \\\"[\\\", \\\"\\\\\\\"Name\\\\\\\
+\"\\\", \\\"]\\\"}], \\\",\\\", RowBox[{\\\"\[LeftAssociation]\\\", \\\"\
+\[RightAssociation]\\\"}], \\\",\\\", \
+RowBox[{\\\"\\\\\\\"Location\\\\\\\"\\\", \\\"\[Rule]\\\", RowBox[{\\\"Lookup\
+\\\", \\\"[\\\", RowBox[{RowBox[{\\\"Join\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"DeleteDuplicatesBy\\\", \\\"[\\\", \\\"\\\\\\\"Name\\\\\\\
+\"\\\", \\\"]\\\"}], \\\",\\\", RowBox[{\\\"\[LeftAssociation]\\\", \\\"\
+\[RightAssociation]\\\"}]}], \\\"]\\\"}], \\\",\\\", \\\"\\\\\\\"Location\\\\\
+\\\"\\\", \\\",\\\", \
+RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`buildPacletLocation\\\"\
+, \\\"[\\\", RowBox[{\\\"Join\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"DeleteDuplicatesBy\\\", \\\"[\\\", \\\"\\\\\\\"Name\\\\\\\
+\"\\\", \\\"]\\\"}], \\\",\\\", RowBox[{\\\"\[LeftAssociation]\\\", \\\"\
+\[RightAssociation]\\\"}]}], \\\"]\\\"}], \\\"]\\\"}]}], \\\"]\\\"}]}]}], \
+\\\"]\\\"}]\\) cannot be joined.\"",2,229,78,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"aa7b2814-a25c-4b68-b23e-6699b1aa1aee"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "CopyFile","fstr",
+   "\"File specification \
+\\!\\(\\*RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`PacletExecute\
+\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"BundleSite\\\\\\\"\\\", \\\",\\\", \
+RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`PacletExecute\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"SiteFromDataset\\\\\\\"\\\", \\\",\\\", \
+RowBox[{RowBox[{RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`\
+PacletExecute\\\", \\\"[\\\", RowBox[{\\\"\\\\\\\"SiteDataset\\\\\\\"\\\", \\\
+\",\\\", \\\"\\\\\\\"/Users/Mark/Documents/GitHub/Repository\\\\\\\"\\\"}], \
+\\\"]\\\"}], \\\"[\\\", RowBox[{\\\"SortBy\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"1\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\"]\\\"}], \\\"[\\\", RowBox[{\\\"Join\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"1\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\"]\\\"}]}], \\\"]\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\"\\\\\\\"\\\", \\\"\
+\[Ellipsis]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{RowBox[{\\\"\\\\\\\"B\\\\\\\"\\\", \\\"\[Ellipsis]\\\", \
+\\\"\\\\\\\"on\\\\\\\"\\\"}], \\\"\[Rule]\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"7\\\", \\\"\[RightSkeleton]\\\"}]}], \
+\\\",\\\", RowBox[{\\\"\\\\\\\"ExcludedElements\\\\\\\"\\\", \\\"\[Rule]\\\", \
+RowBox[{\\\"{\\\", \\\"\\\\\\\"Resources\\\\\\\"\\\", \\\"}\\\"}]}]}], \
+\\\"]\\\"}]\\) is not a string of one or more characters.\"",2,229,79,
+   28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"014fd364-37eb-410f-90d5-24b81518100b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GroupBy","list1",
+   "\"The argument \
+\\!\\(\\*RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`Git\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"FileHistory\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\
+\"/Users/Mark/Documents/GitHub/PacletServer/\\\\\\\"\\\", \\\",\\\", \\\"\\\\\
+\\\"*/*.paclet\\\\\\\"\\\"}], \\\"]\\\"}]\\) is not a valid list of \
+Associations or rules or lists of rules.\"",2,229,80,28060323837238360778,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"ef65ca2f-2a2f-46f8-9ef4-74a6d42abb1d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Merge","list1",
+   "\"The argument \
+\\!\\(\\*RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`Git\\\", \
+\\\"[\\\", RowBox[{\\\"\\\\\\\"FileHistory\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\
+\"/Users/Mark/Documents/GitHub/PacletServer/\\\\\\\"\\\", \\\",\\\", \\\"\\\\\
+\\\"*/*.paclet\\\\\\\"\\\"}], \\\"]\\\"}]\\) is not a valid list of \
+Associations or rules or lists of rules.\"",2,229,81,28060323837238360778,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"dd82a555-a9fa-4f2c-a126-d8cd8dc2f490"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Values","invrl",
+   "\"The argument \\!\\(\\*RowBox[{RowBox[{\\\"Merge\\\", \\\"[\\\", \
+RowBox[{\\\"First\\\", \\\"@*\\\", \\\"First\\\"}], \\\"]\\\"}], \\\"[\\\", \
+RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`Git\\\", \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"FileHistory\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"/Users/Mark/Documents/GitHub/PacletServer/\\\\\\\"\\\", \
+\\\",\\\", \\\"\\\\\\\"*/*.paclet\\\\\\\"\\\"}], \\\"]\\\"}], \\\"]\\\"}]\\) \
+is not a valid Association or a list of rules.\"",2,229,82,
+   28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"71988186-19c8-4c01-8cea-573e1b9dbaef"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Merge","list1",
+   "\"The argument \\!\\(\\*RowBox[{RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{RowBox[{\\\"StringSplit\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"#1\\\", \\\"\[LeftDoubleBracket]\\\", \\\"1\\\", \\\"\
+\[RightDoubleBracket]\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\"/\\\\\\\"\\\", \\\
+\"|\\\", \\\"\\\\\\\"-\\\\\\\"\\\"}]}], \\\"]\\\"}], \\\"\[LeftDoubleBracket]\
+\\\", \\\"2\\\", \\\"\[RightDoubleBracket]\\\"}], \\\"&\\\"}], \\\")\\\"}], \
+\\\"\[Rule]\\\", \\\"Last\\\"}]\\) is not a valid list of Associations or \
+rules or lists of rules.\"",2,229,83,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"3757d35f-c250-4669-884f-9b8087c3401a"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Values","invrl",
+   "\"The argument \\!\\(\\*RowBox[{RowBox[{\\\"Merge\\\", \\\"[\\\", \
+RowBox[{\\\"First\\\", \\\"@*\\\", \\\"First\\\"}], \\\"]\\\"}], \\\"[\\\", \
+RowBox[{RowBox[{\\\"(\\\", RowBox[{RowBox[{RowBox[{\\\"StringSplit\\\", \\\"[\
+\\\", RowBox[{RowBox[{\\\"#1\\\", \\\"\[LeftDoubleBracket]\\\", \\\"1\\\", \\\
+\"\[RightDoubleBracket]\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\"/\\\\\\\"\\\", \
+\\\"|\\\", \\\"\\\\\\\"-\\\\\\\"\\\"}]}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"2\\\", \\\"\[RightDoubleBracket]\\\"}], \\\"&\\\
+\"}], \\\")\\\"}], \\\"\[Rule]\\\", \\\"Last\\\"}], \\\"]\\\"}]\\) is not a \
+valid Association or a list of rules.\"",2,229,84,28060323837238360778,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"4c124be5-fc36-40f5-a55c-111c28a5f8ae"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "GroupBy","list1",
+   "\"The argument \\!\\(\\*RowBox[{\\\"Values\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"Merge\\\", \\\"[\\\", RowBox[{\\\"First\\\", \\\"@*\\\", \
+\\\"First\\\"}], \\\"]\\\"}], \\\"[\\\", \
+RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`Git\\\", \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"FileHistory\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"/Users/Mark/Documents/GitHub/PacletServer/\\\\\\\"\\\", \
+\\\",\\\", \\\"\\\\\\\"*/*.paclet\\\\\\\"\\\"}], \\\"]\\\"}], \\\"]\\\"}], \\\
+\"]\\\"}]\\) is not a valid list of Associations or rules or lists of \
+rules.\"",2,229,85,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"ec1636ea-8181-40de-80b3-a627211a6f87"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "KeySelect","invru",
+   "\"The argument \\!\\(\\*RowBox[{\\\"GroupBy\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"Values\\\", \\\"[\\\", RowBox[{RowBox[{\\\"Merge\\\", \
+\\\"[\\\", RowBox[{\\\"First\\\", \\\"@*\\\", \\\"First\\\"}], \\\"]\\\"}], \
+\\\"[\\\", RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`Git\\\", \\\
+\"[\\\", RowBox[{\\\"\\\\\\\"FileHistory\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"/Users/Mark/Documents/GitHub/PacletServer/\\\\\\\"\\\", \
+\\\",\\\", \\\"\\\\\\\"*/*.paclet\\\\\\\"\\\"}], \\\"]\\\"}], \\\"]\\\"}], \\\
+\"]\\\"}], \\\",\\\", RowBox[{\\\"Values\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"Merge\\\", \\\"[\\\", RowBox[{\\\"First\\\", \\\"@*\\\", \
+\\\"First\\\"}], \\\"]\\\"}], \\\"[\\\", RowBox[{RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{RowBox[{\\\"StringSplit\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"Part\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{\\\"Alternatives\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"2\\\", \\\"\[RightDoubleBracket]\\\"}], \\\"&\\\
+\"}], \\\")\\\"}], \\\"\[Rule]\\\", \\\"Last\\\"}], \\\"]\\\"}], \
+\\\"]\\\"}]}], \\\"]\\\"}]\\) is not a valid Association or a list of \
+rules.\"",2,229,86,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"3fbd8518-98d4-44a2-a68b-0c83ba2f3b68"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Merge","list1",
+   "\"The argument \\!\\(\\*RowBox[{\\\"KeySelect\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"GroupBy\\\", \\\"[\\\", RowBox[{RowBox[{\\\"Values\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"Merge\\\", \\\"[\\\", RowBox[{\\\"First\\\", \
+\\\"@*\\\", \\\"First\\\"}], \\\"]\\\"}], \\\"[\\\", \
+RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`Git\\\", \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"FileHistory\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"/Users/Mark/Documents/GitHub/PacletServer/\\\\\\\"\\\", \
+\\\",\\\", \\\"\\\\\\\"*/*.paclet\\\\\\\"\\\"}], \\\"]\\\"}], \\\"]\\\"}], \\\
+\"]\\\"}], \\\",\\\", RowBox[{\\\"Values\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"Merge\\\", \\\"[\\\", RowBox[{\\\"First\\\", \\\"@*\\\", \
+\\\"First\\\"}], \\\"]\\\"}], \\\"[\\\", RowBox[{RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{RowBox[{\\\"StringSplit\\\", \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"\
+\[LeftDoubleBracket]\\\", \\\"2\\\", \\\"\[RightDoubleBracket]\\\"}], \\\"&\\\
+\"}], \\\")\\\"}], \\\"\[Rule]\\\", \\\"Last\\\"}], \\\"]\\\"}], \
+\\\"]\\\"}]}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{RowBox[{RowBox[{\\\"Length\\\", \\\"[\\\", RowBox[{\\\"FileNames\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"#1\\\", \\\"<>\\\", \
+\\\"\\\\\\\"*\\\\\\\"\\\"}], \\\",\\\", RowBox[{\\\"FileNameJoin\\\", \\\"[\\\
+\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"\[LeftSkeleton]\\\", \\\"53\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\",\\\", \\\"\\\\\\\"Paclets\\\\\\\"\\\"}], \
+\\\"}\\\"}], \\\"]\\\"}]}], \\\"]\\\"}], \\\"]\\\"}], \\\">\\\", \\\"0\\\"}], \
+\\\"&\\\"}]}], \\\"]\\\"}]\\) is not a valid list of Associations or rules or \
+lists of rules.\"",2,229,87,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"53fd3325-adef-42d6-85a8-f1405126f700"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Merge\\\", \\\"::\\\", \
+\\\"list1\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"",2,229,88,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"56aa5ed9-1e7c-4fec-9a61-a01a5c4b48cd"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Lookup","invrl",
+   "\"The argument \\!\\(\\*RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \\\"\
+\[RightSkeleton]\\\"}]\\) is not a valid Association or a list of rules.\"",2,
+   229,89,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"f5266e71-82c6-4b40-9047-854ee42370ff"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Lookup","invrl",
+   "\"The argument \\!\\(\\*RowBox[{RowBox[{\\\"Select\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"Reverse\\\", \\\"[\\\", RowBox[{\\\"SortBy\\\", \
+\\\"[\\\", RowBox[{RowBox[{\\\"Flatten\\\", \\\"[\\\", \\\"#1\\\", \
+\\\"]\\\"}], \\\",\\\", RowBox[{\\\"Key\\\", \\\"[\\\", \
+\\\"\\\\\\\"Date\\\\\\\"\\\", \\\"]\\\"}]}], \\\"]\\\"}], \\\"]\\\"}], \
+\\\",\\\", RowBox[{RowBox[{\\\"!\\\", RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{RowBox[{\\\"StringTrim\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"Slot\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"1\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"[\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"1\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \
+\\\"]\\\"}], \\\"\[Equal]\\\", \\\"\\\\\\\"b3m2a1 \
+<b3m2a1@gmail.com>\\\\\\\"\\\"}], \\\"&&\\\", RowBox[{\\\"StringQ\\\", \
+\\\"[\\\", RowBox[{\\\"#1\\\", \\\"[\\\", \\\"\\\\\\\"Commit\\\\\\\"\\\", \
+\\\"]\\\"}], \\\"]\\\"}], \\\"&&\\\", RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{\\\"StringMatchQ\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"Slot\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"1\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\",\\\", \
+\\\"\\\\\\\"Prelog commit\\\\\\\"\\\"}], \\\"]\\\"}], \\\"||\\\", \
+RowBox[{\\\"StringContainsQ\\\", \\\"[\\\", RowBox[{RowBox[{\\\"Slot\\\", \
+\\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\"]\\\"}], \\\",\\\", \\\"\\\\\\\"Rebuilt on \\\\\\\"\\\"}], \
+\\\"]\\\"}]}], \\\")\\\"}]}], \\\")\\\"}]}], \\\"&\\\"}]}], \\\"]\\\"}], \
+\\\"&\\\"}]\\) is not a valid Association or a list of rules.\"",2,229,90,
+   28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"ee0e95b3-20d4-427d-aef2-1556bbd4036f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Lookup\\\", \\\"::\\\", \
+\\\"invrl\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"",2,229,91,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"990984e7-26ff-4306-83d6-87988e7da972"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "CopyFile","fstr",
+   "\"File specification \\!\\(\\*RowBox[{\\\"FileNameJoin\\\", \\\"[\\\", \
+RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"PublicPacletServer`Build`BuildBits`Private`\
+PacletServerBuild\\\", \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"/Users/Mark/Documents/GitHub/PacletServer/\\\\\\\"\\\", \
+\\\",\\\", RowBox[{\\\"{\\\", \\\"}\\\"}]}], \\\"]\\\"}], \\\",\\\", \\\"\\\\\
+\\\"PacletSite.mz\\\\\\\"\\\"}], \\\"}\\\"}], \\\"]\\\"}]\\) is not a string \
+of one or more characters.\"",2,229,92,28060323837238360778,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[229]:=",ExpressionUUID->"faf28f87-3008-4fe0-94f0-01a4ec1a5c7c"],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellLabel->"Out[229]=",ExpressionUUID->"1c81c391-49c2-4c45-9327-5f7ee686e2ab"]
+}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -516,22 +852,21 @@ Cell[BoxData[
    RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
     RowBox[{"\"\<CopyContent\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "False"}], ",", 
-    "\[IndentingNewLine]", 
     RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", " ", 
     RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
      RowBox[{"Today", "-", 
       RowBox[{"Quantity", "[", 
        RowBox[{"50", ",", " ", "\"\<Days\>\""}], "]"}]}]}]}], 
-   "\[IndentingNewLine]", "]"}], 
-  ";"}]], "Input",ExpressionUUID->"24518642-7fac-467b-b90f-0d6836cc37cb"]
+   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
+ CellLabel->
+  "In[2876]:=",ExpressionUUID->"24518642-7fac-467b-b90f-0d6836cc37cb"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{Automatic, 206}, {-66, Automatic}},
+WindowMargins->{{9, Automatic}, {34, Automatic}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,
