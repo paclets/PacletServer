@@ -1,22 +1,26 @@
-Title: PyTools
-Authors: b3m2a1
+Title: EcoEvo
+Authors: Christopher Klausmeier
 Categories: misc
-Creator: b3m2a1@gmail.com
-Description: A process-based link between Mathematica and python. 							  Includes tools based off of this link
-DisplayName: PyTools
-Extensions: <|Kernel -> <|Root -> ., Context -> {PyTools`}, Root -> ., Context -> {PyTools`}|>, Resource -> <|Root -> Resources, Resources -> {MLib}, SystemID -> *|>, FrontEnd -> <||>|>
+Creator: Christopher Klausmeier <klausme1@msu.edu>
+Description: Species- and trait-based ecological and eco-evolutionary modeling.
+DisplayName: EcoEvo
+Extensions: <|Documentation -> <|Language -> All, MainPage -> Guides/EcoEvo|>, Kernel -> <|Root -> ., Context -> EcoEvo`|>|>
+MathematicaVersion: 10.0+
 Modified: Missing[NotAvailable]
-Name: PyTools
-Slug: pytools
-Tags: mathematica,python
-Version: 1.0.10
+Name: EcoEvo
+Root: EcoEvo
+Slug: ecoevo
+Tags: 
+Thumbnail: Logo.png
+Version: 0.9.3
 
-<a id="pytools" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="ecoevo" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-# PyTools
+# EcoEvo
 
-A process-based link between Mathematica and python.
-         Includes tools based off of this link
+![EcoEvo]({filename}/img/EcoEvo/Logo.png)
+
+Species- and trait-based ecological and eco-evolutionary modeling.
 
 ---
 
@@ -29,7 +33,7 @@ A process-based link between Mathematica and python.
 To install this paclet, run:
 
     << https://paclets.github.io/PacletServer/Install.wl
-    PublicPacletInstall["PyTools"]
+    PublicPacletInstall["EcoEvo"]
 
 Depending on what the current value of  ```$ContextPath``` is you may also need to first run
 
@@ -49,19 +53,19 @@ Depending on what the current value of  ```$ContextPath``` is you may also need 
 
 ###Name
 
-PyTools
+EcoEvo
 
 <a id="version" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Version
 
-1.0.10
+0.9.3
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Creator
 
-[b3m2a1@gmail.com](mailto:b3m2a1@gmail.com)
+[Christopher Klausmeier](mailto:klausme1@msu.edu)
 
 ---
 
@@ -69,7 +73,11 @@ PyTools
 
 ## Extra Information
 
-This package provides no extra information
+<a id="mathematicaversion" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###MathematicaVersion
+
+10.0+
 
 ---
 
@@ -77,30 +85,18 @@ This package provides no extra information
 
 ## Extensions
 
+<a id="documentation" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###Documentation
+
+*  Language: All
+
+*  MainPage: Guides/EcoEvo
+
 <a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Kernel
 
 *  Root: .
 
-*  Context: PyTools`
-
-*  Root: .
-
-*  Context: PyTools`
-
-<a id="resource" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-
-###Resource
-
-*  Root: Resources
-
-*  Resources: MLib
-
-*  SystemID: *
-
-<a id="frontend" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-
-###FrontEnd
-
-*  This extension has no extra parameters
+*  Context: EcoEvo`

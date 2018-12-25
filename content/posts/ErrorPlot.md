@@ -1,22 +1,24 @@
-Title: PyTools
-Authors: b3m2a1
+Title: ErrorPlot
+Authors: Guillermo Hernandez
 Categories: misc
-Creator: b3m2a1@gmail.com
-Description: A process-based link between Mathematica and python. 							  Includes tools based off of this link
-DisplayName: PyTools
-Extensions: <|Kernel -> <|Root -> ., Context -> {PyTools`}, Root -> ., Context -> {PyTools`}|>, Resource -> <|Root -> Resources, Resources -> {MLib}, SystemID -> *|>, FrontEnd -> <||>|>
+Creator: Guillermo Hernandez
+Description: An alternative to the ErrorBar Plotting Package included in Mathematica. 		It allows for log-scale plotting and a freer syntax.
+DisplayName: ErrorPlot
+Extensions: <|Documentation -> <|Resources -> {Guides/Plotting data with error bars}, Language -> English|>|>
+MathematicaVersion: 6+
 Modified: Missing[NotAvailable]
-Name: PyTools
-Slug: pytools
-Tags: mathematica,python
-Version: 1.0.10
+Name: ErrorPlot
+Slug: errorplot
+Tags: 
+Version: 1.0.0
 
-<a id="pytools" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="errorplot" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-# PyTools
+# ErrorPlot
 
-A process-based link between Mathematica and python.
-         Includes tools based off of this link
+An alternative to the ErrorBar Plotting Package included in Mathematica.
+
+  It allows for log-scale plotting and a freer syntax.
 
 ---
 
@@ -29,7 +31,7 @@ A process-based link between Mathematica and python.
 To install this paclet, run:
 
     << https://paclets.github.io/PacletServer/Install.wl
-    PublicPacletInstall["PyTools"]
+    PublicPacletInstall["ErrorPlot"]
 
 Depending on what the current value of  ```$ContextPath``` is you may also need to first run
 
@@ -49,19 +51,19 @@ Depending on what the current value of  ```$ContextPath``` is you may also need 
 
 ###Name
 
-PyTools
+ErrorPlot
 
 <a id="version" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Version
 
-1.0.10
+1.0.0
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Creator
 
-[b3m2a1@gmail.com](mailto:b3m2a1@gmail.com)
+Guillermo Hernandez
 
 ---
 
@@ -69,7 +71,11 @@ PyTools
 
 ## Extra Information
 
-This package provides no extra information
+<a id="mathematicaversion" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###MathematicaVersion
+
+6+
 
 ---
 
@@ -77,30 +83,10 @@ This package provides no extra information
 
 ## Extensions
 
-<a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+<a id="documentation" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
-###Kernel
+###Documentation
 
-*  Root: .
+*  Resources: Guides/Plotting data with error bars
 
-*  Context: PyTools`
-
-*  Root: .
-
-*  Context: PyTools`
-
-<a id="resource" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-
-###Resource
-
-*  Root: Resources
-
-*  Resources: MLib
-
-*  SystemID: *
-
-<a id="frontend" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-
-###FrontEnd
-
-*  This extension has no extra parameters
+*  Language: English

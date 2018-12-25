@@ -1,37 +1,24 @@
 <|
-	"PublicPacletServer" -> {
+	"ErrorPlot" -> {
 		<|
-			"Date" -> "Wed 28 Nov 2018 06:30:42",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
+			"Date" -> "Tue 25 Dec 2018 03:07:03",
+			"Message" -> "Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot",
+			"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
+		|>
+	},
+	"EcoEvo" -> {
 		<|
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-			"Date" -> "Sat 29 Sep 2018 13:03:31",
-			"Message" -> "Manually updated PublicPacletServer"
-		|>,
-		<|
-			"Date" -> "Thu 27 Sep 2018 22:41:27",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Thu 27 Sep 2018 19:21:27",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Jun 2018 07:38:25",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-			"Date" -> "Tue 5 Jun 2018 21:30:56",
-			"Message" -> "Manually updated PublicPacletServer"
+			"Date" -> "Tue 25 Dec 2018 03:06:58",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 		|>
 	},
 	"BTools" -> {
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:06:56",
+			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Wed 28 Nov 2018 06:30:40",
 			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -161,6 +148,38 @@
 			"Date" -> "Tue 5 Jun 2018 21:14:08",
 			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>
+	},
+	"PublicPacletServer" -> {
+		<|
+			"Date" -> "Wed 28 Nov 2018 06:30:42",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
+			"Date" -> "Sat 29 Sep 2018 13:03:31",
+			"Message" -> "Manually updated PublicPacletServer"
+		|>,
+		<|
+			"Date" -> "Thu 27 Sep 2018 22:41:27",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Thu 27 Sep 2018 19:21:27",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Jun 2018 07:38:25",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
+			"Date" -> "Tue 5 Jun 2018 21:30:56",
+			"Message" -> "Manually updated PublicPacletServer"
 		|>
 	},
 	"SimpleDocs" -> {
