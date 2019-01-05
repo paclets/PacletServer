@@ -1,22 +1,77 @@
 # Paclet Server Log
 
-<a id="ErrorPlot" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## ErrorPlot
+<a id="CellsToTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## CellsToTeX
 
-*** Tuesday 25 December 2018 ***
-* Author: Guillermo Hernandez <dihedralfive@gmail.com>
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
 
->Downloaded paclet ErrorPlot from github:Dih5/ErrorPlot
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
 
-*** Tuesday 25 December 2018 ***
-* Author: Guillermo Hernandez <dihedralfive@gmail.com>
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
 
->Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+
+---
+<a id="OptionsValidation" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## OptionsValidation
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
 
 
 ---
 <a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## PublicPacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 25 December 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -62,6 +117,21 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Manually updated PublicPacletServer
+
+
+---
+<a id="ErrorPlot" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## ErrorPlot
+
+*** Tuesday 25 December 2018 ***
+* Author: Guillermo Hernandez <dihedralfive@gmail.com>
+
+>Downloaded paclet ErrorPlot from github:Dih5/ErrorPlot
+
+*** Tuesday 25 December 2018 ***
+* Author: Guillermo Hernandez <dihedralfive@gmail.com>
+
+>Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot
 
 
 ---

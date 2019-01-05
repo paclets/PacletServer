@@ -1,0 +1,351 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12514,        342]
+NotebookOptionsPosition[      5647,        197]
+NotebookOutlinePosition[      9251,        282]
+CellTagsIndexPosition[      8811,        264]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<OptionsValidation\>\""}], ",", 
+   RowBox[{"\"\<Categories\>\"", "\[Rule]", "\"\<misc\>\""}], ",", 
+   RowBox[{"\"\<Slug\>\"", "\[Rule]", "Automatic"}], ",", 
+   RowBox[{"\"\<Authors\>\"", "\[Rule]", 
+    RowBox[{"{", "\"\<Jakub Kuczmarski\>\"", "}"}]}], ",", 
+   RowBox[{"\"\<Tags\>\"", "\[Rule]", 
+    RowBox[{"{", "}"}]}], ",", 
+   RowBox[{"\"\<Creator\>\"", "\[Rule]", "\"\<Jakub Kuczmarski\>\""}], ",", 
+   RowBox[{
+   "\"\<Description\>\"", "\[Rule]", 
+    "\"\<Framework for options validation.\>\""}], ",", 
+   RowBox[{"\"\<Extensions\>\"", "\[Rule]", 
+    RowBox[{"\[LeftAssociation]", 
+     RowBox[{"\"\<Documentation\>\"", "\[Rule]", 
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{"Language", "\[Rule]", "\"\<English\>\""}], 
+       "\[RightAssociation]"}]}], "\[RightAssociation]"}]}], ",", 
+   RowBox[{"\"\<MathematicaVersion\>\"", "\[Rule]", "\"\<6+\>\""}], ",", 
+   RowBox[{"\"\<Name\>\"", "\[Rule]", "\"\<OptionsValidation\>\""}], ",", 
+   RowBox[{"\"\<Version\>\"", "\[Rule]", "\"\<0.1.0\>\""}], ",", 
+   RowBox[{"\"\<DisplayName\>\"", "\[Rule]", "\"\<OptionsValidation\>\""}], 
+   ",", 
+   RowBox[{"\"\<Modified\>\"", "\[Rule]", 
+    RowBox[{"Missing", "[", "\"\<NotAvailable\>\"", "]"}]}]}], 
+  "\[RightAssociation]"}]], "Metadata",
+ CellTags->"Metadata"],
+
+Cell[CellGroupData[{
+
+Cell["OptionsValidation", "Section",
+ CellTags->"PacletName"],
+
+Cell["Framework for options validation.", "Text",
+ CellTags->"DescriptionText"]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Install", "Subsection",
+ CellChangeTimes->{{3.734109986099271*^9, 3.73410998692136*^9}},
+ CellTags->"Installation"],
+
+Cell[TextData[{
+ StyleBox["Before installing, be sure to check out the ",
+  FontWeight->"Bold"],
+ StyleBox[ButtonBox["Change Log",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://paclets.github.io/PacletServer/pages/log.html"], None},
+  ButtonNote->"https://paclets.github.io/PacletServer/pages/log.html"],
+  FontWeight->"Bold"],
+ StyleBox[" to make sure that you trust the developer.",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{
+  3.733539343957526*^9, {3.734110049819099*^9, 3.734110052200994*^9}}],
+
+Cell["To install this paclet, run:", "Text",
+ CellChangeTimes->{{3.734109988289577*^9, 3.7341099944031897`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"<<", "https://paclets.github.io/PacletServer/Install.wl"}], "\n", 
+ RowBox[{"PublicPacletInstall", "[", Cell[BoxData[
+  "\"\<OptionsValidation\>\""], "Text",
+   CellTags->"PacletNameString"], "]"}]}], "Code",
+ CellChangeTimes->{{3.734109996462371*^9, 3.734110086704522*^9}, {
+  3.7341103314548597`*^9, 3.734110334083228*^9}, {3.734110504745276*^9, 
+  3.734110509506034*^9}, {3.7341173157894382`*^9, 3.7341173420157022`*^9}, {
+  3.734117550267846*^9, 3.734117569320335*^9}, {3.734117656794383*^9, 
+  3.734117657486534*^9}, {3.7524039244988823`*^9, 3.7524039382962112`*^9}}],
+
+Cell[TextData[{
+ "Depending on what the current value of ",
+ Cell[BoxData["$ContextPath"], "InlineInput"],
+ " is you may also need to first run"
+}], "Text",
+ CellChangeTimes->{{3.7341173449513597`*^9, 3.734117390719006*^9}, {
+  3.734117520132193*^9, 3.734117539975576*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}]], "Code",
+ CellChangeTimes->{{3.7341175227443247`*^9, 3.734117523793272*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "To update it, replace ",
+ Cell[BoxData["PacletInstall"], "InlineInput"],
+ " with ",
+ Cell[BoxData["PacletUpdate"], "InlineInput"],
+ ". "
+}], "Item",
+ CellChangeTimes->{{3.733150419236821*^9, 3.733150504710637*^9}}],
+
+Cell[TextData[{
+ "To uninstall replace ",
+ Cell[BoxData["PacletInstall"], "InlineInput"],
+ " with ",
+ Cell[BoxData["PacletUninstall"], "InlineInput"],
+ " and remove the ",
+ Cell[BoxData["\"\<Site\>\""], "InlineInput"],
+ " parameter."
+}], "Item",
+ CellChangeTimes->{{3.733150419236821*^9, 3.733150515558354*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Information", "Subsection",
+ CellTags->"BasicInformation"],
+
+Cell[CellGroupData[{
+
+Cell["Name", "Subsubsection",
+ CellTags->{"Info", "Name"}],
+
+Cell["OptionsValidation", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Version", "Subsubsection",
+ CellTags->{"Info", "Version"}],
+
+Cell["0.1.0", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Creator", "Subsubsection",
+ CellTags->{"Info", "Creator"}],
+
+Cell["Jakub Kuczmarski", "Text"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extra Information", "Subsection",
+ CellTags->"ExtraInformation"],
+
+Cell[CellGroupData[{
+
+Cell["MathematicaVersion", "Subsubsection",
+ CellTags->{"Info", "MathematicaVersion"}],
+
+Cell["6+", "Text"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "PageBreak"],
+
+Cell[CellGroupData[{
+
+Cell["Extensions", "Subsection",
+ CellTags->"Extensions"],
+
+Cell[CellGroupData[{
+
+Cell["Documentation", "Subsubsection",
+ CellTags->{"Info", "Documentation"}],
+
+Cell["Language: English", "Item",
+ CellTags->{"Info", "Line"}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 230}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Metadata"->{
+  Cell[558, 20, 1381, 28, 70, "Metadata",ExpressionUUID->"981c0807-d582-4ab3-9b7c-ee3c78efb590",
+   CellTags->"Metadata"]},
+ "PacletName"->{
+  Cell[1964, 52, 61, 1, 70, "Section",ExpressionUUID->"cad8b080-4002-482f-a185-e77df514c36e",
+   CellTags->"PacletName"]},
+ "DescriptionText"->{
+  Cell[2028, 55, 79, 1, 70, "Text",ExpressionUUID->"b9f95b38-5c73-4c39-b8f1-71b7c44b24d1",
+   CellTags->"DescriptionText"]},
+ "Installation"->{
+  Cell[2168, 63, 121, 2, 70, "Subsection",ExpressionUUID->"a9c3bb67-086c-408f-a219-d66091aa6a4b",
+   CellTags->"Installation"]},
+ "BasicInformation"->{
+  Cell[4598, 136, 70, 1, 70, "Subsection",ExpressionUUID->"7d9ef76b-499f-4061-a12f-e398aba5d8d2",
+   CellTags->"BasicInformation"]},
+ "Info"->{
+  Cell[4693, 141, 58, 1, 70, "Subsubsection",ExpressionUUID->"184704d1-1cfe-46cb-9cb3-84a18f9721dc",
+   CellTags->{"Info", "Name"}],
+  Cell[4824, 149, 64, 1, 70, "Subsubsection",ExpressionUUID->"90d1484a-dbed-4faf-b297-ad6a41c30cce",
+   CellTags->{"Info", "Version"}],
+  Cell[4949, 157, 64, 1, 70, "Subsubsection",ExpressionUUID->"f7f82745-6f5d-438e-98ef-684df340b41f",
+   CellTags->{"Info", "Creator"}],
+  Cell[5216, 173, 86, 1, 70, "Subsubsection",ExpressionUUID->"2db4f4ad-706c-4504-88d6-ca1c61cc00ec",
+   CellTags->{"Info", "MathematicaVersion"}],
+  Cell[5478, 189, 76, 1, 70, "Subsubsection",ExpressionUUID->"9e2ee2ae-e641-4570-acbe-ba16f3b68d74",
+   CellTags->{"Info", "Documentation"}],
+  Cell[5557, 192, 62, 1, 70, "Item",ExpressionUUID->"692105b8-b987-4f2a-9400-97c6b016691a",
+   CellTags->{"Info", "Line"}]},
+ "Name"->{
+  Cell[4693, 141, 58, 1, 70, "Subsubsection",ExpressionUUID->"184704d1-1cfe-46cb-9cb3-84a18f9721dc",
+   CellTags->{"Info", "Name"}]},
+ "Version"->{
+  Cell[4824, 149, 64, 1, 70, "Subsubsection",ExpressionUUID->"90d1484a-dbed-4faf-b297-ad6a41c30cce",
+   CellTags->{"Info", "Version"}]},
+ "Creator"->{
+  Cell[4949, 157, 64, 1, 70, "Subsubsection",ExpressionUUID->"f7f82745-6f5d-438e-98ef-684df340b41f",
+   CellTags->{"Info", "Creator"}]},
+ "ExtraInformation"->{
+  Cell[5121, 168, 70, 1, 70, "Subsection",ExpressionUUID->"3d5af338-2fc1-4365-8388-5c9068b9a3ce",
+   CellTags->"ExtraInformation"]},
+ "MathematicaVersion"->{
+  Cell[5216, 173, 86, 1, 70, "Subsubsection",ExpressionUUID->"2db4f4ad-706c-4504-88d6-ca1c61cc00ec",
+   CellTags->{"Info", "MathematicaVersion"}]},
+ "Extensions"->{
+  Cell[5396, 184, 57, 1, 70, "Subsection",ExpressionUUID->"54b52e0b-e967-4b4a-8156-83f977771956",
+   CellTags->"Extensions"]},
+ "Documentation"->{
+  Cell[5478, 189, 76, 1, 70, "Subsubsection",ExpressionUUID->"9e2ee2ae-e641-4570-acbe-ba16f3b68d74",
+   CellTags->{"Info", "Documentation"}]},
+ "Line"->{
+  Cell[5557, 192, 62, 1, 70, "Item",ExpressionUUID->"692105b8-b987-4f2a-9400-97c6b016691a",
+   CellTags->{"Info", "Line"}]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Metadata", 6024, 209},
+ {"PacletName", 6165, 212},
+ {"DescriptionText", 6310, 215},
+ {"Installation", 6454, 218},
+ {"BasicInformation", 6606, 221},
+ {"Info", 6750, 224},
+ {"Name", 7580, 237},
+ {"Version", 7728, 240},
+ {"Creator", 7879, 243},
+ {"ExtraInformation", 8039, 246},
+ {"MathematicaVersion", 8197, 249},
+ {"Extensions", 8362, 252},
+ {"Documentation", 8509, 255},
+ {"Line", 8663, 258}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1381, 28, 70, "Metadata",ExpressionUUID->"981c0807-d582-4ab3-9b7c-ee3c78efb590",
+ CellTags->"Metadata"],
+Cell[CellGroupData[{
+Cell[1964, 52, 61, 1, 70, "Section",ExpressionUUID->"cad8b080-4002-482f-a185-e77df514c36e",
+ CellTags->"PacletName"],
+Cell[2028, 55, 79, 1, 70, "Text",ExpressionUUID->"b9f95b38-5c73-4c39-b8f1-71b7c44b24d1",
+ CellTags->"DescriptionText"]
+}, Open  ]],
+Cell[2122, 59, 21, 0, 70, "PageBreak",ExpressionUUID->"46b06d08-8b31-400f-9bd6-bdf80b2ba986"],
+Cell[CellGroupData[{
+Cell[2168, 63, 121, 2, 70, "Subsection",ExpressionUUID->"a9c3bb67-086c-408f-a219-d66091aa6a4b",
+ CellTags->"Installation"],
+Cell[2292, 67, 522, 13, 70, "Text",ExpressionUUID->"23153c9e-318c-4ca2-b851-534d55053ca9"],
+Cell[2817, 82, 112, 1, 70, "Text",ExpressionUUID->"44874b26-f3ca-43e2-9580-9bf20993ace2"],
+Cell[2932, 85, 597, 9, 70, "Code",ExpressionUUID->"7c74680f-3840-4903-9729-3869092bd722"],
+Cell[3532, 96, 273, 6, 70, "Text",ExpressionUUID->"f5e01b6b-8f05-4f7f-bd0b-4246800ec823"],
+Cell[3808, 104, 146, 2, 70, "Code",ExpressionUUID->"a031bc18-1741-48dc-b10e-f6e770858ce4"],
+Cell[CellGroupData[{
+Cell[3979, 110, 232, 7, 70, "Item",ExpressionUUID->"f68ea70d-281e-46e4-a84f-d7c533bbdc10"],
+Cell[4214, 119, 311, 9, 70, "Item",ExpressionUUID->"19a05baf-7487-466e-88c2-bf503bfe5797"]
+}, Open  ]]
+}, Open  ]],
+Cell[4552, 132, 21, 0, 70, "PageBreak",ExpressionUUID->"cec6594c-064b-46ff-8b1b-59a83c73b07b"],
+Cell[CellGroupData[{
+Cell[4598, 136, 70, 1, 70, "Subsection",ExpressionUUID->"7d9ef76b-499f-4061-a12f-e398aba5d8d2",
+ CellTags->"BasicInformation"],
+Cell[CellGroupData[{
+Cell[4693, 141, 58, 1, 70, "Subsubsection",ExpressionUUID->"184704d1-1cfe-46cb-9cb3-84a18f9721dc",
+ CellTags->{"Info", "Name"}],
+Cell[4754, 144, 33, 0, 70, "Text",ExpressionUUID->"930fdaa3-1743-4af9-a5dc-bfdfcdeacf6c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4824, 149, 64, 1, 70, "Subsubsection",ExpressionUUID->"90d1484a-dbed-4faf-b297-ad6a41c30cce",
+ CellTags->{"Info", "Version"}],
+Cell[4891, 152, 21, 0, 70, "Text",ExpressionUUID->"faf68662-57f8-4cd7-9522-3573864057e1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4949, 157, 64, 1, 70, "Subsubsection",ExpressionUUID->"f7f82745-6f5d-438e-98ef-684df340b41f",
+ CellTags->{"Info", "Creator"}],
+Cell[5016, 160, 32, 0, 70, "Text",ExpressionUUID->"b95b51ef-2f00-4f02-ae42-e18bda46006f"]
+}, Open  ]]
+}, Open  ]],
+Cell[5075, 164, 21, 0, 70, "PageBreak",ExpressionUUID->"a6e93d76-6531-4b9d-ad48-d316c14009d0"],
+Cell[CellGroupData[{
+Cell[5121, 168, 70, 1, 70, "Subsection",ExpressionUUID->"3d5af338-2fc1-4365-8388-5c9068b9a3ce",
+ CellTags->"ExtraInformation"],
+Cell[CellGroupData[{
+Cell[5216, 173, 86, 1, 70, "Subsubsection",ExpressionUUID->"2db4f4ad-706c-4504-88d6-ca1c61cc00ec",
+ CellTags->{"Info", "MathematicaVersion"}],
+Cell[5305, 176, 18, 0, 70, "Text",ExpressionUUID->"986e4a02-f6c8-4b53-a5fc-f41aa76afa2b"]
+}, Open  ]]
+}, Open  ]],
+Cell[5350, 180, 21, 0, 70, "PageBreak",ExpressionUUID->"8dfc2587-205b-430a-8ac4-cb435459e625"],
+Cell[CellGroupData[{
+Cell[5396, 184, 57, 1, 70, "Subsection",ExpressionUUID->"54b52e0b-e967-4b4a-8156-83f977771956",
+ CellTags->"Extensions"],
+Cell[CellGroupData[{
+Cell[5478, 189, 76, 1, 70, "Subsubsection",ExpressionUUID->"9e2ee2ae-e641-4570-acbe-ba16f3b68d74",
+ CellTags->{"Info", "Documentation"}],
+Cell[5557, 192, 62, 1, 70, "Item",ExpressionUUID->"692105b8-b987-4f2a-9400-97c6b016691a",
+ CellTags->{"Info", "Line"}]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

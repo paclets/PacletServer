@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-  Tags | Mathematica Paclet Server
+  OptionsValidation | Mathematica Paclet Server
     </title>
 <link
       rel='apple-touch-icon'
@@ -71,8 +71,17 @@
   ga('create', 'UA-118356806-1', 'auto');
   ga('send', 'pageview');
 </script>
+      <meta name="description" content="">
+  <link href="https://paclets.github.io/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/prettify.js"></script>
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
+  <script>
+    function moveWindow (){window.location.hash="main-content";}
+  </script>
   </head>
-<body onload="">
+<body onload="
+  PR.prettyPrint(); moveWindow()
+">
   <header class="header">
     <div class="top-bar">
       <div class="site-title">
@@ -144,12 +153,80 @@
   <div class="main" id="main-content">
     <div class="main-content">
       <div class="container center-aligned">
-            <h3 class="page-header">
-  Tags
-            </h3>
         <br>
-  <table class="table table-bordered table-striped table-hover">
-  </table>
+  <article class="article center-aligned">
+    <div class="content">
+      <a shape='rect' class='Section' id='optionsvalidation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h1> OptionsValidation</h1>
+<p>Framework for options validation.
+</p>
+<hr />
+<a shape='rect' class='Subsection' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Install</h2>
+<p><strong>Before installing, be sure to check out the </strong><strong><a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a><strong> </strong> to make sure that you trust the developer.</strong></p>
+<p>To install this paclet, run:
+</p>
+<pre>
+ <code>&lt;&lt; https://paclets.github.io/PacletServer/Install.wl
+PublicPacletInstall[&quot;OptionsValidation&quot;]</code>
+</pre>
+<p>Depending on what the current value of  <code>$ContextPath</code> is you may also need to first run
+</p>
+<pre>
+ <code>Needs[&quot;PacletManager`&quot;]</code>
+</pre>
+<ul>
+ <li>To update it, replace  <code>PacletInstall</code> with  <code>PacletUpdate</code> .</li>
+ <li>To uninstall replace  <code>PacletInstall</code> with  <code>PacletUninstall</code> and remove the  <code>&quot;Site&quot;</code> parameter.</li>
+</ul>
+<hr />
+<a shape='rect' class='Subsection' id='basicinformation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Basic Information</h2>
+<a shape='rect' class='Subsubsection' id='name' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Name</h3>
+<p>OptionsValidation</p>
+<a shape='rect' class='Subsubsection' id='version' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Version</h3>
+<p>0.1.0</p>
+<a shape='rect' class='Subsubsection' id='creator' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Creator</h3>
+<p>Jakub Kuczmarski
+</p>
+<hr />
+<a shape='rect' class='Subsection' id='extrainformation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extra Information</h2>
+<a shape='rect' class='Subsubsection' id='mathematicaversion' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>MathematicaVersion</h3>
+<p>6+
+</p>
+<hr />
+<a shape='rect' class='Subsection' id='extensions' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extensions</h2>
+<a shape='rect' class='Subsubsection' id='documentation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Documentation</h3>
+<ul>
+ <li>Language: English</li>
+</ul>
+    </div>
+  </article>
+<hr>
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function() {
+    this.page.url = 'https://paclets.github.io/PacletServer/optionsvalidation.html';
+    this.page.identifier = 'optionsvalidation';
+  };
+  (function() {
+    var d = document;
+    var s = d.createElement('script');
+    s.src = '//paclet-server.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript class="text-muted">
+  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
       </div>
     </div>
   </div>
