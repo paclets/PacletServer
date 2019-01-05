@@ -293,5 +293,65 @@
 		"Date" -> "Tue 25 Dec 2018 05:59:55",
 		"Message" -> "Downloaded paclet ErrorPlot from github:Dih5/ErrorPlot",
 		"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
+	|>,
+	"PublicPacletServer" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:32:09",
+		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"OptionsValidation" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:32:10",
+		"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"CellsToTeX" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:32:11",
+		"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"PublicPacletServer" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:34:29",
+		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"OptionsValidation" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:34:30",
+		"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"CellsToTeX" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:34:31",
+		"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"PublicPacletServer" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:47:28",
+		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"OptionsValidation" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:47:29",
+		"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"CellsToTeX" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:47:29",
+		"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"PublicPacletServer" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:50:39",
+		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"OptionsValidation" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:50:40",
+		"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"CellsToTeX" -> <|
+		"Date" -> "Sat 5 Jan 2019 14:50:41",
+		"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
 	|>
 }

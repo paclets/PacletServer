@@ -15,13 +15,19 @@ This will rebuild the paclet server. First we load the package:\
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"Get", "[", 
-   RowBox[{"FileNameJoin", "@", 
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
-      " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]], "Code",
- CellLabel->"In[25]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"<<", "BTools`Developer`"}], "\n", 
+    RowBox[{"ContextRemove", "[", "\"\<PublicPacletServer`\>\"", "]"}]}], 
+   "*)"}], "\n", 
+  RowBox[{
+   RowBox[{"Get", "[", 
+    RowBox[{"FileNameJoin", "@", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
+       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
+   ";"}]}]], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
 
 Cell[CellGroupData[{
 
@@ -54,7 +60,8 @@ f006baabc747"],
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
- CellLabel->"In[26]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+ CellLabel->
+  "In[1287]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -514,19 +521,26 @@ Cell[BoxData[
   RowBox[{
   "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
    "]"}]}]], "Input",
- CellLabel->"In[28]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+ CellLabel->"In[33]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Build\>\"", "]"}], 
   ";"}]], "Input",
- CellLabel->"In[120]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"]
+ CellLabel->"In[34]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellLabel->
+  "Out[34]=",ExpressionUUID->"d98c81fc-8c84-4989-a5ef-458655f1caf6"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+WindowMargins->{{229, Automatic}, {Automatic, 0}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,

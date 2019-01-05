@@ -11,6 +11,15 @@ PacletSite[
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
+	  Name -> "CellsToTeX",
+	  Version -> "0.2.1",
+	  Creator -> "Jakub Kuczmarski",
+	  Description -> "Convert Mathematica cells to TeX, retaining formatting",
+	  MathematicaVersion -> "6+",
+	  Extensions -> {{"Documentation", Language -> "English"}},
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
+	 ],
+	Paclet[
 	  Name -> "ChemTools",
 	  Version -> "1.3.0",
 	  Creator -> "b3m2a1@gmail.com",
@@ -108,6 +117,15 @@ PacletSite[
 	  Thumbnail -> "Icon.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> {"MeshTools`"}}, {"Documentation", Language -> "English", MainPage -> "Guides/MeshTools"}, {"PacletServer", "Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for  creating and manipulating ElementMesh objects.", "License" -> "MIT"}},
 	  Hash -> "v0.3.1-0-gce5537b",
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
+	 ],
+	Paclet[
+	  Name -> "OptionsValidation",
+	  Version -> "0.1.0",
+	  Creator -> "Jakub Kuczmarski",
+	  Description -> "Framework for options validation.",
+	  MathematicaVersion -> "6+",
+	  Extensions -> {{"Documentation", Language -> "English"}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
