@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     12803,        345]
-NotebookOptionsPosition[      6401,        209]
-NotebookOutlinePosition[      9732,        290]
-CellTagsIndexPosition[      9332,        273]
+NotebookDataLength[     16377,        427]
+NotebookOptionsPosition[      7583,        249]
+NotebookOutlinePosition[     12496,        356]
+CellTagsIndexPosition[     12063,        338]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -45,6 +45,22 @@ Cell[BoxData[
          "\"\<A beta version of a paclet for interfacing with the public \
 paclet server\\nCurrent supports:\\n  forking the server, submitting paclets, \
 sending PRs,\\n  cloning the server, and building the server\>\""}], 
+        "\[RightAssociation]"}]}], ",", 
+      RowBox[{"\"\<Resource\>\"", "\[Rule]", 
+       RowBox[{"\[LeftAssociation]", 
+        RowBox[{
+         RowBox[{"\"\<Root\>\"", "\[Rule]", "\"\<Resources\>\""}], ",", 
+         RowBox[{"\"\<Resources\>\"", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{"\"\<Templates\>\"", ",", 
+            RowBox[{"{", 
+             RowBox[{
+             "\"\<ExtraPacletInfo\>\"", ",", 
+              "\"\<Templates/ExtraPacletInfo.wl\>\""}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{
+             "\"\<IncludedPaclets\>\"", ",", 
+              "\"\<Templates/IncludedPaclets.wl\>\""}], "}"}]}], "}"}]}]}], 
         "\[RightAssociation]"}]}]}], "\[RightAssociation]"}]}], ",", 
    RowBox[{"\"\<DisplayName\>\"", "\[Rule]", "\"\<PublicPacletServer\>\""}], 
    ",", 
@@ -57,7 +73,7 @@ serverCurrent supports:  forking the server, submitting paclets, sending PRs, \
  cloning the server, and building the server\>\""}], ",", 
    RowBox[{"\"\<Name\>\"", "\[Rule]", "\"\<PublicPacletServer\>\""}], ",", 
    RowBox[{"\"\<Thumbnail\>\"", "\[Rule]", "\"\<PacletIcon.png\>\""}], ",", 
-   RowBox[{"\"\<Version\>\"", "\[Rule]", "\"\<0.0.8\>\""}]}], 
+   RowBox[{"\"\<Version\>\"", "\[Rule]", "\"\<0.0.9\>\""}]}], 
   "\[RightAssociation]"}]], "Metadata",
  CellTags->"Metadata"],
 
@@ -173,7 +189,7 @@ Cell[CellGroupData[{
 Cell["Version", "Subsubsection",
  CellTags->{"Info", "Version"}],
 
-Cell["0.0.8", "Text"]
+Cell["0.0.9", "Text"]
 }, Open  ]]
 }, Open  ]],
 
@@ -204,6 +220,30 @@ Cell["Root: .", "Item",
 
 Cell["Context: PublicPacletServer`", "Item",
  CellTags->{"Info", "Line"}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Resource", "Subsubsection",
+ CellTags->{"Info", "Resource"}],
+
+Cell["Root: Resources", "Item",
+ CellTags->{"Info", "Line"}],
+
+Cell[CellGroupData[{
+
+Cell["Resources", "Item",
+ CellTags->{"Info", "Line"}],
+
+Cell["Templates", "Subitem",
+ CellTags->{"Info", "Line"}],
+
+Cell["{ExtraPacletInfo, Templates/ExtraPacletInfo.wl}", "Subitem",
+ CellTags->{"Info", "Line"}],
+
+Cell["{IncludedPaclets, Templates/IncludedPaclets.wl}", "Subitem",
+ CellTags->{"Info", "Line"}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
@@ -220,131 +260,173 @@ StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb",
 (*CellTagsOutline
 CellTagsIndex->{
  "Metadata"->{
-  Cell[558, 20, 2003, 41, 70, "Metadata",ExpressionUUID->"b71c7386-9ca2-48a0-9c6d-b31165f83c15",
+  Cell[558, 20, 2672, 57, 70, "Metadata",ExpressionUUID->"4e9cfa9a-7106-4fd5-ba44-1e98b70d9b85",
    CellTags->"Metadata"]},
  "PacletName"->{
-  Cell[2586, 65, 62, 1, 70, "Section",ExpressionUUID->"04bfd82b-90dc-4d2a-a276-d5a24a5d7c09",
+  Cell[3255, 81, 62, 1, 70, "Section",ExpressionUUID->"d5ba3ecb-50e8-47d2-93b1-76d2efcd88d4",
    CellTags->"PacletName"]},
  "PacletIcon"->{
-  Cell[2651, 68, 127, 3, 70, "RawMarkdown",ExpressionUUID->"430596ee-3df2-4eec-b240-267c9a05b84a",
+  Cell[3320, 84, 127, 3, 70, "RawMarkdown",ExpressionUUID->"13151ab2-52d4-4d14-acf1-fcadb327a4ab",
    CellTags->"PacletIcon"]},
  "DescriptionText"->{
-  Cell[2781, 73, 245, 6, 70, "Text",ExpressionUUID->"62314323-7f1c-4a3f-aa79-2b9b8308c3db",
+  Cell[3450, 89, 245, 6, 70, "Text",ExpressionUUID->"896300cc-930c-48a5-8b3a-d07e217a8996",
    CellTags->"DescriptionText"]},
  "Installation"->{
-  Cell[3087, 86, 121, 2, 70, "Subsection",ExpressionUUID->"28755ed3-6773-4623-b5ea-8e703d887e85",
+  Cell[3756, 102, 121, 2, 70, "Subsection",ExpressionUUID->"566db4d4-2172-4d56-b180-8f903af45292",
    CellTags->"Installation"]},
  "BasicInformation"->{
-  Cell[5518, 159, 70, 1, 70, "Subsection",ExpressionUUID->"3a7d08e9-af53-4e70-8529-849360e77a17",
+  Cell[6187, 175, 70, 1, 70, "Subsection",ExpressionUUID->"5403056b-bb2c-4555-862f-a9a6970a1cf1",
    CellTags->"BasicInformation"]},
  "Info"->{
-  Cell[5613, 164, 58, 1, 70, "Subsubsection",ExpressionUUID->"a4c8c35e-847a-4c65-89e0-c34870a624cf",
+  Cell[6282, 180, 58, 1, 70, "Subsubsection",ExpressionUUID->"5c51fe12-26d0-41e1-a946-f19b01887478",
    CellTags->{"Info", "Name"}],
-  Cell[5745, 172, 64, 1, 70, "Subsubsection",ExpressionUUID->"ae9372d9-540f-4651-bf20-0f2b227f5755",
+  Cell[6414, 188, 64, 1, 70, "Subsubsection",ExpressionUUID->"3cbcdba2-dfec-4ade-97fa-9c1671039b4b",
    CellTags->{"Info", "Version"}],
-  Cell[6180, 198, 62, 1, 70, "Subsubsection",ExpressionUUID->"bd248119-d6b2-4db1-b726-0a39ebe20c64",
+  Cell[6849, 214, 62, 1, 70, "Subsubsection",ExpressionUUID->"8635b160-a2b6-4e6f-aec5-ccc4e0e221d5",
    CellTags->{"Info", "Kernel"}],
-  Cell[6245, 201, 52, 1, 70, "Item",ExpressionUUID->"83779b48-e022-4d9f-b2ae-c151ce2f0b23",
+  Cell[6914, 217, 52, 1, 70, "Item",ExpressionUUID->"69f9fe53-0a7a-41b5-8760-2114660e6ddc",
    CellTags->{"Info", "Line"}],
-  Cell[6300, 204, 73, 1, 70, "Item",ExpressionUUID->"7854fc2f-cdaf-45ff-92c1-51f866f1fff7",
+  Cell[6969, 220, 73, 1, 70, "Item",ExpressionUUID->"f611860b-e230-45b1-a57e-a32f49be877b",
+   CellTags->{"Info", "Line"}],
+  Cell[7079, 226, 66, 1, 70, "Subsubsection",ExpressionUUID->"f46380f1-f663-497e-9ff7-2a8dac93f093",
+   CellTags->{"Info", "Resource"}],
+  Cell[7148, 229, 60, 1, 70, "Item",ExpressionUUID->"3ee99c4f-4751-4429-a9f5-c0b8e7efd592",
+   CellTags->{"Info", "Line"}],
+  Cell[7233, 234, 54, 1, 70, "Item",ExpressionUUID->"870a2dd5-b01b-45df-8381-5e4397a9d8ed",
+   CellTags->{"Info", "Line"}],
+  Cell[7290, 237, 57, 1, 70, "Subitem",ExpressionUUID->"84fb9401-6483-4373-b8b5-b4c27ac029cd",
+   CellTags->{"Info", "Line"}],
+  Cell[7350, 240, 95, 1, 70, "Subitem",ExpressionUUID->"75a10a42-775b-4aca-a4ee-d45e6a575774",
+   CellTags->{"Info", "Line"}],
+  Cell[7448, 243, 95, 1, 70, "Subitem",ExpressionUUID->"40c77046-ad23-4eb3-ad7e-e293d743717f",
    CellTags->{"Info", "Line"}]},
  "Name"->{
-  Cell[5613, 164, 58, 1, 70, "Subsubsection",ExpressionUUID->"a4c8c35e-847a-4c65-89e0-c34870a624cf",
+  Cell[6282, 180, 58, 1, 70, "Subsubsection",ExpressionUUID->"5c51fe12-26d0-41e1-a946-f19b01887478",
    CellTags->{"Info", "Name"}]},
  "Version"->{
-  Cell[5745, 172, 64, 1, 70, "Subsubsection",ExpressionUUID->"ae9372d9-540f-4651-bf20-0f2b227f5755",
+  Cell[6414, 188, 64, 1, 70, "Subsubsection",ExpressionUUID->"3cbcdba2-dfec-4ade-97fa-9c1671039b4b",
    CellTags->{"Info", "Version"}]},
  "ExtraInformation"->{
-  Cell[5906, 183, 70, 1, 70, "Subsection",ExpressionUUID->"8c2ebb92-0d7d-4398-acf1-97513cbb6712",
+  Cell[6575, 199, 70, 1, 70, "Subsection",ExpressionUUID->"367d688c-6373-4d9e-8e76-7cbcf5902b3f",
    CellTags->"ExtraInformation"]},
  "Extensions"->{
-  Cell[6098, 193, 57, 1, 70, "Subsection",ExpressionUUID->"72ef8039-cf3d-4698-af29-37d3f6f7a1bc",
+  Cell[6767, 209, 57, 1, 70, "Subsection",ExpressionUUID->"9eeb16c2-7f80-4f45-bdb7-01ae990eb34d",
    CellTags->"Extensions"]},
  "Kernel"->{
-  Cell[6180, 198, 62, 1, 70, "Subsubsection",ExpressionUUID->"bd248119-d6b2-4db1-b726-0a39ebe20c64",
+  Cell[6849, 214, 62, 1, 70, "Subsubsection",ExpressionUUID->"8635b160-a2b6-4e6f-aec5-ccc4e0e221d5",
    CellTags->{"Info", "Kernel"}]},
  "Line"->{
-  Cell[6245, 201, 52, 1, 70, "Item",ExpressionUUID->"83779b48-e022-4d9f-b2ae-c151ce2f0b23",
+  Cell[6914, 217, 52, 1, 70, "Item",ExpressionUUID->"69f9fe53-0a7a-41b5-8760-2114660e6ddc",
    CellTags->{"Info", "Line"}],
-  Cell[6300, 204, 73, 1, 70, "Item",ExpressionUUID->"7854fc2f-cdaf-45ff-92c1-51f866f1fff7",
-   CellTags->{"Info", "Line"}]}
+  Cell[6969, 220, 73, 1, 70, "Item",ExpressionUUID->"f611860b-e230-45b1-a57e-a32f49be877b",
+   CellTags->{"Info", "Line"}],
+  Cell[7148, 229, 60, 1, 70, "Item",ExpressionUUID->"3ee99c4f-4751-4429-a9f5-c0b8e7efd592",
+   CellTags->{"Info", "Line"}],
+  Cell[7233, 234, 54, 1, 70, "Item",ExpressionUUID->"870a2dd5-b01b-45df-8381-5e4397a9d8ed",
+   CellTags->{"Info", "Line"}],
+  Cell[7290, 237, 57, 1, 70, "Subitem",ExpressionUUID->"84fb9401-6483-4373-b8b5-b4c27ac029cd",
+   CellTags->{"Info", "Line"}],
+  Cell[7350, 240, 95, 1, 70, "Subitem",ExpressionUUID->"75a10a42-775b-4aca-a4ee-d45e6a575774",
+   CellTags->{"Info", "Line"}],
+  Cell[7448, 243, 95, 1, 70, "Subitem",ExpressionUUID->"40c77046-ad23-4eb3-ad7e-e293d743717f",
+   CellTags->{"Info", "Line"}]},
+ "Resource"->{
+  Cell[7079, 226, 66, 1, 70, "Subsubsection",ExpressionUUID->"f46380f1-f663-497e-9ff7-2a8dac93f093",
+   CellTags->{"Info", "Resource"}]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Metadata", 6779, 221},
- {"PacletName", 6920, 224},
- {"PacletIcon", 7060, 227},
- {"DescriptionText", 7210, 230},
- {"Installation", 7355, 233},
- {"BasicInformation", 7507, 236},
- {"Info", 7651, 239},
- {"Name", 8315, 250},
- {"Version", 8463, 253},
- {"ExtraInformation", 8623, 256},
- {"Extensions", 8773, 259},
- {"Kernel", 8913, 262},
- {"Line", 9060, 265}
+ {"Metadata", 7961, 261},
+ {"PacletName", 8102, 264},
+ {"PacletIcon", 8242, 267},
+ {"DescriptionText", 8392, 270},
+ {"Installation", 8537, 273},
+ {"BasicInformation", 8690, 276},
+ {"Info", 8834, 279},
+ {"Name", 10264, 302},
+ {"Version", 10412, 305},
+ {"ExtraInformation", 10572, 308},
+ {"Extensions", 10722, 311},
+ {"Kernel", 10862, 314},
+ {"Line", 11009, 317},
+ {"Resource", 11902, 332}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2003, 41, 70, "Metadata",ExpressionUUID->"b71c7386-9ca2-48a0-9c6d-b31165f83c15",
+Cell[558, 20, 2672, 57, 70, "Metadata",ExpressionUUID->"4e9cfa9a-7106-4fd5-ba44-1e98b70d9b85",
  CellTags->"Metadata"],
 Cell[CellGroupData[{
-Cell[2586, 65, 62, 1, 70, "Section",ExpressionUUID->"04bfd82b-90dc-4d2a-a276-d5a24a5d7c09",
+Cell[3255, 81, 62, 1, 70, "Section",ExpressionUUID->"d5ba3ecb-50e8-47d2-93b1-76d2efcd88d4",
  CellTags->"PacletName"],
-Cell[2651, 68, 127, 3, 70, "RawMarkdown",ExpressionUUID->"430596ee-3df2-4eec-b240-267c9a05b84a",
+Cell[3320, 84, 127, 3, 70, "RawMarkdown",ExpressionUUID->"13151ab2-52d4-4d14-acf1-fcadb327a4ab",
  CellTags->"PacletIcon"],
-Cell[2781, 73, 245, 6, 70, "Text",ExpressionUUID->"62314323-7f1c-4a3f-aa79-2b9b8308c3db",
+Cell[3450, 89, 245, 6, 70, "Text",ExpressionUUID->"896300cc-930c-48a5-8b3a-d07e217a8996",
  CellTags->"DescriptionText"]
 }, Open  ]],
-Cell[3041, 82, 21, 0, 70, "PageBreak",ExpressionUUID->"31483ad4-3f00-46b2-92cd-8206ecc00e0c"],
+Cell[3710, 98, 21, 0, 70, "PageBreak",ExpressionUUID->"ea506896-72e3-45c6-9736-87f109ec1960"],
 Cell[CellGroupData[{
-Cell[3087, 86, 121, 2, 70, "Subsection",ExpressionUUID->"28755ed3-6773-4623-b5ea-8e703d887e85",
+Cell[3756, 102, 121, 2, 70, "Subsection",ExpressionUUID->"566db4d4-2172-4d56-b180-8f903af45292",
  CellTags->"Installation"],
-Cell[3211, 90, 522, 13, 70, "Text",ExpressionUUID->"8821bb9c-5bdf-498c-ac22-02fc2bc68f1d"],
-Cell[3736, 105, 112, 1, 70, "Text",ExpressionUUID->"1e1efcd3-44a9-4ea0-b9ba-1a18a95d5b56"],
-Cell[3851, 108, 598, 9, 70, "Code",ExpressionUUID->"a5d8dc65-41cf-4512-a48b-35ad36a5a7d5"],
-Cell[4452, 119, 273, 6, 70, "Text",ExpressionUUID->"d9ab8038-8236-4e2b-a624-feccfba99b15"],
-Cell[4728, 127, 146, 2, 70, "Code",ExpressionUUID->"825809a3-20ea-4a91-8741-3e59e03be745"],
+Cell[3880, 106, 522, 13, 70, "Text",ExpressionUUID->"268bf62b-7adc-46d5-b365-ef702f95e0d4"],
+Cell[4405, 121, 112, 1, 70, "Text",ExpressionUUID->"714a3da6-51cc-4a10-9101-c47b8ca43bac"],
+Cell[4520, 124, 598, 9, 70, "Code",ExpressionUUID->"8319a3dc-a0c0-4ec2-af50-207de8692038"],
+Cell[5121, 135, 273, 6, 70, "Text",ExpressionUUID->"7ff94c88-7aa5-44ac-8141-d06429806188"],
+Cell[5397, 143, 146, 2, 70, "Code",ExpressionUUID->"ae4680be-f193-4058-8012-3756e9623a31"],
 Cell[CellGroupData[{
-Cell[4899, 133, 232, 7, 70, "Item",ExpressionUUID->"66e0d4b7-ebcd-45fc-89f3-4b57d1b40fae"],
-Cell[5134, 142, 311, 9, 70, "Item",ExpressionUUID->"329ab9f3-f925-47c7-9636-db0ee1752ae0"]
+Cell[5568, 149, 232, 7, 70, "Item",ExpressionUUID->"3a95fa48-257d-43f7-a324-51c954011966"],
+Cell[5803, 158, 311, 9, 70, "Item",ExpressionUUID->"7a04cfad-9cfa-42ab-8ffc-249a02f3bfae"]
 }, Open  ]]
 }, Open  ]],
-Cell[5472, 155, 21, 0, 70, "PageBreak",ExpressionUUID->"8ffe9a23-dda6-4125-93cf-b692feea97b7"],
+Cell[6141, 171, 21, 0, 70, "PageBreak",ExpressionUUID->"7000f381-242a-490c-ba38-a028d44ab23e"],
 Cell[CellGroupData[{
-Cell[5518, 159, 70, 1, 70, "Subsection",ExpressionUUID->"3a7d08e9-af53-4e70-8529-849360e77a17",
+Cell[6187, 175, 70, 1, 70, "Subsection",ExpressionUUID->"5403056b-bb2c-4555-862f-a9a6970a1cf1",
  CellTags->"BasicInformation"],
 Cell[CellGroupData[{
-Cell[5613, 164, 58, 1, 70, "Subsubsection",ExpressionUUID->"a4c8c35e-847a-4c65-89e0-c34870a624cf",
+Cell[6282, 180, 58, 1, 70, "Subsubsection",ExpressionUUID->"5c51fe12-26d0-41e1-a946-f19b01887478",
  CellTags->{"Info", "Name"}],
-Cell[5674, 167, 34, 0, 70, "Text",ExpressionUUID->"916f6267-bbed-4262-81b9-792387b9bfdc"]
+Cell[6343, 183, 34, 0, 70, "Text",ExpressionUUID->"ef1ad77c-0eb3-4383-bf7d-2414df7878cc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5745, 172, 64, 1, 70, "Subsubsection",ExpressionUUID->"ae9372d9-540f-4651-bf20-0f2b227f5755",
+Cell[6414, 188, 64, 1, 70, "Subsubsection",ExpressionUUID->"3cbcdba2-dfec-4ade-97fa-9c1671039b4b",
  CellTags->{"Info", "Version"}],
-Cell[5812, 175, 21, 0, 70, "Text",ExpressionUUID->"482f6017-7199-4e5a-9351-612f1d7c64f1"]
+Cell[6481, 191, 21, 0, 70, "Text",ExpressionUUID->"39b68747-66de-417a-8df4-17047c596fd2"]
 }, Open  ]]
 }, Open  ]],
-Cell[5860, 179, 21, 0, 70, "PageBreak",ExpressionUUID->"06e86750-b341-44c2-b7c2-e977b43a265a"],
+Cell[6529, 195, 21, 0, 70, "PageBreak",ExpressionUUID->"232decd5-4a84-45b8-b6f1-0553531876c8"],
 Cell[CellGroupData[{
-Cell[5906, 183, 70, 1, 70, "Subsection",ExpressionUUID->"8c2ebb92-0d7d-4398-acf1-97513cbb6712",
+Cell[6575, 199, 70, 1, 70, "Subsection",ExpressionUUID->"367d688c-6373-4d9e-8e76-7cbcf5902b3f",
  CellTags->"ExtraInformation"],
-Cell[5979, 186, 58, 0, 70, "Text",ExpressionUUID->"4a6d107d-0e3f-4151-9a60-bf578ad0d6c8"]
+Cell[6648, 202, 58, 0, 70, "Text",ExpressionUUID->"2d3e1087-8a03-491f-9561-a7516da084c6"]
 }, Open  ]],
-Cell[6052, 189, 21, 0, 70, "PageBreak",ExpressionUUID->"09a72730-e8a1-470b-a024-66f3f35ce258"],
+Cell[6721, 205, 21, 0, 70, "PageBreak",ExpressionUUID->"90973af2-949c-4ffe-a786-587d5451cfc4"],
 Cell[CellGroupData[{
-Cell[6098, 193, 57, 1, 70, "Subsection",ExpressionUUID->"72ef8039-cf3d-4698-af29-37d3f6f7a1bc",
+Cell[6767, 209, 57, 1, 70, "Subsection",ExpressionUUID->"9eeb16c2-7f80-4f45-bdb7-01ae990eb34d",
  CellTags->"Extensions"],
 Cell[CellGroupData[{
-Cell[6180, 198, 62, 1, 70, "Subsubsection",ExpressionUUID->"bd248119-d6b2-4db1-b726-0a39ebe20c64",
+Cell[6849, 214, 62, 1, 70, "Subsubsection",ExpressionUUID->"8635b160-a2b6-4e6f-aec5-ccc4e0e221d5",
  CellTags->{"Info", "Kernel"}],
-Cell[6245, 201, 52, 1, 70, "Item",ExpressionUUID->"83779b48-e022-4d9f-b2ae-c151ce2f0b23",
+Cell[6914, 217, 52, 1, 70, "Item",ExpressionUUID->"69f9fe53-0a7a-41b5-8760-2114660e6ddc",
  CellTags->{"Info", "Line"}],
-Cell[6300, 204, 73, 1, 70, "Item",ExpressionUUID->"7854fc2f-cdaf-45ff-92c1-51f866f1fff7",
+Cell[6969, 220, 73, 1, 70, "Item",ExpressionUUID->"f611860b-e230-45b1-a57e-a32f49be877b",
  CellTags->{"Info", "Line"}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7079, 226, 66, 1, 70, "Subsubsection",ExpressionUUID->"f46380f1-f663-497e-9ff7-2a8dac93f093",
+ CellTags->{"Info", "Resource"}],
+Cell[7148, 229, 60, 1, 70, "Item",ExpressionUUID->"3ee99c4f-4751-4429-a9f5-c0b8e7efd592",
+ CellTags->{"Info", "Line"}],
+Cell[CellGroupData[{
+Cell[7233, 234, 54, 1, 70, "Item",ExpressionUUID->"870a2dd5-b01b-45df-8381-5e4397a9d8ed",
+ CellTags->{"Info", "Line"}],
+Cell[7290, 237, 57, 1, 70, "Subitem",ExpressionUUID->"84fb9401-6483-4373-b8b5-b4c27ac029cd",
+ CellTags->{"Info", "Line"}],
+Cell[7350, 240, 95, 1, 70, "Subitem",ExpressionUUID->"75a10a42-775b-4aca-a4ee-d45e6a575774",
+ CellTags->{"Info", "Line"}],
+Cell[7448, 243, 95, 1, 70, "Subitem",ExpressionUUID->"40c77046-ad23-4eb3-ad7e-e293d743717f",
+ CellTags->{"Info", "Line"}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }

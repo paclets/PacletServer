@@ -18,17 +18,21 @@ This will rebuild the paclet server. First we load the package:\
   3.733429643648531*^9}},ExpressionUUID->"ba08ff50-8dbd-4bf9-9e1d-\
 7f9d90db5b55"],
 
-Cell[BoxData[{
- RowBox[{"<<", "BTools`Developer`"}], "\n", 
- RowBox[{"ContextRemove", "[", "\"\<PublicPacletServer`\>\"", "]"}], "\n", 
+Cell[BoxData[
  RowBox[{
-  RowBox[{"Get", "[", 
-   RowBox[{"FileNameJoin", "@", 
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
-      " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
-  ";"}]}], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"<<", "BTools`Developer`"}], "\n", 
+    RowBox[{"ContextRemove", "[", "\"\<PublicPacletServer`\>\"", "]"}]}], 
+   "*)"}], "\n", 
+  RowBox[{
+   RowBox[{"Get", "[", 
+    RowBox[{"FileNameJoin", "@", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
+       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
+   ";"}]}]], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -164,11 +168,22 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
+ CellLabel->"In[20]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Building server log..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{124., {20., 26.}}]], "PrintTemporary",
  CellLabel->
-  "In[1308]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"df3d6571-8ae3-4795-9619-0b3e79884a17"]
+}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 

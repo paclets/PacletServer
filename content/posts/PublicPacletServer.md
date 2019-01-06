@@ -3,13 +3,13 @@ Authors:
 Categories: misc
 Description: A beta version of a paclet for interfacing with the public paclet serverCurrent supports:  forking the server, submitting paclets, sending PRs,  cloning the server, and building the server
 DisplayName: PublicPacletServer
-Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"PublicPacletServer`"}|>, "PacletServer" -> <|"Description" -> "A beta version of a paclet for interfacing with the public paclet server\nCurrent supports:\n  forking the server, submitting paclets, sending PRs,\n  cloning the server, and building the server"|>|>
+Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"PublicPacletServer`"}|>, "PacletServer" -> <|"Description" -> "A beta version of a paclet for interfacing with the public paclet server\nCurrent supports:\n  forking the server, submitting paclets, sending PRs,\n  cloning the server, and building the server"|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {"Templates", {"ExtraPacletInfo", "Templates/ExtraPacletInfo.wl"}, {"IncludedPaclets", "Templates/IncludedPaclets.wl"}}|>|>
 Modified: Missing["NotAvailable"]
 Name: PublicPacletServer
 Slug: publicpacletserver
 Tags: 
 Thumbnail: PacletIcon.png
-Version: 0.0.8
+Version: 0.0.9
 
 <a id="publicpacletserver" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -59,7 +59,7 @@ PublicPacletServer
 
 ###Version
 
-0.0.8
+0.0.9
 
 ---
 
@@ -82,3 +82,17 @@ This package provides no extra information
 *  Root: .
 
 *  Context: PublicPacletServer`
+
+<a id="resource" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###Resource
+
+*  Root: Resources
+
+*  Resources
+
+  *  Templates
+
+  *  {ExtraPacletInfo, Templates/ExtraPacletInfo.wl}
+
+  *  {IncludedPaclets, Templates/IncludedPaclets.wl}
