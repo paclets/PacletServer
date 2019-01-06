@@ -168,22 +168,10 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->"In[20]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Building server log..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{124., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[20]:=",ExpressionUUID->"df3d6571-8ae3-4795-9619-0b3e79884a17"]
-}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -636,27 +624,15 @@ Cell[BoxData[
   "PublicPacletServer`Dependencies`BTools`External`GoogleAPIData", "[", 
    RowBox[{"\"\<SetUseKeychain\>\"", ",", " ", "True"}], "]"}], 
   ";"}]], "Input",
- CellLabel->"In[27]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
+ CellLabel->"In[21]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
 
 Cell[BoxData[
  RowBox[{"WithLocalPublicPacletServer", "@", "\[IndentingNewLine]", 
   RowBox[{
   "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
    "]"}]}]], "Input",
- CellLabel->"In[33]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"PublicPacletServerRebuild", "[", "\"\<Build\>\"", "]"}], 
-  ";"}]], "Input",
- CellLabel->"In[34]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"],
-
-Cell[BoxData["$Aborted"], "Output",
  CellLabel->
-  "Out[34]=",ExpressionUUID->"d98c81fc-8c84-4989-a5ef-458655f1caf6"]
-}, Open  ]]
+  "In[27]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
