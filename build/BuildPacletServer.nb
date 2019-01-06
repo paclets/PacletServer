@@ -6,6 +6,11 @@ Cell["Build Script", "Section",
   3.733429571718788*^9}},ExpressionUUID->"e24bbfb2-2223-47f1-809b-\
 4df1da7618be"],
 
+Cell[CellGroupData[{
+
+Cell["Load", \
+"Subsubsection",ExpressionUUID->"fd012c7b-1152-4c18-9267-e5b932367438"],
+
 Cell["\<\
 This will rebuild the paclet server. First we load the package:\
 \>", "Text",
@@ -13,21 +18,123 @@ This will rebuild the paclet server. First we load the package:\
   3.733429643648531*^9}},ExpressionUUID->"ba08ff50-8dbd-4bf9-9e1d-\
 7f9d90db5b55"],
 
-Cell[BoxData[
+Cell[BoxData[{
+ RowBox[{"<<", "BTools`Developer`"}], "\n", 
+ RowBox[{"ContextRemove", "[", "\"\<PublicPacletServer`\>\"", "]"}], "\n", 
  RowBox[{
-  RowBox[{"(*", 
+  RowBox[{"Get", "[", 
+   RowBox[{"FileNameJoin", "@", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
+      " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
+  ";"}]}], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Edits", \
+"Subsubsection",ExpressionUUID->"169a92ff-b729-4c65-8512-70e75d94af8a"],
+
+Cell["\<\
+We then edit the review queue or add paclets or other things like that:\
+\>", "Text",ExpressionUUID->"219714bf-3abb-40d1-8312-c46622b875b8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ButtonBar", "[", "\[IndentingNewLine]", 
+  RowBox[{"{", "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"<<", "BTools`Developer`"}], "\n", 
-    RowBox[{"ContextRemove", "[", "\"\<PublicPacletServer`\>\"", "]"}]}], 
-   "*)"}], "\n", 
-  RowBox[{
-   RowBox[{"Get", "[", 
-    RowBox[{"FileNameJoin", "@", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
-       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
-   ";"}]}]], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"],
+    RowBox[{
+    "\"\<Open Review Queue\>\"", "\[RuleDelayed]", "\[IndentingNewLine]", 
+     RowBox[{"SystemOpen", "@", 
+      RowBox[{"FileNameJoin", "@", 
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"ParentDirectory", "[", 
+          RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ",", 
+         "\[IndentingNewLine]", "\"\<ReviewQueue\>\""}], 
+        "\[IndentingNewLine]", "}"}]}]}]}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+    "\"\<Add Included Paclets\>\"", "\[RuleDelayed]", "\[IndentingNewLine]", 
+     RowBox[{"SystemOpen", "@", 
+      RowBox[{"FileNameJoin", "@", 
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"ParentDirectory", "[", 
+          RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ",", 
+         "\[IndentingNewLine]", "\"\<ReviewQueue\>\"", ",", 
+         "\[IndentingNewLine]", "\"\<IncludedPaclets.wl\>\""}], 
+        "\[IndentingNewLine]", "}"}]}]}]}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+    "\"\<Add Paclet Info\>\"", "\[RuleDelayed]", "\[IndentingNewLine]", 
+     RowBox[{"SystemOpen", "@", 
+      RowBox[{"FileNameJoin", "@", 
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"ParentDirectory", "[", 
+          RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ",", 
+         "\[IndentingNewLine]", "\"\<ReviewQueue\>\"", ",", 
+         "\[IndentingNewLine]", "\"\<ExtraPacletInfo.wl\>\""}], 
+        "\[IndentingNewLine]", "}"}]}]}]}]}], "\[IndentingNewLine]", "}"}], 
+  "\[IndentingNewLine]", "]"}]], "Input",
+ CellLabel->
+  "In[254]:=",ExpressionUUID->"3114caa0-a8cc-4069-bf5a-0d7479dc99cc"],
+
+Cell[BoxData[
+ InterpretationBox[GridBox[{
+    {
+     ButtonBox["\<\"Open Review Queue\"\>",
+      Appearance->{"AbuttingRight"},
+      ButtonFunction:>SystemOpen[
+        FileNameJoin[{
+          ParentDirectory[
+           NotebookDirectory[]], "ReviewQueue"}]],
+      Evaluator->Automatic,
+      Method->"Preemptive"], 
+     ButtonBox["\<\"Add Included Paclets\"\>",
+      Appearance->{"AbuttingLeftRight"},
+      ButtonFunction:>SystemOpen[
+        FileNameJoin[{
+          ParentDirectory[
+           NotebookDirectory[]], "ReviewQueue", "IncludedPaclets.wl"}]],
+      Evaluator->Automatic,
+      Method->"Preemptive"], 
+     ButtonBox["\<\"Add Paclet Info\"\>",
+      Appearance->{"AbuttingLeft"},
+      ButtonFunction:>SystemOpen[
+        FileNameJoin[{
+          ParentDirectory[
+           NotebookDirectory[]], "ReviewQueue", "ExtraPacletInfo.wl"}]],
+      Evaluator->Automatic,
+      Method->"Preemptive"]}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[0.]}, 
+       Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}, "RowsIndexed" -> {}}],
+  ButtonBar[{"Open Review Queue" :> SystemOpen[
+      FileNameJoin[{
+        ParentDirectory[
+         NotebookDirectory[]], "ReviewQueue"}]], "Add Included Paclets" :> 
+    SystemOpen[
+      FileNameJoin[{
+        ParentDirectory[
+         NotebookDirectory[]], "ReviewQueue", "IncludedPaclets.wl"}]], 
+    "Add Paclet Info" :> SystemOpen[
+      FileNameJoin[{
+        ParentDirectory[
+         NotebookDirectory[]], "ReviewQueue", "ExtraPacletInfo.wl"}]]}, 
+   Appearance -> {Automatic}]]], "Output",
+ CellLabel->"Out[254]=",ExpressionUUID->"60e900d8-5859-4822-b2d9-1901c54c0254"]
+}, {2}]]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -61,7 +168,7 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[1287]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "In[1308]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -540,7 +647,7 @@ Cell[BoxData["$Aborted"], "Output",
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{229, Automatic}, {Automatic, 0}},
+WindowMargins->{{165, Automatic}, {Automatic, 0}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,
