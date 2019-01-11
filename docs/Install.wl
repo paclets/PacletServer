@@ -17,6 +17,13 @@ PublicPacletInstall::usage=
 Begin["`Private`"]
 
 
+Needs@"GeneralUtilities`";
+If[!NameQ["StringEndsQ"],  
+  StringEndsQ[loc_, name_]:=
+    ___ ~~ name ~~ EndOfString
+  ];
+
+
 (* ::Subsubsection::Closed:: *)
 (*downloadRawPacletsToo*)
 

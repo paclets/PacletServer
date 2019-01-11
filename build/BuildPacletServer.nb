@@ -631,8 +631,25 @@ Cell[BoxData[
   RowBox[{
   "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
    "]"}]}]], "Input",
- CellLabel->
-  "In[27]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"]
+ CellLabel->"In[27]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{"\"\<Build\>\"", ",", "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<CopyContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<CopyTheme\>\"", "\[Rule]", "False"}]}], 
+   "\[IndentingNewLine]", "]"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
+  ";"}]}], "Input",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
