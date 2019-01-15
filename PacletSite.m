@@ -12,11 +12,11 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "CellsToTeX",
-	  Version -> "0.2.1",
+	  Version -> "0.2.2",
 	  Creator -> "Jakub Kuczmarski",
 	  Description -> "Convert Mathematica cells to TeX, retaining formatting",
 	  MathematicaVersion -> "6+",
-	  Extensions -> {{"Documentation", Language -> "English"}},
+	  Extensions -> {{"Kernel", Root -> ".", "Context" -> {"CellsToTeX`"}}, {"Documentation", Language -> "English"}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
@@ -126,11 +126,11 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "OptionsValidation",
-	  Version -> "0.1.0",
+	  Version -> "0.1.1",
 	  Creator -> "Jakub Kuczmarski",
 	  Description -> "Framework for options validation.",
 	  MathematicaVersion -> "6+",
-	  Extensions -> {{"Documentation", Language -> "English"}},
+	  Extensions -> {{"Kernel", "Context" -> {"OptionsValidation`"}}, {"Documentation", Language -> "English"}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[

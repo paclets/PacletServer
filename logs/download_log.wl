@@ -393,5 +393,15 @@
 		"Date" -> "Tue 15 Jan 2019 01:33:53",
 		"Message" -> "Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"OptionsValidation" -> <|
+		"Date" -> "Tue 15 Jan 2019 01:49:54",
+		"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"CellsToTeX" -> <|
+		"Date" -> "Tue 15 Jan 2019 01:49:54",
+		"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
 	|>
 }

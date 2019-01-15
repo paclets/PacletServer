@@ -32,7 +32,8 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
        " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]}]], "Code",
- CellLabel->"In[1]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
+ CellLabel->
+  "In[23]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -631,7 +632,7 @@ Cell[BoxData[
   RowBox[{
   "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
    "]"}]}]], "Input",
- CellLabel->"In[19]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+ CellLabel->"In[24]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
 
 Cell[BoxData[{
  RowBox[{
@@ -649,7 +650,9 @@ Cell[BoxData[{
    "\[IndentingNewLine]", "]"}], ";"}], "\n", 
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
-  ";"}]}], "Input",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"]
+  ";"}]}], "Input",
+ CellLabel->
+  "In[25]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
