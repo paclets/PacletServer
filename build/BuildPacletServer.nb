@@ -171,7 +171,7 @@ f006baabc747"],
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
- CellLabel->"In[11]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+ CellLabel->"In[17]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -624,14 +624,14 @@ Cell[BoxData[
   "PublicPacletServer`Dependencies`BTools`External`GoogleAPIData", "[", 
    RowBox[{"\"\<SetUseKeychain\>\"", ",", " ", "True"}], "]"}], 
   ";"}]], "Input",
- CellLabel->"In[21]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
+ CellLabel->"In[18]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
 
 Cell[BoxData[
  RowBox[{"WithLocalPublicPacletServer", "@", "\[IndentingNewLine]", 
   RowBox[{
   "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
    "]"}]}]], "Input",
- CellLabel->"In[27]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+ CellLabel->"In[19]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
 
 Cell[BoxData[{
  RowBox[{
