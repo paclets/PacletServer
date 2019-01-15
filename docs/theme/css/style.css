@@ -154,7 +154,7 @@ main styles
 }
 
 .main-content {
-  background: #white;
+  background: white;
   width: 100%;
   min-height: 800px;
 }
@@ -679,6 +679,10 @@ media specifications
         padding: 10px 8px 5px 8px;
       }
 
+      .tipue_search_group {
+        display: none;
+      }
+
   }
 
   @media (max-device-width: 400px) {
@@ -696,6 +700,10 @@ media specifications
       float: none;
       width: 95%;
       border-radius: 5px;
+      }
+
+    .tipue_search_group {
+        display: none;
       }
 
     }
