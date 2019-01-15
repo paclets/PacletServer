@@ -13,7 +13,7 @@ Slug: ems
 Tags: 
 Thumbnail: thumbnail.png
 URL: https://github.com/b3m2a1/Ems/wiki
-Version: 1.0.8
+Version: 1.0.10
 
 <a id="ems" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -58,7 +58,7 @@ Ems
 
 ###Version
 
-1.0.8
+1.0.10
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
