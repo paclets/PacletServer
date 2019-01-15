@@ -4,13 +4,13 @@ Categories: misc
 Creator: Jakub Kuczmarski
 Description: Framework for options validation.
 DisplayName: OptionsValidation
-Extensions: <|"Documentation" -> <|Language -> "English"|>|>
+Extensions: <|"Kernel" -> <|"Context" -> {"OptionsValidation`"}|>, "Documentation" -> <|Language -> "English"|>|>
 MathematicaVersion: 6+
 Modified: Missing["NotAvailable"]
 Name: OptionsValidation
 Slug: optionsvalidation
 Tags: 
-Version: 0.1.0
+Version: 0.1.1
 
 <a id="optionsvalidation" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -55,7 +55,7 @@ OptionsValidation
 
 ###Version
 
-0.1.0
+0.1.1
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -80,6 +80,12 @@ Jakub Kuczmarski
 <a id="extensions" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extensions
+
+<a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###Kernel
+
+*  Context: OptionsValidation`
 
 <a id="documentation" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

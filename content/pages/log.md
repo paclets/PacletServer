@@ -1,5 +1,65 @@
 # Paclet Server Log
 
+<a id="OptionsValidation" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## OptionsValidation
+
+*** Tuesday 15 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+
+---
+<a id="CellsToTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## CellsToTeX
+
+*** Tuesday 15 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+
+---
 <a id="Ems" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## Ems
 
@@ -307,56 +367,6 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Manually updated PublicPacletServer
-
-
----
-<a id="CellsToTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## CellsToTeX
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-
----
-<a id="OptionsValidation" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## OptionsValidation
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
 
 
 ---

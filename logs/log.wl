@@ -1,4 +1,58 @@
 <|
+	"OptionsValidation" -> {
+		<|
+			"Date" -> "Tue 15 Jan 2019 01:49:54",
+			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:50:40",
+			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:47:29",
+			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:34:30",
+			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:32:10",
+			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>
+	},
+	"CellsToTeX" -> {
+		<|
+			"Date" -> "Tue 15 Jan 2019 01:49:54",
+			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:50:41",
+			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:47:29",
+			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:34:31",
+			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:32:11",
+			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+		|>
+	},
 	"Ems" -> {
 		<|
 			"Date" -> "Tue 15 Jan 2019 01:33:53",
@@ -295,50 +349,6 @@
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
 			"Date" -> "Tue 5 Jun 2018 21:30:56",
 			"Message" -> "Manually updated PublicPacletServer"
-		|>
-	},
-	"CellsToTeX" -> {
-		<|
-			"Date" -> "Sat 5 Jan 2019 14:50:41",
-			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
-			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 5 Jan 2019 14:47:29",
-			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
-			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 5 Jan 2019 14:34:31",
-			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
-			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 5 Jan 2019 14:32:11",
-			"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
-			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
-		|>
-	},
-	"OptionsValidation" -> {
-		<|
-			"Date" -> "Sat 5 Jan 2019 14:50:40",
-			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
-			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 5 Jan 2019 14:47:29",
-			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
-			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 5 Jan 2019 14:34:30",
-			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
-			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 5 Jan 2019 14:32:10",
-			"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
-			"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
 		|>
 	},
 	"ErrorPlot" -> {

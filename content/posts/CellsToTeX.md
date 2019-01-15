@@ -4,13 +4,13 @@ Categories: misc
 Creator: Jakub Kuczmarski
 Description: Convert Mathematica cells to TeX, retaining formatting
 DisplayName: CellsToTeX
-Extensions: <|"Documentation" -> <|Language -> "English"|>|>
+Extensions: <|"Kernel" -> <|Root -> ".", "Context" -> {"CellsToTeX`"}|>, "Documentation" -> <|Language -> "English"|>|>
 MathematicaVersion: 6+
 Modified: Missing["NotAvailable"]
 Name: CellsToTeX
 Slug: cellstotex
 Tags: 
-Version: 0.2.1
+Version: 0.2.2
 
 <a id="cellstotex" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -55,7 +55,7 @@ CellsToTeX
 
 ###Version
 
-0.2.1
+0.2.2
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -80,6 +80,14 @@ Jakub Kuczmarski
 <a id="extensions" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ## Extensions
+
+<a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###Kernel
+
+*  Root: .
+
+*  Context: CellsToTeX`
 
 <a id="documentation" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
