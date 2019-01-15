@@ -57,7 +57,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "Ems",
-	  Version -> "1.0.8",
+	  Version -> "1.0.10",
 	  Creator -> "b3m2a1 <b3m2a1@gmail.com>",
 	  URL -> "https://github.com/b3m2a1/Ems/wiki",
 	  Description -> "A static website builder like pelican or jekyll",
