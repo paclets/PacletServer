@@ -9,55 +9,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>
-      <wolfram:slot id="PageTitle">
-        <wolfram:get path="include/lib/templates/varDefinedBlock.html">
-          <wolfram:slot id="var">Title</wolfram:slot>
-          <wolfram:slot id="Title"><wolfram:slot id="Title"/></wolfram:slot>
-          <wolfram:slot id="if">
-            <wolfram:slot id="Title"/>
-          </wolfram:slot>
-          <wolfram:slot id="else">
-            <wolfram:expr>$$templateLib["getSiteName"][#]</wolfram:expr>
-          </wolfram:slot>
-        </wolfram:get>
-      </wolfram:slot>
-    </title>
-
-    <wolfram:expr>
-      $$templateLib["makeSiteIcons"][
-        Replace[#Icons,
-          Except[_List]:>
-            Import[FileNameJoin@{"include","config","icons.m"}]
-          ],
-        #
-        ]
-    </wolfram:expr>
-
-    <wolfram:get path="include/lib/templates/varNotFalseBlock.html">
-      <wolfram:slot id="var">StyleSheets</wolfram:slot>
-      <wolfram:slot id="if">
-        <wolfram:expr>
-          $$templateLib["makeSiteStylesheet"][
-            Replace[#StyleSheets,{
-              None->{},
-              Except[_List]:>
-                Prepend[
-                  Import[FileNameJoin@{"include","config","stylesheets.m"}],
-                  URLBuild@{
-                    "pygments",
-                    Replace[#PygmentsStyle,
-                      Except[_String]:>"default"
-                      ]<>".min.css"
-                    }
-                  ]
-              }],
-            #
-            ]
-        </wolfram:expr>
-      </wolfram:slot>
-    </wolfram:get>
-
+    <wolfram:get path="include/site-title.html"></wolfram:get>
+    <wolfram:get path="include/site-stylesheets.html"></wolfram:get>
+    <wolfram:get path="include/site-icons.html"></wolfram:get>
     <wolfram:get path="include/analytics.html"></wolfram:get>
 
     <wolfram:slot id="head"></wolfram:slot>
@@ -71,125 +25,49 @@
     <div class="top-bar">
 
       <div class="site-title">
-        <h1 class="title">
-          <wolfram:expr>
-            $$templateLib["makeSiteHyperlink"][
-              {
-                <|
-                  "href"->
-                    Replace[#SiteExtension,
-                      Except[_String]:>
-                        Replace[#SiteURL,{
-                          s_String?(URLParse[#,"Domain"]=="www.wolframcloud.com"&):>
-                            "main.html",
-                          _->Nothing
-                          }]
-                      ],
-                  "body"->
-                    Replace[TemplateSlot["SiteName"],
-                      Except[_String]:>
-                        URLParse[#SiteURL,"Path"][[-1]]
-                      ]
-                  |>
-                },
-              #
-              ]
-          </wolfram:expr>
-        </h1>
-
-        <wolfram:get path="include/lib/templates/varTrueBlock.html">
-          <wolfram:slot id="var">EnableSearch</wolfram:slot>
-          <wolfram:slot id="if">
-            <div class="site-links-search-row">
-              <div class="site-links">
-                <wolfram:expr>
-                  $$templateLib["makeSiteLinkList"][
-                    Replace[#PageLinks,{
-                      Except[_List]:>
-                        Replace[
-                          Import[FileNameJoin@{"include","config","page_links.m"}],
-                          f_Function:>f[#]
-                          ]
-                      }],
-                    #
-                    ]
-                </wolfram:expr>
-              </div>
-              <wolfram:get path="include/search.html"></wolfram:get>
-            </div>
-          </wolfram:slot>
-          <wolfram:slot id="else">
-            <div class="site-links">
-              <wolfram:expr>
-                $$templateLib["makeSiteLinkList"][
-                  Replace[#PageLinks,{
-                    Except[_List]:>
-                      Replace[
-                        Import[FileNameJoin@{"include","config","page_links.m"}],
-                        f_Function:>f[#]
-                        ]
-                    }],
-                  #
-                  ]
-              </wolfram:expr>
-            </div>
-          </wolfram:slot>
-        </wolfram:get>
-
-
-
+      <wolfram:get path="include/titlebar.html"></wolfram:get>
+      <wolfram:get path="include/navbar.html"></wolfram:get>
       </div>
 
     </div>
   </header>
 
-  <div class="main" id="main-content">
+<*
+  $$["Sidebar"]=
+      MemberQ[#Templates, "index.html"] ||
+        (!MissingQ@#IndexListing);
+  $$["SidebarClass"]=If[$$["Sidebar"], "sidebar col-sm-3", ""];
+  $$["ContentClass"]=If[$$["Sidebar"], "col-sm-9", "col-sm-12"];
+*>
 
-    <div class="main-content">
-      <div class="container center-aligned">
-        <wolfram:get path="include/lib/templates/varDefinedBlock.html">
-          <wolfram:slot id="var">PageHeader</wolfram:slot>
-          <wolfram:slot id="PageHeader"><wolfram:slot id="PageHeader"/></wolfram:slot>
-          <wolfram:slot id="if">
-            <h3 class="page-header">
-              <wolfram:slot id="PageHeader"/>
-            </h3>
-          </wolfram:slot>
-        </wolfram:get>
-        <br>
-        <wolfram:slot id="PrimaryContent">
-          <wolfram:get path="include/lib/templates/varDefinedBlock.html">
-            <wolfram:slot id="var">Content</wolfram:slot>
-            <wolfram:slot id="Content">
-              <wolfram:slot id="Content"/>
-            </wolfram:slot>
-            <wolfram:slot id="if">
-              <wolfram:slot id="Content"/>
-            </wolfram:slot>
-          </wolfram:get>
-        </wolfram:slot>
+  <div class="container main" id="main-content">
+    <div class="row">
+      <div class=<*$$["ContentClass"]*> >
+        <div class="main-content">
+          <div class="container center-aligned">
+            <wolfram:get path="include/page-header.html"></wolfram:get>
+            <br>
+            <wolfram:get path="include/primary-content.html"></wolfram:get>
+          </div>
+        </div>
       </div>
+      <wolfram:if test='TrueQ@$$["Sidebar"] || MemberQ[#Templates, "index.html"] || (!MissingQ@#IndexListing)'>
+        <div class='<* $$["SidebarClass"] *>' id="sidebar">
+          <wolfram:get path="include/sidebar.html"></wolfram:get>
+        </div>
+      </wolfram:if>
     </div>
 
   </div>
 
 <footer class="footer">
   <p class="text-sm-right text-muted acknowledgement">
-    <wolfram:slot id="Footer">
-    <wolfram:get path="include/lib/templates/varDefinedBlock.html">
-      <wolfram:slot id="var">Footer</wolfram:slot>
-      <wolfram:slot id="Footer">
-        <wolfram:slot id="Footer"/>
-      </wolfram:slot>
-      <wolfram:slot id="if">
-        <wolfram:slot id="Footer"/>
-      </wolfram:slot>
-      <wolfram:slot id="else">
+    <wolfram:get path="include/page-footer.html">
+      <wolfram:slot id="DefaultFooter">
         Brought to you by the
           <a href="https://mathematica.stackexchange.com/">Mathematica StackExchange</a>
       </wolfram:slot>
     </wolfram:get>
-    </wolfram:slot>
   </p>
 </footer>
 

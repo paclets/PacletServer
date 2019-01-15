@@ -6,7 +6,7 @@ Description: Framework for options validation.
 DisplayName: OptionsValidation
 Extensions: <|"Kernel" -> <|"Context" -> {"OptionsValidation`"}|>, "Documentation" -> <|Language -> "English"|>|>
 MathematicaVersion: 6+
-Modified: Missing["NotAvailable"]
+Modified: 2019-01-15 01:49:54
 Name: OptionsValidation
 Slug: optionsvalidation
 Tags: 

@@ -5,7 +5,7 @@ Creator: b3m2a1@gmail.com
 Description: A JLink-like interface for python
 DisplayName: PJLink
 Extensions: <|"Kernel" -> <|Root -> "Mathematica", Context -> "PJLink`"|>|>
-Modified: Missing["NotAvailable"]
+Modified: 2018-09-26 14:41:18
 Name: PJLink
 Slug: pjlink
 Tags: 

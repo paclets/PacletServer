@@ -135,6 +135,10 @@ hn styles
 
 }
 
+.title {
+  font-size: 24px;
+}
+
 
 /*
 
@@ -146,6 +150,7 @@ main styles
   background: white;
   width: 100%;
   min-height: 800px;
+  max-width: none;
 }
 
 .main-content {
@@ -231,17 +236,43 @@ top-bar styles
 }
 
 .site-links {
-  background-color: white;
   width: auto;
   height: 45px;
   min-height: 45px;
-  border: solid 1px rgba(128,128,128,.3);
   margin: 5px 25px 5px 25px;
-  padding: 0 15px;
-  border-radius: 5px;
   display: flex;
   flex-direction: row;
   clear: left;
+}
+
+.site-links .list-inline {
+  height: 100%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.site-links .list-inline-item {
+  height: 100%;
+  margin: 0 -5px 0 0;
+  border: solid 1px rgba(128,128,128,.3);
+  border-left: none;
+  padding: 0px;
+  background-color: white;
+}
+.site-links .list-inline-item:hover {
+  background-color: #B1788A;
+}
+
+.site-links .list-inline-item:first-child {
+  border-left: solid 1px rgba(128,128,128,.3);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.site-links .list-inline-item:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
 }
 
 .site-links a {
@@ -256,25 +287,9 @@ top-bar styles
 }
 
 .site-links a:hover {
-  background-color: #B1788A;
   /*background-size: 10px 100%;
   background-repeat: repeat-x;*/
   color: white;
-}
-
-.site-links .list-inline {
-  height: 100%;
-  text-align: center;
-  margin: 0 auto 0 auto;
-}
-
-.site-links .list-inline-item{
-  height: 100%;
-  margin: 0 -5px 0 0;
-}
-
-.site-links .list-inline-item:last-child {
-  margin: 0;
 }
 
 /*
@@ -412,6 +427,7 @@ paclet styles
 }
 
 .paclet h4 {
+  font-size: 18px;
   position: relative;
   display:inline-block;
   color: #B1788A;
@@ -544,6 +560,60 @@ article styles
 
 /*
 
+sidebar
+
+*/
+
+.sidebar-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+#sidebar .list-group-item {
+    background-color: transparent;
+    color: auto;
+    border: none;
+    padding: 0px;
+}
+
+#sidebar {
+    height: 80%;
+    min-height: 800px;
+    margin-top: 25px;
+    margin-bottom: auto;
+    padding-top: 0px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+#sidebar a {
+    color: inherit;
+}
+#sidebar a:hover {
+    color: #B1788A;
+}
+
+#sidebar #social i {
+    margin-right: 3px;
+}
+
+@media (min-width: 585px) {
+  .header .title {
+    font-size: 4rem;
+  }
+}
+
+
+
+
+/*
+
 media specifications
 
 */
@@ -551,7 +621,7 @@ media specifications
 
 @media (min-width: 585px) {
   .header .title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 

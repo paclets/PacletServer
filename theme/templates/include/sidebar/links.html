@@ -1,0 +1,39 @@
+<*
+  $$["SideBarLinks"]=
+    Replace[
+      #Links,
+      {
+        None->{},
+        Except[_List]:>
+          Replace[
+            Quiet@Import[FileNameJoin@{"include", "config", "links.m"}],
+            {
+              f_Function:>f[#],
+              Except[_List]->{}
+            }
+            ]
+        }
+      ];
+  *>
+<wolfram:if test='Length@$$["SideBarLinks"]>0'>
+<!-- Sidebar/Links -->
+<div class="panel panel-default">
+  <div class="panel-heading">Links</div>
+  <div class="panel-body">
+    <li class="list-group-item">
+      <*
+        $$templateLib["makeSiteLinkList"][
+          <|
+            "ListClass"->"list-group",
+            "ItemClass"->"list-group-item",
+            "ListID"->"links"
+            |>,
+          $$["SideBarLinks"],
+          #
+          ]
+        *>
+    </li>
+  </div>
+</div>
+<!-- End Sidebar/Links -->
+</wolfram:if>

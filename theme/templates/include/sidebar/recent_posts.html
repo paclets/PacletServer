@@ -1,0 +1,31 @@
+<*
+  $$["RecentPosts"]=
+    If[IntegerQ[#RecentPostCount]&&#RecentPostCount>0,
+      <|"href"->#URL, "body"->#Title|>&/@
+        MaximalBy[#Articles, #Modified&, #RecentPostCount],
+      {}
+      ];
+*>
+
+<!-- Sidebar/Recent Posts -->
+<wolfram:if test='Length[$$["RecentPosts"]]>0'>
+<div class="panel panel-default">
+  <div class="panel-heading">Recently Updated</div>
+  <div class="panel-body">
+    <li class="list-group-item recent-post-list">
+      <*
+        $$templateLib["makeSiteLinkList"][
+          <|
+            "ListClass"->"list-group",
+            "ItemClass"->"list-group-item",
+            "ListID"->"recent-posts"
+            |>,
+          $$["RecentPosts"],
+          #
+          ]
+        *>
+    </li>
+  </div>
+</div>
+</wolfram:if>
+<!-- End Sidebar/Recent Posts -->

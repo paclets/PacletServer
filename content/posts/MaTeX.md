@@ -6,7 +6,7 @@ Description: Create LaTeX-typeset labels within Mathematica.
 DisplayName: MaTeX
 Extensions: <|"Documentation" -> <|Language -> All, MainPage -> "Guides/MaTeX"|>, "Kernel" -> <|Root -> ".", Context -> "MaTeX`"|>|>
 MathematicaVersion: 10.0+
-Modified: Missing["NotAvailable"]
+Modified: 2018-06-18 09:10:54
 Name: MaTeX
 Slug: matex
 Tags: 

@@ -6,7 +6,7 @@ Description: Species- and trait-based ecological and eco-evolutionary modeling.
 DisplayName: EcoEvo
 Extensions: <|"Documentation" -> <|Language -> All, MainPage -> "Guides/EcoEvo"|>, "Kernel" -> <|Root -> ".", Context -> "EcoEvo`"|>|>
 MathematicaVersion: 10.0+
-Modified: Missing["NotAvailable"]
+Modified: 2018-12-25 00:41:22
 Name: EcoEvo
 Root: EcoEvo
 Slug: ecoevo

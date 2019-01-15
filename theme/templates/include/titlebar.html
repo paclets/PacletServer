@@ -1,0 +1,27 @@
+<!--Home Link-->
+<h1 class="title">
+  <wolfram:expr>
+    $$templateLib["makeSiteHyperlink"][
+      {
+        <|
+          "href"->
+            Replace[#SiteExtension,
+              Except[_String]:>
+                Replace[#SiteURL,{
+                  s_String?(URLParse[#,"Domain"]=="www.wolframcloud.com"&):>
+                    "main.html",
+                  _->Nothing
+                  }]
+              ],
+          "body"->
+            Replace[TemplateSlot["SiteName"],
+              Except[_String]:>
+                URLParse[#SiteURL,"Path"][[-1]]
+              ]
+          |>
+        },
+      #
+      ]
+  </wolfram:expr>
+</h1>
+<!--Home Link-->

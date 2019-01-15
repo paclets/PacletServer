@@ -8,33 +8,14 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
   Tags | Mathematica Paclet Server
-    </title>
-<link
-      rel='apple-touch-icon'
-      href='https://paclets.github.io/PacletServer/apple-touch-icon.png'
-      sizes='180x180'
-  >
-<link
-      rel='icon'
-      href='https://paclets.github.io/PacletServer/favicon-32x32.png'
-      sizes='32x32'
-  >
-<link
-      rel='icon'
-      href='https://paclets.github.io/PacletServer/favicon-16x16.png'
-      sizes='16x16'
-  >
-<link
-      rel='manifest'
-      href='https://paclets.github.io/PacletServer/manifest.json'
-  >
+</title>
 <link
       rel='stylesheet'
       href='https://paclets.github.io/PacletServer/theme/css/pygments/default.min.css'
   >
 <link
       rel='stylesheet'
-      href='https://paclets.github.io/PacletServer/theme/css/bootstrap.css'
+      href='https://paclets.github.io/PacletServer/theme/css/bootstrap.mma.min.css'
   >
 <link
       rel='stylesheet'
@@ -56,6 +37,25 @@
       rel='stylesheet'
       href='https://paclets.github.io/PacletServer/theme/css/style.css'
   >
+<link
+      rel='apple-touch-icon'
+      href='https://paclets.github.io/PacletServer/apple-touch-icon.png'
+      sizes='180x180'
+  >
+<link
+      rel='icon'
+      href='https://paclets.github.io/PacletServer/favicon-32x32.png'
+      sizes='32x32'
+  >
+<link
+      rel='icon'
+      href='https://paclets.github.io/PacletServer/favicon-16x16.png'
+      sizes='16x16'
+  >
+<link
+      rel='manifest'
+      href='https://paclets.github.io/PacletServer/manifest.json'
+  >
 <script>
   (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -76,15 +76,18 @@
   <header class="header">
     <div class="top-bar">
       <div class="site-title">
-        <h1 class="title">
+      <!--Home Link-->
+<h1 class="title">
 <a
       href='https://paclets.github.io/PacletServer/'
   >
       Mathematica Paclet Server</a>
-        </h1>
-            <div class="site-links-search-row">
-              <div class="site-links">
-                <ul class="list-inline row" id="">
+</h1>
+<!--Home Link-->
+      <!-- Navbar -->
+    <div class="site-links-search-row">
+      <div class="site-links">
+        <ul class="list-inline row" id="">
 <li class="list-inline-item">
 <a
       href='https://paclets.github.io/PacletServer/pages/about.html'
@@ -109,14 +112,8 @@
   >
       Authors</a>
 </li>
-<li class="list-inline-item">
-<a
-      href='https://github.com/paclets'
-  >
-      GitHub</a>
-</li>
 </ul>
-              </div>
+      </div>
 <div class="search-box">
   <script>
     var search_SiteURL = "https://paclets.github.io/PacletServer"
@@ -137,17 +134,20 @@
     </div>
   </form>
 </div>
-            </div>
+    </div>
+<!-- Navbar -->
       </div>
     </div>
   </header>
-  <div class="main" id="main-content">
-    <div class="main-content">
-      <div class="container center-aligned">
-            <h3 class="page-header">
+  <div class="container main" id="main-content">
+    <div class="row">
+      <div class=col-sm-12 >
+        <div class="main-content">
+          <div class="container center-aligned">
+    <h3 class="page-header">
   Tags
-            </h3>
-        <br>
+    </h3>
+            <br>
   <table class="table table-bordered table-striped table-hover">
       <tr>
         <td>
@@ -269,13 +269,17 @@
         <td>3</td>
       </tr>
   </table>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 <footer class="footer">
   <p class="text-sm-right text-muted acknowledgement">
+  <div class="footer-text">
         Brought to you by the
           <a href="https://mathematica.stackexchange.com/">Mathematica StackExchange</a>
+  </div>
   </p>
 </footer>
 </body>

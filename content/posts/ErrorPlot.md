@@ -7,7 +7,7 @@ DisplayName: ErrorPlot
 Extensions: <|"Kernel" -> <|"Context" -> {"ErrorPlot`"}, "Root" -> "."|>, "Documentation" -> <|Resources -> {"Guides/Plotting data with error bars"}, Language -> "English"|>, "PacletServer" -> <|"License" -> "MIT", "Tags" -> {"plots"}, "Categories" -> {"Plotting"}|>|>
 License: MIT
 MathematicaVersion: 6+
-Modified: Missing["NotAvailable"]
+Modified: 2018-12-25 02:59:55
 Name: ErrorPlot
 Slug: errorplot
 Tags: plots

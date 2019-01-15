@@ -171,7 +171,7 @@ f006baabc747"],
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
- CellLabel->"In[27]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+ CellLabel->"In[42]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -524,14 +524,37 @@ Cell[BoxData[
     "\[IndentingNewLine]", 
     RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateSearchPage\>\"", "\[Rule]", "True"}], ",", 
+    RowBox[{"\"\<GenerateSearchPage\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
      RowBox[{"{", "\[IndentingNewLine]", 
       RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], 
       "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", "]"}], 
-  ";"}]], "Input",
- CellLabel->"In[367]:=",ExpressionUUID->"f50bb886-c400-47ed-9348-321fef82da3a"]
+  ";"}]], "Input",ExpressionUUID->"f50bb886-c400-47ed-9348-321fef82da3a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateSearchPage\>\"", "\[Rule]", "True"}]}], 
+   RowBox[{"(*", 
+    RowBox[{",", "\[IndentingNewLine]", 
+     RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
+      RowBox[{"{", "\[IndentingNewLine]", 
+       RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], 
+       "\[IndentingNewLine]", "}"}]}]}], "*)"}], "\[IndentingNewLine]", "]"}],
+   ";"}]], "Input",ExpressionUUID->"4fe26cb2-4ace-4dbd-94ed-425965e8dbd4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -555,7 +578,7 @@ Cell[BoxData[
     RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "None"}]}], "\[IndentingNewLine]",
     "]"}], ";"}]], "Input",
  CellLabel->
-  "In[26]:=",ExpressionUUID->"6eb142e0-8408-4940-8857-c723bb3e23a6"]
+  "In[78]:=",ExpressionUUID->"6eb142e0-8408-4940-8857-c723bb3e23a6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -657,7 +680,7 @@ Cell[BoxData[{
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{78, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 170}, {Automatic, 15}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,

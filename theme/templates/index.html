@@ -14,7 +14,11 @@ This generates the index.html page
 
 </wolfram:comment>
 
+<* $$["Sidebar"] = True; *>
+
 <wolfram:get path="base.html">
+
+<wolfram:slot id="Sidebar">True</wolfram:slot>
 
 <wolfram:slot id="head">
   <wolfram:slot id="Description">

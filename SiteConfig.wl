@@ -16,5 +16,6 @@
 				{
 					"Options"->{"WholeWords"->False}
 					}
-			}
+			},
+    "RecentPostCount"->5
 	}

@@ -9,7 +9,7 @@ Extensions: <|"Kernel" -> <|Root -> ".", Context -> {"MeshTools`"}|>, "Documenta
 Hash: v0.3.1-0-gce5537b
 Internal: False
 License: MIT
-Modified: Missing["NotAvailable"]
+Modified: 2018-09-28 14:54:45
 Name: MeshTools
 Slug: meshtools
 Tags: finite-elements,mesh,FEM
