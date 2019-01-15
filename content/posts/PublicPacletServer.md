@@ -9,7 +9,7 @@ Name: PublicPacletServer
 Slug: publicpacletserver
 Tags: 
 Thumbnail: PacletIcon.png
-Version: 0.0.9
+Version: 0.0.10
 
 <a id="publicpacletserver" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -59,7 +59,7 @@ PublicPacletServer
 
 ###Version
 
-0.0.9
+0.0.10
 
 ---
 

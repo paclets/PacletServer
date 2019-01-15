@@ -1,137 +1,92 @@
 # Paclet Server Log
 
-<a id="OptionsValidation" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## OptionsValidation
-
-*** Tuesday 15 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-
----
-<a id="CellsToTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## CellsToTeX
-
-*** Tuesday 15 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-
----
-<a id="Ems" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## Ems
+<a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## PublicPacletServer
 
 *** Tuesday 15 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 15 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 14 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Saturday 5 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 25 December 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 27 November 2018 ***
+*** Tuesday 25 December 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Saturday 24 November 2018 ***
+*** Tuesday 25 December 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Wednesday 28 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 29 September 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Manually updated PublicPacletServer
 
 *** Thursday 27 September 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-
----
-<a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## SimpleDocs
-
-*** Monday 14 January 2019 ***
+*** Thursday 27 September 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 25 December 2018 ***
+*** Tuesday 26 June 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 27 November 2018 ***
+*** Tuesday 5 June 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 24 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Manually updated PublicPacletServer
 
 
 ---
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Tuesday 15 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Monday 14 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -295,78 +250,133 @@
 
 
 ---
-<a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## PublicPacletServer
+<a id="OptionsValidation" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## OptionsValidation
+
+*** Tuesday 15 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+
+---
+<a id="CellsToTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## CellsToTeX
+
+*** Tuesday 15 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+
+---
+<a id="Ems" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## Ems
+
+*** Tuesday 15 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 15 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 14 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Saturday 5 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 25 December 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 25 December 2018 ***
+*** Tuesday 27 November 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 25 December 2018 ***
+*** Saturday 24 November 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Wednesday 28 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 29 September 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Manually updated PublicPacletServer
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Thursday 27 September 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Thursday 27 September 2018 ***
+
+---
+<a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## SimpleDocs
+
+*** Monday 14 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 26 June 2018 ***
+*** Tuesday 25 December 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 5 June 2018 ***
+*** Tuesday 27 November 2018 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
->Manually updated PublicPacletServer
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 24 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---
