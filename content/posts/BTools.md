@@ -12,7 +12,7 @@ Slug: btools
 Tags: documentation,front-end,paclets,web
 Thumbnail: PacletIcon.png
 URL: https://github.com/b3m2a1/mathematica-BTools
-Version: 2.1.39
+Version: 2.1.40
 WolframVersion: 11+
 
 <a id="btools" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
@@ -60,7 +60,7 @@ BTools
 
 ###Version
 
-2.1.39
+2.1.40
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

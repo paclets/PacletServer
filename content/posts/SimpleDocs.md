@@ -12,7 +12,7 @@ Slug: simpledocs
 Tags: documentation
 Thumbnail: Resources/icon.png
 URL: https://github.com/b3m2a1/SimpleDocs
-Version: 1.0.7
+Version: 1.0.8
 
 <a id="simpledocs" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -59,7 +59,7 @@ SimpleDocs
 
 ###Version
 
-1.0.7
+1.0.8
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
