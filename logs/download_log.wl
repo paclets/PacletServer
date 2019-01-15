@@ -388,5 +388,10 @@
 		"Date" -> "Tue 15 Jan 2019 01:27:56",
 		"Message" -> "Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"Ems" -> <|
+		"Date" -> "Tue 15 Jan 2019 01:33:53",
+		"Message" -> "Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 	|>
 }
