@@ -403,5 +403,15 @@
 		"Date" -> "Tue 15 Jan 2019 01:49:54",
 		"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
 		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Tue 15 Jan 2019 02:00:39",
+		"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"PublicPacletServer" -> <|
+		"Date" -> "Tue 15 Jan 2019 02:00:40",
+		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 	|>
 }
