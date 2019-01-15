@@ -1,32 +1,12 @@
 # Paclet Server Log
 
-<a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## SimpleDocs
-
-*** Monday 14 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 25 December 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 27 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 24 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
 <a id="Ems" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## Ems
+
+*** Tuesday 15 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Monday 14 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -57,6 +37,31 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## SimpleDocs
+
+*** Monday 14 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 27 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 24 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---
