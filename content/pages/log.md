@@ -3,6 +3,11 @@
 <a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## PublicPacletServer
 
+*** Wednesday 16 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
 *** Tuesday 15 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
@@ -82,6 +87,11 @@
 ---
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Wednesday 16 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 15 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>

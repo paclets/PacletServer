@@ -53,7 +53,7 @@ PacletSite[
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/EcoEvo"}, {"Kernel", Root -> ".", Context -> "EcoEvo`"}},
-	  Location -> "https://github.com/b3m2a1/mathematica-BTools/releases/download/v2.1.37/BTools-2.1.37.paclet"
+	  Location -> "github-release:cklausme/EcoEvo/latest"
 	 ],
 	Paclet[
 	  Name -> "Ems",
@@ -86,7 +86,7 @@ PacletSite[
 	  SystemID -> {"MacOSX-x86-64", "Windows-x86-64", "Linux-x86-64", "Linux-ARM"},
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "IGraphM`"}, {"LibraryLink"}, {"Documentation", MainPage -> "Tutorials/IGDocumentation"}},
-	  Location -> "https://github.com/b3m2a1/mathematica-BTools/releases/download/v2.1.37/BTools-2.1.37.paclet"
+	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.0/IGraphM-0.3.0.paclet"
 	 ],
 	Paclet[
 	  Name -> "ImportMesh",
@@ -108,7 +108,7 @@ PacletSite[
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/MaTeX"}, {"Kernel", Root -> ".", Context -> "MaTeX`"}},
-	  Location -> "https://github.com/b3m2a1/mathematica-BTools/releases/download/v2.1.37/BTools-2.1.37.paclet"
+	  Location -> "https://github.com/szhorvat/MaTeX/releases/download/v1.7.4/MaTeX-1.7.4.paclet"
 	 ],
 	Paclet[
 	  Name -> "MeshTools",
@@ -167,7 +167,7 @@ PacletSite[
 	  MathematicaVersion -> "11+",
 	  Thumbnail -> "logo.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "Rubi`"}, {"PacletServer", "Tags" -> {"integration", "rule", "antiderivative"}, "Categories" -> {"Mathematics"}, "Description" -> "Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives.", "License" -> "MIT"}},
-	  Location -> "https://github.com/b3m2a1/mathematica-BTools/releases/download/v2.1.37/BTools-2.1.37.paclet"
+	  Location -> "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.1.0/Rubi-4.16.1.0.paclet"
 	 ],
 	Paclet[
 	  Name -> "ServiceConnection_NASA",
