@@ -31,8 +31,8 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{
        RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
-       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
-   ";"}]}]], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
+       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]}]], "Code",
+ CellLabel->"In[159]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -395,8 +395,6 @@ Cell[CellGroupData[{
 Cell["Full Rebuild", \
 "Subsubsection",ExpressionUUID->"f905c748-f44e-4613-9138-ee347b8ef0e2"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
@@ -410,37 +408,7 @@ Cell[BoxData[
     "\[IndentingNewLine]", 
     RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "None"}]}], "\[IndentingNewLine]",
     "]"}], ";"}]], "Input",
- CellLabel->
-  "In[149]:=",ExpressionUUID->"6635c99c-5eda-4523-8a34-c595db09e278"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Building pages..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[149]:=",ExpressionUUID->"5dffbcb1-d9d7-495d-9bd6-2af277ed6801"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   If[
-    StringQ[
-    PublicPacletServer`Dependencies`BTools`Paclets`PacletTools`Private`md], 
-    Internal`LoadingPanel[
-     TemplateApply[
-     "Generating ``", 
-      PublicPacletServer`Dependencies`BTools`Paclets`PacletTools`Private`md]],
-     ""], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{403., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[149]:=",ExpressionUUID->"3dae889d-2801-4956-9204-2fb1e01786a1"]
-}, Open  ]]
-}, Open  ]]
+ CellLabel->"In[149]:=",ExpressionUUID->"6635c99c-5eda-4523-8a34-c595db09e278"]
 }, Open  ]]
 }, Open  ]],
 
@@ -549,29 +517,29 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
-Cell["Just Test Pages", \
-"Subsubsection",ExpressionUUID->"49f4ec22-0788-4e46-8b43-c3eb8e31a1d0"],
+Cell["Update Theme", \
+"Subsubsection",ExpressionUUID->"3a93cc83-f1ad-45f3-9d67-f574b43e2fa0"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"{", 
-     RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], "}"}], ",", 
-    "\[IndentingNewLine]", 
+    RowBox[{"{", "\"\<Build\>\"", "}"}], ",", "\[IndentingNewLine]", 
     RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateSearchPage\>\"", "\[Rule]", "False"}], ",", 
-    "\[IndentingNewLine]", 
-    RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
-     RowBox[{"{", "\[IndentingNewLine]", 
-      RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], 
-      "\[IndentingNewLine]", "}"}]}]}], "\[IndentingNewLine]", "]"}], 
-  ";"}]], "Input",ExpressionUUID->"f50bb886-c400-47ed-9348-321fef82da3a"],
+    RowBox[{"\"\<GenerateSearchPage\>\"", "\[Rule]", "False"}]}], 
+   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
+ CellLabel->"In[160]:=",ExpressionUUID->"f50bb886-c400-47ed-9348-321fef82da3a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Just Test Pages", \
+"Subsubsection",ExpressionUUID->"49f4ec22-0788-4e46-8b43-c3eb8e31a1d0"],
 
 Cell[BoxData[
  RowBox[{
@@ -722,7 +690,7 @@ Cell[BoxData[{
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{Automatic, 170}, {Automatic, 15}},
+WindowMargins->{{Automatic, 280}, {Automatic, 44}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,

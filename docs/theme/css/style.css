@@ -17,7 +17,7 @@ anchor styles
 */
 
 a {
-  color: #bc3e4b;
+  color: #AC000E;
   text-decoration: none;
 }
 
@@ -564,6 +564,11 @@ sidebar
 
 */
 
+.panel-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .sidebar-box {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -593,7 +598,7 @@ sidebar
 }
 
 #sidebar a {
-    color: inherit;
+    color: #AC000E;
 }
 #sidebar a:hover {
     color: #B1788A;
