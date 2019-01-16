@@ -8,6 +8,8 @@ BeginPackage["PublicPacletInstall`"]
 
 PublicPacletInstall::usage=
   "Custom version of PacletInstall for the PublicPacletServer";
+PublicPacletUpdate::usage=
+  "Custom version of PacletUpdate for the PublicPacletServer";
 
 
 (* ::Subsection:: *)
@@ -15,13 +17,6 @@ PublicPacletInstall::usage=
 
 
 Begin["`Private`"]
-
-
-Needs@"GeneralUtilities`";
-If[!NameQ["StringEndsQ"],  
-  StringEndsQ[loc_, name_]:=
-    ___ ~~ name ~~ EndOfString
-  ];
 
 
 (* ::Subsubsection::Closed:: *)
@@ -173,7 +168,42 @@ PublicPacletInstall[name_, ops:OptionsPattern[]]:=
    ]
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
+(*PublicPacletUpdate*)
+
+
+PublicPacletUpdate[name_, ops:OptionsPattern[]]:=
+  Catch[
+    Catch[
+      GeneralUtilities`WithMessageHandler[
+        Block[
+          {
+            PacletManager`Package`setLocation=setNonRemoteLocation,
+            PacletManager`Package`downloadPaclet=downloadRawPacletsToo
+            },
+          PacletManager`PacletUpdate[
+            name,
+            ops,
+            "Site"->"http://paclets.github.io/PacletServer"
+            ]
+          ],
+        If[
+          Extract[#[[2]], "MessageTemplate", Hold]===
+            Hold[PacletManager`PacletUpdate::instl]&&
+            FileExistsQ[#[[2, "MessageParameters", 1]]],
+          Throw[PacletManager`CreatePaclet@#[[2, "MessageParameters", 1]], "Paclet"],
+          Throw[#, "Exception"]
+          ]&
+        ],
+      "Exception",
+      (GeneralUtilities`ReissueMessage[#];#)&
+      ],
+   "Paclet",
+   #&
+   ]
+
+
+(* ::Subsubsection::Closed:: *)
 (*Autocompletions*)
 
 

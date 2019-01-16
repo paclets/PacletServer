@@ -8,33 +8,14 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
   About | Mathematica Paclet Server
-    </title>
-<link
-      rel='apple-touch-icon'
-      href='https://paclets.github.io/PacletServer/apple-touch-icon.png'
-      sizes='180x180'
-  >
-<link
-      rel='icon'
-      href='https://paclets.github.io/PacletServer/favicon-32x32.png'
-      sizes='32x32'
-  >
-<link
-      rel='icon'
-      href='https://paclets.github.io/PacletServer/favicon-16x16.png'
-      sizes='16x16'
-  >
-<link
-      rel='manifest'
-      href='https://paclets.github.io/PacletServer/manifest.json'
-  >
+</title>
 <link
       rel='stylesheet'
       href='https://paclets.github.io/PacletServer/theme/css/pygments/default.min.css'
   >
 <link
       rel='stylesheet'
-      href='https://paclets.github.io/PacletServer/theme/css/bootstrap.css'
+      href='https://paclets.github.io/PacletServer/theme/css/bootstrap.mma.min.css'
   >
 <link
       rel='stylesheet'
@@ -55,6 +36,25 @@
 <link
       rel='stylesheet'
       href='https://paclets.github.io/PacletServer/theme/css/style.css'
+  >
+<link
+      rel='apple-touch-icon'
+      href='https://paclets.github.io/PacletServer/apple-touch-icon.png'
+      sizes='180x180'
+  >
+<link
+      rel='icon'
+      href='https://paclets.github.io/PacletServer/favicon-32x32.png'
+      sizes='32x32'
+  >
+<link
+      rel='icon'
+      href='https://paclets.github.io/PacletServer/favicon-16x16.png'
+      sizes='16x16'
+  >
+<link
+      rel='manifest'
+      href='https://paclets.github.io/PacletServer/manifest.json'
   >
 <script>
   (function(i, s, o, g, r, a, m) {
@@ -83,15 +83,18 @@
   <header class="header">
     <div class="top-bar">
       <div class="site-title">
-        <h1 class="title">
+      <!--Home Link-->
+<h1 class="title">
 <a
       href='https://paclets.github.io/PacletServer/'
   >
       Mathematica Paclet Server</a>
-        </h1>
-            <div class="site-links-search-row">
-              <div class="site-links">
-                <ul class="list-inline row" id="">
+</h1>
+<!--Home Link-->
+      <!-- Navbar -->
+    <div class="site-links-search-row">
+      <div class="site-links">
+        <ul class="list-inline row" id="">
 <li class="list-inline-item">
 <a
       href='https://paclets.github.io/PacletServer/pages/about.html'
@@ -116,14 +119,8 @@
   >
       Authors</a>
 </li>
-<li class="list-inline-item">
-<a
-      href='https://github.com/paclets'
-  >
-      GitHub</a>
-</li>
 </ul>
-              </div>
+      </div>
 <div class="search-box">
   <script>
     var search_SiteURL = "https://paclets.github.io/PacletServer"
@@ -144,55 +141,53 @@
     </div>
   </form>
 </div>
-            </div>
+    </div>
+<!-- Navbar -->
       </div>
     </div>
   </header>
-  <div class="main" id="main-content">
-    <div class="main-content">
-      <div class="container center-aligned">
-        <br>
+  <div class="container main" id="main-content">
+    <div class="row">
+      <div class=col-sm-12 >
+        <div class="main-content">
+          <div class="container center-aligned">
+            <br>
   <article class="article">
     <div class="content">
-      <a shape='rect' id='about-this-site' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+      <a shape='rect' class='Subsection' id='aboutthissite' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h2> About This Site</h2>
 <p>This is a paclet server, built with Mathematica. It lists the currently available paclets for installation. You can install paclets via  <a href='https://www.wolframcloud.com/objects/b3m2a1.docs/reference/PacletManager/ref/PacletInstall.html'><code>PacletInstall</code></a> . </p>
 <p><strong>Before installing, be sure to check out the </strong><strong><a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a><strong> </strong> to make sure that you trust the developer.</strong></p>
 <p>To install a paclet, run:
 </p>
 <pre>
- <code>PacletInstall[
-  &quot;PacletName&quot;,
-  &quot;Site&quot;-&gt;
-    &quot;http://raw.githubusercontent.com/paclets/PacletServer/master&quot;
-  ]</code>
-</pre>
-<p>Depending on what the current value of  <code>$ContextPath</code>  is you may also need to first run
-</p>
-<pre>
- <code>Needs[&quot;PacletManager`&quot;]</code>
+ <code>&lt;&lt; https://paclets.github.io/PacletServer/Install.wl
+PublicPacletInstall[&quot;PacletName&quot;]</code>
 </pre>
 <ul>
- <li>To update it, replace  <code>PacletInstall</code>  with  <code>PacletUpdate</code> .</li>
- <li>To uninstall replace  <code>PacletInstall</code>  with  <code>PacletUninstall</code>  and remove the  <code>&quot;Site&quot;</code>  parameter.</li>
+ <li>To update it, replace  <code>PublicPacletInstall</code> with  <code>PublicPacletUpdate</code> .</li>
 </ul>
-<a shape='rect' id='about-paclets' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<a shape='rect' class='Subsection' id='aboutpaclets' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h2> About Paclets</h2>
 <p>Paclets are the standard Mathematica package distribution format. They&apos;re the source code for a package compressed with a PacletInfo.m file that provides meta-information about the package.</p>
-<p>Paclets installed via  <code>PacletInstall</code>  can automatically be loaded via  <code>Get</code>  without passing the source name and provide all of the conveniences of a Mathematica application.</p>
-<a shape='rect' id='submitting-paclets' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<p>Paclets installed via  <code>PacletInstall</code> can automatically be loaded via  <code>Get</code> without passing the source name and provide all of the conveniences of a Mathematica application.</p>
+<a shape='rect' class='Subsection' id='submittingpaclets' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h2> Submitting Paclets</h2>
 <p>If you&apos;ve developed a package and would like it listed here you can submit it via GitHub.</p>
 <p>The instructions are on the  <a href='https://github.com/paclets/PacletServer#contributing-a-paclet'>main repository</a> .</p>
     </div>
   </article>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 <footer class="footer">
   <p class="text-sm-right text-muted acknowledgement">
+  <div class="footer-text">
         Brought to you by the
           <a href="https://mathematica.stackexchange.com/">Mathematica StackExchange</a>
+  </div>
   </p>
 </footer>
 </body>

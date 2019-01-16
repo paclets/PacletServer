@@ -378,21 +378,6 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
-Cell["Just Build and Test", \
-"Subsubsection",ExpressionUUID->"6f39f6a9-ee08-4cde-a414-6464bdaab5b0"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"PublicPacletServerRebuild", "[", 
-   RowBox[{"{", 
-    RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Test\>\""}], "}"}], "]"}], 
-  ";"}]], "Input",
- EmphasizeSyntaxErrors->
-  True,ExpressionUUID->"550d77ff-f86f-481e-9ebc-acc59a2d0384"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
 Cell["Just Build and Push", \
 "Subsubsection",ExpressionUUID->"a8e1b643-ab5d-4d9c-87af-70504ac6fcb0"],
 
@@ -402,8 +387,15 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Push\>\""}], "}"}], "]"}], 
   ";"}]], "Input",
- CellLabel->
-  "In[180]:=",ExpressionUUID->"f79e3563-6c15-4efb-9143-a5e5eadbb480"],
+ CellLabel->"In[180]:=",ExpressionUUID->"f79e3563-6c15-4efb-9143-a5e5eadbb480"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Full Rebuild", \
+"Subsubsection",ExpressionUUID->"f905c748-f44e-4613-9138-ee347b8ef0e2"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
@@ -412,11 +404,43 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Push\>\""}], "}"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "True"}]}], 
-   "\[IndentingNewLine]", "]"}], 
-  ";"}]], "Input",ExpressionUUID->"6635c99c-5eda-4523-8a34-c595db09e278"]
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "None"}]}], "\[IndentingNewLine]",
+    "]"}], ";"}]], "Input",
+ CellLabel->
+  "In[149]:=",ExpressionUUID->"6635c99c-5eda-4523-8a34-c595db09e278"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Building pages..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[149]:=",ExpressionUUID->"5dffbcb1-d9d7-495d-9bd6-2af277ed6801"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   If[
+    StringQ[
+    PublicPacletServer`Dependencies`BTools`Paclets`PacletTools`Private`md], 
+    Internal`LoadingPanel[
+     TemplateApply[
+     "Generating ``", 
+      PublicPacletServer`Dependencies`BTools`Paclets`PacletTools`Private`md]],
+     ""], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{403., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[149]:=",ExpressionUUID->"3dae889d-2801-4956-9204-2fb1e01786a1"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
