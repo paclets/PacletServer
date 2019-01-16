@@ -1,19 +1,19 @@
 Title: Rubi
-Authors: Albert D. Rich
+Authors: Albert D. Rich,Patrick Scheibe
 Categories: Mathematics
-Creator: Albert D. Rich
+Creator: Albert D. Rich, Patrick Scheibe
 Description: Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives.
 DisplayName: Rubi
 Extensions: <|"Kernel" -> <|Root -> ".", Context -> "Rubi`"|>, "PacletServer" -> <|"Tags" -> {"integration", "rule", "antiderivative"}, "Categories" -> {"Mathematics"}, "Description" -> "Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives.", "License" -> "MIT"|>|>
 License: MIT
-MathematicaVersion: 11+
-Modified: 2018-06-26 06:43:28
+MathematicaVersion: 9+
+Modified: 2019-01-16 09:55:44
 Name: Rubi
 Slug: rubi
 Tags: integration,rule,antiderivative
 Thumbnail: logo.png
 URL: https://rulebasedintegration.org
-Version: 4.15.2.1
+Version: 4.16.1.0
 
 <a id="rubi" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -54,13 +54,13 @@ Rubi
 
 ###Version
 
-4.15.2.1
+4.16.1.0
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Creator
 
-Albert D. Rich
+Albert D. Rich, Patrick Scheibe
 
 <a id="url" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -84,7 +84,7 @@ MIT
 
 ###MathematicaVersion
 
-11+
+9+
 
 ---
 
