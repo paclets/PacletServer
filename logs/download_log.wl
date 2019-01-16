@@ -423,5 +423,10 @@
 		"Date" -> "Wed 16 Jan 2019 09:49:46",
 		"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"Rubi" -> <|
+		"Date" -> "Wed 16 Jan 2019 09:55:44",
+		"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+		"Author" -> "Albert D. Rich"
 	|>
 }

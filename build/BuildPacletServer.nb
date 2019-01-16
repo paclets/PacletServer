@@ -364,8 +364,6 @@ Cell["Do everything except for the push:", "Subsubsection",
   3.734186246848506*^9}},ExpressionUUID->"742108b4-929a-4a27-b459-\
 4179ecd724c6"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
@@ -376,75 +374,7 @@ Cell[BoxData[
      "\"\<Build\>\"", ",", " ", "\[IndentingNewLine]", "\"\<Test\>\""}], 
     "\[IndentingNewLine]", "}"}], "\[IndentingNewLine]", "]"}], 
   ";"}]], "Input",
- CellLabel->
-  "In[491]:=",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"],
-
-Cell[BoxData[
- TemplateBox[{
-  "PublicPacletServer","badend",
-   "\"Request couldn't be completed due to missing endpoint with message: \
-\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"Not Found\\\\\\\"\\\"}]\\)\\\"\\nContact \
-b3m2a1@gmail.com for details.\"",2,491,1327,28073355923617949483,"Local",
-   "PublicPacletServer`PublicPacletServer"},
-  "MessageTemplate2"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[491]:=",ExpressionUUID->"8381ebaa-ca9d-4e56-91c9-f411b3ee750e"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Lookup","invrl",
-   "\"The argument \\!\\(\\*RowBox[{\\\"$Failed\\\", \\\"[\\\", \
-\\\"\\\\\\\"Assets\\\\\\\"\\\", \\\"]\\\"}]\\) is not a valid Association or \
-a list of rules.\"",2,491,1328,28073355923617949483,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[491]:=",ExpressionUUID->"0e9bf327-5984-41a6-bd8f-16889e7430e0"],
-
-Cell[BoxData[
- TemplateBox[{
-  "First","normal",
-   "\"Nonatomic expression expected at position \
-\\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \\!\\(\\*RowBox[{\\\"First\\\", \\\"[\\\", \
-\\\"\\\\\\\"BrowserDownloadURL\\\\\\\"\\\", \\\"]\\\"}]\\).\"",2,491,1329,
-   28073355923617949483,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[491]:=",ExpressionUUID->"6045b068-9a50-407d-8b10-a3d17849d6f6"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Lookup","invrl",
-   "\"The argument \\!\\(\\*RowBox[{\\\"\\\\\\\"Assets\\\\\\\"\\\"}]\\) is \
-not a valid Association or a list of rules.\"",2,491,1330,
-   28073355923617949483,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[491]:=",ExpressionUUID->"8deb3981-0d36-4abb-ab77-0f2da379dab6"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringEndsQ","strse",
-   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
-\"}]\\) in \\!\\(\\*RowBox[{RowBox[{\\\"StringEndsQ\\\", \\\"[\\\", \
-\\\"\\\\\\\".paclet\\\\\\\"\\\", \\\"]\\\"}], \\\"[\\\", \
-RowBox[{\\\"First\\\", \\\"[\\\", \\\"\\\\\\\"BrowserDownloadURL\\\\\\\"\\\", \
-\\\"]\\\"}], \\\"]\\\"}]\\).\"",2,491,1331,28073355923617949483,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellLabel->
-  "During evaluation of \
-In[491]:=",ExpressionUUID->"103e57d2-bab9-47ad-bbf7-8166c44d540a"],
-
-Cell[BoxData["$Aborted"], "Output",
- CellLabel->
-  "Out[491]=",ExpressionUUID->"36b7166b-5df0-46a7-87e1-23bebbe50a8f"],
-
-Cell[BoxData["$Aborted"], "Output",
- CellLabel->"Out[492]=",ExpressionUUID->"0d01ef23-512c-468b-9f19-549f2972b773"]
-}, Open  ]]
+ CellLabel->"In[500]:=",ExpressionUUID->"ebada0f3-bcbb-47e4-b5db-9243f9ee5a04"]
 }, Open  ]],
 
 Cell[CellGroupData[{
