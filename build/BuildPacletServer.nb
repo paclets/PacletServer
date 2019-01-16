@@ -168,11 +168,17 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[537]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "In[571]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellLabel->"Out[571]=",ExpressionUUID->"fdc46edc-de2c-418c-890a-df98a74bbca7"]
+}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -216,8 +222,8 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "date"}], "\[IndentingNewLine]", 
-   "]"}], ";"}]], \
-"Input",ExpressionUUID->"a19c2cee-46d1-47d5-b99a-403e76338ae3"]
+   "]"}], 
+  ";"}]], "Input",ExpressionUUID->"a19c2cee-46d1-47d5-b99a-403e76338ae3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
