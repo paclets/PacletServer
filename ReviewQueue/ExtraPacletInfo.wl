@@ -48,7 +48,7 @@ $ExtraPacletInfo["MaTeX"]=
 $ExtraPacletInfo["IGraphM"]=
   <|
       "Location"->
-        "github-release:szhorvat/IGraphM/latest"
+        "github-release:szhorvat/IGraphM/v0.3.108"
       |>;
 
 
@@ -70,7 +70,7 @@ $ExtraPacletInfo["Rubi"]=
 $ExtraPacletInfo["EcoEvo"]=
 	<|
       "Location"->
-        "github-release:cklausme/EcoEvo/latest"
+        "github-release:cklausme/EcoEvo/v0.9.3"
       |>;
 
 

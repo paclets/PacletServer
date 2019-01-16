@@ -53,7 +53,7 @@ PacletSite[
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/EcoEvo"}, {"Kernel", Root -> ".", Context -> "EcoEvo`"}},
-	  Location -> "github-release:cklausme/EcoEvo/latest"
+	  Location -> "https://github.com/cklausme/EcoEvo/releases/download/v0.9.3/EcoEvo-0.9.3.paclet"
 	 ],
 	Paclet[
 	  Name -> "Ems",
@@ -86,7 +86,7 @@ PacletSite[
 	  SystemID -> {"MacOSX-x86-64", "Windows-x86-64", "Linux-x86-64", "Linux-ARM"},
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "IGraphM`"}, {"LibraryLink"}, {"Documentation", MainPage -> "Tutorials/IGDocumentation"}},
-	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.0/IGraphM-0.3.0.paclet"
+	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.108/IGraphM-0.3.108.paclet"
 	 ],
 	Paclet[
 	  Name -> "ImportMesh",
