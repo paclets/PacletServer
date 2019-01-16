@@ -657,14 +657,19 @@ Cell[BoxData[
   "PublicPacletServer`Dependencies`BTools`External`GoogleAPIData", "[", 
    RowBox[{"\"\<SetUseKeychain\>\"", ",", " ", "True"}], "]"}], 
   ";"}]], "Input",
- CellLabel->"In[18]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
+ CellLabel->
+  "In[161]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
+
+Cell["First evaluation doesn\[CloseCurlyQuote]t work for some reason... \
+hmm...", "Text",ExpressionUUID->"3af73f17-c6d6-4970-b739-1af9360d4bbb"],
 
 Cell[BoxData[
  RowBox[{"WithLocalPublicPacletServer", "@", "\[IndentingNewLine]", 
   RowBox[{
   "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
    "]"}]}]], "Input",
- CellLabel->"In[24]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+ CellLabel->
+  "In[163]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
 
 Cell[BoxData[{
  RowBox[{
