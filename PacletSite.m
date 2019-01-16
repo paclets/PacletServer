@@ -1,7 +1,7 @@
 PacletSite[
 	Paclet[
 	  Name -> "BTools",
-	  Version -> "2.1.41",
+	  Version -> "2.1.42",
 	  Creator -> "b3m2a1@gmail.com",
 	  URL -> "https://github.com/b3m2a1/mathematica-BTools",
 	  Description -> "A suite of development tools",
@@ -53,7 +53,7 @@ PacletSite[
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/EcoEvo"}, {"Kernel", Root -> ".", Context -> "EcoEvo`"}},
-	  Location -> "https://github.com/cklausme/EcoEvo/releases/download/v0.9.3/EcoEvo-0.9.3.paclet"
+	  Location -> "https://github.com/b3m2a1/mathematica-BTools/releases/download/v2.1.37/BTools-2.1.37.paclet"
 	 ],
 	Paclet[
 	  Name -> "Ems",
@@ -86,7 +86,7 @@ PacletSite[
 	  SystemID -> {"MacOSX-x86-64", "Windows-x86-64", "Linux-x86-64", "Linux-ARM"},
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "IGraphM`"}, {"LibraryLink"}, {"Documentation", MainPage -> "Tutorials/IGDocumentation"}},
-	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.108/IGraphM-0.3.108.paclet"
+	  Location -> "https://github.com/b3m2a1/mathematica-BTools/releases/download/v2.1.37/BTools-2.1.37.paclet"
 	 ],
 	Paclet[
 	  Name -> "ImportMesh",
@@ -108,7 +108,7 @@ PacletSite[
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/MaTeX"}, {"Kernel", Root -> ".", Context -> "MaTeX`"}},
-	  Location -> "https://github.com/szhorvat/MaTeX/releases/download/v1.7.4/MaTeX-1.7.4.paclet"
+	  Location -> "https://github.com/b3m2a1/mathematica-BTools/releases/download/v2.1.37/BTools-2.1.37.paclet"
 	 ],
 	Paclet[
 	  Name -> "MeshTools",
@@ -143,7 +143,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "PublicPacletServer",
-	  Version -> "0.0.10",
+	  Version -> "0.0.11",
 	  Description -> "A toolchain for working with the public paclet server",
 	  Thumbnail -> "PacletIcon.png",
 	  Extensions -> {{"Kernel", "Root" -> ".", "Context" -> {"PublicPacletServer`"}}, {"PacletServer", "Description" -> "A beta version of a paclet for interfacing with the public paclet server\nCurrent supports:\n  forking the server, submitting paclets, sending PRs,\n  cloning the server, and building the server"}, {"Resource", "Root" -> "Resources", "Resources" -> {"Templates", {"ExtraPacletInfo", "Templates/ExtraPacletInfo.wl"}, {"IncludedPaclets", "Templates/IncludedPaclets.wl"}}}},
@@ -167,7 +167,7 @@ PacletSite[
 	  MathematicaVersion -> "11+",
 	  Thumbnail -> "logo.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "Rubi`"}, {"PacletServer", "Tags" -> {"integration", "rule", "antiderivative"}, "Categories" -> {"Mathematics"}, "Description" -> "Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives.", "License" -> "MIT"}},
-	  Location -> "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.0.4/Rubi-4.16.0.4.paclet"
+	  Location -> "https://github.com/b3m2a1/mathematica-BTools/releases/download/v2.1.37/BTools-2.1.37.paclet"
 	 ],
 	Paclet[
 	  Name -> "ServiceConnection_NASA",
