@@ -7,7 +7,7 @@ DisplayName: Rubi
 Extensions: <|"Kernel" -> <|Root -> ".", Context -> "Rubi`"|>, "PacletServer" -> <|"Tags" -> {"integration", "rule", "antiderivative"}, "Categories" -> {"Mathematics"}, "Description" -> "Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives.", "License" -> "MIT"|>|>
 License: MIT
 MathematicaVersion: 9+
-Modified: 2019-01-16 09:55:44
+Modified: 2019-01-16 10:35:58
 Name: Rubi
 Slug: rubi
 Tags: integration,rule,antiderivative
