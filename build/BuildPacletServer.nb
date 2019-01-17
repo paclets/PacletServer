@@ -168,11 +168,41 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
-  RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
+  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+   RowBox[{"\"\<ForceBuild\>\"", "\[Rule]", "True"}], "\[IndentingNewLine]", 
+   "]"}], ";"}]], "Input",
  CellLabel->
-  "In[572]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "In[840]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel["Building pages..."], StandardForm],
+  Evaluator->"Local",
+  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[840]:=",ExpressionUUID->"fe48a626-0161-409c-8cc7-1a194bc8ad44"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Internal`LoadingPanel[
+    TemplateApply[
+    "Generating ``", 
+     PublicPacletServer`Dependencies`BTools`Web`Private`page]], StandardForm],
+  
+  Evaluator->"Local",
+  ImageSizeCache->{137., {20., 26.}}]], "PrintTemporary",
+ CellLabel->
+  "During evaluation of \
+In[840]:=",ExpressionUUID->"2e8ec84d-fc3a-49c3-b55d-4157399154c0"]
+}, Open  ]]
+}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 

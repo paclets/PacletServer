@@ -8,6 +8,13 @@
 			"note":""
 		},
 		{
+			"title":"CellsToTeX",
+			"text":"‌   CellsToTeX  \nConvert Mathematica cells to TeX, retaining formatting   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"CellsToTeX\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nCellsToTeX   ‌   Version  \n0.2.2   ‌   Creator  \nJakub Kuczmarski   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n6+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: CellsToTeX`   ‌   Documentation  \nLanguage: English",
+			"tags":"",
+			"url":"cellstotex.html",
+			"note":""
+		},
+		{
 			"title":"ChemTools",
 			"text":"‌   ChemTools     \nA collection of packages for object oriented chemistry. The primary packages implement an object and data framework. Support is included for basic spectroscopy and a few different external programs. A moderately sophisticated discrete variable representation framework is included as well.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"ChemTools\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nChemTools   ‌   Version  \n1.3.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: ChemTools`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Formats  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\nDatasets Extensions Icons PaletteGenerators Templates {ChemAtomColors, Datasets\/ChemAtomColors.wl} {ChemBondDistances, Datasets\/ChemBondDistances.wl} {ChemConstants, Datasets\/ChemConstants.wl} {ChemCustomAtoms, Datasets\/ChemCustomAtoms.wl} {ChemElements, Datasets\/ChemElements.wl} {ChemElementValences, Datasets\/ChemElementValences.wl} {ChemIsotopicMasses, Datasets\/ChemIsotopicMasses.wl} {ChemUnitConversions, Datasets\/ChemUnitConversions.wl} {DVRIcon, Icons\/DVRIcon.png} {OpenBabelIcon, Icons\/OpenBabelIcon.png} {PacletIconBig, Icons\/PacletIconBig.png} {Psi4Icon, Icons\/Psi4Icon.png} {Psi4RunIcon, Icons\/Psi4RunIcon.png} {DVRManagerGenerator, PaletteGenerators\/DVRManagerGenerator.nb} {DVRNotebook, Templates\/DVRNotebook.nb} {DVR, Extensions\/DVR} {Classes, Extensions\/DVR\/Classes} {Instances, Extensions\/DVR\/Instances} {KineticEnergy, Extensions\/DVR\/KineticEnergy} {PotentialEnergy, Extensions\/DVR\/PotentialEnergy} {Wavefunctions, Extensions\/DVR\/Wavefunctions} {WSim, Extensions\/WSim}  \nSystemID: *",
 			"tags":"chemistry",
@@ -29,6 +36,27 @@
 			"note":""
 		},
 		{
+			"title":"EcoEvo",
+			"text":"‌   EcoEvo     \nSpecies- and trait-based ecological and eco-evolutionary modeling.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"EcoEvo\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nEcoEvo   ‌   Version  \n0.9.3   ‌   Creator   Christopher Klausmeier  \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n10.0+   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: All MainPage: Guides\/EcoEvo   ‌   Kernel  \nRoot: . Context: EcoEvo`",
+			"tags":"",
+			"url":"ecoevo.html",
+			"note":""
+		},
+		{
+			"title":"Ems",
+			"text":"‌   Ems     \nA static website builder like pelican or jekyll. Comes with built in themes and the ability to develop one's own.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"Ems\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nEms   ‌   Version  \n1.0.10   ‌   Creator   b3m2a1   ‌   URL   https:\/\/github.com\/b3m2a1\/Ems\/wiki   ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n11+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: Ems`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\nIcons Templates Themes {banner, Icons\/banner.png} {banner tall, Icons\/banner tall.png} {favicon-16x16, Icons\/favicon-16x16.png} {favicon-32x32, Icons\/favicon-32x32.png} {SiteConfig, Templates\/blog\/SiteConfig.wl} {blog, Templates\/blog} {content, Templates\/blog\/content} {docs, Templates\/docs} {portfolio, Templates\/portfolio} {scroll, Templates\/scroll} {bootstrap-blog, Themes\/bootstrap-blog} {static, Themes\/bootstrap-blog\/static} {templates, Themes\/bootstrap-blog\/templates} {bootstrap-docs, Themes\/bootstrap-docs} {bootstrap-portfolio, Themes\/bootstrap-portfolio} {bootstrap-single-page, Themes\/bootstrap-single-page}",
+			"tags":"",
+			"url":"ems.html",
+			"note":""
+		},
+		{
+			"title":"ErrorPlot",
+			"text":"‌   ErrorPlot  \nAn alternative to the ErrorBar Plotting Package included in Mathematica.  \nIt allows for log-scale plotting and a freer syntax.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"ErrorPlot\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nErrorPlot   ‌   Version  \n1.0.0   ‌   Creator   Guillermo Hernandez   ‌   URL   https:\/\/github.com\/Dih5\/ErrorPlot   ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n6+   \n\n  ‌   Extensions   ‌   Kernel  \nContext: ErrorPlot` Root: .   ‌   Documentation  \nResources: Guides\/Plotting data with error bars Language: English",
+			"tags":"plots",
+			"url":"errorplot.html",
+			"note":""
+		},
+		{
 			"title":"IGraphM",
 			"text":"‌   IGraphM     \nIGraph\/M – the igraph interface for Mathematica.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"IGraphM\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nIGraphM   ‌   Version  \n0.3.108   ‌   Creator   Szabolcs Horvát   ‌   URL   http:\/\/szhorvat.net\/mathematica\/IGraphM  \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n10.0+   ‌   SystemID  \nMacOSX-x86-64, Windows-x86-64, Linux-x86-64, Linux-ARM   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: IGraphM`   ‌   LibraryLink  \nThis extension has no extra parameters   ‌   Documentation  \nMainPage: Tutorials\/IGDocumentation",
 			"tags":"",
@@ -47,6 +75,20 @@
 			"text":"‌   MaTeX     \nCreate LaTeX-typeset labels within Mathematica.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"MaTeX\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nMaTeX   ‌   Version  \n1.7.4   ‌   Creator   Szabolcs Horvát   ‌   URL   http:\/\/szhorvat.net\/mathematica\/MaTeX  \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n10.0+   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: All MainPage: Guides\/MaTeX   ‌   Kernel  \nRoot: . Context: MaTeX`",
 			"tags":"",
 			"url":"matex.html",
+			"note":""
+		},
+		{
+			"title":"MeshTools",
+			"text":"‌   MeshTools     \nA package with utilities for creating and manipulating ElementMesh objects.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"MeshTools\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nMeshTools   ‌   Version  \n0.3.1   ‌   Creator   C3M d.o.o.   ‌   URL   https:\/\/github.com\/c3m-labs\/MeshTools   ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   WolframVersion  \n11.+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: MeshTools`   ‌   Documentation  \nLanguage: English MainPage: Guides\/MeshTools",
+			"tags":"finite-elements mesh FEM",
+			"url":"meshtools.html",
+			"note":""
+		},
+		{
+			"title":"OptionsValidation",
+			"text":"‌   OptionsValidation  \nFramework for options validation.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"OptionsValidation\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nOptionsValidation   ‌   Version  \n0.1.1   ‌   Creator  \nJakub Kuczmarski   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n6+   \n\n  ‌   Extensions   ‌   Kernel  \nContext: OptionsValidation`   ‌   Documentation  \nLanguage: English",
+			"tags":"",
+			"url":"optionsvalidation.html",
 			"note":""
 		},
 		{
@@ -99,27 +141,6 @@
 			"note":""
 		},
 		{
-			"title":"SymbolObjects",
-			"text":"‌   SymbolObjects  \nA light-weight object framework for Mathematica   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"SymbolObjects\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nSymbolObjects   ‌   Version  \n1.0.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: SymbolObjects`",
-			"tags":"",
-			"url":"symbolobjects.html",
-			"note":""
-		},
-		{
-			"title":"Ems",
-			"text":"‌   Ems     \nA static website builder like pelican or jekyll. Comes with built in themes and the ability to develop one's own.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"Ems\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nEms   ‌   Version  \n1.0.10   ‌   Creator   b3m2a1   ‌   URL   https:\/\/github.com\/b3m2a1\/Ems\/wiki   ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n11+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: Ems`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\nIcons Templates Themes {banner, Icons\/banner.png} {banner tall, Icons\/banner tall.png} {favicon-16x16, Icons\/favicon-16x16.png} {favicon-32x32, Icons\/favicon-32x32.png} {SiteConfig, Templates\/blog\/SiteConfig.wl} {blog, Templates\/blog} {content, Templates\/blog\/content} {docs, Templates\/docs} {portfolio, Templates\/portfolio} {scroll, Templates\/scroll} {bootstrap-blog, Themes\/bootstrap-blog} {static, Themes\/bootstrap-blog\/static} {templates, Themes\/bootstrap-blog\/templates} {bootstrap-docs, Themes\/bootstrap-docs} {bootstrap-portfolio, Themes\/bootstrap-portfolio} {bootstrap-single-page, Themes\/bootstrap-single-page}",
-			"tags":"",
-			"url":"ems.html",
-			"note":""
-		},
-		{
-			"title":"MeshTools",
-			"text":"‌   MeshTools     \nA package with utilities for creating and manipulating ElementMesh objects.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"MeshTools\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nMeshTools   ‌   Version  \n0.3.1   ‌   Creator   C3M d.o.o.   ‌   URL   https:\/\/github.com\/c3m-labs\/MeshTools   ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   WolframVersion  \n11.+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: MeshTools`   ‌   Documentation  \nLanguage: English MainPage: Guides\/MeshTools",
-			"tags":"finite-elements mesh FEM",
-			"url":"meshtools.html",
-			"note":""
-		},
-		{
 			"title":"SimpleDocs",
 			"text":"‌   SimpleDocs     \nA simple package to make simple documentation   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"SimpleDocs\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nSimpleDocs   ‌   Version  \n1.0.8   ‌   Creator   b3m2a1   ‌   URL   https:\/\/github.com\/b3m2a1\/SimpleDocs   ‌   License  \nMIT   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: SimpleDocs`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Documentation  \nLanguage: English MainPage: Guides\/SimpleDocs   ‌   Resource  \nRoot: Resources Resources\n{icon, icon.png}",
 			"tags":"documentation",
@@ -127,31 +148,10 @@
 			"note":""
 		},
 		{
-			"title":"EcoEvo",
-			"text":"‌   EcoEvo     \nSpecies- and trait-based ecological and eco-evolutionary modeling.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"EcoEvo\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nEcoEvo   ‌   Version  \n0.9.3   ‌   Creator   Christopher Klausmeier  \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n10.0+   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: All MainPage: Guides\/EcoEvo   ‌   Kernel  \nRoot: . Context: EcoEvo`",
+			"title":"SymbolObjects",
+			"text":"‌   SymbolObjects  \nA light-weight object framework for Mathematica   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"SymbolObjects\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nSymbolObjects   ‌   Version  \n1.0.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: SymbolObjects`",
 			"tags":"",
-			"url":"ecoevo.html",
-			"note":""
-		},
-		{
-			"title":"ErrorPlot",
-			"text":"‌   ErrorPlot  \nAn alternative to the ErrorBar Plotting Package included in Mathematica.  \nIt allows for log-scale plotting and a freer syntax.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"ErrorPlot\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nErrorPlot   ‌   Version  \n1.0.0   ‌   Creator   Guillermo Hernandez   ‌   URL   https:\/\/github.com\/Dih5\/ErrorPlot   ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n6+   \n\n  ‌   Extensions   ‌   Kernel  \nContext: ErrorPlot` Root: .   ‌   Documentation  \nResources: Guides\/Plotting data with error bars Language: English",
-			"tags":"plots",
-			"url":"errorplot.html",
-			"note":""
-		},
-		{
-			"title":"CellsToTeX",
-			"text":"‌   CellsToTeX  \nConvert Mathematica cells to TeX, retaining formatting   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"CellsToTeX\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nCellsToTeX   ‌   Version  \n0.2.2   ‌   Creator  \nJakub Kuczmarski   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n6+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: CellsToTeX`   ‌   Documentation  \nLanguage: English",
-			"tags":"",
-			"url":"cellstotex.html",
-			"note":""
-		},
-		{
-			"title":"OptionsValidation",
-			"text":"‌   OptionsValidation  \nFramework for options validation.   \n\n  ‌   Install  \nBefore installing, be sure to check out the Change Log to make sure that you trust the developer.  \nTo install this paclet, run:      << https:\/\/paclets.github.io\/PacletServer\/Install.wl PublicPacletInstall[\"OptionsValidation\"]    \nTo update it, replace PublicPacletInstall with PublicPacletUpdate .  \n\n  ‌   Basic Information   ‌   Name  \nOptionsValidation   ‌   Version  \n0.1.1   ‌   Creator  \nJakub Kuczmarski   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n6+   \n\n  ‌   Extensions   ‌   Kernel  \nContext: OptionsValidation`   ‌   Documentation  \nLanguage: English",
-			"tags":"",
-			"url":"optionsvalidation.html",
+			"url":"symbolobjects.html",
 			"note":""
 		}
 	]

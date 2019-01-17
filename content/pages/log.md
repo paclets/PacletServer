@@ -8,6 +8,11 @@
 
 >Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
 
+*** Thursday 17 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
 *** Wednesday 16 January 2019 ***
 * Author: Albert D. Rich
 
