@@ -53,12 +53,11 @@ $IncludedPaclets=
 
 
 (* ::Text:: *)
-(*The possible UpdateSpecs are DownloadAlways, DownloadOnce, DownloadNever, and Automatic*)
+(*The possible UpdateSpecs are DownloadAlways, DownloadOnce, and DownloadNever*)
 
 
 (* ::Subsubsection::Closed:: *)
 (*BTools*)
-
 
 $IncludedPaclets["BTools"]=
 	<|
@@ -68,39 +67,30 @@ $IncludedPaclets["BTools"]=
 		"Update" -> Automatic
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*MaTeX*)
-
 
 $IncludedPaclets["MaTeX"]=
 	<|
 		"Name" -> "MaTeX",
-		"Author" -> "Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
 		"URL" -> "github-release:szhorvat/MaTeX/latest",
 		"Update" -> Automatic
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*IGraphM*)
-
 
 $IncludedPaclets["IGraphM"]=
 	<|
 		"Name" -> "IGraphM",
-		"Author" -> "Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
 		"URL" -> "github-release:szhorvat/IGraphM/v0.3.108",
 		"Update" -> "DownloadNever"
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*PublicPacletServer*)
-
 
 $IncludedPaclets["PublicPacletServer"]=
 	<|
@@ -110,11 +100,8 @@ $IncludedPaclets["PublicPacletServer"]=
 		"Update" -> Automatic
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*PyTools*)
-
 
 $IncludedPaclets["PyTools"]=
 	<|
@@ -124,11 +111,8 @@ $IncludedPaclets["PyTools"]=
 		"Update" -> "DownloadNever"
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*ChemTools*)
-
 
 $IncludedPaclets["ChemTools"]=
 	<|
@@ -138,11 +122,8 @@ $IncludedPaclets["ChemTools"]=
 		"Update" -> "DownloadNever"
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*PJLink*)
-
 
 $IncludedPaclets["PJLink"]=
 	<|
@@ -152,11 +133,8 @@ $IncludedPaclets["PJLink"]=
 		"Update" -> "DownloadNever"
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*CompoundMatrixMethod*)
-
 
 $IncludedPaclets["CompoundMatrixMethod"]=
 	<|
@@ -166,11 +144,8 @@ $IncludedPaclets["CompoundMatrixMethod"]=
 		"Update" -> "DownloadNever"
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*Rubi*)
-
 
 $IncludedPaclets["Rubi"]=
 	<|
@@ -180,11 +155,8 @@ $IncludedPaclets["Rubi"]=
 		"Update" -> Automatic
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*Ems*)
-
 
 $IncludedPaclets["Ems"]=
 	<|
@@ -194,11 +166,8 @@ $IncludedPaclets["Ems"]=
 		"Update" -> "DownloadNever"
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*SimpleDocs*)
-
 
 $IncludedPaclets["SimpleDocs"]=
 	<|
@@ -208,11 +177,8 @@ $IncludedPaclets["SimpleDocs"]=
 		"Update" -> "DownloadNever"
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*EcoEvo*)
-
 
 $IncludedPaclets["EcoEvo"]=
 	<|
@@ -222,11 +188,8 @@ $IncludedPaclets["EcoEvo"]=
 		"Update" -> Automatic
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*ErrorPlot*)
-
 
 $IncludedPaclets["ErrorPlot"]=
 	<|
@@ -236,11 +199,8 @@ $IncludedPaclets["ErrorPlot"]=
 		"Update" -> "DownloadNever"
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*OptionsValidation*)
-
 
 $IncludedPaclets["OptionsValidation"]=
 	<|
@@ -250,11 +210,8 @@ $IncludedPaclets["OptionsValidation"]=
 		"Update" -> Automatic
 	|>
 
-
-
 (* ::Subsubsection::Closed:: *)
 (*CellsToTeX*)
-
 
 $IncludedPaclets["CellsToTeX"]=
 	<|

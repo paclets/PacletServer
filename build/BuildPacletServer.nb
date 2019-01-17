@@ -174,16 +174,10 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[847]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+  "In[875]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Updating review queue..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{144., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[847]:=",ExpressionUUID->"cd8d5bae-bcdc-4285-a538-a6296f19184c"]
+Cell[BoxData["$Aborted"], "Output",
+ CellLabel->"Out[875]=",ExpressionUUID->"c719484e-770d-40bb-ba0e-da62bc897f8a"]
 }, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
@@ -228,8 +222,8 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "date"}], "\[IndentingNewLine]", 
-   "]"}], ";"}]], \
-"Input",ExpressionUUID->"a19c2cee-46d1-47d5-b99a-403e76338ae3"]
+   "]"}], 
+  ";"}]], "Input",ExpressionUUID->"a19c2cee-46d1-47d5-b99a-403e76338ae3"]
 }, Open  ]],
 
 Cell[CellGroupData[{
