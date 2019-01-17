@@ -2,17 +2,21 @@ Title: Deus
 Authors: Sasaki Saki
 Categories: misc
 Creator: Sasaki Saki <galaster@foxmail.com>
+Description: Mathematica Game Package
 DisplayName: Deus
 Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"Deus`"}|>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/Deus"|>|>
 Modified: 2018-06-29 12:27:44
 Name: Deus
 Slug: deus
 Tags: 
+URL: https://github.com/Moe-Net/Deus
 Version: 1.0.2
 
 <a id="deus" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # Deus
+
+Mathematica Game Package
 
 ---
 
@@ -52,6 +56,12 @@ Deus
 ###Creator
 
 [Sasaki Saki](mailto:galaster@foxmail.com)
+
+<a id="url" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###URL
+
+[https://github.com/Moe-Net/Deus](https://github.com/Moe-Net/Deus)
 
 ---
 
