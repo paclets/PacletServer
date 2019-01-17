@@ -1,6 +1,11 @@
 <|
 	"Rubi" -> {
 		<|
+			"Date" -> "Thu 17 Jan 2019 01:41:09",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>,
+		<|
 			"Date" -> "Wed 16 Jan 2019 09:55:44",
 			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
 			"Author" -> "Albert D. Rich"

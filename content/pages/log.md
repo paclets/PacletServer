@@ -3,6 +3,11 @@
 <a id="Rubi" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## Rubi
 
+*** Thursday 17 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
 *** Wednesday 16 January 2019 ***
 * Author: Albert D. Rich
 
