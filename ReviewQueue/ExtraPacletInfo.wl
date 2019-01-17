@@ -30,7 +30,7 @@ $ExtraPacletInfo=
     |>;
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*MaTeX*)
 
 
@@ -41,7 +41,7 @@ $ExtraPacletInfo["MaTeX"]=
       |>;
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*IGraphM*)
 
 
@@ -52,7 +52,7 @@ $ExtraPacletInfo["IGraphM"]=
       |>;
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*Rubi*)
 
 
@@ -63,7 +63,7 @@ $ExtraPacletInfo["Rubi"]=
       |>;
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*EcoEvo*)
 
 
@@ -74,7 +74,7 @@ $ExtraPacletInfo["EcoEvo"]=
       |>;
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*OptionsValidation*)
 
 
@@ -93,6 +93,17 @@ $IncludedPaclets["CellsToTeX"]=
 	<|
       "Location"->
         "github-release:jkuczm/MathematicaCellsToTeX/latest"
+      |>;
+
+
+(* ::Subsubsection:: *)
+(*Deus*)
+
+
+$IncludedPaclets["Deus"]=
+	<|
+	  "URL"->"https://github.com/Moe-Net/Deus",
+	  "Description"->"Mathematica Game Package"
       |>;
 
 

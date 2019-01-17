@@ -17,5 +17,6 @@
 					"Options"->{"WholeWords"->False}
 					}
 			},
-    "RecentPostCount"->5
+    "RecentPostCount"->5,
+    "PageSize"->5 (* indexing stuff *)
 	}
