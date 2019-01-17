@@ -17,7 +17,7 @@ PacletSite[
 	  Description -> "Convert Mathematica cells to TeX, retaining formatting",
 	  MathematicaVersion -> "6+",
 	  Extensions -> {{"Kernel", Root -> ".", "Context" -> {"CellsToTeX`"}}, {"Documentation", Language -> "English"}},
-	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
+	  Location -> "https://github.com/jkuczm/MathematicaCellsToTeX/releases/download/v0.2.2/CellsToTeX-0.2.2.paclet"
 	 ],
 	Paclet[
 	  Name -> "ChemTools",
@@ -41,6 +41,8 @@ PacletSite[
 	  Name -> "Deus",
 	  Version -> "1.0.2",
 	  Creator -> "Sasaki Saki <galaster@foxmail.com>",
+	  URL -> "https://github.com/Moe-Net/Deus",
+	  Description -> "Mathematica Game Package",
 	  Extensions -> {{"Kernel", "Root" -> ".", "Context" -> {"Deus`"}}, {"Documentation", "Language" -> "English", "MainPage" -> "Guides/Deus"}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
@@ -131,7 +133,7 @@ PacletSite[
 	  Description -> "Framework for options validation.",
 	  MathematicaVersion -> "6+",
 	  Extensions -> {{"Kernel", "Context" -> {"OptionsValidation`"}}, {"Documentation", Language -> "English"}},
-	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
+	  Location -> "https://github.com/jkuczm/MathematicaOptionsValidation/releases/download/v0.1.1/OptionsValidation-0.1.1.paclet"
 	 ],
 	Paclet[
 	  Name -> "PJLink",

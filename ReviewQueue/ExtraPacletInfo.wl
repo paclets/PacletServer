@@ -78,29 +78,29 @@ $ExtraPacletInfo["EcoEvo"]=
 (*OptionsValidation*)
 
 
-$IncludedPaclets["OptionsValidation"]=
+$ExtraPacletInfo["OptionsValidation"]=
 	<|
       "Location"->
         "github-release:jkuczm/MathematicaOptionsValidation/latest"
       |>;
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*CellsToTeX*)
 
 
-$IncludedPaclets["CellsToTeX"]=
+$ExtraPacletInfo["CellsToTeX"]=
 	<|
       "Location"->
         "github-release:jkuczm/MathematicaCellsToTeX/latest"
       |>;
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*Deus*)
 
 
-$IncludedPaclets["Deus"]=
+$ExtraPacletInfo["Deus"]=
 	<|
 	  "URL"->"https://github.com/Moe-Net/Deus",
 	  "Description"->"Mathematica Game Package"

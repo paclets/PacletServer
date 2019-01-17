@@ -172,36 +172,18 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
-   RowBox[{"\"\<ForceBuild\>\"", "\[Rule]", "True"}], "\[IndentingNewLine]", 
-   "]"}], ";"}]], "Input",
+  RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->
-  "In[840]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
-
-Cell[CellGroupData[{
+  "In[847]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
 Cell[BoxData[
  DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Building pages..."], StandardForm],
+   Internal`LoadingPanel["Updating review queue..."], StandardForm],
   Evaluator->"Local",
-  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
+  ImageSizeCache->{144., {20., 26.}}]], "PrintTemporary",
  CellLabel->
   "During evaluation of \
-In[840]:=",ExpressionUUID->"fe48a626-0161-409c-8cc7-1a194bc8ad44"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel[
-    TemplateApply[
-    "Generating ``", 
-     PublicPacletServer`Dependencies`BTools`Web`Private`page]], StandardForm],
-  
-  Evaluator->"Local",
-  ImageSizeCache->{137., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[840]:=",ExpressionUUID->"2e8ec84d-fc3a-49c3-b55d-4157399154c0"]
-}, Open  ]]
+In[847]:=",ExpressionUUID->"cd8d5bae-bcdc-4285-a538-a6296f19184c"]
 }, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
@@ -762,7 +744,7 @@ Cell[BoxData[{
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{172, Automatic}, {12, Automatic}},
+WindowMargins->{{0, Automatic}, {43, Automatic}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,
