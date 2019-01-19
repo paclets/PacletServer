@@ -606,8 +606,6 @@ Cell[CellGroupData[{
 Cell["Force Rebuild with Add", \
 "Subsubsection",ExpressionUUID->"f2961625-8bae-4fc0-902a-b24a5c414ec0"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
@@ -633,13 +631,8 @@ Cell[BoxData[
         "\[IndentingNewLine]", "}"}]}]}], "*)"}], ",", "\[IndentingNewLine]", 
     
     RowBox[{"\"\<ForceBuild\>\"", "\[Rule]", "True"}]}], 
-   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
- CellLabel->
-  "In[183]:=",ExpressionUUID->"a95c1708-dc38-4d8b-a4a5-4f006dd16504"],
-
-Cell[BoxData["$Aborted"], "Output",
- CellLabel->"Out[183]=",ExpressionUUID->"4a69882f-94b6-4327-9b58-f12514f9922b"]
-}, Open  ]]
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"a95c1708-dc38-4d8b-a4a5-4f006dd16504"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -676,22 +669,19 @@ Cell[BoxData[
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"(*", 
-      RowBox[{"\"\<Add\>\"", ","}], " ", "*)"}], 
      RowBox[{"\"\<Build\>\"", ",", " ", "\"\<Push\>\""}], "}"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "True"}], ",", 
+    RowBox[{"\"\<GenerateContent\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "True"}], ",", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "None"}]}], "\[IndentingNewLine]",
-    "]"}], ";"}]], "Input",
- CellLabel->
-  "In[10]:=",ExpressionUUID->"cb92c5ed-d08f-4fe3-bc67-52582fdd8e67"]
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", "False"}]}], 
+   "\[IndentingNewLine]", "]"}], 
+  ";"}]], "Input",ExpressionUUID->"cb92c5ed-d08f-4fe3-bc67-52582fdd8e67"]
 }, Open  ]],
 
 Cell[CellGroupData[{
