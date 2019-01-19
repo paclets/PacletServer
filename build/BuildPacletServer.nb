@@ -31,8 +31,8 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{
        RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
-       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]}]], "Code",
- CellLabel->"In[173]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
+       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
+   ";"}]}]], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -396,8 +396,6 @@ Cell[CellGroupData[{
 Cell["Force A Build", \
 "Subsubsection",ExpressionUUID->"1f6c3ee8-aa05-4932-85c2-0b3d0aa18558"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
@@ -412,20 +410,23 @@ Cell[BoxData[
      "*)"}], "\[IndentingNewLine]", 
     RowBox[{"\"\<ForceBuild\>\"", "\[Rule]", "True"}]}], 
    "\[IndentingNewLine]", "]"}], ";"}]], "Input",
- CellLabel->
-  "In[378]:=",ExpressionUUID->"e763da72-772f-41d0-9a81-1122249a8b28"],
+ CellLabel->"In[382]:=",ExpressionUUID->"e763da72-772f-41d0-9a81-1122249a8b28"]
+}, Open  ]],
 
-Cell[BoxData["$Aborted"], "Output",
- CellLabel->"Out[378]=",ExpressionUUID->"9ebcc4fc-b71a-4036-a92f-057856ebd9c2"]
-}, Open  ]]
+Cell[CellGroupData[{
+
+Cell["Build the JSON", \
+"Subsubsection",ExpressionUUID->"bc3193de-c6c2-433d-872f-b71d47d2e8fd"],
+
+Cell[BoxData[
+ RowBox[{"PublicPacletServerRebuild", "[", "\"\<JSON\>\"", "]"}]], "Input",
+ CellLabel->"In[408]:=",ExpressionUUID->"551242ae-47b5-4d20-8df4-ba8e8c0b8a79"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Full Rebuild", \
 "Subsubsection",ExpressionUUID->"f905c748-f44e-4613-9138-ee347b8ef0e2"],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
@@ -440,37 +441,7 @@ Cell[BoxData[
     "\[IndentingNewLine]", 
     RowBox[{"\"\<ForceBuild\>\"", "\[Rule]", "True"}]}], 
    "\[IndentingNewLine]", "]"}], ";"}]], "Input",
- CellLabel->
-  "In[380]:=",ExpressionUUID->"6635c99c-5eda-4523-8a34-c595db09e278"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Building pages..."], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[380]:=",ExpressionUUID->"23585f4d-b86f-4193-bddb-04d71c7391ad"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   If[
-    StringQ[
-    PublicPacletServer`Dependencies`BTools`Paclets`PacletTools`Private`md], 
-    Internal`LoadingPanel[
-     TemplateApply[
-     "Generating ``", 
-      PublicPacletServer`Dependencies`BTools`Paclets`PacletTools`Private`md]],
-     ""], StandardForm],
-  Evaluator->"Local",
-  ImageSizeCache->{411., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[380]:=",ExpressionUUID->"f29595b5-06f9-4be2-a8ad-2547efcd5ac5"]
-}, Open  ]]
-}, Open  ]]
+ CellLabel->"In[380]:=",ExpressionUUID->"6635c99c-5eda-4523-8a34-c595db09e278"]
 }, Open  ]]
 }, Open  ]],
 
