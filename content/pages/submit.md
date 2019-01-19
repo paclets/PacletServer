@@ -1,6 +1,6 @@
 Title: Submit
-Modified: 2019-01-18 19:51:26
-scripts: <script src="../theme/javascript/submit.js"></script>
+Modified: 2019-01-18 21:12:22
+scripts: <script src="../theme/js/submit.js"></script>
 
 <a id="pacletsubmission" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -48,9 +48,9 @@ Would you like to always pull the latest release? <input type="checkbox" id="Rel
 
 You can include here any other info you want that'll build to the server. Do this as a list of Name: Value pairs. 
 
-<textarea class="submit-text-area" id="Extra">Info1: Param1
-Info2: Param2
-Info3: Param3
+<textarea class="submit-text-area" id="Extra">
+
+
 </textarea>
 
 <a id="github" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>

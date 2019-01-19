@@ -89,17 +89,31 @@ function getGitHubData() {
 function structureIssueBody(data) {
   base="";
   base=base+"Name: "+data["Name"]+"\n";
-  base=base+"Author: "+data["Author"]+"<"+data["Email"]+">"+"\n";
+  author = data["Author"];
+  if (!author) {
+    author = data["Email"]
+  } else if (data["Email"]) {
+    author = author + " <" + data["Email"] + ">"
+  }
+  if (author) {
+    base=base+"Author: " + author + "\n";
+  }
   base=base+"URL: "+data["URL"]+"\n";
-  base=base+"Release: "+data["ReleaseQ"]+"\n";
-  base=base+"ExtraInfo: "+data["Extra"]+"\n";
+  release = "False";
+  if (data["ReleaseQ"]) {
+    release = "True"
+  };
+  base=base+"Release: "+release+"\n";
+  if (data["Extra"]) {
+    base=base+data["Extra"]+"\n";
+  }
   return base;
 }
 function structureIssueRequest() {
   data = getFormData();
   if (!data) { return false; }
   body = {
-      "title" : "Register Paclet "+res["data"],
+      "title" : "Register Paclet "+data["Name"],
       "body" : structureIssueBody(data)
   };
   req = {
@@ -117,22 +131,30 @@ function postRequest(req, callback) {
   headers.append("Authorization", req["auth"]);
   fetchData = {
     method: 'POST',
-    body: req["body"],
+    body: JSON.stringify(req["body"]),
     headers: headers
   }
   fetch(req["endpoint"], fetchData).then(callback);
 }
 
-function openOnSuccess(res) {
-  json = res;
-  console.log(res);
+function redirectResponse(json) {
   if (typeof json == "string") {
     json = JSON.parse(json);
   };
-  response = json[0];
-  if ( response != undefined ) {
-    window.location.href = response["html_url"]
-  };
+  redirect = json["html_url"];
+  if ( redirect != undefined ) {
+    window.location.href = redirect;
+  } else {
+    alert("Failed to access GitHub API. Try submitting paclet manually.")
+  }
+};
+function openOnSuccess(res) {
+  if (res.status > 299) {
+    alert(res.statusText);
+    res.json().then(console.log)
+  } else {
+    res.json().then(redirectResponse)
+  }
 }
 
 function submit() {
