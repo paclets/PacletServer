@@ -183,6 +183,43 @@ p.acknowledgement a{
   color: #B1788A;
 }
 
+.submit-text {
+  margin: 0;
+  margin-left: 10px;
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 2px;
+  min-width: 500px;
+}
+.submit-text-area {
+  margin: 0;
+  margin-left: 10px;
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 2px;
+  min-width: 500px;
+  min-height: 100px;
+}
+.submit-button {
+  border-radius: 5px;
+  margin-top: 25px;
+  min-width: 100px;
+  min-height: 35px;
+  background-color: rgb(230, 230, 230);
+}
+.submit-link {
+  font-size: 18px;
+  color: #C1586A;
+}
+.submit-link:hover {
+  color: #AC000E;
+}
+.submit-link .submit-button {
+  margin-top: 5px;
+  min-width: 200px;
+}
+.submit-button:hover {
+  background-color: white;
+}
+
 /*
 
 top-bar styles

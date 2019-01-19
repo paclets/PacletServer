@@ -1,5 +1,9 @@
 {
   <|
+    "href"->"https://paclets.github.io/PacletServer/pages/submit.html",
+    "body"->"Submission Page"
+    |>,
+  <|
     "href"->"https://github.com/paclets/PacletServer/wiki",
     "body"->"Paclet Server Wiki"
     |>,

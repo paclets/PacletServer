@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-  Analytics | Mathematica Paclet Server
+  Submit | Mathematica Paclet Server
 </title>
 <link
       rel='stylesheet'
@@ -78,6 +78,7 @@
   <script>
     function moveWindow (){window.location.hash="main-content";}
   </script>
+    <script src="../theme/javascript/submit.js"></script>
   </head>
 <body onload="">
   <header class="header">
@@ -154,39 +155,52 @@
             <br>
   <article class="article">
     <div class="content">
-      <a shape='rect' class='Section' id='pacletserveranalytics' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h1> Paclet Server Analytics Report</h1>
-<img src='https://paclets.github.io/PacletServer/img/analytics/users.png' alt='Analytics Report' />
-<p>This provides base page view analytics for the server. The raw analytics data may also be obtained from  <a href='https://paclets.github.io/PacletServer/analytics_dataset.wl'>analytics_dataset.wl</a> . I don&apos;t think this is a GDPR violation, but if so  <em>please</em> let us know and I&apos;ll remove all of this.
-</p>
-<hr />
-<a shape='rect' class='Subsection' id='pageviewtimeseries' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h2> Page View Timeseries</h2>
-<p>This is the total page view breakdown as a  <a href='https://reference.wolfram.com/language/ref/TimeSeries.html'><code>TimeSeries</code></a> . It is also broken down for the nine paclet pages with the most page views overall.</p>
-<img src='https://paclets.github.io/PacletServer/img/analytics/user_grid.png' alt='Analytics Report' />
-<hr />
-<p>
-Other analytics will be coming and will be generated when the server is rebuilt. If you have any specific requests those may be made in the comments on this page</p>
+      <a shape='rect' class='Section' id='pacletsubmission' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h1> Paclet Submission</h1>
+<p>This is a submission form for the paclet server. What it will do for you is laid out  <a href='https://github.com/paclets/PacletServer/wiki/Contributing#updating-paclet'>here</a> .  </p>
+<a shape='rect' class='Subsubsection' id='basicinfo' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Basic Info</h3>
+<a shape='rect' class='Subsubsubsection' id='name' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h4> Name</h4>
+<p>This is the name you would like to display on the server:</p>
+<input type='text' class='submit-text' id='Name' />
+<a shape='rect' class='Subsubsubsection' id='author' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h4> Author</h4>
+<p>This is the name you would like to display on the server for yourself:</p>
+<input type='text' class='submit-text' id='Author' placeholder='optional' />
+<p>This is the email you would like to display on the server for yourself:</p>
+<input type='text' class='submit-text' id='Email' placeholder='optional' />
+<a shape='rect' class='Subsubsubsection' id='url' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h4> URL</h4>
+<p>This is the URL for your package:</p>
+<input type='text' class='submit-text' id='URL' />
+<p>Would you like to always pull the latest release? <input type='checkbox' id='ReleaseQ' /></p>
+<a shape='rect' class='Subsubsection' id='otherinfo' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Other Info</h3>
+<p>You can include here any other info you want that&apos;ll build to the server. Do this as a list of Name: Value pairs. </p>
+<textarea class='submit-text-area' id='Extra'>Info1: Param1
+Info2: Param2
+Info3: Param3
+</textarea>
+<a shape='rect' class='Subsubsection' id='github' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>GitHub</h3>
+<p>Here you need to include your GitHub login info so we can actually do the submission on your behalf:</p>
+<form enctype='application/x-www-form-urlencoded' method='get' id='github-login'>
+ <input type='text' class='submit-text' id='Username' placeholder='Username' autocomplete='username' />
+ <input type='password' class='submit-text' id='Password' placeholder='Password' autocomplete='current-password' />
+</form>
+<button type='button' class='submit-button' onclick='submit()'>Submit</button>
+<a shape='rect' class='Subsection' id='potentialquestions' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Potential Questions</h2>
+<a shape='rect' class='Subsubsection' id='whydoi' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Why Do I Need A GitHub Account</h3>
+<p>To keep the core data readily visible we use  <a href='https://github.com/paclets/PacletServer'>GitHub</a> to serve paclets and other resources. This also allows us a modicum of authentication as people can see the GitHub user name and account of the paclet submitter.</p>
+<a shape='rect' class='Subsubsection' id='whydoi' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Why Do I Need My GitHub Password</h3>
+<p>The website works entirely on the client side. There is no server running on the background or any calls to any backend APIs. This means the standard OAuth authentication option is not an option at the moment. This may change in the future if we devise a workaround, but for the moment this is the state of things. In the meantime we&apos;re using the classic  <a href='https://developer.github.com/v3/auth/#basic-authentication'>Basic Authentication</a> scheme which asks for a password.</p>
+<p>Assuming you&apos;re using HTTPS this remains relatively safe. If you would prefer not to do this, though, you can always follow the process laid out  <a href='https://github.com/paclets/PacletServer/wiki/Contributing#updating-paclet'>here</a> .</p>
     </div>
   </article>
-<hr>
-<div id="disqus_thread"></div>
-<script>
-  var disqus_config = function() {
-    this.page.url = 'https://paclets.github.io/PacletServer/pages/analytics.html';
-    this.page.identifier = '';
-  };
-  (function() {
-    var d = document;
-    var s = d.createElement('script');
-    s.src = '//paclet-server.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript class="text-muted">
-  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-</noscript>
           </div>
         </div>
       </div>

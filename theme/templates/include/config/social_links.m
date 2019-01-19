@@ -1,5 +1,9 @@
 {
   <|
+    "href"->"http://packagedata.net",
+    "body"->"PackageData Listing"
+    |>,
+  <|
     "href"->"https://mathematica.stackexchange.com/questions/18393/what-are-the-most-common-pitfalls-awaiting-new-users",
     "body"->"Mathematica for New Users"
     |>,

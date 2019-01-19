@@ -53,7 +53,20 @@ This generates the index.html page
 </wolfram:slot>
 
 <wolfram:slot id="PrimaryContent">
-  <h4 class="title">Paclet Listing</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h4 class="title">Paclet Listing</h4>
+      </div>
+      <div class="col-sm-4">
+        <wolfram:if test='StringMatchQ[#URL, "index*.html"]'>
+          <a href="pages/submit.html" class="submit-link">
+            <button class="submit-button" type="button">Submit A Paclet</button>
+          </a>
+        </wolfram:if>
+      </div>
+    </div>
+  </div>
   <hr>
   <wolfram:sequence
     values="SortBy[Replace[#IndexListing, Except[_List]:>#Articles], #[\"Title\"]&]"

@@ -1,0 +1,405 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     16028,        397]
+NotebookOptionsPosition[     12496,        328]
+NotebookOutlinePosition[     13092,        351]
+CellTagsIndexPosition[     13021,        346]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<|", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<Submit\>\""}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+   "\"\<scripts\>\"", "\[Rule]", 
+    "\"\<<script src=\\\"../theme/javascript/submit.js\\\"></script>\>\""}]}],
+   "\[IndentingNewLine]", "|>"}]], "Metadata",
+ CellChangeTimes->{{3.7341087469765663`*^9, 3.734108748934711*^9}, {
+   3.734108858539865*^9, 3.734108859679222*^9}, {3.7341100994019547`*^9, 
+   3.734110115937145*^9}, {3.754461161644013*^9, 3.7544611680493507`*^9}, 
+   3.7544612834827013`*^9, {3.754461941036789*^9, 3.75446194224306*^9}, {
+   3.7568195889253197`*^9, 3.75681962456148*^9}, {3.756820254020794*^9, 
+   3.756820255722097*^9}, {3.756820438419874*^9, 3.756820445481859*^9}, {
+   3.756823173361655*^9, 3.7568231930613737`*^9}, {3.756824228051647*^9, 
+   3.756824239770277*^9}, {3.75682828341693*^9, 3.756828286572983*^9}},
+ CellTags->"Metadata",ExpressionUUID->"d0a7ebc1-4b37-4a0f-adb3-e19589dbf1b0"],
+
+Cell[CellGroupData[{
+
+Cell["Paclet Submission", "Section",
+ CellChangeTimes->{{3.756819540916049*^9, 
+  3.756819544722739*^9}},ExpressionUUID->"cfbc95e1-5643-4652-8b0f-\
+797c3d515cf7"],
+
+Cell[TextData[{
+ "This is a submission form for the paclet server. What it will do for you is \
+laid out ",
+ ButtonBox["here",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/paclets/PacletServer/wiki/Contributing#updating-\
+paclet"], None},
+  ButtonNote->
+   "https://github.com/paclets/PacletServer/wiki/Contributing#updating-\
+paclet"],
+ ".  "
+}], "Text",
+ CellChangeTimes->{{3.756819631448846*^9, 3.756819751512562*^9}, {
+  3.7568197840297956`*^9, 
+  3.756819810156951*^9}},ExpressionUUID->"329519ab-4d81-41d3-b3a2-\
+c7a6396eecdc"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Info", "Subsubsection",
+ CellChangeTimes->{{3.7568215578285103`*^9, 
+  3.756821559323434*^9}},ExpressionUUID->"b0640e93-905c-4803-ae30-\
+e708c01c8cdd"],
+
+Cell[CellGroupData[{
+
+Cell["Name", "Subsubsubsection",
+ CellChangeTimes->{{3.756819824884659*^9, 3.7568198261326647`*^9}, {
+  3.756820458874733*^9, 
+  3.756820459600827*^9}},ExpressionUUID->"5e2f078d-5b01-4695-a3e9-\
+8be888f34163"],
+
+Cell["This is the name you would like to display on the server:", "Text",
+ CellChangeTimes->{{3.756820474361862*^9, 3.7568204777128696`*^9}, {
+  3.7568210344502783`*^9, 
+  3.756821041264927*^9}},ExpressionUUID->"b0934427-7cf9-4f2c-b1a7-\
+47d28c17e28e"],
+
+Cell["<input class=\"submit-text\" type=\"text\" id=\"Name\"></input>", \
+"RawMarkdown",
+ CellChangeTimes->{{3.756821044720834*^9, 3.756821085091448*^9}, {
+   3.756821438205103*^9, 3.75682143874966*^9}, {3.756824139005165*^9, 
+   3.756824146090989*^9}, {3.7568247654027443`*^9, 3.756824770833447*^9}, 
+   3.756825318698958*^9},ExpressionUUID->"ef03e2dd-bd14-488f-a7da-\
+ffc90fde7462"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Author", "Subsubsubsection",
+ CellChangeTimes->{{3.756819824884659*^9, 3.7568198261326647`*^9}, {
+  3.756820458874733*^9, 3.75682047169687*^9}, {3.756821445629526*^9, 
+  3.756821447764975*^9}},ExpressionUUID->"ab14d8ad-773f-442d-8110-\
+681bf07f1bc6"],
+
+Cell["\<\
+This is the name you would like to display on the server for yourself:\
+\>", "Text",
+ CellChangeTimes->{{3.756820474361862*^9, 3.7568204777128696`*^9}, {
+  3.7568210344502783`*^9, 3.756821041264927*^9}, {3.756821456542544*^9, 
+  3.756821459013055*^9}},ExpressionUUID->"4ffe1ff4-895e-4caa-b95b-\
+7e8f544beaf8"],
+
+Cell["\<\
+<input class=\"submit-text\" type=\"text\" id=\"Author\" \
+placeholder=\"optional\"></input>\
+\>", "RawMarkdown",
+ CellChangeTimes->{{3.756821044720834*^9, 3.756821085091448*^9}, {
+   3.756821438205103*^9, 3.756821463380845*^9}, {3.756821521957078*^9, 
+   3.75682152310365*^9}, 3.756824148757782*^9, {3.756824774298458*^9, 
+   3.756824775360968*^9}, 
+   3.756825316090613*^9},ExpressionUUID->"e2edbcad-cce0-415e-b4e1-\
+4e782b68adcb"],
+
+Cell["\<\
+This is the email you would like to display on the server for yourself:\
+\>", "Text",
+ CellChangeTimes->{{3.756820474361862*^9, 3.7568204777128696`*^9}, {
+  3.7568210344502783`*^9, 3.756821041264927*^9}, {3.756821456542544*^9, 
+  3.756821459013055*^9}, {3.756821499693942*^9, 
+  3.7568215003806*^9}},ExpressionUUID->"0228cfa0-056b-47a9-96a8-a0abaeafa25d"],
+
+Cell["\<\
+<input class=\"submit-text\" type=\"text\" id=\"Email\" \
+placeholder=\"optional\"></input>\
+\>", "RawMarkdown",
+ CellChangeTimes->{{3.756821044720834*^9, 3.756821085091448*^9}, {
+   3.756821438205103*^9, 3.756821463380845*^9}, {3.75682149405539*^9, 
+   3.756821519227825*^9}, 3.7568241502895603`*^9, 
+   3.7568253143235188`*^9},ExpressionUUID->"4319987f-3a33-4add-83c7-\
+955c8e106aaf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["URL", "Subsubsubsection",
+ CellChangeTimes->{{3.756819824884659*^9, 3.7568198261326647`*^9}, {
+  3.756820458874733*^9, 
+  3.75682047169687*^9}},ExpressionUUID->"6559162b-9bae-4b59-a6a2-\
+2d7b6557ad43"],
+
+Cell["This is the URL for your package:", "Text",
+ CellChangeTimes->{{3.756821091266782*^9, 
+  3.756821104266623*^9}},ExpressionUUID->"8ef3a70c-2eaf-4a0b-97ee-\
+adc7be7ec176"],
+
+Cell["<input class=\"submit-text\" type=\"text\" id=\"URL\"></input>", \
+"RawMarkdown",
+ CellChangeTimes->{{3.756821089500874*^9, 3.756821089771357*^9}, {
+   3.75682143553485*^9, 3.756821436477099*^9}, 3.7568241528491*^9, {
+   3.756824760778281*^9, 3.7568247642579937`*^9}, {3.756824913639924*^9, 
+   3.756824914716455*^9}, 
+   3.756825311995124*^9},ExpressionUUID->"66ae7c21-850a-4cf6-af1d-\
+589e53056c22"],
+
+Cell["\<\
+Would you like to always pull the latest release? <input type=\"checkbox\" \
+id=\"ReleaseQ\"></input>\
+\>", "RawMarkdown",
+ CellChangeTimes->{{3.7568211180366983`*^9, 3.756821143612796*^9}, {
+   3.756821194038166*^9, 3.75682120059571*^9}, 3.7568216271699123`*^9, {
+   3.756825325401842*^9, 3.756825329588159*^9}, {3.756858239515547*^9, 
+   3.7568582404643803`*^9}, {3.7568586811172533`*^9, 
+   3.756858681626232*^9}},ExpressionUUID->"ee74e4e8-1688-4f2a-85ca-\
+35e4ed5647cf"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Other Info", "Subsubsection",
+ CellChangeTimes->{{3.7568215578285103`*^9, 
+  3.7568215693395023`*^9}},ExpressionUUID->"599c3b34-ad86-4d4d-815d-\
+195d75fc1b13"],
+
+Cell["\<\
+You can include here any other info you want that\[CloseCurlyQuote]ll build \
+to the server. Do this as a list of Name: Value pairs. \
+\>", "Text",
+ CellChangeTimes->{{3.75682157161884*^9, 
+  3.756821612754456*^9}},ExpressionUUID->"5c19dfc8-ac3e-4b5e-beac-\
+d2c2c7522109"],
+
+Cell["\<\
+<textarea class=\"submit-text-area\" id=\"Extra\">Info1: Param1
+Info2: Param2
+Info3: Param3
+</textarea>\
+\>", "RawMarkdown",
+ CellChangeTimes->{{3.756821089500874*^9, 3.756821089771357*^9}, {
+  3.75682143553485*^9, 3.756821436477099*^9}, {3.7568216213084793`*^9, 
+  3.756821633970189*^9}, {3.7568219243504267`*^9, 3.756821927124632*^9}, {
+  3.756824156777134*^9, 3.756824186570587*^9}, {3.756824639863575*^9, 
+  3.756824641873857*^9}, {3.756824727221437*^9, 3.756824758071723*^9}, {
+  3.756824788969831*^9, 3.756824802832708*^9}, {3.756824920859733*^9, 
+  3.7568249210276537`*^9}, {3.756825308696128*^9, 3.756825308909233*^9}, {
+  3.756858160082898*^9, 3.7568581833972387`*^9}, {3.756858254804398*^9, 
+  3.75685825653631*^9}},ExpressionUUID->"8ccbbad1-895b-4e8f-9801-\
+c879f2e797be"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GitHub", "Subsubsection",
+ CellChangeTimes->{{3.7568215578285103`*^9, 3.7568215693395023`*^9}, {
+  3.7568219859692583`*^9, 
+  3.756821987015833*^9}},ExpressionUUID->"ed4136e3-d5aa-4869-a4f0-\
+a72786bdac27"],
+
+Cell["\<\
+Here you need to include your GitHub login info so we can actually do the \
+submission on your behalf:\
+\>", "Text",
+ CellChangeTimes->{{3.75682157161884*^9, 3.756821612754456*^9}, {
+  3.756823054506872*^9, 
+  3.7568230710751534`*^9}},ExpressionUUID->"d2251fac-3b7a-4699-9518-\
+7a7dcb74164e"],
+
+Cell["\<\
+<form id=\"github-login\">
+\t<input class=\"submit-text\" type=\"text\" id=\"Username\" \
+placeholder=\"Username\" autocomplete=\"username\"></input>
+\t<input class=\"submit-text\" type=\"password\" id=\"Password\" placeholder=\
+\"Password\" autocomplete=\"current-password\"></input>
+</form>
+<button class=\"submit-button\" type=\"button\" \
+onclick=\"submit()\">Submit</button>\
+\>", "RawMarkdown",
+ CellChangeTimes->{{3.756821089500874*^9, 3.756821089771357*^9}, {
+  3.75682143553485*^9, 3.756821436477099*^9}, {3.7568216213084793`*^9, 
+  3.756821633970189*^9}, {3.7568219243504267`*^9, 3.756821927124632*^9}, {
+  3.75682302137751*^9, 3.756823049731266*^9}, {3.75682415986395*^9, 
+  3.756824160533341*^9}, {3.75682419060118*^9, 3.756824191831778*^9}, {
+  3.7568252257341423`*^9, 3.756825234873953*^9}, {3.7568252950051813`*^9, 
+  3.756825322873673*^9}, {3.756825453535316*^9, 3.756825477396632*^9}, {
+  3.756825569062039*^9, 3.75682557236373*^9}, {3.756828161649032*^9, 
+  3.756828163785873*^9}, {3.756828390651451*^9, 3.756828413295869*^9}, {
+  3.756832346902343*^9, 
+  3.756832381559617*^9}},ExpressionUUID->"d00b13e6-69fb-43fb-b039-\
+c9f5a658db85"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Potential Questions", "Subsection",
+ CellChangeTimes->{{3.756821219316368*^9, 
+  3.7568212234993773`*^9}},ExpressionUUID->"31ebece5-8aa5-4e06-8080-\
+1c1b7a0c2f6a"],
+
+Cell[CellGroupData[{
+
+Cell["Why Do I Need A GitHub Account", "Subsubsection",
+ CellChangeTimes->{{3.756819715557167*^9, 3.7568197195050077`*^9}, {
+  3.756820480560133*^9, 3.756820485976812*^9}, {3.7568252226403103`*^9, 
+  3.756825223398699*^9}},ExpressionUUID->"83805fde-aa30-4607-b453-\
+164ebed0e7bf"],
+
+Cell[TextData[{
+ "To keep the core data readily visible we use ",
+ ButtonBox["GitHub",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/paclets/PacletServer"], None},
+  ButtonNote->"https://github.com/paclets/PacletServer"],
+ " to serve paclets and other resources. This also allows us a modicum of \
+authentication as people can see the GitHub user name and account of the \
+paclet submitter."
+}], "Text",
+ CellChangeTimes->{{3.7568197213521976`*^9, 3.756819726832561*^9}, {
+  3.75682048797604*^9, 3.756820545368556*^9}, {3.7568205982287827`*^9, 
+  3.756820646521652*^9}},ExpressionUUID->"d87429c1-9a09-4799-ab88-\
+c38675f77fbf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Why Do I Need My GitHub Password", "Subsubsection",
+ CellChangeTimes->{{3.756819715557167*^9, 3.7568197195050077`*^9}, {
+  3.756820480560133*^9, 3.756820485976812*^9}, {3.756820653754387*^9, 
+  3.756820656976885*^9}},ExpressionUUID->"bb8108fd-dbb4-4ff9-b19d-\
+cb1f6cf02e0b"],
+
+Cell[TextData[{
+ "The website works entirely on the client side. There is no server running \
+on the background or any calls to any backend APIs. This means the standard \
+OAuth authentication option is not an option at the moment. This may change \
+in the future if we devise a workaround, but for the moment this is the state \
+of things. In the meantime we\[CloseCurlyQuote]re using the classic ",
+ ButtonBox["Basic Authentication",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://developer.github.com/v3/auth/#basic-authentication"], None},
+  ButtonNote->"https://developer.github.com/v3/auth/#basic-authentication"],
+ " scheme which asks for a password."
+}], "Text",
+ CellChangeTimes->{{3.756820658664307*^9, 3.7568206819925957`*^9}, {
+  3.756820808461172*^9, 
+  3.7568209658909616`*^9}},ExpressionUUID->"029c88cc-dd96-4ee1-8757-\
+438dc4cf31c4"],
+
+Cell[TextData[{
+ "Assuming you\[CloseCurlyQuote]re using HTTPS this remains relatively safe. \
+If you would prefer not to do this, though, you can always follow the process \
+laid out ",
+ ButtonBox["here",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/paclets/PacletServer/wiki/Contributing#updating-\
+paclet"], None},
+  ButtonNote->
+   "https://github.com/paclets/PacletServer/wiki/Contributing#updating-\
+paclet"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.756820968585576*^9, 
+  3.7568210288757544`*^9}},ExpressionUUID->"fa209394-a021-4506-b3c4-\
+4489830b1e6d"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{117, Automatic}, {45, Automatic}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Metadata"->{
+  Cell[558, 20, 990, 17, 112, "Metadata",ExpressionUUID->"d0a7ebc1-4b37-4a0f-adb3-e19589dbf1b0",
+   CellTags->"Metadata"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Metadata", 12874, 340}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 990, 17, 112, "Metadata",ExpressionUUID->"d0a7ebc1-4b37-4a0f-adb3-e19589dbf1b0",
+ CellTags->"Metadata"],
+Cell[CellGroupData[{
+Cell[1573, 41, 162, 3, 51, "Section",ExpressionUUID->"cfbc95e1-5643-4652-8b0f-797c3d515cf7"],
+Cell[1738, 46, 557, 16, 35, "Text",ExpressionUUID->"329519ab-4d81-41d3-b3a2-c7a6396eecdc"],
+Cell[CellGroupData[{
+Cell[2320, 66, 163, 3, 40, "Subsubsection",ExpressionUUID->"b0640e93-905c-4803-ae30-e708c01c8cdd"],
+Cell[CellGroupData[{
+Cell[2508, 73, 209, 4, 35, "Subsubsubsection",ExpressionUUID->"5e2f078d-5b01-4695-a3e9-8be888f34163"],
+Cell[2720, 79, 252, 4, 35, "Text",ExpressionUUID->"b0934427-7cf9-4f2c-b1a7-47d28c17e28e"],
+Cell[2975, 85, 384, 6, 35, "RawMarkdown",ExpressionUUID->"ef03e2dd-bd14-488f-a7da-ffc90fde7462"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3396, 96, 256, 4, 35, "Subsubsubsection",ExpressionUUID->"ab14d8ad-773f-442d-8110-681bf07f1bc6"],
+Cell[3655, 102, 319, 6, 35, "Text",ExpressionUUID->"4ffe1ff4-895e-4caa-b95b-7e8f544beaf8"],
+Cell[3977, 110, 443, 9, 35, "RawMarkdown",ExpressionUUID->"e2edbcad-cce0-415e-b4e1-4e782b68adcb"],
+Cell[4423, 121, 365, 6, 35, "Text",ExpressionUUID->"0228cfa0-056b-47a9-96a8-a0abaeafa25d"],
+Cell[4791, 129, 396, 8, 35, "RawMarkdown",ExpressionUUID->"4319987f-3a33-4add-83c7-955c8e106aaf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5224, 142, 207, 4, 35, "Subsubsubsection",ExpressionUUID->"6559162b-9bae-4b59-a6a2-2d7b6557ad43"],
+Cell[5434, 148, 175, 3, 35, "Text",ExpressionUUID->"8ef3a70c-2eaf-4a0b-97ee-adc7be7ec176"],
+Cell[5612, 153, 407, 7, 35, "RawMarkdown",ExpressionUUID->"66ae7c21-850a-4cf6-af1d-589e53056c22"],
+Cell[6022, 162, 484, 9, 35, "RawMarkdown",ExpressionUUID->"ee74e4e8-1688-4f2a-85ca-35e4ed5647cf"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6555, 177, 165, 3, 40, "Subsubsection",ExpressionUUID->"599c3b34-ad86-4d4d-815d-195d75fc1b13"],
+Cell[6723, 182, 282, 6, 35, "Text",ExpressionUUID->"5c19dfc8-ac3e-4b5e-beac-d2c2c7522109"],
+Cell[7008, 190, 793, 15, 83, "RawMarkdown",ExpressionUUID->"8ccbbad1-895b-4e8f-9801-c879f2e797be"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7838, 210, 212, 4, 40, "Subsubsection",ExpressionUUID->"ed4136e3-d5aa-4869-a4f0-a72786bdac27"],
+Cell[8053, 216, 302, 7, 35, "Text",ExpressionUUID->"d2251fac-3b7a-4699-9518-7a7dcb74164e"],
+Cell[8358, 225, 1164, 21, 99, "RawMarkdown",ExpressionUUID->"d00b13e6-69fb-43fb-b039-c9f5a658db85"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9559, 251, 169, 3, 41, "Subsection",ExpressionUUID->"31ebece5-8aa5-4e06-8080-1c1b7a0c2f6a"],
+Cell[CellGroupData[{
+Cell[9753, 258, 280, 4, 40, "Subsubsection",ExpressionUUID->"83805fde-aa30-4607-b453-164ebed0e7bf"],
+Cell[10036, 264, 651, 14, 58, "Text",ExpressionUUID->"d87429c1-9a09-4799-ab88-c38675f77fbf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10724, 283, 280, 4, 40, "Subsubsection",ExpressionUUID->"bb8108fd-dbb4-4ff9-b19d-cb1f6cf02e0b"],
+Cell[11007, 289, 861, 16, 104, "Text",ExpressionUUID->"029c88cc-dd96-4ee1-8757-438dc4cf31c4"],
+Cell[11871, 307, 585, 16, 58, "Text",ExpressionUUID->"fa209394-a021-4506-b3c4-4489830b1e6d"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
