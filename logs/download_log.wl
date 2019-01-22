@@ -438,5 +438,25 @@
 		"Date" -> "Thu 17 Jan 2019 01:41:39",
 		"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
 		"Author" -> "Albert D. Rich"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Mon 21 Jan 2019 20:25:10",
+		"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"MaTeX" -> <|
+		"Date" -> "Mon 21 Jan 2019 20:25:10",
+		"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"SimpleDocs" -> <|
+		"Date" -> "Mon 21 Jan 2019 20:25:15",
+		"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EcoEvo" -> <|
+		"Date" -> "Mon 21 Jan 2019 20:25:16",
+		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 	|>
 }

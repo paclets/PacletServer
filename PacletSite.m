@@ -1,7 +1,7 @@
 PacletSite[
 	Paclet[
 	  Name -> "BTools",
-	  Version -> "2.1.42",
+	  Version -> "2.1.44",
 	  Creator -> "b3m2a1@gmail.com",
 	  URL -> "https://github.com/b3m2a1/mathematica-BTools",
 	  Description -> "A suite of development tools",
@@ -200,11 +200,11 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "SimpleDocs",
-	  Version -> "1.0.8",
+	  Version -> "1.0.9",
 	  Creator -> "b3m2a1 <b3m2a1@gmail.com>",
 	  URL -> "https://github.com/b3m2a1/SimpleDocs",
 	  Thumbnail -> "Resources/icon.png",
-	  Extensions -> {{"Kernel", "Root" -> ".", "Context" -> {"SimpleDocs`"}}, {"FrontEnd"}, {"Documentation", "Language" -> "English", "MainPage" -> "Guides/SimpleDocs"}, {"Resource", "Root" -> "Resources", "Resources" -> {{"icon", "icon.png"}}}, {"PacletServer", "Tags" -> {"documentation"}, "Categories" -> {"Development"}, "Description" -> "A simple package to make simple documentation", "License" -> "MIT"}},
+	  Extensions -> {{"Kernel", "Root" -> ".", "Context" -> {"SimpleDocs`"}}, {"FrontEnd"}, {"Documentation", "Language" -> "English", "MainPage" -> "Guides/SimpleDocs"}, {"Resource", "Root" -> "Resources", "Resources" -> {{"icon_big", "icon_big.png"}, {"icon", "icon.png"}}}, {"PacletServer", "Tags" -> {"documentation"}, "Categories" -> {"Development"}, "Description" -> "A simple package to make simple documentation", "License" -> "MIT"}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[

@@ -163,7 +163,7 @@ $IncludedPaclets["Ems"]=
 		"Name" -> "Ems",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
 		"Site" -> "http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-		"Update" -> "DownloadNever"
+		"Update" -> Automatic
 	|>
 
 (* ::Subsubsection::Closed:: *)
@@ -174,7 +174,7 @@ $IncludedPaclets["SimpleDocs"]=
 		"Name" -> "SimpleDocs",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
 		"Site" -> "http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-		"Update" -> "DownloadNever"
+		"Update" -> Automatic
 	|>
 
 (* ::Subsubsection::Closed:: *)
