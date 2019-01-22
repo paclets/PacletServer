@@ -1,104 +1,71 @@
 <|
-	"Rubi" -> {
+	"EcoEvo" -> {
 		<|
-			"Date" -> "Thu 17 Jan 2019 01:41:39",
-			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
-			"Author" -> "Albert D. Rich"
+			"Date" -> "Mon 21 Jan 2019 20:25:16",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 		|>,
 		<|
-			"Date" -> "Thu 17 Jan 2019 01:41:09",
-			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
-			"Author" -> "Albert D. Rich"
+			"Date" -> "Tue 25 Dec 2018 03:41:22",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 		|>,
 		<|
-			"Date" -> "Wed 16 Jan 2019 09:55:44",
-			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
-			"Author" -> "Albert D. Rich"
+			"Date" -> "Tue 25 Dec 2018 03:06:58",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 		|>
 	},
-	"PublicPacletServer" -> {
+	"SimpleDocs" -> {
 		<|
-			"Date" -> "Wed 16 Jan 2019 09:49:46",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Date" -> "Mon 21 Jan 2019 20:25:15",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Tue 15 Jan 2019 02:00:40",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Date" -> "Mon 14 Jan 2019 18:16:15",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Sat 5 Jan 2019 23:45:18",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Date" -> "Tue 25 Dec 2018 03:41:20",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Sat 5 Jan 2019 14:50:39",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Date" -> "Tue 27 Nov 2018 03:16:09",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Sat 5 Jan 2019 14:47:28",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Date" -> "Sat 24 Nov 2018 17:05:01",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>
+	},
+	"MaTeX" -> {
+		<|
+			"Date" -> "Mon 21 Jan 2019 20:25:10",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Sat 5 Jan 2019 14:34:29",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+			"Date" -> "Tue 19 Jun 2018 02:58:07",
+			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Sat 5 Jan 2019 14:32:09",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 05:59:54",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:45:40",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:41:17",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Wed 28 Nov 2018 06:30:42",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-			"Date" -> "Sat 29 Sep 2018 13:03:31",
-			"Message" -> "Manually updated PublicPacletServer"
-		|>,
-		<|
-			"Date" -> "Thu 27 Sep 2018 22:41:27",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Thu 27 Sep 2018 19:21:27",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Jun 2018 07:38:25",
-			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-			"Date" -> "Tue 5 Jun 2018 21:30:56",
-			"Message" -> "Manually updated PublicPacletServer"
+			"Date" -> "Mon 18 Jun 2018 10:10:54",
+			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},
 	"BTools" -> {
+		<|
+			"Date" -> "Mon 21 Jan 2019 20:25:10",
+			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Wed 16 Jan 2019 09:49:44",
 			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -270,6 +237,105 @@
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
+	"Rubi" -> {
+		<|
+			"Date" -> "Thu 17 Jan 2019 01:41:39",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>,
+		<|
+			"Date" -> "Thu 17 Jan 2019 01:41:09",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>,
+		<|
+			"Date" -> "Wed 16 Jan 2019 09:55:44",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>
+	},
+	"PublicPacletServer" -> {
+		<|
+			"Date" -> "Wed 16 Jan 2019 09:49:46",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 15 Jan 2019 02:00:40",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 23:45:18",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:50:39",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:47:28",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:34:29",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 5 Jan 2019 14:32:09",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 05:59:54",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:45:40",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:41:17",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Wed 28 Nov 2018 06:30:42",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
+			"Date" -> "Sat 29 Sep 2018 13:03:31",
+			"Message" -> "Manually updated PublicPacletServer"
+		|>,
+		<|
+			"Date" -> "Thu 27 Sep 2018 22:41:27",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Thu 27 Sep 2018 19:21:27",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Jun 2018 07:38:25",
+			"Message" -> "Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
+			"Date" -> "Tue 5 Jun 2018 21:30:56",
+			"Message" -> "Manually updated PublicPacletServer"
+		|>
+	},
 	"OptionsValidation" -> {
 		<|
 			"Date" -> "Tue 15 Jan 2019 01:49:54",
@@ -366,28 +432,6 @@
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
-	"SimpleDocs" -> {
-		<|
-			"Date" -> "Mon 14 Jan 2019 18:16:15",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:41:20",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 27 Nov 2018 03:16:09",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 24 Nov 2018 17:05:01",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
 	"ErrorPlot" -> {
 		<|
 			"Date" -> "Tue 25 Dec 2018 05:59:55",
@@ -398,18 +442,6 @@
 			"Date" -> "Tue 25 Dec 2018 03:07:03",
 			"Message" -> "Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot",
 			"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
-		|>
-	},
-	"EcoEvo" -> {
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:41:22",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:06:58",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 		|>
 	},
 	"IGraphM" -> {
@@ -472,18 +504,6 @@
 			"Date" -> "Fri 29 Jun 2018 13:35:47",
 			"Message" -> "Downloaded paclet PyTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
-	"MaTeX" -> {
-		<|
-			"Date" -> "Tue 19 Jun 2018 02:58:07",
-			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Jun 2018 10:10:54",
-			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},
 	"Deus" -> {
