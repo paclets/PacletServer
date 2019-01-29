@@ -458,5 +458,25 @@
 		"Date" -> "Mon 21 Jan 2019 20:25:16",
 		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
 		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Mon 28 Jan 2019 19:58:17",
+		"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"MaTeX" -> <|
+		"Date" -> "Mon 28 Jan 2019 19:58:18",
+		"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"MeshTools" -> <|
+		"Date" -> "Mon 28 Jan 2019 19:58:39",
+		"Message" -> "Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.4.0",
+		"Author" -> "Matevz Pintar"
+	|>,
+	"Rubi" -> <|
+		"Date" -> "Mon 28 Jan 2019 19:58:40",
+		"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+		"Author" -> "Albert D. Rich"
 	|>
 }

@@ -114,17 +114,18 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "MeshTools",
-	  Version -> "0.3.1",
-	  Creator -> "C3M d.o.o. <info@c3m.si>",
+	  Version -> "0.4.0",
+	  Creator -> "Matevz Pintar",
 	  URL -> "https://github.com/c3m-labs/MeshTools",
 	  Description -> "Utilities for creating and manipulating ElementMesh objects.",
 	  WolframVersion -> "11.+",
 	  Internal -> False,
-	  BuildNumber -> 95,
-	  Thumbnail -> "Icon.png",
-	  Extensions -> {{"Kernel", Root -> ".", Context -> {"MeshTools`"}}, {"Documentation", Language -> "English", MainPage -> "Guides/MeshTools"}, {"PacletServer", "Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for  creating and manipulating ElementMesh objects.", "License" -> "MIT"}},
-	  Hash -> "v0.3.1-0-gce5537b",
-	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
+	  BuildNumber -> 127,
+	  Thumbnail -> "FrontEnd/Icon.png",
+	  Extensions -> {{"Kernel", Root -> ".", Context -> {"MeshTools`"}}, {"Documentation", Language -> "English", MainPage -> "Guides/MeshTools"}, {"PacletServer", "Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for creating and manipulating ElementMesh objects.", "License" -> "MIT"}},
+	  Hash -> "v0.4.0-0-g4df3a20",
+	  Location -> "https://github.com/c3m-labs/MeshTools/releases/download/v0.4.0/MeshTools-0.4.0.paclet",
+	  Publisher -> "C3M d.o.o."
 	 ],
 	Paclet[
 	  Name -> "OptionsValidation",

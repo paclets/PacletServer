@@ -145,6 +145,17 @@ $IncludedPaclets["CompoundMatrixMethod"]=
 	|>
 
 (* ::Subsubsection::Closed:: *)
+(*MeshTools*)
+
+$IncludedPaclets["MeshTools"]=
+	<|
+		"Name" -> "MeshTools",
+		"Author" -> "Matevz Pintar",
+		"URL" -> "github-release:c3m-labs/MeshTools/v0.4.0",
+		"Update" -> "DownloadNever"
+	|>
+
+(* ::Subsubsection::Closed:: *)
 (*Rubi*)
 
 $IncludedPaclets["Rubi"]=

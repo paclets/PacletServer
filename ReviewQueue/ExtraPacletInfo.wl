@@ -52,6 +52,17 @@ $ExtraPacletInfo["IGraphM"]=
       |>;
 
 
+(* ::Subsubsection:: *)
+(*MeshTools*)
+
+
+$ExtraPacletInfo["MeshTools"]=
+  <|
+      "Location"->
+        "github-release:c3m-labs/MeshTools/v0.4.0"
+      |>;
+
+
 (* ::Subsubsection::Closed:: *)
 (*Rubi*)
 
