@@ -1,30 +1,31 @@
 Title: MeshTools
-Authors: C3M d.o.o.
-BuildNumber: 95
+Authors: Matevz Pintar
+BuildNumber: 127
 Categories: FEM
-Creator: C3M d.o.o. <info@c3m.si>
-Description: A package with utilities for  creating and manipulating ElementMesh objects.
+Creator: Matevz Pintar
+Description: A package with utilities for creating and manipulating ElementMesh objects.
 DisplayName: MeshTools
-Extensions: <|"Kernel" -> <|Root -> ".", Context -> {"MeshTools`"}|>, "Documentation" -> <|Language -> "English", MainPage -> "Guides/MeshTools"|>, "PacletServer" -> <|"Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for  creating and manipulating ElementMesh objects.", "License" -> "MIT"|>|>
-Hash: v0.3.1-0-gce5537b
+Extensions: <|"Kernel" -> <|Root -> ".", Context -> {"MeshTools`"}|>, "Documentation" -> <|Language -> "English", MainPage -> "Guides/MeshTools"|>, "PacletServer" -> <|"Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for creating and manipulating ElementMesh objects.", "License" -> "MIT"|>|>
+Hash: v0.4.0-0-g4df3a20
 Internal: False
 License: MIT
-Modified: 2018-09-28 14:54:45
+Modified: 2019-01-28 19:58:38
 Name: MeshTools
+Publisher: C3M d.o.o.
 Slug: meshtools
 Tags: finite-elements,mesh,FEM
-Thumbnail: Icon.png
+Thumbnail: FrontEnd/Icon.png
 URL: https://github.com/c3m-labs/MeshTools
-Version: 0.3.1
+Version: 0.4.0
 WolframVersion: 11.+
 
 <a id="meshtools" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # MeshTools
 
-![MeshTools]({filename}/img/MeshTools/Icon.png)
+![MeshTools]({filename}/img/MeshTools/FrontEnd/Icon.png)
 
-A package with utilities for  creating and manipulating ElementMesh objects.
+A package with utilities for creating and manipulating ElementMesh objects.
 
 ---
 
@@ -57,19 +58,25 @@ MeshTools
 
 ###Version
 
-0.3.1
+0.4.0
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Creator
 
-[C3M d.o.o.](mailto:info@c3m.si)
+Matevz Pintar
 
 <a id="url" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###URL
 
 [https://github.com/c3m-labs/MeshTools](https://github.com/c3m-labs/MeshTools)
+
+<a id="publisher" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###Publisher
+
+C3M d.o.o.
 
 <a id="license" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
