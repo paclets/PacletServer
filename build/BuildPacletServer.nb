@@ -31,8 +31,9 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{
        RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
-       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
-   ";"}]}]], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
+       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]}]], "Code",
+ CellLabel->
+  "In[1661]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -571,6 +572,42 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
+Cell["Rebuild Content Local", \
+"Subsubsection",ExpressionUUID->"5a03b9c9-00cf-4fd9-b499-be132379fbb2"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PublicPacletServerRebuild", "[", 
+   RowBox[{
+    RowBox[{"{", "\"\<Build\>\"", 
+     RowBox[{"(*", 
+      RowBox[{",", " ", "\"\<Test\>\""}], "*)"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateSearchPage\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<RegenerateContent\>\"", "\[Rule]", "False"}], ",", 
+    RowBox[{"(*", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"\"\<ConfigurationOptions\>\"", "\[Rule]", 
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{"\"\<SiteURL\>\"", "\[Rule]", "Automatic"}], 
+        "\[IndentingNewLine]", "}"}]}], ","}], "*)"}], "\[IndentingNewLine]", 
+    
+    RowBox[{"\"\<LastBuild\>\"", "\[Rule]", 
+     RowBox[{"Now", "-", 
+      RowBox[{"Quantity", "[", 
+       RowBox[{"10", ",", " ", "\"\<Hours\>\""}], "]"}]}]}]}], 
+   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
+ CellLabel->
+  "In[1643]:=",ExpressionUUID->"6112c9b7-891e-4337-886c-fa6ce186a6ce"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
 Cell["Just Copy Theme", \
 "Subsubsection",ExpressionUUID->"49f4ec22-0788-4e46-8b43-c3eb8e31a1d0"],
 
@@ -730,18 +767,145 @@ Cell[BoxData[
    RowBox[{"\"\<SetUseKeychain\>\"", ",", " ", "True"}], "]"}], 
   ";"}]], "Input",
  CellLabel->
-  "In[892]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
+  "In[1668]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
+
+Cell[BoxData[
+ RowBox[{"PublicPacletServer`Dependencies`BTools`External`GoogleAPIData", 
+  "[", "\"\<ClearAuthentication\>\"", "]"}]], "Input",
+ CellLabel->
+  "In[1667]:=",ExpressionUUID->"50caf641-b43e-4f30-8cec-2ce41095caf8"],
 
 Cell["First evaluation doesn\[CloseCurlyQuote]t work for some reason... \
 hmm...", "Text",ExpressionUUID->"3af73f17-c6d6-4970-b739-1af9360d4bbb"],
 
 Cell[BoxData[
- RowBox[{"WithLocalPublicPacletServer", "@", "\[IndentingNewLine]", 
-  RowBox[{
-  "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
+ RowBox[{"PublicPacletServer`PublicPacletServer", "[", 
+  "\"\<UpdateAnalytics\>\"", "]"}]], "Input",
+ CellLabel->
+  "In[1670]:=",ExpressionUUID->"30a7aa5e-d1f1-414a-8b06-cd5c38838f9d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Catch", "@", "\[IndentingNewLine]", 
+  RowBox[{"GeneralUtilities`WithMessageHandler", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"WithLocalPublicPacletServer", "@", "\[IndentingNewLine]", 
+     RowBox[{
+     "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
+      "]"}]}], ",", "\[IndentingNewLine]", "Throw"}], "\[IndentingNewLine]", 
    "]"}]}]], "Input",
  CellLabel->
-  "In[894]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+  "In[1669]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Failure",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{PaneSelectorBox[{False -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"String or list of strings expected at position \
+\\!\\(\\*TagBox[\\\"1\\\", Function[Short[Slot[1], 5]]]\\) in \
+\\!\\(\\*TagBox[RowBox[{\\\"StringTrim\\\", \\\"[\\\", \
+RowBox[{RowBox[{RowBox[{\\\"\\\\\\\"Reports\\\\\\\"\\\", \\\"[\\\", \
+\\\"\\\\\\\"ColumnHeader\\\\\\\"\\\", \\\"]\\\"}], \\\"[\\\", \
+\\\"\\\\\\\"Dimensions\\\\\\\"\\\", \\\"]\\\"}], \\\",\\\", \\\"\\\\\\\"ga:\\\
+\\\\\"\\\"}], \\\"]\\\"}], Function[Short[Slot[1], 5]]]\\).\"", 
+                    "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["StringTrim", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"String or list of strings expected at position \
+\\!\\(\\*TagBox[\\\"1\\\", Function[Short[Slot[1], 5]]]\\) in \
+\\!\\(\\*TagBox[RowBox[{\\\"StringTrim\\\", \\\"[\\\", \
+RowBox[{RowBox[{RowBox[{\\\"\\\\\\\"Reports\\\\\\\"\\\", \\\"[\\\", \
+\\\"\\\\\\\"ColumnHeader\\\\\\\"\\\", \\\"]\\\"}], \\\"[\\\", \
+\\\"\\\\\\\"Dimensions\\\\\\\"\\\", \\\"]\\\"}], \\\",\\\", \\\"\\\\\\\"ga:\\\
+\\\\\"\\\"}], \\\"]\\\"}], Function[Short[Slot[1], 5]]]\\).\"", 
+                    "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["StringTrim", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Failure[StringTrim, 
+   Association[
+   "MessageTemplate" :> MessageName[StringTrim, "strse"], "MessageParameters" -> {
+      HoldForm[1], 
+      HoldForm[
+       StringTrim[
+        "Reports"["ColumnHeader"]["Dimensions"], "ga:"]]}]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellLabel->
+  "Out[1669]=",ExpressionUUID->"d91c20d1-3f6c-4c25-83cd-3a2353a45568"]
+}, Open  ]],
 
 Cell[BoxData[{
  RowBox[{
@@ -766,7 +930,7 @@ Cell[BoxData[{
 }, Open  ]]
 },
 WindowSize->{808, 759},
-WindowMargins->{{28, Automatic}, {Automatic, 2}},
+WindowMargins->{{Automatic, 239}, {Automatic, 0}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,

@@ -1,5 +1,5 @@
 Title: Submit
-Modified: 2019-01-18 21:12:22
+Modified: 2019-02-01 12:11:03
 scripts: <script src="../theme/js/submit.js"></script>
 
 <a id="pacletsubmission" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
@@ -64,6 +64,30 @@ Here you need to include your GitHub login info so we can actually do the submis
  <input class="submit-text" type="password" id="Password" placeholder="Password" autocomplete="current-password"></input>
 </form>
 <button class="submit-button" type="button" onclick="submit()">Submit</button>
+
+<a id="copypasterequest" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###Copy-Paste Request
+
+If you'd prefer not to submit a GitHub request directly via the API you can always copy the data below and paste it  [here](https://github.com/paclets/PacletServer/issues/new) .
+
+<a id="title" class="Subsubsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+#### Title
+
+<pre class="req-title-box" class="copy-request-box" id="copy-request-title">Use 'Generate Request' to fill this out</pre>
+
+<a id="body" class="Subsubsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+#### Body
+
+<pre class="req-body-box" class="copy-request-box" id="copy-request-body">
+
+
+
+</pre>
+
+<button class="submit-button" type="button" onclick="pasteData()">Generate Request</button>
 
 <a id="potentialquestions" class="Subsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

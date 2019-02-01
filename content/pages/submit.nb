@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     16086,        399]
-NotebookOptionsPosition[     12552,        330]
-NotebookOutlinePosition[     13149,        353]
-CellTagsIndexPosition[     13078,        348]
+NotebookDataLength[     19126,        483]
+NotebookOptionsPosition[     14788,        401]
+NotebookOutlinePosition[     15383,        424]
+CellTagsIndexPosition[     15312,        419]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -251,6 +251,77 @@ c9f5a658db85"]
 
 Cell[CellGroupData[{
 
+Cell["Copy-Paste Request", "Subsubsection",
+ CellChangeTimes->{{3.7580398723715343`*^9, 
+  3.7580398781294394`*^9}},ExpressionUUID->"06d5c41c-803e-49b6-bd6d-\
+f59d57981a95"],
+
+Cell[TextData[{
+ "If you\[CloseCurlyQuote]d prefer not to submit a GitHub request directly \
+via the API you can always copy the data below and paste it ",
+ ButtonBox["here",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://github.com/paclets/PacletServer/issues/new"], None},
+  ButtonNote->"https://github.com/paclets/PacletServer/issues/new"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.7580398796415777`*^9, 3.7580399231443233`*^9}, {
+  3.758039958416987*^9, 
+  3.758039958421719*^9}},ExpressionUUID->"44781f77-6706-4236-a96a-\
+d70d0d6d740b"],
+
+Cell[CellGroupData[{
+
+Cell["Title", "Subsubsubsection",
+ CellChangeTimes->{{3.7580399615929832`*^9, 
+  3.758039967527094*^9}},ExpressionUUID->"5ca7f74c-17ba-4444-a38e-\
+cf3734c43ae6"],
+
+Cell["\<\
+<pre class=\"req-title-box\" class=\"copy-request-box\" \
+id=\"copy-request-title\">Use 'Generate Request' to fill this out</pre>\
+\>", "RawMarkdown",
+ CellChangeTimes->{{3.7580399841356487`*^9, 3.758040042554049*^9}, {
+  3.758040135929324*^9, 3.758040199651698*^9}, {3.7580406528503036`*^9, 
+  3.758040657222643*^9}},ExpressionUUID->"b46ffe89-a540-40a8-9171-\
+2eac6c996eb8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Body", "Subsubsubsection",
+ CellChangeTimes->{{3.7580399615929832`*^9, 3.758039967527094*^9}, {
+  3.758040142129457*^9, 
+  3.758040142727705*^9}},ExpressionUUID->"760b4988-36f8-4337-84e9-\
+faedd8d68766"],
+
+Cell["\<\
+<pre class=\"req-body-box\" class=\"copy-request-box\" id=\"copy-request-body\
+\">
+
+
+
+</pre>\
+\>", "RawMarkdown",
+ CellChangeTimes->{{3.7580399841356487`*^9, 3.758040042554049*^9}, {
+   3.758040135929324*^9, 3.7580401571190577`*^9}, {3.758040202579197*^9, 
+   3.758040203763496*^9}, 
+   3.758040659818449*^9},ExpressionUUID->"3e0c2518-7bec-42a1-b0ac-\
+5ee046835bbc"],
+
+Cell["\<\
+<button class=\"submit-button\" type=\"button\" \
+onclick=\"pasteData()\">Generate Request</button>\
+\>", "RawMarkdown",
+ CellChangeTimes->{{3.7580400491311417`*^9, 
+  3.758040083456888*^9}},ExpressionUUID->"3d075848-8adb-4dd9-9307-\
+8e5942d1b33b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
 Cell["Potential Questions", "Subsection",
  CellChangeTimes->{{3.756821219316368*^9, 
   3.7568212234993773`*^9}},ExpressionUUID->"31ebece5-8aa5-4e06-8080-\
@@ -329,7 +400,7 @@ paclet"],
 }, Open  ]]
 },
 WindowSize->{808, 755},
-WindowMargins->{{117, Automatic}, {45, Automatic}},
+WindowMargins->{{5, Automatic}, {27, Automatic}},
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
 2018)",
 StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
@@ -347,7 +418,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Metadata", 12930, 342}
+ {"Metadata", 15164, 413}
  }
 *)
 (*NotebookFileOutline
@@ -389,15 +460,28 @@ Cell[8109, 218, 302, 7, 35, "Text",ExpressionUUID->"d2251fac-3b7a-4699-9518-7a7d
 Cell[8414, 227, 1164, 21, 99, "RawMarkdown",ExpressionUUID->"d00b13e6-69fb-43fb-b039-c9f5a658db85"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9615, 253, 169, 3, 41, "Subsection",ExpressionUUID->"31ebece5-8aa5-4e06-8080-1c1b7a0c2f6a"],
+Cell[9615, 253, 173, 3, 40, "Subsubsection",ExpressionUUID->"06d5c41c-803e-49b6-bd6d-f59d57981a95"],
+Cell[9791, 258, 551, 13, 58, "Text",ExpressionUUID->"44781f77-6706-4236-a96a-d70d0d6d740b"],
 Cell[CellGroupData[{
-Cell[9809, 260, 280, 4, 40, "Subsubsection",ExpressionUUID->"83805fde-aa30-4607-b453-164ebed0e7bf"],
-Cell[10092, 266, 651, 14, 58, "Text",ExpressionUUID->"d87429c1-9a09-4799-ab88-c38675f77fbf"]
+Cell[10367, 275, 161, 3, 35, "Subsubsubsection",ExpressionUUID->"5ca7f74c-17ba-4444-a38e-cf3734c43ae6"],
+Cell[10531, 280, 385, 7, 35, "RawMarkdown",ExpressionUUID->"b46ffe89-a540-40a8-9171-2eac6c996eb8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10780, 285, 280, 4, 40, "Subsubsection",ExpressionUUID->"bb8108fd-dbb4-4ff9-b19d-cb1f6cf02e0b"],
-Cell[11063, 291, 861, 16, 104, "Text",ExpressionUUID->"029c88cc-dd96-4ee1-8757-438dc4cf31c4"],
-Cell[11927, 309, 585, 16, 58, "Text",ExpressionUUID->"fa209394-a021-4506-b3c4-4489830b1e6d"]
+Cell[10953, 292, 209, 4, 35, "Subsubsubsection",ExpressionUUID->"760b4988-36f8-4337-84e9-faedd8d68766"],
+Cell[11165, 298, 376, 12, 99, "RawMarkdown",ExpressionUUID->"3e0c2518-7bec-42a1-b0ac-5ee046835bbc"],
+Cell[11544, 312, 258, 6, 35, "RawMarkdown",ExpressionUUID->"3d075848-8adb-4dd9-9307-8e5942d1b33b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11851, 324, 169, 3, 41, "Subsection",ExpressionUUID->"31ebece5-8aa5-4e06-8080-1c1b7a0c2f6a"],
+Cell[CellGroupData[{
+Cell[12045, 331, 280, 4, 40, "Subsubsection",ExpressionUUID->"83805fde-aa30-4607-b453-164ebed0e7bf"],
+Cell[12328, 337, 651, 14, 58, "Text",ExpressionUUID->"d87429c1-9a09-4799-ab88-c38675f77fbf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13016, 356, 280, 4, 40, "Subsubsection",ExpressionUUID->"bb8108fd-dbb4-4ff9-b19d-cb1f6cf02e0b"],
+Cell[13299, 362, 861, 16, 104, "Text",ExpressionUUID->"029c88cc-dd96-4ee1-8757-438dc4cf31c4"],
+Cell[14163, 380, 585, 16, 58, "Text",ExpressionUUID->"fa209394-a021-4506-b3c4-4489830b1e6d"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

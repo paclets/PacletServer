@@ -162,3 +162,16 @@ function submit() {
   if (!req) { return false; }
   postRequest(req, openOnSuccess)
 }
+
+function pasteRequest(req) {
+  pasteHead = document.getElementById("copy-request-title")
+  pasteBox = document.getElementById("copy-request-body")
+  pasteHead.innerHTML = req["body"]["title"]
+  pasteBox.innerHTML = req["body"]["body"]
+}
+
+function pasteData() {
+  req = structureIssueRequest();
+  if (!req) { return false; }
+  pasteRequest(req)
+}
