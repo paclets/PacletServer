@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-  Categories | Mathematica Paclet Server
+  OBJImporter | Mathematica Paclet Server
 </title>
 <link
       rel='stylesheet'
@@ -71,8 +71,17 @@
   ga('create', 'UA-118356806-1', 'auto');
   ga('send', 'pageview');
 </script>
+      <meta name="description" content="">
+  <link href="https://paclets.github.io/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/prettify.js"></script>
+  <script src="https://paclets.github.io/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
+  <script>
+    function moveWindow (){window.location.hash="main-content";}
+  </script>
   </head>
-<body onload="">
+<body onload="
+  PR.prettyPrint(); moveWindow()
+">
   <header class="header">
     <div class="top-bar">
       <div class="site-title">
@@ -144,61 +153,75 @@
       <div class=col-sm-12 >
         <div class="main-content">
           <div class="container center-aligned">
-    <h3 class="page-header">
-  Categories
-    </h3>
             <br>
-  <table class="table table-bordered table-striped table-hover">
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/chemistry.html'>
-              Chemistry</a>
-          </td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/development.html'>
-              Development</a>
-          </td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/fem.html'>
-              FEM</a>
-          </td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/mathematics.html'>
-              Mathematics</a>
-          </td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/misc.html'>
-              misc</a>
-          </td>
-        <td>13</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/plotting.html'>
-              Plotting</a>
-          </td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>
-          <a href='https://paclets.github.io/PacletServer/categories/serviceconnections.html'>
-              ServiceConnections</a>
-          </td>
-        <td>3</td>
-      </tr>
-  </table>
+  <article class="article center-aligned">
+    <div class="content">
+      <a shape='rect' class='Section' id='objimporter' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h1> OBJImporter</h1>
+<p>Load OBJ (.obj) files with textures.
+</p>
+<hr />
+<a shape='rect' class='Subsection' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Install</h2>
+<p><strong>Before installing, be sure to check out the </strong><strong><a href='https://paclets.github.io/PacletServer/pages/log.html'>Change Log</a><strong> </strong> to make sure that you trust the developer.</strong></p>
+<p>To install this paclet, run:
+</p>
+<pre>
+ <code>&lt;&lt; https://paclets.github.io/PacletServer/Install.wl
+PublicPacletInstall[&quot;OBJImporter&quot;]</code>
+</pre>
+<ul>
+ <li>To update it, replace  <code>PublicPacletInstall</code> with  <code>PublicPacletUpdate</code> .</li>
+</ul>
+<hr />
+<a shape='rect' class='Subsection' id='basicinformation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Basic Information</h2>
+<a shape='rect' class='Subsubsection' id='name' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Name</h3>
+<p>OBJImporter</p>
+<a shape='rect' class='Subsubsection' id='version' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Version</h3>
+<p>1.1.0</p>
+<a shape='rect' class='Subsubsection' id='creator' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Creator</h3>
+<p>Calle Ekdahl
+</p>
+<hr />
+<a shape='rect' class='Subsection' id='extrainformation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extra Information</h2>
+<a shape='rect' class='Subsubsection' id='mathematicaversion' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>MathematicaVersion</h3>
+<p>11.0+
+</p>
+<hr />
+<a shape='rect' class='Subsection' id='extensions' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> Extensions</h2>
+<a shape='rect' class='Subsubsection' id='kernel' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Kernel</h3>
+<ul>
+ <li>Root: .</li>
+ <li>Context: OBJImporter`</li>
+</ul>
+    </div>
+  </article>
+<hr>
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function() {
+    this.page.url = 'https://paclets.github.io/PacletServer/objimporter.html';
+    this.page.identifier = 'objimporter';
+  };
+  (function() {
+    var d = document;
+    var s = d.createElement('script');
+    s.src = '//paclet-server.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript class="text-muted">
+  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
           </div>
         </div>
       </div>

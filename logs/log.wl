@@ -1,4 +1,11 @@
 <|
+	"OBJImporter" -> {
+		<|
+			"Date" -> "Sat 2 Feb 2019 11:52:28",
+			"Message" -> "Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest",
+			"Author" -> "CE <calle@ekdahl.email>"
+		|>
+	},
 	"Rubi" -> {
 		<|
 			"Date" -> "Mon 28 Jan 2019 19:58:40",
