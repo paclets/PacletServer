@@ -771,6 +771,11 @@ Cell["First evaluation doesn\[CloseCurlyQuote]t work for some reason... \
 hmm...", "Text",ExpressionUUID->"3af73f17-c6d6-4970-b739-1af9360d4bbb"],
 
 Cell[BoxData[
+ RowBox[{"PublicPacletServer`PackageScope`Private`PackageAppGet", "[", 
+  "\"\<Analytics/Analytics\>\"", "]"}]], "Input",
+ CellLabel->"In[15]:=",ExpressionUUID->"da0fe824-9f64-4734-9c53-761f5ec2e980"],
+
+Cell[BoxData[
  RowBox[{"Catch", "@", "\[IndentingNewLine]", 
   RowBox[{"GeneralUtilities`WithMessageHandler", "[", "\[IndentingNewLine]", 
    RowBox[{
@@ -779,7 +784,7 @@ Cell[BoxData[
      "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
       "]"}]}], ",", "\[IndentingNewLine]", "Throw"}], "\[IndentingNewLine]", 
    "]"}]}]], "Input",
- CellLabel->"In[5]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+ CellLabel->"In[14]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
 
 Cell[BoxData[{
  RowBox[{
@@ -793,12 +798,12 @@ Cell[BoxData[{
     "\[IndentingNewLine]", 
     RowBox[{"\"\<CopyContent\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
-    RowBox[{"\"\<CopyTheme\>\"", "\[Rule]", "False"}]}], 
-   "\[IndentingNewLine]", "]"}], ";"}], "\n", 
+    RowBox[{"\"\<CopyTheme\>\"", "\[Rule]", "True"}]}], "\[IndentingNewLine]",
+    "]"}], ";"}], "\n", 
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
   ";"}]}], "Input",
- CellLabel->"In[65]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"],
+ CellLabel->"In[8]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"],
 
 Cell[BoxData[""], \
 "Input",ExpressionUUID->"49514c1b-8514-484f-9f55-ec7800340baf"]

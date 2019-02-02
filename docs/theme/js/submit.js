@@ -119,7 +119,10 @@ function structureIssueRequest() {
   req = {
     "endpoint" : "https://api.github.com/repos/paclets/PacletServer/issues",
     "body" : body
-  };
+  }
+}
+
+function addAuthData(req) {
   auth = getGitHubData();
   if (!auth) { return false; };
   req["auth"] = "Basic "+btoa(auth["Username"]+":"+auth["Password"]);
@@ -159,6 +162,8 @@ function openOnSuccess(res) {
 
 function submit() {
   req = structureIssueRequest();
+  if (!req) { return false; }
+  req = addAuthData(req);
   if (!req) { return false; }
   postRequest(req, openOnSuccess)
 }
