@@ -119,7 +119,8 @@ function structureIssueRequest() {
   req = {
     "endpoint" : "https://api.github.com/repos/paclets/PacletServer/issues",
     "body" : body
-  }
+  };
+  return req;
 }
 
 function addAuthData(req) {
