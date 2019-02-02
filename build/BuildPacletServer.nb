@@ -773,7 +773,7 @@ hmm...", "Text",ExpressionUUID->"3af73f17-c6d6-4970-b739-1af9360d4bbb"],
 Cell[BoxData[
  RowBox[{"PublicPacletServer`PackageScope`Private`PackageAppGet", "[", 
   "\"\<Analytics/Analytics\>\"", "]"}]], "Input",
- CellLabel->"In[15]:=",ExpressionUUID->"da0fe824-9f64-4734-9c53-761f5ec2e980"],
+ CellLabel->"In[11]:=",ExpressionUUID->"da0fe824-9f64-4734-9c53-761f5ec2e980"],
 
 Cell[BoxData[
  RowBox[{"Catch", "@", "\[IndentingNewLine]", 
@@ -796,6 +796,12 @@ Cell[BoxData[{
     "\[IndentingNewLine]", 
     RowBox[{"\"\<GenerateAggregations\>\"", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateIndex\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<GenerateSearch\>\"", "\[Rule]", "False"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"\"\<ForceBuild\>\"", "\[Rule]", "True"}], ",", 
+    "\[IndentingNewLine]", 
     RowBox[{"\"\<CopyContent\>\"", "\[Rule]", "True"}], ",", 
     "\[IndentingNewLine]", 
     RowBox[{"\"\<CopyTheme\>\"", "\[Rule]", "True"}]}], "\[IndentingNewLine]",
@@ -803,10 +809,8 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
   ";"}]}], "Input",
- CellLabel->"In[8]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"],
-
-Cell[BoxData[""], \
-"Input",ExpressionUUID->"49514c1b-8514-484f-9f55-ec7800340baf"]
+ CellLabel->
+  "In[21]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

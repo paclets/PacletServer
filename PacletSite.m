@@ -128,6 +128,15 @@ PacletSite[
 	  Publisher -> "C3M d.o.o."
 	 ],
 	Paclet[
+	  Name -> "OBJImporter",
+	  Version -> "1.1.0",
+	  Creator -> "Calle Ekdahl",
+	  Description -> "Load OBJ (.obj) files with textures.",
+	  MathematicaVersion -> "11.0+",
+	  Extensions -> {{"Kernel", Root -> ".", Context -> "OBJImporter`"}},
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
+	 ],
+	Paclet[
 	  Name -> "OptionsValidation",
 	  Version -> "0.1.1",
 	  Creator -> "Jakub Kuczmarski",

@@ -232,6 +232,17 @@ $IncludedPaclets["CellsToTeX"]=
 		"Update" -> Automatic
 	|>
 
+(* ::Subsubsection::Closed:: *)
+(*OBJImporter*)
+
+$IncludedPaclets["OBJImporter"]=
+	<|
+		"Name" -> "OBJImporter",
+		"Author" -> "CE <calle@ekdahl.email>",
+		"URL" -> "github-release:cekdahl/OBJImporter/latest",
+		"Update" -> Automatic
+	|>
+
 
 (* ::Subsubsection::Closed:: *)
 (*End*)
