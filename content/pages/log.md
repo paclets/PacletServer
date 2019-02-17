@@ -1,17 +1,12 @@
 # Paclet Server Log
 
-<a id="OBJImporter" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## OBJImporter
-
-*** Saturday 2 February 2019 ***
-* Author: CE <calle@ekdahl.email>
-
->Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest
-
-
----
 <a id="Rubi" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## Rubi
+
+*** Saturday 16 February 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
 
 *** Monday 28 January 2019 ***
 * Author: Albert D. Rich
@@ -38,6 +33,11 @@
 <a id="MeshTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## MeshTools
 
+*** Saturday 16 February 2019 ***
+* Author: Matevz Pintar
+
+>Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.5.0
+
 *** Monday 28 January 2019 ***
 * Author: Matevz Pintar
 
@@ -52,6 +52,11 @@
 ---
 <a id="MaTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## MaTeX
+
+*** Saturday 16 February 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
 
 *** Monday 28 January 2019 ***
 * Author: Szabolcs Horvát <szhorvat@gmail.com>
@@ -77,6 +82,11 @@
 ---
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Saturday 16 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Monday 28 January 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -257,6 +267,16 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="OBJImporter" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## OBJImporter
+
+*** Saturday 2 February 2019 ***
+* Author: CE <calle@ekdahl.email>
+
+>Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest
 
 
 ---
