@@ -151,7 +151,7 @@ $IncludedPaclets["MeshTools"]=
 	<|
 		"Name" -> "MeshTools",
 		"Author" -> "Matevz Pintar",
-		"URL" -> "github-release:c3m-labs/MeshTools/v0.4.0",
+		"URL" -> "github-release:c3m-labs/MeshTools/v0.5.0",
 		"Update" -> "DownloadNever"
 	|>
 

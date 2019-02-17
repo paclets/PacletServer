@@ -483,5 +483,25 @@
 		"Date" -> "Sat 2 Feb 2019 11:52:28",
 		"Message" -> "Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest",
 		"Author" -> "CE <calle@ekdahl.email>"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Sat 16 Feb 2019 17:54:09",
+		"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"MaTeX" -> <|
+		"Date" -> "Sat 16 Feb 2019 17:54:10",
+		"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"MeshTools" -> <|
+		"Date" -> "Sat 16 Feb 2019 17:54:13",
+		"Message" -> "Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.5.0",
+		"Author" -> "Matevz Pintar"
+	|>,
+	"Rubi" -> <|
+		"Date" -> "Sat 16 Feb 2019 17:54:13",
+		"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+		"Author" -> "Albert D. Rich"
 	|>
 }

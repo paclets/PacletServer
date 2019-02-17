@@ -1,13 +1,13 @@
 PacletSite[
 	Paclet[
 	  Name -> "BTools",
-	  Version -> "2.1.44",
+	  Version -> "2.1.45",
 	  Creator -> "b3m2a1@gmail.com",
 	  URL -> "https://github.com/b3m2a1/mathematica-BTools",
 	  Description -> "A suite of development tools",
 	  WolframVersion -> "11+",
 	  Thumbnail -> "PacletIcon.png",
-	  Extensions -> {{"Kernel", "Root" -> ".", "Context" -> {"BTools`"}}, {"Resource", "Root" -> "Resources", "Resources" -> {"Data", "Icons", "Images", "PaletteGenerators", "Templates", "Themes", {"ResourceRules", "Data/FrontEnd/ResourceRules.wl"}, {"ResourceStrings", "Data/FrontEnd/ResourceStrings.wl"}, {"Resources", "Data/FrontEnd/Resources.wl"}, {"Tokens", "Data/FrontEnd/Tokens.wl"}, {"Values", "Data/FrontEnd/Values.wl"}, {"PacletIcon", "Icons/PacletIcon.png"}, {"PacletSiteIcon", "Icons/PacletSiteIcon.png"}, {"GoogleOAuthExample", "Images/GoogleOAuthExample.png"}, {"AppManagerPaletteGenerator", "PaletteGenerators/AppManagerPaletteGenerator.nb"}, {"CuratedDataHelperGenerator", "PaletteGenerators/CuratedDataHelperGenerator.nb"}, {"DocumentationGenerator", "PaletteGenerators/DocumentationGenerator.nb"}, {"EncodedCacheManagerGenerator", "PaletteGenerators/EncodedCacheManagerGenerator.nb"}, {"HTMLHelperGenerator", "PaletteGenerators/HTMLHelperGenerator.nb"}, {"PacletServerManagerGenerator", "PaletteGenerators/PacletServerManagerGenerator.nb"}, {"PaletteTemplate", "PaletteGenerators/PaletteTemplate.nb"}, {"PelicanHelperGenerator", "PaletteGenerators/PelicanHelperGenerator.nb"}, {"ServiceConnectionHelperGenerator", "PaletteGenerators/ServiceConnectionHelperGenerator.nb"}, {"SiteBuilderGenerator", "PaletteGenerators/SiteBuilderGenerator.nb"}, {"ContextLoader", "Templates/ContextLoader.wl"}, {"CuratedDataTemplate", "Templates/CuratedDataTemplate.nb"}, {"init", "Templates/Initialization/init.m"}, {"Main", "Templates/Initialization/Main.wl"}, {"README", "Templates/README.nb"}, {"ServiceConnectionTemplate", "Templates/ServiceConnectionTemplate.nb"}, {"FrontEnd", "Data/FrontEnd"}, {"Frameworks", "Templates/Frameworks"}, {"CuratedData", "Templates/Frameworks/CuratedData"}, {"$ServiceConnection", "Templates/Frameworks/$ServiceConnection"}, {"Initialization", "Templates/Initialization"}, {"Loader", "Templates/Initialization/Loader"}, {"SiteBuilder", "Templates/SiteBuilder"}, {"DocumentationSite", "Templates/SiteBuilder/DocumentationSite"}, {"PacletServer", "Templates/SiteBuilder/PacletServer"}, {"TutorialSite", "Templates/SiteBuilder/TutorialSite"}, {"WebSite", "Templates/SiteBuilder/WebSite"}, {"minimal", "Themes/minimal"}, {"static", "Themes/minimal/static"}, {"templates", "Themes/minimal/templates"}, {"template_lib", "Themes/template_lib"}, {"include", "Themes/template_lib/include"}, {"tipuesearch", "Themes/template_lib/tipuesearch"}}}, {"FrontEnd", "Prepend" -> True}, {"PacletServer", "Tags" -> {"documentation", "front-end", "paclets", "web"}, "Categories" -> {"Development"}, "Description" -> "A general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing", "License" -> "MIT"}, {"Documentation", "Language" -> "English", "MainPage" -> "Guides/BTools"}},
+	  Extensions -> {{"Kernel", "Root" -> ".", "Context" -> {"BTools`"}}, {"Resource", "Root" -> "Resources", "Resources" -> {"Data", "Icons", "Images", "PaletteGenerators", "Templates", "Themes", {"ResourceRules", "Data/FrontEnd/ResourceRules.wl"}, {"ResourceStrings", "Data/FrontEnd/ResourceStrings.wl"}, {"Resources", "Data/FrontEnd/Resources.wl"}, {"Tokens", "Data/FrontEnd/Tokens.wl"}, {"Values", "Data/FrontEnd/Values.wl"}, {"PacletIcon", "Icons/PacletIcon.png"}, {"PacletSiteIcon", "Icons/PacletSiteIcon.png"}, {"GoogleOAuthExample", "Images/GoogleOAuthExample.png"}, {"AppManagerPaletteGenerator", "PaletteGenerators/AppManagerPaletteGenerator.nb"}, {"CuratedDataHelperGenerator", "PaletteGenerators/CuratedDataHelperGenerator.nb"}, {"DocumentationGenerator", "PaletteGenerators/DocumentationGenerator.nb"}, {"EncodedCacheManagerGenerator", "PaletteGenerators/EncodedCacheManagerGenerator.nb"}, {"HTMLHelperGenerator", "PaletteGenerators/HTMLHelperGenerator.nb"}, {"PacletServerManagerGenerator", "PaletteGenerators/PacletServerManagerGenerator.nb"}, {"PaletteTemplate", "PaletteGenerators/PaletteTemplate.nb"}, {"ServiceConnectionHelperGenerator", "PaletteGenerators/ServiceConnectionHelperGenerator.nb"}, {"SiteBuilderGenerator", "PaletteGenerators/SiteBuilderGenerator.nb"}, {"ContextLoader", "Templates/ContextLoader.wl"}, {"CuratedDataTemplate", "Templates/CuratedDataTemplate.nb"}, {"init", "Templates/Initialization/init.m"}, {"Main", "Templates/Initialization/Main.wl"}, {"README", "Templates/README.nb"}, {"ServiceConnectionTemplate", "Templates/ServiceConnectionTemplate.nb"}, {"FrontEnd", "Data/FrontEnd"}, {"Frameworks", "Templates/Frameworks"}, {"CuratedData", "Templates/Frameworks/CuratedData"}, {"$ServiceConnection", "Templates/Frameworks/$ServiceConnection"}, {"Initialization", "Templates/Initialization"}, {"Loader", "Templates/Initialization/Loader"}, {"SiteBuilder", "Templates/SiteBuilder"}, {"DocumentationSite", "Templates/SiteBuilder/DocumentationSite"}, {"PacletServer", "Templates/SiteBuilder/PacletServer"}, {"TutorialSite", "Templates/SiteBuilder/TutorialSite"}, {"WebSite", "Templates/SiteBuilder/WebSite"}, {"minimal", "Themes/minimal"}, {"static", "Themes/minimal/static"}, {"templates", "Themes/minimal/templates"}, {"template_lib", "Themes/template_lib"}, {"include", "Themes/template_lib/include"}, {"tipuesearch", "Themes/template_lib/tipuesearch"}}}, {"FrontEnd", "Prepend" -> True}, {"PacletServer", "Tags" -> {"documentation", "front-end", "paclets", "web"}, "Categories" -> {"Development"}, "Description" -> "A general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing", "License" -> "MIT"}, {"Documentation", "Language" -> "English", "MainPage" -> "Guides/BTools"}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
@@ -114,17 +114,17 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "MeshTools",
-	  Version -> "0.4.0",
+	  Version -> "0.5.0",
 	  Creator -> "Matevz Pintar",
 	  URL -> "https://github.com/c3m-labs/MeshTools",
 	  Description -> "Utilities for creating and manipulating ElementMesh objects.",
 	  WolframVersion -> "11.+",
 	  Internal -> False,
-	  BuildNumber -> 127,
+	  BuildNumber -> 142,
 	  Thumbnail -> "FrontEnd/Icon.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> {"MeshTools`"}}, {"Documentation", Language -> "English", MainPage -> "Guides/MeshTools"}, {"PacletServer", "Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for creating and manipulating ElementMesh objects.", "License" -> "MIT"}},
-	  Hash -> "v0.4.0-0-g4df3a20",
-	  Location -> "https://github.com/c3m-labs/MeshTools/releases/download/v0.4.0/MeshTools-0.4.0.paclet",
+	  Hash -> "v0.5.0-0-g357ded3",
+	  Location -> "https://github.com/c3m-labs/MeshTools/releases/download/v0.5.0/MeshTools-0.5.0.paclet",
 	  Publisher -> "C3M d.o.o."
 	 ],
 	Paclet[

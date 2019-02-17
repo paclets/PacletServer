@@ -52,14 +52,14 @@ $ExtraPacletInfo["IGraphM"]=
       |>;
 
 
-(* ::Subsubsection:: *)
+(* ::Subsubsection::Closed:: *)
 (*MeshTools*)
 
 
 $ExtraPacletInfo["MeshTools"]=
   <|
       "Location"->
-        "github-release:c3m-labs/MeshTools/v0.4.0"
+        "github-release:c3m-labs/MeshTools/v0.5.0"
       |>;
 
 
