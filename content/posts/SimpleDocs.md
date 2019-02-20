@@ -4,15 +4,15 @@ Categories: Development
 Creator: b3m2a1 <b3m2a1@gmail.com>
 Description: A simple package to make simple documentation
 DisplayName: SimpleDocs
-Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"SimpleDocs`"}|>, "FrontEnd" -> <||>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/SimpleDocs"|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {{"icon_big", "icon_big.png"}, {"icon", "icon.png"}}|>, "PacletServer" -> <|"Tags" -> {"documentation"}, "Categories" -> {"Development"}, "Description" -> "A simple package to make simple documentation", "License" -> "MIT"|>|>
+Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"SimpleDocs`"}|>, "FrontEnd" -> <||>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/SimpleDocs"|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {{"icon_big", "icon_big.png"}, {"icon", "icon.png"}, {"SimpleDocsHelperGenerator", "SimpleDocsHelperGenerator.nb"}}|>, "PacletServer" -> <|"Tags" -> {"documentation"}, "Categories" -> {"Development"}, "Description" -> "A simple package to make simple documentation", "License" -> "MIT"|>|>
 License: MIT
-Modified: 2019-01-21 20:25:15
+Modified: 2019-02-20 00:53:20
 Name: SimpleDocs
 Slug: simpledocs
 Tags: documentation
 Thumbnail: Resources/icon.png
 URL: https://github.com/b3m2a1/SimpleDocs
-Version: 1.0.9
+Version: 1.0.11
 
 <a id="simpledocs" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -53,7 +53,7 @@ SimpleDocs
 
 ###Version
 
-1.0.9
+1.0.11
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -120,3 +120,5 @@ This package provides no extra information
   *  {icon_big, icon_big.png}
 
   *  {icon, icon.png}
+
+  *  {SimpleDocsHelperGenerator, SimpleDocsHelperGenerator.nb}

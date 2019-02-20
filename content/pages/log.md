@@ -1,57 +1,72 @@
 # Paclet Server Log
 
-<a id="Rubi" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## Rubi
+<a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## SimpleDocs
 
-*** Saturday 16 February 2019 ***
-* Author: Albert D. Rich
+*** Wednesday 20 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Monday 28 January 2019 ***
-* Author: Albert D. Rich
+*** Monday 21 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Thursday 17 January 2019 ***
-* Author: Albert D. Rich
+*** Monday 14 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Thursday 17 January 2019 ***
-* Author: Albert D. Rich
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Wednesday 16 January 2019 ***
-* Author: Albert D. Rich
+*** Tuesday 27 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 24 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---
-<a id="MeshTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## MeshTools
+<a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## EcoEvo
 
-*** Saturday 16 February 2019 ***
-* Author: Matevz Pintar
+*** Wednesday 20 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
 
->Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.5.0
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
 
-*** Monday 28 January 2019 ***
-* Author: Matevz Pintar
+*** Monday 21 January 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
 
->Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.4.0
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
 
-*** Friday 28 September 2018 ***
-* Author: C3M d.o.o. <info@c3m.si>
+*** Tuesday 25 December 2018 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
 
->Manually updated MeshTools paclet
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 25 December 2018 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
 
 
 ---
 <a id="MaTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## MaTeX
+
+*** Wednesday 20 February 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
 
 *** Saturday 16 February 2019 ***
 * Author: Szabolcs Horvát <szhorvat@gmail.com>
@@ -82,6 +97,11 @@
 ---
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Wednesday 20 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Saturday 16 February 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -270,6 +290,56 @@
 
 
 ---
+<a id="Rubi" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## Rubi
+
+*** Saturday 16 February 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Monday 28 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Thursday 17 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Thursday 17 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Wednesday 16 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+
+---
+<a id="MeshTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## MeshTools
+
+*** Saturday 16 February 2019 ***
+* Author: Matevz Pintar
+
+>Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.5.0
+
+*** Monday 28 January 2019 ***
+* Author: Matevz Pintar
+
+>Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.4.0
+
+*** Friday 28 September 2018 ***
+* Author: C3M d.o.o. <info@c3m.si>
+
+>Manually updated MeshTools paclet
+
+
+---
 <a id="OBJImporter" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## OBJImporter
 
@@ -277,56 +347,6 @@
 * Author: CE <calle@ekdahl.email>
 
 >Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest
-
-
----
-<a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## EcoEvo
-
-*** Monday 21 January 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 25 December 2018 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 25 December 2018 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-
----
-<a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## SimpleDocs
-
-*** Monday 21 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 14 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 25 December 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 27 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 24 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---

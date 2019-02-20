@@ -1,49 +1,64 @@
 <|
-	"Rubi" -> {
+	"SimpleDocs" -> {
 		<|
-			"Date" -> "Sat 16 Feb 2019 17:54:13",
-			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
-			"Author" -> "Albert D. Rich"
+			"Date" -> "Wed 20 Feb 2019 00:53:20",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 28 Jan 2019 19:58:40",
-			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
-			"Author" -> "Albert D. Rich"
+			"Date" -> "Mon 21 Jan 2019 20:25:15",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Thu 17 Jan 2019 01:41:39",
-			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
-			"Author" -> "Albert D. Rich"
+			"Date" -> "Mon 14 Jan 2019 18:16:15",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Thu 17 Jan 2019 01:41:09",
-			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
-			"Author" -> "Albert D. Rich"
+			"Date" -> "Tue 25 Dec 2018 03:41:20",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Wed 16 Jan 2019 09:55:44",
-			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
-			"Author" -> "Albert D. Rich"
+			"Date" -> "Tue 27 Nov 2018 03:16:09",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 24 Nov 2018 17:05:01",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
-	"MeshTools" -> {
+	"EcoEvo" -> {
 		<|
-			"Date" -> "Sat 16 Feb 2019 17:54:13",
-			"Message" -> "Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.5.0",
-			"Author" -> "Matevz Pintar"
+			"Date" -> "Wed 20 Feb 2019 00:53:20",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 		|>,
 		<|
-			"Date" -> "Mon 28 Jan 2019 19:58:39",
-			"Message" -> "Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.4.0",
-			"Author" -> "Matevz Pintar"
+			"Date" -> "Mon 21 Jan 2019 20:25:16",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 		|>,
 		<|
-			"Author" -> "C3M d.o.o. <info@c3m.si>",
-			"Date" -> "Fri 28 Sep 2018 15:54:19",
-			"Message" -> "Manually updated MeshTools paclet"
+			"Date" -> "Tue 25 Dec 2018 03:41:22",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:06:58",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 		|>
 	},
 	"MaTeX" -> {
+		<|
+			"Date" -> "Wed 20 Feb 2019 00:53:15",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Sat 16 Feb 2019 17:54:10",
 			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
@@ -71,6 +86,11 @@
 		|>
 	},
 	"BTools" -> {
+		<|
+			"Date" -> "Wed 20 Feb 2019 00:53:15",
+			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Sat 16 Feb 2019 17:54:09",
 			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -257,55 +277,55 @@
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
+	"Rubi" -> {
+		<|
+			"Date" -> "Sat 16 Feb 2019 17:54:13",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>,
+		<|
+			"Date" -> "Mon 28 Jan 2019 19:58:40",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>,
+		<|
+			"Date" -> "Thu 17 Jan 2019 01:41:39",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>,
+		<|
+			"Date" -> "Thu 17 Jan 2019 01:41:09",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>,
+		<|
+			"Date" -> "Wed 16 Jan 2019 09:55:44",
+			"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+			"Author" -> "Albert D. Rich"
+		|>
+	},
+	"MeshTools" -> {
+		<|
+			"Date" -> "Sat 16 Feb 2019 17:54:13",
+			"Message" -> "Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.5.0",
+			"Author" -> "Matevz Pintar"
+		|>,
+		<|
+			"Date" -> "Mon 28 Jan 2019 19:58:39",
+			"Message" -> "Downloaded paclet MeshTools from github-release:c3m-labs/MeshTools/v0.4.0",
+			"Author" -> "Matevz Pintar"
+		|>,
+		<|
+			"Author" -> "C3M d.o.o. <info@c3m.si>",
+			"Date" -> "Fri 28 Sep 2018 15:54:19",
+			"Message" -> "Manually updated MeshTools paclet"
+		|>
+	},
 	"OBJImporter" -> {
 		<|
 			"Date" -> "Sat 2 Feb 2019 11:52:28",
 			"Message" -> "Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest",
 			"Author" -> "CE <calle@ekdahl.email>"
-		|>
-	},
-	"EcoEvo" -> {
-		<|
-			"Date" -> "Mon 21 Jan 2019 20:25:16",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:41:22",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:06:58",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>
-	},
-	"SimpleDocs" -> {
-		<|
-			"Date" -> "Mon 21 Jan 2019 20:25:15",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 14 Jan 2019 18:16:15",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:41:20",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 27 Nov 2018 03:16:09",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 24 Nov 2018 17:05:01",
-			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
 	"PublicPacletServer" -> {
