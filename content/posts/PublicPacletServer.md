@@ -35,7 +35,7 @@ To install this paclet, run:
     << https://paclets.github.io/PacletServer/Install.wl
     PublicPacletInstall["PublicPacletServer"]
 
-*  To update it, replace  ```PublicPacletInstall``` with  ```PublicPacletUpdate``` . 
+*  To update it, replace  `PublicPacletInstall` with  `PublicPacletUpdate` . 
 
 ---
 
@@ -85,8 +85,8 @@ This package provides no extra information
 
 *  Resources
 
-  *  Templates
+  *  `Templates`
 
-  *  {ExtraPacletInfo, Templates/ExtraPacletInfo.wl}
+  *  `{ExtraPacletInfo, Templates/ExtraPacletInfo.wl}`
 
-  *  {IncludedPaclets, Templates/IncludedPaclets.wl}
+  *  `{IncludedPaclets, Templates/IncludedPaclets.wl}`

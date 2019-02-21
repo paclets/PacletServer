@@ -33,7 +33,7 @@ To install this paclet, run:
     << https://paclets.github.io/PacletServer/Install.wl
     PublicPacletInstall["ChemTools"]
 
-*  To update it, replace  ```PublicPacletInstall``` with  ```PublicPacletUpdate``` . 
+*  To update it, replace  `PublicPacletInstall` with  `PublicPacletUpdate` . 
 
 ---
 
@@ -101,58 +101,58 @@ This package provides no extra information
 
 *  Resources
 
-  *  Datasets
+  *  `Datasets`
 
-  *  Extensions
+  *  `Extensions`
 
-  *  Icons
+  *  `Icons`
 
-  *  PaletteGenerators
+  *  `PaletteGenerators`
 
-  *  Templates
+  *  `Templates`
 
-  *  {ChemAtomColors, Datasets/ChemAtomColors.wl}
+  *  `{ChemAtomColors, Datasets/ChemAtomColors.wl}`
 
-  *  {ChemBondDistances, Datasets/ChemBondDistances.wl}
+  *  `{ChemBondDistances, Datasets/ChemBondDistances.wl}`
 
-  *  {ChemConstants, Datasets/ChemConstants.wl}
+  *  `{ChemConstants, Datasets/ChemConstants.wl}`
 
-  *  {ChemCustomAtoms, Datasets/ChemCustomAtoms.wl}
+  *  `{ChemCustomAtoms, Datasets/ChemCustomAtoms.wl}`
 
-  *  {ChemElements, Datasets/ChemElements.wl}
+  *  `{ChemElements, Datasets/ChemElements.wl}`
 
-  *  {ChemElementValences, Datasets/ChemElementValences.wl}
+  *  `{ChemElementValences, Datasets/ChemElementValences.wl}`
 
-  *  {ChemIsotopicMasses, Datasets/ChemIsotopicMasses.wl}
+  *  `{ChemIsotopicMasses, Datasets/ChemIsotopicMasses.wl}`
 
-  *  {ChemUnitConversions, Datasets/ChemUnitConversions.wl}
+  *  `{ChemUnitConversions, Datasets/ChemUnitConversions.wl}`
 
-  *  {DVRIcon, Icons/DVRIcon.png}
+  *  `{DVRIcon, Icons/DVRIcon.png}`
 
-  *  {OpenBabelIcon, Icons/OpenBabelIcon.png}
+  *  `{OpenBabelIcon, Icons/OpenBabelIcon.png}`
 
-  *  {PacletIconBig, Icons/PacletIconBig.png}
+  *  `{PacletIconBig, Icons/PacletIconBig.png}`
 
-  *  {Psi4Icon, Icons/Psi4Icon.png}
+  *  `{Psi4Icon, Icons/Psi4Icon.png}`
 
-  *  {Psi4RunIcon, Icons/Psi4RunIcon.png}
+  *  `{Psi4RunIcon, Icons/Psi4RunIcon.png}`
 
-  *  {DVRManagerGenerator, PaletteGenerators/DVRManagerGenerator.nb}
+  *  `{DVRManagerGenerator, PaletteGenerators/DVRManagerGenerator.nb}`
 
-  *  {DVRNotebook, Templates/DVRNotebook.nb}
+  *  `{DVRNotebook, Templates/DVRNotebook.nb}`
 
-  *  {DVR, Extensions/DVR}
+  *  `{DVR, Extensions/DVR}`
 
-  *  {Classes, Extensions/DVR/Classes}
+  *  `{Classes, Extensions/DVR/Classes}`
 
-  *  {Instances, Extensions/DVR/Instances}
+  *  `{Instances, Extensions/DVR/Instances}`
 
-  *  {KineticEnergy, Extensions/DVR/KineticEnergy}
+  *  `{KineticEnergy, Extensions/DVR/KineticEnergy}`
 
-  *  {PotentialEnergy, Extensions/DVR/PotentialEnergy}
+  *  `{PotentialEnergy, Extensions/DVR/PotentialEnergy}`
 
-  *  {Wavefunctions, Extensions/DVR/Wavefunctions}
+  *  `{Wavefunctions, Extensions/DVR/Wavefunctions}`
 
-  *  {WSim, Extensions/WSim}
+  *  `{WSim, Extensions/WSim}`
 
 *  SystemID: *

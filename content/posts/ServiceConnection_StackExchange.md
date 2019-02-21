@@ -33,7 +33,7 @@ To install this paclet, run:
     << https://paclets.github.io/PacletServer/Install.wl
     PublicPacletInstall["ServiceConnection_StackExchange"]
 
-*  To update it, replace  ```PublicPacletInstall``` with  ```PublicPacletUpdate``` . 
+*  To update it, replace  `PublicPacletInstall` with  `PublicPacletUpdate` . 
 
 ---
 

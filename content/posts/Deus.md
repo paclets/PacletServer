@@ -31,7 +31,7 @@ To install this paclet, run:
     << https://paclets.github.io/PacletServer/Install.wl
     PublicPacletInstall["Deus"]
 
-*  To update it, replace  ```PublicPacletInstall``` with  ```PublicPacletUpdate``` . 
+*  To update it, replace  `PublicPacletInstall` with  `PublicPacletUpdate` . 
 
 ---
 

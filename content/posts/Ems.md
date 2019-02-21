@@ -36,7 +36,7 @@ To install this paclet, run:
     << https://paclets.github.io/PacletServer/Install.wl
     PublicPacletInstall["Ems"]
 
-*  To update it, replace  ```PublicPacletInstall``` with  ```PublicPacletUpdate``` . 
+*  To update it, replace  `PublicPacletInstall` with  `PublicPacletUpdate` . 
 
 ---
 
@@ -114,40 +114,40 @@ MIT
 
 *  Resources
 
-  *  Icons
+  *  `Icons`
 
-  *  Templates
+  *  `Templates`
 
-  *  Themes
+  *  `Themes`
 
-  *  {banner, Icons/banner.png}
+  *  `{banner, Icons/banner.png}`
 
-  *  {banner_tall, Icons/banner_tall.png}
+  *  `{banner_tall, Icons/banner_tall.png}`
 
-  *  {favicon-16x16, Icons/favicon-16x16.png}
+  *  `{favicon-16x16, Icons/favicon-16x16.png}`
 
-  *  {favicon-32x32, Icons/favicon-32x32.png}
+  *  `{favicon-32x32, Icons/favicon-32x32.png}`
 
-  *  {SiteConfig, Templates/blog/SiteConfig.wl}
+  *  `{SiteConfig, Templates/blog/SiteConfig.wl}`
 
-  *  {blog, Templates/blog}
+  *  `{blog, Templates/blog}`
 
-  *  {content, Templates/blog/content}
+  *  `{content, Templates/blog/content}`
 
-  *  {docs, Templates/docs}
+  *  `{docs, Templates/docs}`
 
-  *  {portfolio, Templates/portfolio}
+  *  `{portfolio, Templates/portfolio}`
 
-  *  {scroll, Templates/scroll}
+  *  `{scroll, Templates/scroll}`
 
-  *  {bootstrap-blog, Themes/bootstrap-blog}
+  *  `{bootstrap-blog, Themes/bootstrap-blog}`
 
-  *  {static, Themes/bootstrap-blog/static}
+  *  `{static, Themes/bootstrap-blog/static}`
 
-  *  {templates, Themes/bootstrap-blog/templates}
+  *  `{templates, Themes/bootstrap-blog/templates}`
 
-  *  {bootstrap-docs, Themes/bootstrap-docs}
+  *  `{bootstrap-docs, Themes/bootstrap-docs}`
 
-  *  {bootstrap-portfolio, Themes/bootstrap-portfolio}
+  *  `{bootstrap-portfolio, Themes/bootstrap-portfolio}`
 
-  *  {bootstrap-single-page, Themes/bootstrap-single-page}
+  *  `{bootstrap-single-page, Themes/bootstrap-single-page}`

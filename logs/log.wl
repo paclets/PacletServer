@@ -1,6 +1,11 @@
 <|
 	"SimpleDocs" -> {
 		<|
+			"Date" -> "Wed 20 Feb 2019 18:25:51",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
 			"Date" -> "Wed 20 Feb 2019 00:53:20",
 			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
@@ -33,6 +38,11 @@
 	},
 	"EcoEvo" -> {
 		<|
+			"Date" -> "Wed 20 Feb 2019 18:25:51",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
 			"Date" -> "Wed 20 Feb 2019 00:53:20",
 			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
 			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
@@ -54,6 +64,11 @@
 		|>
 	},
 	"MaTeX" -> {
+		<|
+			"Date" -> "Wed 20 Feb 2019 18:25:45",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Wed 20 Feb 2019 00:53:15",
 			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
@@ -86,6 +101,11 @@
 		|>
 	},
 	"BTools" -> {
+		<|
+			"Date" -> "Wed 20 Feb 2019 18:25:45",
+			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Wed 20 Feb 2019 00:53:15",
 			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",

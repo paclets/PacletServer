@@ -6,13 +6,13 @@ Description: A simple package to make simple documentation
 DisplayName: SimpleDocs
 Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"SimpleDocs`"}|>, "FrontEnd" -> <||>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/SimpleDocs"|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {{"icon_big", "icon_big.png"}, {"icon", "icon.png"}, {"SimpleDocsHelperGenerator", "SimpleDocsHelperGenerator.nb"}}|>, "PacletServer" -> <|"Tags" -> {"documentation"}, "Categories" -> {"Development"}, "Description" -> "A simple package to make simple documentation", "License" -> "MIT"|>|>
 License: MIT
-Modified: 2019-02-20 00:53:20
+Modified: 2019-02-20 18:25:51
 Name: SimpleDocs
 Slug: simpledocs
 Tags: documentation
 Thumbnail: Resources/icon.png
 URL: https://github.com/b3m2a1/SimpleDocs
-Version: 1.0.11
+Version: 1.1.1
 
 <a id="simpledocs" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -35,7 +35,7 @@ To install this paclet, run:
     << https://paclets.github.io/PacletServer/Install.wl
     PublicPacletInstall["SimpleDocs"]
 
-*  To update it, replace  ```PublicPacletInstall``` with  ```PublicPacletUpdate``` . 
+*  To update it, replace  `PublicPacletInstall` with  `PublicPacletUpdate` . 
 
 ---
 
@@ -53,7 +53,7 @@ SimpleDocs
 
 ###Version
 
-1.0.11
+1.1.1
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -117,8 +117,8 @@ This package provides no extra information
 
 *  Resources
 
-  *  {icon_big, icon_big.png}
+  *  `{icon_big, icon_big.png}`
 
-  *  {icon, icon.png}
+  *  `{icon, icon.png}`
 
-  *  {SimpleDocsHelperGenerator, SimpleDocsHelperGenerator.nb}
+  *  `{SimpleDocsHelperGenerator, SimpleDocsHelperGenerator.nb}`
