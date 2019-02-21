@@ -1,7 +1,7 @@
 PacletSite[
 	Paclet[
 	  Name -> "BTools",
-	  Version -> "2.1.46",
+	  Version -> "2.1.48",
 	  Creator -> "b3m2a1@gmail.com",
 	  URL -> "https://github.com/b3m2a1/mathematica-BTools",
 	  Description -> "A suite of development tools",
@@ -210,7 +210,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "SimpleDocs",
-	  Version -> "1.0.11",
+	  Version -> "1.1.1",
 	  Creator -> "b3m2a1 <b3m2a1@gmail.com>",
 	  URL -> "https://github.com/b3m2a1/SimpleDocs",
 	  Thumbnail -> "Resources/icon.png",

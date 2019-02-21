@@ -171,7 +171,7 @@ f006baabc747"],
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
- CellLabel->"In[3]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+ CellLabel->"In[8]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -764,15 +764,10 @@ Cell[BoxData[
   "PublicPacletServer`Dependencies`BTools`External`GoogleAPIData", "[", 
    RowBox[{"\"\<SetUseKeychain\>\"", ",", " ", "True"}], "]"}], 
   ";"}]], "Input",
- CellLabel->"In[3]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
+ CellLabel->"In[9]:=",ExpressionUUID->"e33867c7-d952-4b2d-8e0e-00c6fd2ce8ff"],
 
 Cell["First evaluation doesn\[CloseCurlyQuote]t work for some reason... \
 hmm...", "Text",ExpressionUUID->"3af73f17-c6d6-4970-b739-1af9360d4bbb"],
-
-Cell[BoxData[
- RowBox[{"PublicPacletServer`PackageScope`Private`PackageAppGet", "[", 
-  "\"\<Analytics/Analytics\>\"", "]"}]], "Input",
- CellLabel->"In[11]:=",ExpressionUUID->"da0fe824-9f64-4734-9c53-761f5ec2e980"],
 
 Cell[BoxData[
  RowBox[{"Catch", "@", "\[IndentingNewLine]", 
@@ -783,7 +778,7 @@ Cell[BoxData[
      "PublicPacletServer`PublicPacletServer", "[", "\"\<UpdateAnalytics\>\"", 
       "]"}]}], ",", "\[IndentingNewLine]", "Throw"}], "\[IndentingNewLine]", 
    "]"}]}]], "Input",
- CellLabel->"In[14]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
+ CellLabel->"In[16]:=",ExpressionUUID->"3d630fed-2a38-48dd-966d-0c8a1138652b"],
 
 Cell[BoxData[{
  RowBox[{
@@ -809,14 +804,14 @@ Cell[BoxData[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<Push\>\"", "]"}], 
   ";"}]}], "Input",
  CellLabel->
-  "In[21]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"]
+  "In[13]:=",ExpressionUUID->"87cbf5c8-13b6-45a6-82cd-8b698d447063"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 Evaluator->"Third",
 WindowSize->{808, 759},
-WindowMargins->{{140, Automatic}, {10, Automatic}},
+WindowMargins->{{10, Automatic}, {19, Automatic}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,
