@@ -3,6 +3,11 @@
 <a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## SimpleDocs
 
+*** Tuesday 26 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
 *** Wednesday 20 February 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
@@ -42,6 +47,11 @@
 ---
 <a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EcoEvo
+
+*** Tuesday 26 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
 
 *** Wednesday 20 February 2019 ***
 * Author: Christopher Klausmeier <klausme1@msu.edu>
