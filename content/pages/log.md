@@ -1,7 +1,52 @@
 # Paclet Server Log
 
+<a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## EcoEvo
+
+*** Tuesday 26 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 26 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Wednesday 20 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Wednesday 20 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 21 January 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 25 December 2018 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 25 December 2018 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+
+---
 <a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## SimpleDocs
+
+*** Tuesday 26 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 26 February 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -45,38 +90,28 @@
 
 
 ---
-<a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## EcoEvo
+<a id="ChemTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## ChemTools
 
 *** Tuesday 26 February 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Wednesday 20 February 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
+*** Thursday 19 July 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Wednesday 20 February 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
+*** Thursday 19 July 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Monday 21 January 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
+*** Friday 29 June 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 25 December 2018 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 25 December 2018 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---
@@ -622,26 +657,6 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
-<a id="ChemTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## ChemTools
-
-*** Thursday 19 July 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Thursday 19 July 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Friday 29 June 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---
