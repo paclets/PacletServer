@@ -553,5 +553,20 @@
 		"Date" -> "Tue 26 Feb 2019 20:41:38",
 		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
 		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+	|>,
+	"ChemTools" -> <|
+		"Date" -> "Tue 26 Feb 2019 20:42:37",
+		"Message" -> "Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"SimpleDocs" -> <|
+		"Date" -> "Tue 26 Feb 2019 20:42:40",
+		"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EcoEvo" -> <|
+		"Date" -> "Tue 26 Feb 2019 20:42:41",
+		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 	|>
 }
