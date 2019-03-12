@@ -168,22 +168,10 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
  CellLabel->"In[2]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
-
-Cell[BoxData[
- DynamicBox[ToBoxes[
-   Internal`LoadingPanel["Adding paclets..."], StandardForm],
-  Evaluator->"Third",
-  ImageSizeCache->{105., {20., 26.}}]], "PrintTemporary",
- CellLabel->
-  "During evaluation of \
-In[2]:=",ExpressionUUID->"1c089b93-44ff-4acb-bcd5-036bee38265d"]
-}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
