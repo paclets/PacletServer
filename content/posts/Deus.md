@@ -5,7 +5,7 @@ Creator: Sasaki Saki <galaster@foxmail.com>
 Description: Mathematica Game Package
 DisplayName: Deus
 Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"Deus`"}|>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/Deus"|>|>
-Modified: 2018-06-29 12:27:44
+Modified: 2018-06-29 13:27:44
 Name: Deus
 Slug: deus
 Tags: 

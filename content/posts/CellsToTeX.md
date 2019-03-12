@@ -6,7 +6,7 @@ Description: Convert Mathematica cells to TeX, retaining formatting
 DisplayName: CellsToTeX
 Extensions: <|"Kernel" -> <|Root -> ".", "Context" -> {"CellsToTeX`"}|>, "Documentation" -> <|Language -> "English"|>|>
 MathematicaVersion: 6+
-Modified: 2019-01-15 01:49:54
+Modified: 2019-01-15 02:49:54
 Name: CellsToTeX
 Slug: cellstotex
 Tags: 

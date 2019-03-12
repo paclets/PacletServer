@@ -1,21 +1,22 @@
 Title: PJLink
 Authors: b3m2a1
-Categories: misc
+Categories: Development
 Creator: b3m2a1@gmail.com
-Description: A JLink-like interface for python
+Description: A J/Link-like interface to python that provides a mechanism to evaluate code in pythonfrom Mathematica and in Mathematica from python. Memory is used efficiently allowing transfer of large data.
 DisplayName: PJLink
-Extensions: <|"Kernel" -> <|Root -> "Mathematica", Context -> "PJLink`"|>|>
-Modified: 2018-09-26 14:41:18
+Extensions: <|"Kernel" -> <|"Root" -> "Mathematica", "Context" -> {"PJLink`"}|>, "PacletServer" -> <|"Description" -> "A J/Link-like interface to python that provides a mechanism to evaluate code in pythonfrom Mathematica and in Mathematica from python. Memory is used efficiently allowing transfer of large data.", "License" -> "MIT", "Tags" -> {"python", "MathLink"}, "Categories" -> {"Development"}|>|>
+License: MIT
+Modified: 2019-03-11 17:27:41
 Name: PJLink
 Slug: pjlink
-Tags: 
-Version: 1.0.3
+Tags: python,MathLink
+Version: 1.0.7
 
 <a id="pjlink" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 # PJLink
 
-A JLink-like interface for python
+A J/Link-like interface to python that provides a mechanism to evaluate code in pythonfrom Mathematica and in Mathematica from python. Memory is used efficiently allowing transfer of large data.
 
 ---
 
@@ -48,13 +49,19 @@ PJLink
 
 ###Version
 
-1.0.3
+1.0.7
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Creator
 
 [b3m2a1@gmail.com](mailto:b3m2a1@gmail.com)
+
+<a id="license" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+
+###License
+
+MIT
 
 ---
 

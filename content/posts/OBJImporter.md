@@ -6,7 +6,7 @@ Description: Load OBJ (.obj) files with textures.
 DisplayName: OBJImporter
 Extensions: <|"Kernel" -> <|Root -> ".", Context -> "OBJImporter`"|>|>
 MathematicaVersion: 11.0+
-Modified: 2019-02-02 11:52:28
+Modified: 2019-02-02 12:52:28
 Name: OBJImporter
 Slug: objimporter
 Tags: 

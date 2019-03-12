@@ -3,6 +3,11 @@
 <a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EcoEvo
 
+*** Monday 11 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
 *** Tuesday 26 February 2019 ***
 * Author: Christopher Klausmeier <klausme1@msu.edu>
 
@@ -42,6 +47,11 @@
 ---
 <a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## SimpleDocs
+
+*** Monday 11 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 26 February 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -90,8 +100,28 @@
 
 
 ---
+<a id="PJLink" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## PJLink
+
+*** Monday 11 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Wednesday 26 September 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
 <a id="ChemTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## ChemTools
+
+*** Monday 11 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 26 February 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -117,6 +147,11 @@
 ---
 <a id="MaTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## MaTeX
+
+*** Monday 11 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
 
 *** Wednesday 20 February 2019 ***
 * Author: Szabolcs Horvát <szhorvat@gmail.com>
@@ -157,6 +192,11 @@
 ---
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Monday 11 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Wednesday 20 February 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -647,16 +687,6 @@
 * Author: Simon Pearce <simon.pearce@manchester.ac.uk>
 
 >Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod
-
-
----
-<a id="PJLink" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## PJLink
-
-*** Wednesday 26 September 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---
