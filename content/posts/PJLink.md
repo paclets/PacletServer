@@ -6,11 +6,11 @@ Description: A J/Link-like interface to python that provides a mechanism to eval
 DisplayName: PJLink
 Extensions: <|"Kernel" -> <|"Root" -> "Mathematica", "Context" -> {"PJLink`"}|>, "PacletServer" -> <|"Description" -> "A J/Link-like interface to python that provides a mechanism to evaluate code in pythonfrom Mathematica and in Mathematica from python. Memory is used efficiently allowing transfer of large data.", "License" -> "MIT", "Tags" -> {"python", "MathLink"}, "Categories" -> {"Development"}|>|>
 License: MIT
-Modified: 2019-03-11 17:27:41
+Modified: 2019-03-18 16:18:31
 Name: PJLink
 Slug: pjlink
 Tags: python,MathLink
-Version: 1.0.7
+Version: 1.1.1
 
 <a id="pjlink" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -49,7 +49,7 @@ PJLink
 
 ###Version
 
-1.0.7
+1.1.1
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
