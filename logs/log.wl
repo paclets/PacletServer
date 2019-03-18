@@ -1,6 +1,11 @@
 <|
 	"EcoEvo" -> {
 		<|
+			"Date" -> "Mon 18 Mar 2019 16:09:21",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
 			"Date" -> "Mon 11 Mar 2019 17:27:50",
 			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
 			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
@@ -42,6 +47,11 @@
 		|>
 	},
 	"SimpleDocs" -> {
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:09:20",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Mon 11 Mar 2019 17:27:49",
 			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -93,19 +103,12 @@
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
-	"PJLink" -> {
+	"ChemTools" -> {
 		<|
-			"Date" -> "Mon 11 Mar 2019 17:27:41",
-			"Message" -> "Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Date" -> "Mon 18 Mar 2019 16:09:15",
+			"Message" -> "Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
-		<|
-			"Date" -> "Wed 26 Sep 2018 15:41:18",
-			"Message" -> "Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
-	"ChemTools" -> {
 		<|
 			"Date" -> "Mon 11 Mar 2019 17:27:39",
 			"Message" -> "Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -129,6 +132,18 @@
 		<|
 			"Date" -> "Fri 29 Jun 2018 13:35:49",
 			"Message" -> "Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>
+	},
+	"PJLink" -> {
+		<|
+			"Date" -> "Mon 11 Mar 2019 17:27:41",
+			"Message" -> "Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Wed 26 Sep 2018 15:41:18",
+			"Message" -> "Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
