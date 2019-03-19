@@ -1,67 +1,10 @@
 <|
-	"EcoEvo" -> {
-		<|
-			"Date" -> "Mon 18 Mar 2019 16:18:35",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Mar 2019 16:15:06",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Mar 2019 16:12:27",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Mar 2019 16:09:21",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 11 Mar 2019 17:27:50",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Feb 2019 20:42:41",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Feb 2019 20:41:38",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 18:25:51",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 00:53:20",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 21 Jan 2019 20:25:16",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:41:22",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:06:58",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>
-	},
 	"SimpleDocs" -> {
+		<|
+			"Date" -> "Tue 19 Mar 2019 01:13:22",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Mon 18 Mar 2019 16:18:34",
 			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -133,7 +76,79 @@
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
+	"EcoEvo" -> {
+		<|
+			"Date" -> "Tue 19 Mar 2019 01:13:22",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:18:35",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:15:06",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:12:27",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:09:21",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 11 Mar 2019 17:27:50",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Feb 2019 20:42:41",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Feb 2019 20:41:38",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Wed 20 Feb 2019 18:25:51",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Wed 20 Feb 2019 00:53:20",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 21 Jan 2019 20:25:16",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:41:22",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:06:58",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>
+	},
 	"PJLink" -> {
+		<|
+			"Date" -> "Tue 19 Mar 2019 01:13:17",
+			"Message" -> "Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Mon 18 Mar 2019 16:18:31",
 			"Message" -> "Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -156,6 +171,11 @@
 		|>
 	},
 	"ChemTools" -> {
+		<|
+			"Date" -> "Tue 19 Mar 2019 01:13:14",
+			"Message" -> "Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Mon 18 Mar 2019 16:18:29",
 			"Message" -> "Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
