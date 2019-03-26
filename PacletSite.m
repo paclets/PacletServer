@@ -11,7 +11,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "BTools",
-	  Version -> "2.1.49",
+	  Version -> "2.1.50",
 	  Creator -> "b3m2a1@gmail.com",
 	  URL -> "https://github.com/b3m2a1/mathematica-BTools",
 	  Description -> "A suite of development tools",
@@ -113,7 +113,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "InterfaceObjects",
-	  Version -> "1.0.1",
+	  Version -> "1.0.2",
 	  Extensions -> {{"Kernel", "Root" -> ".", "Context" -> {"InterfaceObjects`"}}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],

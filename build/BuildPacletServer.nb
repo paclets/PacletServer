@@ -31,8 +31,8 @@ Cell[BoxData[
      RowBox[{"{", 
       RowBox[{
        RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<src\>\"", ",", 
-       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], ";"}]}]], "Code",
- CellLabel->"In[1]:=",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
+       " ", "\"\<BuildScript.m\>\""}], "}"}]}], "]"}], 
+   ";"}]}]], "Code",ExpressionUUID->"a3c1b6fb-ef10-4f32-aa04-9bc680baee75"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -171,7 +171,7 @@ f006baabc747"],
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
- CellLabel->"In[7]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+ CellLabel->"In[2]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 
@@ -265,7 +265,8 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "\"\<UpdateQueue\>\"", "]"}], 
   ";"}]], "Input",
- CellLabel->"In[528]:=",ExpressionUUID->"d4cf424c-a9ef-42dd-b76c-fd842c88e55e"]
+ CellLabel->
+  "In[30]:=",ExpressionUUID->"d4cf424c-a9ef-42dd-b76c-fd842c88e55e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -811,7 +812,7 @@ Cell[BoxData[{
 },
 Evaluator->"Third",
 WindowSize->{808, 759},
-WindowMargins->{{190, Automatic}, {Automatic, 0}},
+WindowMargins->{{56, Automatic}, {29, Automatic}},
 PrivateNotebookOptions->{"FileContents"->{"NotebookData"},
 "FileOutlineCache"->False},
 TrackCellChangeTimes->False,
