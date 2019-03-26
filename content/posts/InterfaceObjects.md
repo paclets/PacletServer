@@ -3,11 +3,11 @@ Authors:
 Categories: misc
 DisplayName: InterfaceObjects
 Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"InterfaceObjects`"}|>|>
-Modified: Missing["NotAvailable"]
+Modified: 2019-03-25 19:58:57
 Name: InterfaceObjects
 Slug: interfaceobjects
 Tags: 
-Version: 1.0.1
+Version: 1.0.2
 
 <a id="interfaceobjects" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -44,7 +44,7 @@ InterfaceObjects
 
 ###Version
 
-1.0.1
+1.0.2
 
 ---
 

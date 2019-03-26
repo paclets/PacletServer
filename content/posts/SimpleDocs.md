@@ -6,7 +6,7 @@ Description: A simple package to make simple documentation
 DisplayName: SimpleDocs
 Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"SimpleDocs`"}|>, "FrontEnd" -> <||>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/SimpleDocs"|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {{"icon_big", "icon_big.png"}, {"icon", "icon.png"}, {"SimpleDocsHelperGenerator", "SimpleDocsHelperGenerator.nb"}}|>, "PacletServer" -> <|"Tags" -> {"documentation"}, "Categories" -> {"Development"}, "Description" -> "A simple package to make simple documentation", "License" -> "MIT"|>|>
 License: MIT
-Modified: 2019-03-25 19:24:35
+Modified: 2019-03-25 19:59:00
 Name: SimpleDocs
 Slug: simpledocs
 Tags: documentation
