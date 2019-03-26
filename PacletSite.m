@@ -1,5 +1,15 @@
 PacletSite[
 	Paclet[
+	  Name -> "BoolEval",
+	  Version -> "1.0.0",
+	  Creator -> "Szabolcs Horvát <szhorvat@gmail.com>",
+	  URL -> "http://szhorvat.net/mathematica/BoolEval",
+	  Description -> "Fast vectorized comparison and Boolean operations.",
+	  MathematicaVersion -> "10.0+",
+	  Extensions -> {{"Kernel", Symbols -> {"BoolEval`BoolEval", "BoolEval`BoolPick", "BoolEval`BoolCount"}, Root -> ".", Context -> "BoolEval`"}, {"Documentation", Language -> All, MainPage -> "Guides/BoolEval"}},
+	  Location -> "https://github.com/szhorvat/BoolEval/releases/download/v1.0.0/BoolEval-1.0.0.paclet"
+	 ],
+	Paclet[
 	  Name -> "BTools",
 	  Version -> "2.1.49",
 	  Creator -> "b3m2a1@gmail.com",

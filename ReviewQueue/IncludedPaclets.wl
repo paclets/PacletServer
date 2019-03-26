@@ -79,6 +79,17 @@ $IncludedPaclets["MaTeX"]=
 	|>
 
 (* ::Subsubsection::Closed:: *)
+(*BoolEval*)
+
+$IncludedPaclets["BoolEval"]=
+	<|
+		"Name" -> "BoolEval",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
+		"URL" -> "github-release:szhorvat/BoolEval/latest",
+		"Update" -> Automatic
+	|>
+
+(* ::Subsubsection::Closed:: *)
 (*IGraphM*)
 
 $IncludedPaclets["IGraphM"]=

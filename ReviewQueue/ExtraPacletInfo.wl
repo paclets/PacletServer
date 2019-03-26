@@ -42,6 +42,17 @@ $ExtraPacletInfo["MaTeX"]=
 
 
 (* ::Subsubsection::Closed:: *)
+(*BoolEval*)
+
+
+$ExtraPacletInfo["BoolEval"]=
+  <|
+      "Location"->
+        "github-release:szhorvat/BoolEval/latest"
+      |>;
+
+
+(* ::Subsubsection::Closed:: *)
 (*IGraphM*)
 
 
