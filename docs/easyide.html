@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
-  ChemTools | Mathematica Paclet Server
+  EasyIDE | Mathematica Paclet Server
 </title>
 <link
       rel='stylesheet'
@@ -156,13 +156,9 @@
             <br>
   <article class="article center-aligned">
     <div class="content">
-      <a shape='rect' class='Section' id='chemtools' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h1> ChemTools</h1>
-<img src='https://paclets.github.io/PacletServer/img/ChemTools/PacletIcon.png' alt='ChemTools' />
-<p>A collection of packages for object oriented chemistry.
-The primary packages implement an object and data framework.
-Support is included for basic spectroscopy and a few different external programs.
-A moderately sophisticated discrete variable representation framework is included as well.
+      <a shape='rect' class='Section' id='easyide' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h1> EasyIDE</h1>
+<p>An IDE for Mathematica. Supports tabbing, file browsing, plugins, customizable stylesheets, extension specific tweaks and toolbars, and is reasonably customizable
 </p>
 <hr />
 <a shape='rect' class='Subsection' id='install' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
@@ -172,7 +168,7 @@ A moderately sophisticated discrete variable representation framework is include
 </p>
 <pre>
  <code>&lt;&lt; https://paclets.github.io/PacletServer/Install.wl
-PublicPacletInstall[&quot;ChemTools&quot;]</code>
+PublicPacletInstall[&quot;EasyIDE&quot;]</code>
 </pre>
 <ul>
  <li>To update it, replace  <code>PublicPacletInstall</code> with  <code>PublicPacletUpdate</code> .</li>
@@ -182,13 +178,20 @@ PublicPacletInstall[&quot;ChemTools&quot;]</code>
 <h2> Basic Information</h2>
 <a shape='rect' class='Subsubsection' id='name' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h3>Name</h3>
-<p>ChemTools</p>
+<p>EasyIDE</p>
 <a shape='rect' class='Subsubsection' id='version' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h3>Version</h3>
-<p>1.4.2</p>
+<p>1.0.3</p>
 <a shape='rect' class='Subsubsection' id='creator' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h3>Creator</h3>
-<a href='mailto:b3m2a1@gmail.com'>b3m2a1@gmail.com</a>
+<a href='mailto:b3m2a1@gmail.com'>b3m2a1</a>
+<a shape='rect' class='Subsubsection' id='url' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>URL</h3>
+<a href='https://github.com/b3m2a1/EasyIDE'>https://github.com/b3m2a1/EasyIDE</a>
+<a shape='rect' class='Subsubsection' id='license' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>License</h3>
+<p>MIT
+</p>
 <hr />
 <a shape='rect' class='Subsection' id='extrainformation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h2> Extra Information</h2>
@@ -201,17 +204,12 @@ PublicPacletInstall[&quot;ChemTools&quot;]</code>
 <h3>Kernel</h3>
 <ul>
  <li>Root: .</li>
- <li>Context: ChemTools`</li>
+ <li>Context: EasyIDE`</li>
 </ul>
 <a shape='rect' class='Subsubsection' id='frontend' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h3>FrontEnd</h3>
 <ul>
- <li>This extension has no extra parameters</li>
-</ul>
-<a shape='rect' class='Subsubsection' id='formats' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
-<h3>Formats</h3>
-<ul>
- <li>This extension has no extra parameters</li>
+ <li>Prepend: True</li>
 </ul>
 <a shape='rect' class='Subsubsection' id='resource' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
 <h3>Resource</h3>
@@ -220,94 +218,72 @@ PublicPacletInstall[&quot;ChemTools&quot;]</code>
  <li>Resources</li>
  <ul>
   <li>
-   <code>Datasets</code>
+   <code>Settings</code>
   </li>
   <li>
-   <code>Extensions</code>
+   <code>StyleSheets</code>
   </li>
   <li>
-   <code>Icons</code>
+   <code>{ExtensionStylesMap, Settings/Mappings/ExtensionStylesMap.wl}</code>
   </li>
   <li>
-   <code>PaletteGenerators</code>
+   <code>{ExtensionToolbarsMap, Settings/Mappings/ExtensionToolbarsMap.wl}</code>
   </li>
   <li>
-   <code>Templates</code>
+   <code>{FileViewerStylesMap, Settings/Mappings/FileViewerStylesMap.wl}</code>
   </li>
   <li>
-   <code>{ChemAtomColors, Datasets/ChemAtomColors.wl}</code>
+   <code>{StylesheetStylesMap, Settings/Mappings/StylesheetStylesMap.wl}</code>
   </li>
   <li>
-   <code>{ChemBondDistances, Datasets/ChemBondDistances.wl}</code>
+   <code>{StylesheetToolbarsMap, Settings/Mappings/StylesheetToolbarsMap.wl}</code>
   </li>
   <li>
-   <code>{ChemConstants, Datasets/ChemConstants.wl}</code>
+   <code>{Apps, Settings/Plugins/Apps.wl}</code>
   </li>
   <li>
-   <code>{ChemCustomAtoms, Datasets/ChemCustomAtoms.wl}</code>
+   <code>{BugTracker, Settings/Plugins/BugTracker.wl}</code>
   </li>
   <li>
-   <code>{ChemElements, Datasets/ChemElements.wl}</code>
+   <code>{Docs, Settings/Plugins/Docs.wl}</code>
   </li>
   <li>
-   <code>{ChemElementValences, Datasets/ChemElementValences.wl}</code>
+   <code>{FileMenu, Settings/Plugins/FileMenu.wl}</code>
   </li>
   <li>
-   <code>{ChemIsotopicMasses, Datasets/ChemIsotopicMasses.wl}</code>
+   <code>{Git, Settings/Plugins/Git.wl}</code>
   </li>
   <li>
-   <code>{ChemUnitConversions, Datasets/ChemUnitConversions.wl}</code>
+   <code>{Paclets, Settings/Plugins/Paclets.wl}</code>
   </li>
   <li>
-   <code>{ContinuousSpectrumIcon, Icons/ContinuousSpectrumIcon.png}</code>
+   <code>{ProjectMenu, Settings/Plugins/ProjectMenu.wl}</code>
   </li>
   <li>
-   <code>{DiscreteSpectrumIcon, Icons/DiscreteSpectrumIcon.png}</code>
+   <code>{CodePackage, Settings/Toolbars/CodePackage.wl}</code>
   </li>
   <li>
-   <code>{DVRIcon, Icons/DVRIcon.png}</code>
+   <code>{Package, Settings/Toolbars/Package.wl}</code>
   </li>
   <li>
-   <code>{OpenBabelIcon, Icons/OpenBabelIcon.png}</code>
+   <code>{Custom, StyleSheets/Custom.nb}</code>
   </li>
   <li>
-   <code>{PacletIconBig, Icons/PacletIconBig.png}</code>
+   <code>{Mappings, Settings/Mappings}</code>
   </li>
   <li>
-   <code>{Psi4Icon, Icons/Psi4Icon.png}</code>
+   <code>{Plugins, Settings/Plugins}</code>
   </li>
   <li>
-   <code>{Psi4RunIcon, Icons/Psi4RunIcon.png}</code>
-  </li>
-  <li>
-   <code>{DVRManagerGenerator, PaletteGenerators/DVRManagerGenerator.nb}</code>
-  </li>
-  <li>
-   <code>{DVRNotebook, Templates/DVRNotebook.nb}</code>
-  </li>
-  <li>
-   <code>{DVR, Extensions/DVR}</code>
-  </li>
-  <li>
-   <code>{Classes, Extensions/DVR/Classes}</code>
-  </li>
-  <li>
-   <code>{Instances, Extensions/DVR/Instances}</code>
-  </li>
-  <li>
-   <code>{KineticEnergy, Extensions/DVR/KineticEnergy}</code>
-  </li>
-  <li>
-   <code>{PotentialEnergy, Extensions/DVR/PotentialEnergy}</code>
-  </li>
-  <li>
-   <code>{Wavefunctions, Extensions/DVR/Wavefunctions}</code>
-  </li>
-  <li>
-   <code>{WSim, Extensions/WSim}</code>
+   <code>{Toolbars, Settings/Toolbars}</code>
   </li>
  </ul>
- <li>SystemID: *</li>
+</ul>
+<a shape='rect' class='Subsubsection' id='documentation' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h3>Documentation</h3>
+<ul>
+ <li>Language: English</li>
+ <li>MainPage: Tutorials/GettingStarted</li>
 </ul>
     </div>
   </article>
@@ -315,8 +291,8 @@ PublicPacletInstall[&quot;ChemTools&quot;]</code>
 <div id="disqus_thread"></div>
 <script>
   var disqus_config = function() {
-    this.page.url = 'https://paclets.github.io/PacletServer/chemtools.html';
-    this.page.identifier = 'chemtools';
+    this.page.url = 'https://paclets.github.io/PacletServer/easyide.html';
+    this.page.identifier = 'easyide';
   };
   (function() {
     var d = document;

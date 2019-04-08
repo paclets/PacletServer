@@ -6,13 +6,13 @@ Description: A simple package to make simple documentation
 DisplayName: SimpleDocs
 Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"SimpleDocs`"}|>, "FrontEnd" -> <||>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/SimpleDocs"|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {{"icon_big", "icon_big.png"}, {"icon", "icon.png"}, {"SimpleDocsHelperGenerator", "SimpleDocsHelperGenerator.nb"}}|>, "PacletServer" -> <|"Tags" -> {"documentation"}, "Categories" -> {"Development"}, "Description" -> "A simple package to make simple documentation", "License" -> "MIT"|>|>
 License: MIT
-Modified: 2019-03-25 19:59:00
+Modified: 2019-04-08 14:49:37
 Name: SimpleDocs
 Slug: simpledocs
 Tags: documentation
 Thumbnail: Resources/icon.png
 URL: https://github.com/b3m2a1/SimpleDocs
-Version: 1.1.1
+Version: 1.1.2
 
 <a id="simpledocs" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -53,7 +53,7 @@ SimpleDocs
 
 ###Version
 
-1.1.1
+1.1.2
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

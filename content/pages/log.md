@@ -3,6 +3,11 @@
 <a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EcoEvo
 
+*** Monday 8 April 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
 *** Monday 25 March 2019 ***
 * Author: Christopher Klausmeier <klausme1@msu.edu>
 
@@ -92,6 +97,11 @@
 ---
 <a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## SimpleDocs
+
+*** Monday 8 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Monday 25 March 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -190,28 +200,13 @@
 
 
 ---
-<a id="InterfaceObjects" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## InterfaceObjects
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
 <a id="ChemTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## ChemTools
+
+*** Monday 8 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Monday 25 March 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -277,6 +272,36 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="EasyIDE" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## EasyIDE
+
+*** Monday 8 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="InterfaceObjects" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## InterfaceObjects
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---
