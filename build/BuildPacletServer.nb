@@ -168,10 +168,27 @@ Cell["This is the most common type you\[CloseCurlyQuote]ll want to run.", \
   3.7334296318883142`*^9}},ExpressionUUID->"a9eb2bf3-09c4-490c-836c-\
 f006baabc747"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PublicPacletServerRebuild", "[", "]"}], ";"}]], "Input",
- CellLabel->"In[2]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+ CellLabel->"In[31]:=",ExpressionUUID->"f6ff1e93-5da7-4e98-b4ee-483684eef167"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "PublicPacletServer","badreq",
+   "\"Request to GitHub failed with message: \
+\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"API rate limit exceeded for 24.17.244.250. \
+(But here's the good news: Authenticated requests get a higher rate limit. \
+Check out the documentation for more details.)\\\\\\\"\\\"}]\\)\\\"\\nContact \
+b3m2a1@gmail.com for details.\"",2,31,203,28112825080336047685,"Third",
+   "PublicPacletServer`PublicPacletServer"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellLabel->
+  "During evaluation of \
+In[31]:=",ExpressionUUID->"452d7cc5-6715-40c8-bc87-985b6d864e90"]
+}, Open  ]],
 
 Cell["It just rebuilds everything.", "Text",
  CellChangeTimes->{{3.7334296849200993`*^9, 

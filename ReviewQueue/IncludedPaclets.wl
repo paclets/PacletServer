@@ -57,17 +57,6 @@ $IncludedPaclets=
 
 
 (* ::Subsubsection::Closed:: *)
-(*BTools*)
-
-$IncludedPaclets["BTools"]=
-	<|
-		"Name" -> "BTools",
-		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-		"Update" -> Automatic
-	|>
-
-(* ::Subsubsection::Closed:: *)
 (*MaTeX*)
 
 $IncludedPaclets["MaTeX"]=
@@ -98,6 +87,17 @@ $IncludedPaclets["IGraphM"]=
 		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
 		"URL" -> "github-release:szhorvat/IGraphM/v0.3.108",
 		"Update" -> "DownloadNever"
+	|>
+
+(* ::Subsubsection::Closed:: *)
+(*EasyIDE*)
+
+$IncludedPaclets["EasyIDE"]=
+	<|
+		"Name" -> "EasyIDE",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
+		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Update" -> Automatic
 	|>
 
 (* ::Subsubsection::Closed:: *)
