@@ -1,4 +1,16 @@
 <|
+	"EasyIDE" -> {
+		<|
+			"Date" -> "Tue 9 Apr 2019 03:45:06",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 8 Apr 2019 14:49:28",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>
+	},
 	"EcoEvo" -> {
 		<|
 			"Date" -> "Mon 8 Apr 2019 14:49:38",
@@ -262,13 +274,6 @@
 		<|
 			"Date" -> "Fri 29 Jun 2018 13:35:49",
 			"Message" -> "Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
-	"EasyIDE" -> {
-		<|
-			"Date" -> "Mon 8 Apr 2019 14:49:28",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
