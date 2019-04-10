@@ -8,6 +8,11 @@
 
 >Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
+*** Tuesday 9 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
 *** Monday 8 April 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
