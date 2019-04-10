@@ -803,5 +803,10 @@
 		"Date" -> "Tue 9 Apr 2019 03:45:06",
 		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EasyIDE" -> <|
+		"Date" -> "Tue 9 Apr 2019 18:05:34",
+		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 	|>
 }
