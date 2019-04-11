@@ -30,7 +30,7 @@ $ExtraPacletInfo=
     |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*MaTeX*)
 
 
@@ -41,7 +41,7 @@ $ExtraPacletInfo["MaTeX"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*BoolEval*)
 
 
@@ -52,7 +52,7 @@ $ExtraPacletInfo["BoolEval"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*IGraphM*)
 
 
@@ -63,7 +63,7 @@ $ExtraPacletInfo["IGraphM"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*MeshTools*)
 
 
@@ -74,7 +74,7 @@ $ExtraPacletInfo["MeshTools"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*Rubi*)
 
 
@@ -85,7 +85,7 @@ $ExtraPacletInfo["Rubi"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*EcoEvo*)
 
 
@@ -96,7 +96,7 @@ $ExtraPacletInfo["EcoEvo"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*OptionsValidation*)
 
 
@@ -107,7 +107,7 @@ $ExtraPacletInfo["OptionsValidation"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*CellsToTeX*)
 
 
@@ -118,7 +118,7 @@ $ExtraPacletInfo["CellsToTeX"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*Deus*)
 
 
@@ -129,7 +129,7 @@ $ExtraPacletInfo["Deus"]=
       |>;
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*End*)
 
 

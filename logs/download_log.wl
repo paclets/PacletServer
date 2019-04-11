@@ -808,5 +808,20 @@
 		"Date" -> "Tue 9 Apr 2019 18:05:34",
 		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EasyIDE" -> <|
+		"Date" -> "Thu 11 Apr 2019 01:40:27",
+		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"SimpleDocs" -> <|
+		"Date" -> "Thu 11 Apr 2019 01:40:31",
+		"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EcoEvo" -> <|
+		"Date" -> "Thu 11 Apr 2019 01:40:31",
+		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 	|>
 }
