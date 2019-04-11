@@ -1,114 +1,10 @@
 <|
-	"EasyIDE" -> {
-		<|
-			"Date" -> "Tue 9 Apr 2019 18:05:34",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 9 Apr 2019 03:45:06",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 8 Apr 2019 14:49:28",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
-	"EcoEvo" -> {
-		<|
-			"Date" -> "Mon 8 Apr 2019 14:49:38",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:59:01",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:58:03",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:38:09",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:24:36",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 19 Mar 2019 01:13:22",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Mar 2019 16:18:35",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Mar 2019 16:15:06",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Mar 2019 16:12:27",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Mar 2019 16:09:21",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 11 Mar 2019 17:27:50",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Feb 2019 20:42:41",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Feb 2019 20:41:38",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 18:25:51",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 00:53:20",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 21 Jan 2019 20:25:16",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:41:22",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:06:58",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>
-	},
 	"SimpleDocs" -> {
+		<|
+			"Date" -> "Thu 11 Apr 2019 01:40:31",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Mon 8 Apr 2019 14:49:37",
 			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -207,6 +103,125 @@
 		<|
 			"Date" -> "Sat 24 Nov 2018 17:05:01",
 			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>
+	},
+	"EcoEvo" -> {
+		<|
+			"Date" -> "Thu 11 Apr 2019 01:40:31",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 8 Apr 2019 14:49:38",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:59:01",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:58:03",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:38:09",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:24:36",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 19 Mar 2019 01:13:22",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:18:35",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:15:06",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:12:27",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:09:21",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 11 Mar 2019 17:27:50",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Feb 2019 20:42:41",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Feb 2019 20:41:38",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Wed 20 Feb 2019 18:25:51",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Wed 20 Feb 2019 00:53:20",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 21 Jan 2019 20:25:16",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:41:22",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:06:58",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>
+	},
+	"EasyIDE" -> {
+		<|
+			"Date" -> "Thu 11 Apr 2019 01:40:27",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 9 Apr 2019 18:05:34",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 9 Apr 2019 03:45:06",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 8 Apr 2019 14:49:28",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
