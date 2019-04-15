@@ -6,13 +6,13 @@ Description: Create LaTeX-typeset labels within Mathematica.
 DisplayName: MaTeX
 Extensions: <|"Documentation" -> <|Language -> All, MainPage -> "Guides/MaTeX"|>, "Kernel" -> <|Root -> ".", Context -> "MaTeX`"|>|>
 MathematicaVersion: 10.0+
-Modified: 2018-06-18 10:10:54
+Modified: 2019-04-15 16:18:01
 Name: MaTeX
 Slug: matex
 Tags: 
 Thumbnail: Logo.png
 URL: http://szhorvat.net/mathematica/MaTeX
-Version: 1.7.4
+Version: 1.7.5
 
 <a id="matex" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -53,7 +53,7 @@ MaTeX
 
 ###Version
 
-1.7.4
+1.7.5
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

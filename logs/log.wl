@@ -1,5 +1,112 @@
 <|
+	"EcoEvo" -> {
+		<|
+			"Date" -> "Mon 15 Apr 2019 16:18:10",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Thu 11 Apr 2019 01:40:31",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 8 Apr 2019 14:49:38",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:59:01",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:58:03",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:38:09",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:24:36",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 19 Mar 2019 01:13:22",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:18:35",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:15:06",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:12:27",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Mar 2019 16:09:21",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 11 Mar 2019 17:27:50",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Feb 2019 20:42:41",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Feb 2019 20:41:38",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Wed 20 Feb 2019 18:25:51",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Wed 20 Feb 2019 00:53:20",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Mon 21 Jan 2019 20:25:16",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:41:22",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>,
+		<|
+			"Date" -> "Tue 25 Dec 2018 03:06:58",
+			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+		|>
+	},
 	"SimpleDocs" -> {
+		<|
+			"Date" -> "Mon 15 Apr 2019 16:18:09",
+			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Thu 11 Apr 2019 01:40:31",
 			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -106,101 +213,73 @@
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
-	"EcoEvo" -> {
+	"BoolEval" -> {
 		<|
-			"Date" -> "Thu 11 Apr 2019 01:40:31",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Mon 15 Apr 2019 16:18:02",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 8 Apr 2019 14:49:38",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Mon 25 Mar 2019 19:58:54",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 25 Mar 2019 19:59:01",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Mon 25 Mar 2019 19:24:28",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>
+	},
+	"MaTeX" -> {
+		<|
+			"Date" -> "Mon 15 Apr 2019 16:18:01",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 25 Mar 2019 19:58:03",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Mon 25 Mar 2019 19:58:54",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 25 Mar 2019 19:38:09",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Mon 11 Mar 2019 17:27:37",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 25 Mar 2019 19:24:36",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Wed 20 Feb 2019 18:25:45",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Tue 19 Mar 2019 01:13:22",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Wed 20 Feb 2019 00:53:15",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 18 Mar 2019 16:18:35",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Sat 16 Feb 2019 17:54:10",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 18 Mar 2019 16:15:06",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Mon 28 Jan 2019 19:58:18",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 18 Mar 2019 16:12:27",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Mon 21 Jan 2019 20:25:10",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 18 Mar 2019 16:09:21",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Tue 19 Jun 2018 02:58:07",
+			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 11 Mar 2019 17:27:50",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Feb 2019 20:42:41",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Feb 2019 20:41:38",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 18:25:51",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 00:53:20",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Mon 21 Jan 2019 20:25:16",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:41:22",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
-		|>,
-		<|
-			"Date" -> "Tue 25 Dec 2018 03:06:58",
-			"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
-			"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+			"Date" -> "Mon 18 Jun 2018 10:10:54",
+			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},
 	"EasyIDE" -> {
@@ -312,65 +391,6 @@
 			"Date" -> "Mon 25 Mar 2019 19:40:27",
 			"Message" -> "Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
-	"MaTeX" -> {
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:58:54",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 11 Mar 2019 17:27:37",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 18:25:45",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 00:53:15",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 16 Feb 2019 17:54:10",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 28 Jan 2019 19:58:18",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 21 Jan 2019 20:25:10",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 19 Jun 2018 02:58:07",
-			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Jun 2018 10:10:54",
-			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>
-	},
-	"BoolEval" -> {
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:58:54",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:24:28",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},
 	"BTools" -> {
