@@ -823,5 +823,25 @@
 		"Date" -> "Thu 11 Apr 2019 01:40:31",
 		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
 		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+	|>,
+	"MaTeX" -> <|
+		"Date" -> "Mon 15 Apr 2019 16:18:01",
+		"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"BoolEval" -> <|
+		"Date" -> "Mon 15 Apr 2019 16:18:02",
+		"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"SimpleDocs" -> <|
+		"Date" -> "Mon 15 Apr 2019 16:18:09",
+		"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EcoEvo" -> <|
+		"Date" -> "Mon 15 Apr 2019 16:18:10",
+		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3",
+		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 	|>
 }

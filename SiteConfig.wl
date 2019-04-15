@@ -12,11 +12,12 @@
 	"EnableSearch"->True,
 	"BuildOptions"->
 		{
+		  "CreateAggregations"->False,
 			"SearchPageOptions"->
 				{
 					"Options"->{"WholeWords"->False}
 					}
 			},
-    "RecentPostCount"->5,
-    "PageSize"->5 (* indexing stuff *)
+	"RecentPostCount"->5(*,
+    "PageSize"->5*) (* indexing stuff *)
 	}

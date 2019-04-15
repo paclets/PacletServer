@@ -128,14 +128,14 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "MaTeX",
-	  Version -> "1.7.4",
+	  Version -> "1.7.5",
 	  Creator -> "Szabolcs Horvát <szhorvat@gmail.com>",
 	  URL -> "http://szhorvat.net/mathematica/MaTeX",
 	  Description -> "Create LaTeX-typeset labels within Mathematica.",
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/MaTeX"}, {"Kernel", Root -> ".", Context -> "MaTeX`"}},
-	  Location -> "https://github.com/szhorvat/MaTeX/releases/download/v1.7.4/MaTeX-1.7.4.paclet"
+	  Location -> "https://github.com/szhorvat/MaTeX/releases/download/v1.7.5/MaTeX-1.7.5.paclet"
 	 ],
 	Paclet[
 	  Name -> "MeshTools",
@@ -235,7 +235,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "SimpleDocs",
-	  Version -> "1.1.3",
+	  Version -> "1.1.4",
 	  Creator -> "b3m2a1 <b3m2a1@gmail.com>",
 	  URL -> "https://github.com/b3m2a1/SimpleDocs",
 	  Thumbnail -> "Resources/icon.png",
