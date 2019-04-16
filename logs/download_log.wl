@@ -848,5 +848,10 @@
 		"Date" -> "Tue 16 Apr 2019 14:35:08",
 		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"CompoundMatrixMethod" -> <|
+		"Date" -> "Tue 16 Apr 2019 14:46:49",
+		"Message" -> "Downloaded paclet CompoundMatrixMethod from github-release:SPPearce/CompoundMatrixMethod/0.9",
+		"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>"
 	|>
 }

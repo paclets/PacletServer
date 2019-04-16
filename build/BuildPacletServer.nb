@@ -24,7 +24,7 @@ package:", "Text", CellChangeTimes -> {{3.733429572885371*^9,
                 ";"}]}]}]], "Code", CellChangeTimes -> 
           {{3.7639605798735857*^9, 3.763960757308093*^9}, 
           {3.764439282933127*^9, 3.764439284992304*^9}}, 
-         CellLabel -> "In[131]:="]}, Open]], 
+         CellLabel -> "In[2]:="]}, Open]], 
      Cell[CellGroupData[{Cell["Helpful note", "Subsubsection", 
          CellChangeTimes -> {{3.733429856807392*^9, 3.7334298595254*^9}}], 
         Cell["You may get a note about entering the password for your \
@@ -48,14 +48,16 @@ might be more appropriate but are just adding edits to old ones:", "Text"],
                    {"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
                     RowBox[{"\"GenerateAggregations\"", "\[Rule]", "False"}], 
                     "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
-               CellLabel -> "In[134]:="], Cell[BoxData[DynamicBox[
-                 ToBoxes[Internal`LoadingPanel["Updating review queue..."], 
-                  StandardForm], Evaluator -> "Local", ImageSizeCache -> 
-                  {144., {20., 26.}}]], "PrintTemporary", CellChangeTimes -> 
-                {3.7644392899338303*^9}, CellLabel -> 
-                "During evaluation of In[134]:="]}, Open]]}, Open]], 
-        Cell[CellGroupData[{Cell["Rebuild since date", "Subsubsection", 
-            CellChangeTimes -> {{3.7335365791900682*^9, 
+               CellLabel -> "In[5]:="], Cell[BoxData[TemplateBox[
+                 {"FileExistsQ", "fstr", "\"File specification \
+\\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) is not a string of one or more \
+characters.\"", 2, 5, 2, 28125172629070428712, "Local"}, "MessageTemplate"]], 
+               "Message", "MSG", CellChangeTimes -> {3.764439963200946*^9}, 
+               CellLabel -> "During evaluation of In[5]:="], Cell[BoxData[
+                "$Aborted"], "Output", CellChangeTimes -> 
+                {3.764439967112195*^9}, CellLabel -> "Out[5]="]}, Open]]}, 
+          Open]], Cell[CellGroupData[{Cell["Rebuild since date", 
+            "Subsubsection", CellChangeTimes -> {{3.7335365791900682*^9, 
              3.733536582929451*^9}}], Cell["This is often desired when things \
 have been added with a file modification date before the last build.", 
             "Text", CellChangeTimes -> {{3.7334296591050797*^9, 
@@ -355,7 +357,7 @@ doesn\[CloseCurlyQuote]t work for some reason... hmm...", "Text"],
  Evaluator -> "Third", WindowSize -> {808, 759}, 
  WindowMargins -> {{71, Automatic}, {Automatic, 10}}, 
  PrivateNotebookOptions -> {"FileContents" -> {"NotebookData"}, 
-   "FileOutlineCache" -> False}, Global`TrackCellChangeTimes -> False, 
+   "FileOutlineCache" -> False}, TrackCellChangeTimes -> False, 
  FrontEndVersion -> 
   "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, 2018)", 
  StyleDefinitions -> "Default.nb"]

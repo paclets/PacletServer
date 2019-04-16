@@ -162,7 +162,7 @@ $IncludedPaclets["CompoundMatrixMethod"]=
 	<|
 		"Name" -> "CompoundMatrixMethod",
 		"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>",
-		"URL" -> "https://github.com/SPPearce/CompoundMatrixMethod",
+		"URL" -> "github-release:SPPearce/CompoundMatrixMethod/0.9",
 		"Update" -> "DownloadNever"
 	|>
 
@@ -173,7 +173,7 @@ $IncludedPaclets["MeshTools"]=
 	<|
 		"Name" -> "MeshTools",
 		"Author" -> "Matevz Pintar",
-		"URL" -> "github-release:c3m-labs/MeshTools/v0.5.0",
+		"URL" -> "github-release:c3m-labs/MeshTools/v0.7.0",
 		"Update" -> "DownloadNever"
 	|>
 

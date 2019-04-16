@@ -45,7 +45,7 @@ PacletSite[
 	  Description -> "Solve Eigenvalue Boundary Value Problems using the Compound Matrix Method to generate the Evans function. ",
 	  MathematicaVersion -> "10+",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "CompoundMatrixMethod`"}},
-	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
+	  Location -> "https://github.com/SPPearce/CompoundMatrixMethod/releases/download/0.9/CompoundMatrixMethod-0.9.paclet"
 	 ],
 	Paclet[
 	  Name -> "Deus",
@@ -99,7 +99,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "IGraphM",
-	  Version -> "0.3.108",
+	  Version -> "0.3.109",
 	  Creator -> "Szabolcs Horvát <szhorvat@gmail.com>",
 	  URL -> "http://szhorvat.net/mathematica/IGraphM",
 	  Description -> "IGraph/M – the igraph interface for Mathematica.",
@@ -139,17 +139,17 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "MeshTools",
-	  Version -> "0.5.0",
+	  Version -> "0.7.0",
 	  Creator -> "Matevz Pintar",
 	  URL -> "https://github.com/c3m-labs/MeshTools",
 	  Description -> "Utilities for creating and manipulating ElementMesh objects.",
 	  WolframVersion -> "11.+",
 	  Internal -> False,
-	  BuildNumber -> 142,
+	  BuildNumber -> 192,
 	  Thumbnail -> "FrontEnd/Icon.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> {"MeshTools`"}}, {"Documentation", Language -> "English", MainPage -> "Guides/MeshTools"}, {"PacletServer", "Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for creating and manipulating ElementMesh objects.", "License" -> "MIT"}},
-	  Hash -> "v0.5.0-0-g357ded3",
-	  Location -> "https://github.com/c3m-labs/MeshTools/releases/download/v0.5.0/MeshTools-0.5.0.paclet",
+	  Hash -> "v0.7.0-0-gcd10345",
+	  Location -> "https://github.com/c3m-labs/MeshTools/releases/download/v0.7.0/MeshTools-0.7.0.paclet",
 	  Publisher -> "C3M d.o.o."
 	 ],
 	Paclet[

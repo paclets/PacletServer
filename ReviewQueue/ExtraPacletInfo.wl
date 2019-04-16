@@ -70,7 +70,18 @@ $ExtraPacletInfo["IGraphM"]=
 $ExtraPacletInfo["MeshTools"]=
   <|
       "Location"->
-        "github-release:c3m-labs/MeshTools/v0.5.0"
+        "github-release:c3m-labs/MeshTools/v0.7.0"
+      |>;
+
+
+(* ::Subsubsection:: *)
+(*CompoundMatrixMethod*)
+
+
+$ExtraPacletInfo["CompoundMatrixMethod"]=
+  <|
+      "Location"->
+        "github-release:SPPearce/CompoundMatrixMethod/0.9"
       |>;
 
 
