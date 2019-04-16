@@ -7,11 +7,12 @@ package:", "Text", CellChangeTimes -> {{3.733429572885371*^9,
         Cell[BoxData[RowBox[{RowBox[{"(*", RowBox[{RowBox[{"<<", 
                   "BTools`Developer`"}], "\n", RowBox[{"ContextRemove", "[", 
                   "\"PublicPacletServer`\"", "]"}]}], "*)"}], "\n", 
-            RowBox[{RowBox[{RowBox[{"activeDir", " ", "=", " ", "\n", "  ", 
-                  RowBox[{"DirectoryName", "@", "\n", "    ", RowBox[
-                     {"Replace", "[", "\n", "      ", RowBox[{RowBox[
-                         {RowBox[{"IDENotebookObject", "[", "]"}], "@", 
-                          RowBox[{"\"Path\"", "[", RowBox[{"Key", "[", 
+            RowBox[{RowBox[{"<<", "EasyIDE`"}], "\n", RowBox[{RowBox[
+                 {"activeDir", " ", "=", " ", "\n", "  ", RowBox[
+                   {"DirectoryName", "@", "\n", "    ", RowBox[{"Replace", 
+                      "[", "\n", "      ", RowBox[{RowBox[{RowBox[
+                          {"IDENotebookObject", "[", "]"}], "@", RowBox[
+                          {"\"Path\"", "[", RowBox[{"Key", "[", 
                           "\"ActiveFile\"", "]"}], "]"}]}], ",", " ", "\n", 
                         "  ", "    ", RowBox[{RowBox[{"Except", "[", 
                           "_String", "]"}], "\[RuleDelayed]", RowBox[
@@ -21,70 +22,9 @@ package:", "Text", CellChangeTimes -> {{3.733429572885371*^9,
                      {"{", RowBox[{"activeDir", ",", " ", "\"src\"", ",", 
                         " ", "\"BuildScript.m\""}], "}"}]}], "]"}], 
                 ";"}]}]}]], "Code", CellChangeTimes -> 
-          {{3.7639605798735857*^9, 3.763960757308093*^9}}, 
-         CellLabel -> "In[349]:="]}, Open]], 
-     Cell[CellGroupData[{Cell["Edits", "Subsubsection"], 
-        Cell["We then edit the review queue or add paclets or other things \
-like that:", "Text"], Cell[CellGroupData[
-          {Cell[BoxData[RowBox[{"ButtonBar", "[", "\[IndentingNewLine]", 
-               RowBox[{"{", "\[IndentingNewLine]", RowBox[
-                  {RowBox[{"\"Open Review Queue\"", "\[RuleDelayed]", 
-                     "\[IndentingNewLine]", RowBox[{"SystemOpen", "@", 
-                       RowBox[{"FileNameJoin", "@", RowBox[{"{", 
-                          "\[IndentingNewLine]", RowBox[{RowBox[
-                          {"ParentDirectory", "[", RowBox[
-                          {"NotebookDirectory", "[", "]"}], "]"}], ",", 
-                          "\[IndentingNewLine]", "\"ReviewQueue\""}], 
-                          "\[IndentingNewLine]", "}"}]}]}]}], ",", 
-                   "\[IndentingNewLine]", RowBox[{"\"Add Included Paclets\"", 
-                     "\[RuleDelayed]", "\[IndentingNewLine]", RowBox[
-                      {"SystemOpen", "@", RowBox[{"FileNameJoin", "@", 
-                         RowBox[{"{", "\[IndentingNewLine]", RowBox[
-                          {RowBox[{"ParentDirectory", "[", RowBox[
-                          {"NotebookDirectory", "[", "]"}], "]"}], ",", 
-                          "\[IndentingNewLine]", "\"ReviewQueue\"", ",", 
-                          "\[IndentingNewLine]", "\"IncludedPaclets.wl\""}], 
-                          "\[IndentingNewLine]", "}"}]}]}]}], ",", 
-                   "\[IndentingNewLine]", RowBox[{"\"Add Paclet Info\"", 
-                     "\[RuleDelayed]", "\[IndentingNewLine]", RowBox[
-                      {"SystemOpen", "@", RowBox[{"FileNameJoin", "@", 
-                         RowBox[{"{", "\[IndentingNewLine]", RowBox[
-                          {RowBox[{"ParentDirectory", "[", RowBox[
-                          {"NotebookDirectory", "[", "]"}], "]"}], ",", 
-                          "\[IndentingNewLine]", "\"ReviewQueue\"", ",", 
-                          "\[IndentingNewLine]", "\"ExtraPacletInfo.wl\""}], 
-                          "\[IndentingNewLine]", "}"}]}]}]}]}], 
-                 "\[IndentingNewLine]", "}"}], "\[IndentingNewLine]", "]"}]], 
-            "Input", CellLabel -> "In[254]:="], 
-           Cell[BoxData[InterpretationBox[GridBox[{{ButtonBox[
-                  "\"Open Review Queue\"", Appearance -> {"AbuttingRight"}, 
-                  ButtonFunction :> SystemOpen[FileNameJoin[{ParentDirectory[
-                       NotebookDirectory[]], "ReviewQueue"}]], Evaluator -> 
-                   Automatic, Method -> "Preemptive"], ButtonBox[
-                  "\"Add Included Paclets\"", Appearance -> 
-                   {"AbuttingLeftRight"}, ButtonFunction :> SystemOpen[
-                    FileNameJoin[{ParentDirectory[NotebookDirectory[]], 
-                      "ReviewQueue", "IncludedPaclets.wl"}]], Evaluator -> 
-                   Automatic, Method -> "Preemptive"], ButtonBox[
-                  "\"Add Paclet Info\"", Appearance -> {"AbuttingLeft"}, 
-                  ButtonFunction :> SystemOpen[FileNameJoin[{ParentDirectory[
-                       NotebookDirectory[]], "ReviewQueue", 
-                      "ExtraPacletInfo.wl"}]], Evaluator -> Automatic, 
-                  Method -> "Preemptive"]}}, AutoDelete -> False, 
-               GridBoxItemSize -> {"Columns" -> {{Automatic}}, "Rows" -> 
-                  {{Automatic}}}, GridBoxSpacings -> {"Columns" -> 
-                  {Offset[0.27999999999999997], {Offset[0.]}, Offset[
-                    0.27999999999999997]}, "ColumnsIndexed" -> {}, 
-                 "Rows" -> {Offset[0.2], {Offset[0.4]}, Offset[0.2]}, 
-                 "RowsIndexed" -> {}}], ButtonBar[{"Open Review Queue" :> 
-                 SystemOpen[FileNameJoin[{ParentDirectory[NotebookDirectory[
-                      ]], "ReviewQueue"}]], "Add Included Paclets" :> 
-                 SystemOpen[FileNameJoin[{ParentDirectory[NotebookDirectory[
-                      ]], "ReviewQueue", "IncludedPaclets.wl"}]], 
-                "Add Paclet Info" :> SystemOpen[FileNameJoin[{ParentDirectory[
-                     NotebookDirectory[]], "ReviewQueue", 
-                    "ExtraPacletInfo.wl"}]]}, Appearance -> {Automatic}]]], 
-            "Output", CellLabel -> "Out[254]="]}, {2}]]}, Open]], 
+          {{3.7639605798735857*^9, 3.763960757308093*^9}, 
+          {3.764439282933127*^9, 3.764439284992304*^9}}, 
+         CellLabel -> "In[131]:="]}, Open]], 
      Cell[CellGroupData[{Cell["Helpful note", "Subsubsection", 
          CellChangeTimes -> {{3.733429856807392*^9, 3.7334298595254*^9}}], 
         Cell["You may get a note about entering the password for your \
@@ -98,22 +38,29 @@ you\[CloseCurlyQuote]ll want to run.", "Text", CellChangeTimes ->
           {{3.733429623398446*^9, 3.7334296318883142*^9}}], 
         Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", "]"}], 
             ";"}]], "Input", CellChangeTimes -> {{3.763960780194322*^9, 
-          3.763960780357994*^9}}, CellLabel -> "In[351]:="], 
+          3.763960780357994*^9}}, CellLabel -> "In[35]:="], 
         Cell["It just rebuilds everything.", "Text", CellChangeTimes -> 
           {{3.7334296849200993*^9, 3.7334296891852627*^9}}], 
         Cell[CellGroupData[{Cell["No Aggregations", "Subsubsection"], 
            Cell["If you haven\[CloseCurlyQuote]t added any new paclets this \
 might be more appropriate but are just adding edits to old ones:", "Text"], 
-           Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", 
-                 "\[IndentingNewLine]", RowBox[{"\"GenerateAggregations\"", 
-                   "\[Rule]", "False"}], "\[IndentingNewLine]", "]"}], 
-               ";"}]], "Input"]}, Open]], Cell[CellGroupData[
-          {Cell["Rebuild since date", "Subsubsection", CellChangeTimes -> 
-             {{3.7335365791900682*^9, 3.733536582929451*^9}}], 
-           Cell["This is often desired when things have been added with a \
-file modification date before the last build.", "Text", CellChangeTimes -> 
-             {{3.7334296591050797*^9, 3.733429676017243*^9}}], 
-           Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", 
+           Cell[CellGroupData[{Cell[BoxData[RowBox[{RowBox[
+                   {"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
+                    RowBox[{"\"GenerateAggregations\"", "\[Rule]", "False"}], 
+                    "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
+               CellLabel -> "In[134]:="], Cell[BoxData[DynamicBox[
+                 ToBoxes[Internal`LoadingPanel["Updating review queue..."], 
+                  StandardForm], Evaluator -> "Local", ImageSizeCache -> 
+                  {144., {20., 26.}}]], "PrintTemporary", CellChangeTimes -> 
+                {3.7644392899338303*^9}, CellLabel -> 
+                "During evaluation of In[134]:="]}, Open]]}, Open]], 
+        Cell[CellGroupData[{Cell["Rebuild since date", "Subsubsection", 
+            CellChangeTimes -> {{3.7335365791900682*^9, 
+             3.733536582929451*^9}}], Cell["This is often desired when things \
+have been added with a file modification date before the last build.", 
+            "Text", CellChangeTimes -> {{3.7334296591050797*^9, 
+             3.733429676017243*^9}}], Cell[BoxData[RowBox[
+              {RowBox[{"PublicPacletServerRebuild", "[", 
                  "\[IndentingNewLine]", RowBox[{"\"LastBuild\"", "\[Rule]", 
                    "date"}], "\[IndentingNewLine]", "]"}], ";"}]], "Input"]}, 
           Open]], Cell[CellGroupData[
@@ -408,7 +355,7 @@ doesn\[CloseCurlyQuote]t work for some reason... hmm...", "Text"],
  Evaluator -> "Third", WindowSize -> {808, 759}, 
  WindowMargins -> {{71, Automatic}, {Automatic, 10}}, 
  PrivateNotebookOptions -> {"FileContents" -> {"NotebookData"}, 
-   "FileOutlineCache" -> False}, TrackCellChangeTimes -> False, 
+   "FileOutlineCache" -> False}, Global`TrackCellChangeTimes -> False, 
  FrontEndVersion -> 
   "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, 2018)", 
  StyleDefinitions -> "Default.nb"]

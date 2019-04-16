@@ -58,7 +58,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "EasyIDE",
-	  Version -> "1.0.8",
+	  Version -> "1.0.10",
 	  Creator -> "b3m2a1 <b3m2a1@gmail.com>",
 	  URL -> "https://github.com/b3m2a1/EasyIDE",
 	  Description -> "An IDE for Mathematica written entirely within Mathematica",
@@ -107,7 +107,7 @@ PacletSite[
 	  SystemID -> {"MacOSX-x86-64", "Windows-x86-64", "Linux-x86-64", "Linux-ARM"},
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "IGraphM`"}, {"LibraryLink"}, {"Documentation", MainPage -> "Tutorials/IGDocumentation"}},
-	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.108/IGraphM-0.3.108.paclet"
+	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.109/IGraphM-0.3.109.paclet"
 	 ],
 	Paclet[
 	  Name -> "ImportMesh",
