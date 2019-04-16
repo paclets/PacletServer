@@ -1,22 +1,22 @@
 Title: MeshTools
 Authors: Matevz Pintar
-BuildNumber: 142
+BuildNumber: 192
 Categories: FEM
 Creator: Matevz Pintar
 Description: A package with utilities for creating and manipulating ElementMesh objects.
 DisplayName: MeshTools
 Extensions: <|"Kernel" -> <|Root -> ".", Context -> {"MeshTools`"}|>, "Documentation" -> <|Language -> "English", MainPage -> "Guides/MeshTools"|>, "PacletServer" -> <|"Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for creating and manipulating ElementMesh objects.", "License" -> "MIT"|>|>
-Hash: v0.5.0-0-g357ded3
+Hash: v0.7.0-0-gcd10345
 Internal: False
 License: MIT
-Modified: 2019-02-16 18:54:13
+Modified: 2019-04-16 14:46:03
 Name: MeshTools
 Publisher: C3M d.o.o.
 Slug: meshtools
 Tags: finite-elements,mesh,FEM
 Thumbnail: FrontEnd/Icon.png
 URL: https://github.com/c3m-labs/MeshTools
-Version: 0.5.0
+Version: 0.7.0
 WolframVersion: 11.+
 
 <a id="meshtools" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
@@ -58,7 +58,7 @@ MeshTools
 
 ###Version
 
-0.5.0
+0.7.0
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

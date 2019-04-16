@@ -1,5 +1,20 @@
 # Paclet Server Log
 
+<a id="CompoundMatrixMethod" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## CompoundMatrixMethod
+
+*** Tuesday 16 April 2019 ***
+* Author: Simon Pearce <simon.pearce@manchester.ac.uk>
+
+>Downloaded paclet CompoundMatrixMethod from github-release:SPPearce/CompoundMatrixMethod/0.9
+
+*** Thursday 27 September 2018 ***
+* Author: Simon Pearce <simon.pearce@manchester.ac.uk>
+
+>Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod
+
+
+---
 <a id="EasyIDE" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EasyIDE
 
@@ -942,16 +957,6 @@
 * Author: Szabolcs Horvát <szhorvat@gmail.com>
 
 >Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet
-
-
----
-<a id="CompoundMatrixMethod" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## CompoundMatrixMethod
-
-*** Thursday 27 September 2018 ***
-* Author: Simon Pearce <simon.pearce@manchester.ac.uk>
-
->Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod
 
 
 ---

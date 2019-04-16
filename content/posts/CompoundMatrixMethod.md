@@ -6,7 +6,7 @@ Description: Solve Eigenvalue Boundary Value Problems using the Compound Matrix 
 DisplayName: CompoundMatrixMethod
 Extensions: <|"Kernel" -> <|Root -> ".", Context -> "CompoundMatrixMethod`"|>|>
 MathematicaVersion: 10+
-Modified: 2018-09-27 18:47:38
+Modified: 2019-04-16 14:46:49
 Name: CompoundMatrixMethod
 Slug: compoundmatrixmethod
 Tags: 

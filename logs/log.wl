@@ -1,4 +1,16 @@
 <|
+	"CompoundMatrixMethod" -> {
+		<|
+			"Date" -> "Tue 16 Apr 2019 14:46:49",
+			"Message" -> "Downloaded paclet CompoundMatrixMethod from github-release:SPPearce/CompoundMatrixMethod/0.9",
+			"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>"
+		|>,
+		<|
+			"Date" -> "Thu 27 Sep 2018 18:47:38",
+			"Message" -> "Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod",
+			"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>"
+		|>
+	},
 	"EasyIDE" -> {
 		<|
 			"Date" -> "Tue 16 Apr 2019 14:35:08",
@@ -888,13 +900,6 @@
 			"Date" -> "Tue 26 Jun 2018 07:35:10",
 			"Message" -> "Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet",
 			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>
-	},
-	"CompoundMatrixMethod" -> {
-		<|
-			"Date" -> "Thu 27 Sep 2018 18:47:38",
-			"Message" -> "Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod",
-			"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>"
 		|>
 	},
 	"PyTools" -> {
