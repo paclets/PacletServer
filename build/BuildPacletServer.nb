@@ -24,7 +24,7 @@ package:", "Text", CellChangeTimes -> {{3.733429572885371*^9,
                 ";"}]}]}]], "Code", CellChangeTimes -> 
           {{3.7639605798735857*^9, 3.763960757308093*^9}, 
           {3.764439282933127*^9, 3.764439284992304*^9}}, 
-         CellLabel -> "In[2]:="]}, Open]], 
+         CellLabel -> "In[124]:="]}, Open]], 
      Cell[CellGroupData[{Cell["Helpful note", "Subsubsection", 
          CellChangeTimes -> {{3.733429856807392*^9, 3.7334298595254*^9}}], 
         Cell["You may get a note about entering the password for your \
@@ -38,12 +38,13 @@ you\[CloseCurlyQuote]ll want to run.", "Text", CellChangeTimes ->
           {{3.733429623398446*^9, 3.7334296318883142*^9}}], 
         Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", "]"}], 
             ";"}]], "Input", CellChangeTimes -> {{3.763960780194322*^9, 
-          3.763960780357994*^9}}, CellLabel -> "In[35]:="], 
-        Cell["It just rebuilds everything.", "Text", CellChangeTimes -> 
-          {{3.7334296849200993*^9, 3.7334296891852627*^9}}], 
-        Cell[CellGroupData[{Cell["No Aggregations", "Subsubsection"], 
-           Cell["If you haven\[CloseCurlyQuote]t added any new paclets this \
-might be more appropriate but are just adding edits to old ones:", "Text"], 
+          3.763960780357994*^9}, {3.764561112478326*^9, 
+          3.764561112843939*^9}}], Cell["It just rebuilds everything.", 
+         "Text", CellChangeTimes -> {{3.7334296849200993*^9, 
+          3.7334296891852627*^9}}], Cell[CellGroupData[
+          {Cell["No Aggregations", "Subsubsection"], Cell["If you \
+haven\[CloseCurlyQuote]t added any new paclets this might be more appropriate \
+but are just adding edits to old ones:", "Text"], 
            Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", 
                  "\[IndentingNewLine]", RowBox[{"\"GenerateAggregations\"", 
                    "\[Rule]", "False"}], "\[IndentingNewLine]", "]"}], 
