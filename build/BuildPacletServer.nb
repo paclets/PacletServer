@@ -44,20 +44,12 @@ you\[CloseCurlyQuote]ll want to run.", "Text", CellChangeTimes ->
         Cell[CellGroupData[{Cell["No Aggregations", "Subsubsection"], 
            Cell["If you haven\[CloseCurlyQuote]t added any new paclets this \
 might be more appropriate but are just adding edits to old ones:", "Text"], 
-           Cell[CellGroupData[{Cell[BoxData[RowBox[{RowBox[
-                   {"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
-                    RowBox[{"\"GenerateAggregations\"", "\[Rule]", "False"}], 
-                    "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
-               CellLabel -> "In[5]:="], Cell[BoxData[TemplateBox[
-                 {"FileExistsQ", "fstr", "\"File specification \
-\\!\\(\\*RowBox[{\\\"$Failed\\\"}]\\) is not a string of one or more \
-characters.\"", 2, 5, 2, 28125172629070428712, "Local"}, "MessageTemplate"]], 
-               "Message", "MSG", CellChangeTimes -> {3.764439963200946*^9}, 
-               CellLabel -> "During evaluation of In[5]:="], Cell[BoxData[
-                "$Aborted"], "Output", CellChangeTimes -> 
-                {3.764439967112195*^9}, CellLabel -> "Out[5]="]}, Open]]}, 
-          Open]], Cell[CellGroupData[{Cell["Rebuild since date", 
-            "Subsubsection", CellChangeTimes -> {{3.7335365791900682*^9, 
+           Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", 
+                 "\[IndentingNewLine]", RowBox[{"\"GenerateAggregations\"", 
+                   "\[Rule]", "False"}], "\[IndentingNewLine]", "]"}], 
+               ";"}]], "Input", CellLabel -> "In[6]:="]}, Open]], 
+        Cell[CellGroupData[{Cell["Rebuild since date", "Subsubsection", 
+            CellChangeTimes -> {{3.7335365791900682*^9, 
              3.733536582929451*^9}}], Cell["This is often desired when things \
 have been added with a file modification date before the last build.", 
             "Text", CellChangeTimes -> {{3.7334296591050797*^9, 
