@@ -1,22 +1,12 @@
 # Paclet Server Log
 
-<a id="CompoundMatrixMethod" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## CompoundMatrixMethod
-
-*** Tuesday 16 April 2019 ***
-* Author: Simon Pearce <simon.pearce@manchester.ac.uk>
-
->Downloaded paclet CompoundMatrixMethod from github-release:SPPearce/CompoundMatrixMethod/0.9
-
-*** Thursday 27 September 2018 ***
-* Author: Simon Pearce <simon.pearce@manchester.ac.uk>
-
->Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod
-
-
----
 <a id="EasyIDE" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EasyIDE
+
+*** Thursday 18 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 *** Tuesday 16 April 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -42,6 +32,21 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="CompoundMatrixMethod" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## CompoundMatrixMethod
+
+*** Tuesday 16 April 2019 ***
+* Author: Simon Pearce <simon.pearce@manchester.ac.uk>
+
+>Downloaded paclet CompoundMatrixMethod from github-release:SPPearce/CompoundMatrixMethod/0.9
+
+*** Thursday 27 September 2018 ***
+* Author: Simon Pearce <simon.pearce@manchester.ac.uk>
+
+>Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod
 
 
 ---

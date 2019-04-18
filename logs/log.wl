@@ -1,17 +1,10 @@
 <|
-	"CompoundMatrixMethod" -> {
-		<|
-			"Date" -> "Tue 16 Apr 2019 14:46:49",
-			"Message" -> "Downloaded paclet CompoundMatrixMethod from github-release:SPPearce/CompoundMatrixMethod/0.9",
-			"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>"
-		|>,
-		<|
-			"Date" -> "Thu 27 Sep 2018 18:47:38",
-			"Message" -> "Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod",
-			"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>"
-		|>
-	},
 	"EasyIDE" -> {
+		<|
+			"Date" -> "Thu 18 Apr 2019 00:06:18",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Tue 16 Apr 2019 14:35:08",
 			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -36,6 +29,18 @@
 			"Date" -> "Mon 8 Apr 2019 14:49:28",
 			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>
+	},
+	"CompoundMatrixMethod" -> {
+		<|
+			"Date" -> "Tue 16 Apr 2019 14:46:49",
+			"Message" -> "Downloaded paclet CompoundMatrixMethod from github-release:SPPearce/CompoundMatrixMethod/0.9",
+			"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>"
+		|>,
+		<|
+			"Date" -> "Thu 27 Sep 2018 18:47:38",
+			"Message" -> "Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod",
+			"Author" -> "Simon Pearce <simon.pearce@manchester.ac.uk>"
 		|>
 	},
 	"EcoEvo" -> {
