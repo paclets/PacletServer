@@ -7,7 +7,7 @@ PacletSite[
 	  Description -> "Fast vectorized comparison and Boolean operations.",
 	  MathematicaVersion -> "10.0+",
 	  Extensions -> {{"Kernel", Symbols -> {"BoolEval`BoolEval", "BoolEval`BoolPick", "BoolEval`BoolCount"}, Root -> ".", Context -> "BoolEval`"}, {"Documentation", Language -> All, MainPage -> "Guides/BoolEval"}},
-	  Location -> "https://github.com/szhorvat/BoolEval/releases/download/v1.0.0/BoolEval-1.0.0.paclet"
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "BTools",
@@ -27,7 +27,7 @@ PacletSite[
 	  Description -> "Convert Mathematica cells to TeX, retaining formatting",
 	  MathematicaVersion -> "6+",
 	  Extensions -> {{"Kernel", Root -> ".", "Context" -> {"CellsToTeX`"}}, {"Documentation", Language -> "English"}},
-	  Location -> "https://github.com/jkuczm/MathematicaCellsToTeX/releases/download/v0.2.2/CellsToTeX-0.2.2.paclet"
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "ChemTools",
@@ -45,20 +45,18 @@ PacletSite[
 	  Description -> "Solve Eigenvalue Boundary Value Problems using the Compound Matrix Method to generate the Evans function. ",
 	  MathematicaVersion -> "10+",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "CompoundMatrixMethod`"}},
-	  Location -> "https://github.com/SPPearce/CompoundMatrixMethod/releases/download/0.9/CompoundMatrixMethod-0.9.paclet"
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "Deus",
 	  Version -> "1.0.2",
 	  Creator -> "Sasaki Saki <galaster@foxmail.com>",
-	  URL -> "https://github.com/Moe-Net/Deus",
-	  Description -> "Mathematica Game Package",
 	  Extensions -> {{"Kernel", "Root" -> ".", "Context" -> {"Deus`"}}, {"Documentation", "Language" -> "English", "MainPage" -> "Guides/Deus"}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "EasyIDE",
-	  Version -> "1.0.11",
+	  Version -> "1.0.12",
 	  Creator -> "b3m2a1 <b3m2a1@gmail.com>",
 	  URL -> "https://github.com/b3m2a1/EasyIDE",
 	  Description -> "An IDE for Mathematica written entirely within Mathematica",
@@ -74,11 +72,11 @@ PacletSite[
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/EcoEvo"}, {"Kernel", Root -> ".", Context -> "EcoEvo`"}},
-	  Location -> "https://github.com/cklausme/EcoEvo/releases/download/v0.9.3/EcoEvo-0.9.3.paclet"
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "Ems",
-	  Version -> "1.0.10",
+	  Version -> "1.0.11",
 	  Creator -> "b3m2a1 <b3m2a1@gmail.com>",
 	  URL -> "https://github.com/b3m2a1/Ems/wiki",
 	  Description -> "A static website builder like pelican or jekyll",
@@ -107,7 +105,7 @@ PacletSite[
 	  SystemID -> {"MacOSX-x86-64", "Windows-x86-64", "Linux-x86-64", "Linux-ARM"},
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "IGraphM`"}, {"LibraryLink"}, {"Documentation", MainPage -> "Tutorials/IGDocumentation"}},
-	  Location -> "https://github.com/szhorvat/IGraphM/releases/download/v0.3.109/IGraphM-0.3.109.paclet"
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "ImportMesh",
@@ -135,7 +133,7 @@ PacletSite[
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/MaTeX"}, {"Kernel", Root -> ".", Context -> "MaTeX`"}},
-	  Location -> "https://github.com/szhorvat/MaTeX/releases/download/v1.7.5/MaTeX-1.7.5.paclet"
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "MeshTools",
@@ -149,7 +147,7 @@ PacletSite[
 	  Thumbnail -> "FrontEnd/Icon.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> {"MeshTools`"}}, {"Documentation", Language -> "English", MainPage -> "Guides/MeshTools"}, {"PacletServer", "Tags" -> {"finite-elements", "mesh", "FEM"}, "Categories" -> {"FEM"}, "Description" -> "A package with utilities for creating and manipulating ElementMesh objects.", "License" -> "MIT"}},
 	  Hash -> "v0.7.0-0-gcd10345",
-	  Location -> "https://github.com/c3m-labs/MeshTools/releases/download/v0.7.0/MeshTools-0.7.0.paclet",
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master",
 	  Publisher -> "C3M d.o.o."
 	 ],
 	Paclet[
@@ -168,7 +166,7 @@ PacletSite[
 	  Description -> "Framework for options validation.",
 	  MathematicaVersion -> "6+",
 	  Extensions -> {{"Kernel", "Context" -> {"OptionsValidation`"}}, {"Documentation", Language -> "English"}},
-	  Location -> "https://github.com/jkuczm/MathematicaOptionsValidation/releases/download/v0.1.1/OptionsValidation-0.1.1.paclet"
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "PJLink",
@@ -204,7 +202,7 @@ PacletSite[
 	  MathematicaVersion -> "9+",
 	  Thumbnail -> "logo.png",
 	  Extensions -> {{"Kernel", Root -> ".", Context -> "Rubi`"}, {"PacletServer", "Tags" -> {"integration", "rule", "antiderivative"}, "Categories" -> {"Mathematics"}, "Description" -> "Rubi is a package for symbolic, rule-based integration that outperforms Mathematica's Integrate in many cases and often finds optimal antiderivatives.", "License" -> "MIT"}},
-	  Location -> "https://github.com/RuleBasedIntegration/Rubi/releases/download/4.16.1.0/Rubi-4.16.1.0.paclet"
+	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
 	  Name -> "ServiceConnection_NASA",

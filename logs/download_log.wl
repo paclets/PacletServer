@@ -858,5 +858,15 @@
 		"Date" -> "Thu 18 Apr 2019 00:06:18",
 		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EasyIDE" -> <|
+		"Date" -> "Sun 21 Apr 2019 14:39:54",
+		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"Ems" -> <|
+		"Date" -> "Sun 21 Apr 2019 14:39:57",
+		"Message" -> "Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 	|>
 }

@@ -24,7 +24,8 @@ package:", "Text", CellChangeTimes -> {{3.733429572885371*^9,
                 ";"}]}]}]], "Code", CellChangeTimes -> 
           {{3.7639605798735857*^9, 3.763960757308093*^9}, 
           {3.764439282933127*^9, 3.764439284992304*^9}, 
-          {3.7645627641944838*^9, 3.764562767055359*^9}}]}, Open]], 
+          {3.7645627641944838*^9, 3.764562767055359*^9}}, 
+         CellLabel -> "In[7]:="]}, Open]], 
      Cell[CellGroupData[{Cell["Helpful note", "Subsubsection", 
          CellChangeTimes -> {{3.733429856807392*^9, 3.7334298595254*^9}}], 
         Cell["You may get a note about entering the password for your \
@@ -51,7 +52,7 @@ might be more appropriate but are just adding edits to old ones:", "Text"],
                    "\[IndentingNewLine]", RowBox[{"\"ForceBuild\"", 
                      "\[Rule]", "True"}]}], "\[IndentingNewLine]", "]"}], 
                ";"}]], "Input", CellChangeTimes -> {{3.764561291606072*^9, 
-             3.764561302033349*^9}}, CellLabel -> "In[160]:="]}, Open]], 
+             3.764561302033349*^9}}, CellLabel -> "In[10]:="]}, Open]], 
         Cell[CellGroupData[{Cell["Rebuild since date", "Subsubsection", 
             CellChangeTimes -> {{3.7335365791900682*^9, 
              3.733536582929451*^9}}], Cell["This is often desired when things \
