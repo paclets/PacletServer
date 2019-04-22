@@ -1,5 +1,30 @@
 # Paclet Server Log
 
+<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## IGraphM
+
+*** Monday 22 April 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110
+
+*** Saturday 24 November 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103
+
+*** Tuesday 6 November 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102
+
+*** Tuesday 26 June 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet
+
+
+---
 <a id="Ems" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## Ems
 
@@ -952,26 +977,6 @@
 * Author: Guillermo Hernandez <dihedralfive@gmail.com>
 
 >Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot
-
-
----
-<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## IGraphM
-
-*** Saturday 24 November 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103
-
-*** Tuesday 6 November 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102
-
-*** Tuesday 26 June 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet
 
 
 ---

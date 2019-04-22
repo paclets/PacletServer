@@ -1,4 +1,26 @@
 <|
+	"IGraphM" -> {
+		<|
+			"Date" -> "Mon 22 Apr 2019 12:06:52",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 24 Nov 2018 13:41:45",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 6 Nov 2018 15:14:17",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Jun 2018 07:35:10",
+			"Message" -> "Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>
+	},
 	"Ems" -> {
 		<|
 			"Date" -> "Sun 21 Apr 2019 14:39:57",
@@ -898,23 +920,6 @@
 			"Date" -> "Tue 25 Dec 2018 03:07:03",
 			"Message" -> "Downloaded paclet ErrorPlot from github:b3m2a1/ErrorPlot",
 			"Author" -> "Guillermo Hernandez <dihedralfive@gmail.com>"
-		|>
-	},
-	"IGraphM" -> {
-		<|
-			"Date" -> "Sat 24 Nov 2018 13:41:45",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 6 Nov 2018 15:14:17",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Jun 2018 07:35:10",
-			"Message" -> "Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},
 	"PyTools" -> {
