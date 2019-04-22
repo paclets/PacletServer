@@ -868,5 +868,10 @@
 		"Date" -> "Sun 21 Apr 2019 14:39:57",
 		"Message" -> "Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"IGraphM" -> <|
+		"Date" -> "Mon 22 Apr 2019 12:06:52",
+		"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 	|>
 }
