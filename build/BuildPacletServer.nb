@@ -40,7 +40,7 @@ you\[CloseCurlyQuote]ll want to run.", "Text", CellChangeTimes ->
         Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", "]"}], 
             ";"}]], "Input", CellChangeTimes -> {{3.763960780194322*^9, 
           3.763960780357994*^9}, {3.764561112478326*^9, 
-          3.764561112843939*^9}}, CellLabel -> "In[294]:="], 
+          3.764561112843939*^9}}, CellLabel -> "In[455]:="], 
         Cell["It just rebuilds everything.", "Text", CellChangeTimes -> 
           {{3.7334296849200993*^9, 3.7334296891852627*^9}}], 
         Cell[CellGroupData[{Cell["No Aggregations", "Subsubsection"], 
@@ -357,7 +357,7 @@ doesn\[CloseCurlyQuote]t work for some reason... hmm...", "Text"],
  Evaluator -> "Third", WindowSize -> {808, 759}, 
  WindowMargins -> {{71, Automatic}, {Automatic, 10}}, 
  PrivateNotebookOptions -> {"FileContents" -> {"NotebookData"}, 
-   "FileOutlineCache" -> False}, $CellContext`TrackCellChangeTimes -> False, 
+   "FileOutlineCache" -> False}, TrackCellChangeTimes -> False, 
  FrontEndVersion -> 
   "11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, 2018)", 
  StyleDefinitions -> "Default.nb"]

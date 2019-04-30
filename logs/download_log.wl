@@ -873,5 +873,10 @@
 		"Date" -> "Mon 22 Apr 2019 12:06:52",
 		"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110",
 		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"EasyIDE" -> <|
+		"Date" -> "Mon 29 Apr 2019 18:17:40",
+		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 	|>
 }
