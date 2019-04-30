@@ -11,7 +11,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "BTools",
-	  Version -> "2.1.50",
+	  Version -> "2.1.52",
 	  Creator -> "b3m2a1@gmail.com",
 	  URL -> "https://github.com/b3m2a1/mathematica-BTools",
 	  Description -> "A suite of development tools",

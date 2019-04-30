@@ -878,5 +878,10 @@
 		"Date" -> "Mon 29 Apr 2019 18:17:40",
 		"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Mon 29 Apr 2019 18:36:04",
+		"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 	|>
 }
