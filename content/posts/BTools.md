@@ -6,13 +6,13 @@ Description: A general purpose package that implements useful functionality for 
 DisplayName: BTools
 Extensions: <|"Kernel" -> <|"Root" -> ".", "Context" -> {"BTools`"}|>, "Resource" -> <|"Root" -> "Resources", "Resources" -> {"Data", "Icons", "Images", "PaletteGenerators", "Templates", "Themes", {"ResourceRules", "Data/FrontEnd/ResourceRules.wl"}, {"ResourceStrings", "Data/FrontEnd/ResourceStrings.wl"}, {"Resources", "Data/FrontEnd/Resources.wl"}, {"Tokens", "Data/FrontEnd/Tokens.wl"}, {"Values", "Data/FrontEnd/Values.wl"}, {"PacletIcon", "Icons/PacletIcon.png"}, {"PacletSiteIcon", "Icons/PacletSiteIcon.png"}, {"GoogleOAuthExample", "Images/GoogleOAuthExample.png"}, {"AppManagerPaletteGenerator", "PaletteGenerators/AppManagerPaletteGenerator.nb"}, {"CuratedDataHelperGenerator", "PaletteGenerators/CuratedDataHelperGenerator.nb"}, {"DocumentationGenerator", "PaletteGenerators/DocumentationGenerator.nb"}, {"EncodedCacheManagerGenerator", "PaletteGenerators/EncodedCacheManagerGenerator.nb"}, {"HTMLHelperGenerator", "PaletteGenerators/HTMLHelperGenerator.nb"}, {"PacletServerManagerGenerator", "PaletteGenerators/PacletServerManagerGenerator.nb"}, {"PaletteTemplate", "PaletteGenerators/PaletteTemplate.nb"}, {"ServiceConnectionHelperGenerator", "PaletteGenerators/ServiceConnectionHelperGenerator.nb"}, {"SiteBuilderGenerator", "PaletteGenerators/SiteBuilderGenerator.nb"}, {"ContextLoader", "Templates/ContextLoader.wl"}, {"CuratedDataTemplate", "Templates/CuratedDataTemplate.nb"}, {"init", "Templates/Initialization/init.m"}, {"Main", "Templates/Initialization/Main.wl"}, {"README", "Templates/README.nb"}, {"ServiceConnectionTemplate", "Templates/ServiceConnectionTemplate.nb"}, {"FrontEnd", "Data/FrontEnd"}, {"Frameworks", "Templates/Frameworks"}, {"CuratedData", "Templates/Frameworks/CuratedData"}, {"$ServiceConnection", "Templates/Frameworks/$ServiceConnection"}, {"Initialization", "Templates/Initialization"}, {"Loader", "Templates/Initialization/Loader"}, {"SiteBuilder", "Templates/SiteBuilder"}, {"DocumentationSite", "Templates/SiteBuilder/DocumentationSite"}, {"PacletServer", "Templates/SiteBuilder/PacletServer"}, {"TutorialSite", "Templates/SiteBuilder/TutorialSite"}, {"WebSite", "Templates/SiteBuilder/WebSite"}, {"minimal", "Themes/minimal"}, {"static", "Themes/minimal/static"}, {"templates", "Themes/minimal/templates"}, {"template_lib", "Themes/template_lib"}, {"include", "Themes/template_lib/include"}, {"tipuesearch", "Themes/template_lib/tipuesearch"}}|>, "FrontEnd" -> <|"Prepend" -> True|>, "PacletServer" -> <|"Tags" -> {"documentation", "front-end", "paclets", "web"}, "Categories" -> {"Development"}, "Description" -> "A general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing", "License" -> "MIT"|>, "Documentation" -> <|"Language" -> "English", "MainPage" -> "Guides/BTools"|>|>
 License: MIT
-Modified: 2019-03-25 19:58:49
+Modified: 2019-04-29 18:36:04
 Name: BTools
 Slug: btools
 Tags: documentation,front-end,paclets,web
 Thumbnail: PacletIcon.png
 URL: https://github.com/b3m2a1/mathematica-BTools
-Version: 2.1.50
+Version: 2.1.52
 WolframVersion: 11+
 
 <a id="btools" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
@@ -54,7 +54,7 @@ BTools
 
 ###Version
 
-2.1.50
+2.1.52
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
