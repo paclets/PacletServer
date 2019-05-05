@@ -1,4 +1,31 @@
 <|
+	"IGraphM" -> {
+		<|
+			"Date" -> "Sun 5 May 2019 13:59:45",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.111",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 22 Apr 2019 12:06:52",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 24 Nov 2018 13:41:45",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 6 Nov 2018 15:14:17",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 26 Jun 2018 07:35:10",
+			"Message" -> "Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>
+	},
 	"BTools" -> {
 		<|
 			"Date" -> "Mon 29 Apr 2019 18:36:04",
@@ -251,28 +278,6 @@
 			"Date" -> "Mon 8 Apr 2019 14:49:28",
 			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
-	"IGraphM" -> {
-		<|
-			"Date" -> "Mon 22 Apr 2019 12:06:52",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 24 Nov 2018 13:41:45",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 6 Nov 2018 15:14:17",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 26 Jun 2018 07:35:10",
-			"Message" -> "Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},
 	"Ems" -> {
