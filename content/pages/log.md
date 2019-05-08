@@ -3,6 +3,11 @@
 <a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## IGraphM
 
+*** Tuesday 7 May 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112
+
 *** Sunday 5 May 2019 ***
 * Author: Szabolcs Horvát <szhorvat@gmail.com>
 
