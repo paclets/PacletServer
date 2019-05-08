@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     13576,        367]
-NotebookOptionsPosition[      7839,        252]
-NotebookOutlinePosition[     10027,        308]
-CellTagsIndexPosition[      9984,        305]
+NotebookDataLength[     28890,        771]
+NotebookOptionsPosition[     20324,        607]
+NotebookOutlinePosition[     22512,        663]
+CellTagsIndexPosition[     22469,        660]
 WindowTitle->EasyIDE: PacletServer
 WindowFrame->Normal*)
 
@@ -21,232 +21,587 @@ WindowFrame->Normal*)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Extra Paclet Info", "Section",ExpressionUUID->"1a6b0cde-318c-44c2-a81c-c47b968cd9b5"],
+Cell["Included Paclets", "Section",ExpressionUUID->"431f2fa9-d563-4f91-9d24-5079e58ba0e8"],
 
-Cell["\<\
-Handles the extra paclet info added to the server outside of the paclets \
-themselves\
-\>", "Text",ExpressionUUID->"5d431f54-645b-4984-92e8-c34793806dd5"],
+Cell["Loads the included paclets for the server", "Text",ExpressionUUID->"039d6e64-843c-4be6-8608-0658f6bf976d"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Subsubsection",ExpressionUUID->"3f0863d5-175a-4708-9d0f-502ebbeabe5f"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"BeginPackage", "[", "\"\<PublicPacletServer`\>\"", "]"}], 
-  ";"}]], "Code",ExpressionUUID->"272af2ba-9707-46ab-ad02-fe79317b8124"],
+  ";"}]], "Code",ExpressionUUID->"941e91bc-d89d-4dec-a941-451c38b9f61d"],
 
 Cell[BoxData[
- RowBox[{"BeginPackage", "[", "\"\<`Build`\>\"", "]"}]], "Code",ExpressionUUID->"fe756341-12a2-4339-b8da-233bf95dd5be"],
+ RowBox[{"BeginPackage", "[", "\"\<`Build`\>\"", "]"}]], "Code",ExpressionUUID->"c3b1abcf-ee62-4259-8445-64f06cc97712"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{
-   RowBox[{"$ExtraPacletInfo", "::", "usage"}], "=", "\n", "  ", 
-   "\"\<The paclet info not built into the paclets but used by the \
-server\>\""}], ";"}]], "Code",ExpressionUUID->"a8309574-bd2b-407d-8634-\
-762ecc3b3306"],
+   RowBox[{"$IncludedPaclets", "::", "usage"}], "=", "\n", "  ", 
+   "\"\<The paclets built into the server that weren't manually \
+commited\>\""}], ";"}]], "Code",ExpressionUUID->"2c00fb02-d192-4f8c-ad8f-\
+3297d29810ee"],
 
 Cell[BoxData[
- RowBox[{"EndPackage", "[", "]"}]], "Code",ExpressionUUID->"e6a43af0-bc8d-4f8c-8da3-ed05762e952c"],
+ RowBox[{"EndPackage", "[", "]"}]], "Code",ExpressionUUID->"55fd4cff-1cab-4aed-92d7-8460024cfac9"],
 
 Cell[BoxData[
- RowBox[{"Begin", "[", "\"\<`Private`\>\"", "]"}]], "Code",ExpressionUUID->"a42e03f4-abcf-40dc-8890-d8473f27b6af"],
+ RowBox[{"Begin", "[", "\"\<`Private`\>\"", "]"}]], "Code",ExpressionUUID->"e4ae3105-0118-4e5b-a413-e0052b795138"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"$ExtraPacletInfo", "=", "\n", "  ", 
+  RowBox[{"$IncludedPaclets", "=", "\n", "  ", 
    RowBox[{"<|", "\n", "    ", "\n", "    ", "|>"}]}], ";"}]], "Code",Expressi\
-onUUID->"c42c973d-39d0-4f48-bee3-a7c73866e847"],
-
-Cell[CellGroupData[{
-
-Cell["MaTeX", "Subsubsection",ExpressionUUID->"8f765ba4-cba3-4e34-ad76-e03895d4247a"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<MaTeX\>\"", "]"}], "=", "\n", "  ", 
-   RowBox[{"<|", "\n", "      ", 
-    RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:szhorvat/MaTeX/latest\>\""}], "\n", "      ", 
-    "|>"}]}], ";"}]], "Code",ExpressionUUID->"4818f7f2-a7ea-4c7b-af4a-\
-a9344aa77992"]
+onUUID->"d9acd2d1-fd5e-4c63-bacb-d306e661e0da"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["BoolEval", "Subsubsection",ExpressionUUID->"ef868209-d6d2-4a36-ae22-ef3b93cdd6e1"],
+Cell["Edit", "Subsection",ExpressionUUID->"a2f692a5-2876-45a9-9ff2-804775b7059d"],
+
+Cell["A sample registration would like", "Text",ExpressionUUID->"0750f299-38c1-4816-8aa8-ae1509f4e860"],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<BoolEval\>\"", "]"}], "=", "\n", 
-   "  ", 
-   RowBox[{"<|", "\n", "      ", 
+  RowBox[{"$IncludedPaclets", "[", "\"\<PacletName\>\"", "]"}], "=", "\n", 
+  "  ", 
+  RowBox[{"<|", "\n", "\t\t", 
+   RowBox[{
+    RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<PacletName\>\""}], ",", "\n",
+     "\t\t", 
     RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:szhorvat/BoolEval/latest\>\""}], "\n", "      ", 
-    "|>"}]}], ";"}]], "Code",ExpressionUUID->"72c15be0-68eb-492d-8ba4-\
-834448231a86"]
-}, Open  ]],
+    "\"\<Author\>\"", " ", "->", " ", "\"\<Author Name <author@e.mail>\>\""}],
+     ",", "\n", "\t\t", 
+    RowBox[{"\"\<Site\>\"", " ", "->", " ", "\"\<https://paclet.site\>\""}], 
+    ",", "\n", "\t\t", 
+    RowBox[{"\"\<Update\>\"", " ", "->", " ", 
+     RowBox[{"<", "UpdateSpec", ">"}]}]}], "\n", "\t", "|>"}]}]], "Input",Expr\
+essionUUID->"62880305-73f6-4338-bd2d-20639b0dc72d"],
+
+Cell["\<\
+The possible UpdateSpecs are DownloadAlways, DownloadOnce, and DownloadNever\
+\>", "Text",ExpressionUUID->"fc45c6b6-a713-4707-bb45-8d9ed2495f8f"],
 
 Cell[CellGroupData[{
 
-Cell["IGraphM", "Subsubsection",ExpressionUUID->"44946d4b-2928-4330-ba55-0e906487f818"],
+Cell["MaTeX", "Subsubsection",ExpressionUUID->"2cdfc582-d337-4966-b3a8-ad2a4df709bd"],
 
 Cell[BoxData[
  RowBox[{
   RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<IGraphM\>\"", "]"}], "=", "\n", "  ", 
-   RowBox[{"<|", "\n", "      ", 
+   RowBox[{"$IncludedPaclets", "[", "\"\<MaTeX\>\"", "]"}], "=", "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
     RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:szhorvat/IGraphM/v0.3.112\>\""}], "\n", "      ", 
-    "|>"}]}], ";"}]], "Code",
- CellChangeTimes->{
-  3.766270144446888*^9},ExpressionUUID->"f64de050-2081-4a98-b455-\
-0b7ef9ab9993"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["MeshTools", "Subsubsection",ExpressionUUID->"8f856207-f371-4845-a322-c9a8ab2f2fc6"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<MeshTools\>\"", "]"}], "=", "\n", 
-   "  ", 
-   RowBox[{"<|", "\n", "      ", 
-    RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:c3m-labs/MeshTools/v0.7.0\>\""}], "\n", "      ", 
-    "|>"}]}], ";"}]], "Code",ExpressionUUID->"fffb6d48-c1d3-4991-b428-\
-a0c4eeabc76a"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["CompoundMatrixMethod", "Subsubsection",ExpressionUUID->"884af5bc-6fd9-4835-9975-f19a415ea2cf"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<CompoundMatrixMethod\>\"", "]"}], 
-   "=", "\n", "  ", 
-   RowBox[{"<|", "\n", "      ", 
-    RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:SPPearce/CompoundMatrixMethod/0.9\>\""}], "\n", 
-    "      ", "|>"}]}], ";"}]], "Code",ExpressionUUID->"113ec4ef-acaa-4ce8-\
-bc21-65692e35e416"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Rubi", "Subsubsection",ExpressionUUID->"80001141-dbce-4c4c-8b53-e50f17eb1e4e"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<Rubi\>\"", "]"}], "=", "\n", "\t", 
-   RowBox[{"<|", "\n", "      ", 
-    RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:RuleBasedIntegration/Rubi/latest\>\""}], "\n", 
-    "      ", "|>"}]}], ";"}]], "Code",ExpressionUUID->"04a87348-5810-49f0-\
-92c4-da43bbcda1d5"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["EcoEvo", "Subsubsection",ExpressionUUID->"f5451424-4921-49a7-9d69-8400a77a6a6b"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<EcoEvo\>\"", "]"}], "=", "\n", "\t", 
-   
-   RowBox[{"<|", "\n", "      ", 
-    RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:cklausme/EcoEvo/v0.9.3\>\""}], "\n", "      ", 
-    "|>"}]}], ";"}]], "Code",ExpressionUUID->"4f99b023-d111-49e4-9e51-\
-e38e1f96c6b1"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["OptionsValidation", "Subsubsection",ExpressionUUID->"c03894bd-74d1-45c1-a3b6-22273b1d8b69"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<OptionsValidation\>\"", "]"}], "=", 
-   "\n", "\t", 
-   RowBox[{"<|", "\n", "      ", 
-    RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:jkuczm/MathematicaOptionsValidation/latest\>\""}], 
-    "\n", "      ", "|>"}]}], ";"}]], "Code",ExpressionUUID->"9e47c75a-2fe3-\
-41c1-b473-81727d15d4f1"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["CellsToTeX", "Subsubsection",ExpressionUUID->"81e722b5-476b-47b4-b177-d8d5a9d857f3"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<CellsToTeX\>\"", "]"}], "=", "\n", 
-   "\t", 
-   RowBox[{"<|", "\n", "      ", 
-    RowBox[{
-    "\"\<Location\>\"", "->", "\n", "        ", 
-     "\"\<github-release:jkuczm/MathematicaCellsToTeX/latest\>\""}], "\n", 
-    "      ", "|>"}]}], ";"}]], "Code",ExpressionUUID->"3292e85a-ee33-403f-\
-810b-7673c2908ff4"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Deus", "Subsubsection",ExpressionUUID->"6c52095b-ce25-42cd-ac41-57dff5d38d03"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"$ExtraPacletInfo", "[", "\"\<Deus\>\"", "]"}], "=", "\n", "\t", 
-   RowBox[{"<|", "\n", "\t  ", 
-    RowBox[{
-     RowBox[{"\"\<URL\>\"", "->", "\"\<https://github.com/Moe-Net/Deus\>\""}],
-      ",", "\n", "\t  ", 
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<MaTeX\>\""}], ",", "\n", 
+     "\t\t", 
      RowBox[{
-     "\"\<Description\>\"", "->", "\"\<Mathematica Game Package\>\""}]}], 
-    "\n", "      ", "|>"}]}], ";"}]], "Code",ExpressionUUID->"8b07e700-2eeb-\
-4e44-a8b2-45ba6e276503"]
+     "\"\<Author\>\"", " ", "->", " ", 
+      "\"\<Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:szhorvat/MaTeX/latest\>\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"a1e776bb-0b4d-48cb-8350-\
+bc2c890bdd9b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["End", "Subsubsection",ExpressionUUID->"fb375325-de52-4f72-9802-236ff9cb9f4e"],
+Cell["BoolEval", "Subsubsection",ExpressionUUID->"a602146e-749c-4c16-a01a-1010657736b8"],
 
 Cell[BoxData[
- RowBox[{"End", "[", "]"}]], "Code",ExpressionUUID->"f743dcc1-0f93-4bd3-bfec-f515c1739dcc"]
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<BoolEval\>\"", "]"}], "=", "\n", 
+   "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<BoolEval\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", 
+      "\"\<Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:szhorvat/BoolEval/latest\>\""}], ",", "\n", "\t\t", 
+     
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"8d33381c-ad97-4a76-a0cc-\
+d85efa3b67a0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["EndPackage", "Subsection",ExpressionUUID->"5e1feb08-1164-4e64-8d20-f2fa1182c4e8"],
+Cell["IGraphM", "Subsubsection",ExpressionUUID->"371d684c-9921-4fec-83eb-f77049b62330"],
 
 Cell[BoxData[
- RowBox[{"EndPackage", "[", "]"}]], "Code",ExpressionUUID->"06b5dcde-bcc1-43d6-bc69-7c794f8aa5fc"]
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<IGraphM\>\"", "]"}], "=", "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<IGraphM\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", 
+      "\"\<Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:szhorvat/IGraphM/v0.3.112\>\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "\"\<DownloadOnce\>\""}]}], 
+    "\n", "\t", "|>"}]}], "\n"}]], "Code",
+ CellChangeTimes->{{3.7662702729096537`*^9, 
+  3.7662702733634577`*^9}},ExpressionUUID->"b8bfc8ee-836e-4569-a3e7-\
+1ad42e3dc01f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["Expose", "Subsection",ExpressionUUID->"27342261-df70-494e-840f-d3bcb5a28721"],
+Cell["BTools", "Subsubsection",ExpressionUUID->"0822f728-10cb-4461-8649-cfcd3edf5d7c"],
 
-Cell[BoxData["PublicPacletServer`Build`$ExtraPacletInfo"], "Code",ExpressionUUID->"5102c9ec-dcbd-467a-965c-5a4b2bf818b8"]
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<BTools\>\"", "]"}], "=", "\n", "\t", 
+   
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<BTools\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\
+\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"5e81d7db-505b-4b82-b3ee-\
+189f089166a2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["EasyIDE", "Subsubsection",ExpressionUUID->"90d4f14a-913d-45fe-849b-7923eb4cb645"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<EasyIDE\>\"", "]"}], "=", "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<EasyIDE\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\
+\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"3d42dc30-15fa-481b-bf20-\
+86a09cb59006"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["PublicPacletServer", "Subsubsection",ExpressionUUID->"b1b54969-c9eb-4001-9e36-77a59fb6b825"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<PublicPacletServer\>\"", "]"}], "=", 
+   "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<PublicPacletServer\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\
+\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"9954b74d-ceb0-41e1-b0b8-\
+1de7a32501aa"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["PyTools", "Subsubsection",ExpressionUUID->"2f586dab-e231-4f1b-8c79-bbffc8be5349"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<PyTools\>\"", "]"}], "=", "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<PyTools\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\
+\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "\"\<DownloadNever\>\""}]}], 
+    "\n", "\t", "|>"}]}], "\n"}]], "Code",ExpressionUUID->"9b015277-2a80-40ce-\
+a821-dbb60b1c6a08"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["ChemTools", "Subsubsection",ExpressionUUID->"dfecb859-6734-4253-af1c-e34b7e60ca60"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<ChemTools\>\"", "]"}], "=", "\n", 
+   "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<ChemTools\>\""}], ",", "\n",
+      "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\
+\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"2fc5f72a-04b6-456f-a180-\
+2ab9d6ea1cc8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["PJLink", "Subsubsection",ExpressionUUID->"995b4e2d-25f9-4d8b-881d-34840188ad79"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<PJLink\>\"", "]"}], "=", "\n", "\t", 
+   
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<PJLink\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\
+\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"01f2b3b4-504f-46df-b31a-\
+1c474cac318e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["InterfaceObjects", "Subsubsection",ExpressionUUID->"cd90b4cd-d3c1-4a5b-aadd-9bb06b92ea49"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<InterfaceObjects\>\"", "]"}], "=", 
+   "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<InterfaceObjects\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\
+\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"98bc40af-ecb2-40d5-88d4-\
+4600de851561"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["CompoundMatrixMethod", "Subsubsection",ExpressionUUID->"8bbd2227-a497-482b-a5c8-1cdeab55c8c7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<CompoundMatrixMethod\>\"", "]"}], 
+   "=", "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<CompoundMatrixMethod\>\""}],
+      ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", 
+      "\"\<Simon Pearce <simon.pearce@manchester.ac.uk>\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:SPPearce/CompoundMatrixMethod/0.9\>\""}], ",", "\n",
+      "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "\"\<DownloadNever\>\""}]}], 
+    "\n", "\t", "|>"}]}], "\n"}]], "Code",ExpressionUUID->"849ceb07-cfd8-46d6-\
+acbb-2adbb3ba75bd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["MeshTools", "Subsubsection",ExpressionUUID->"39095c35-dde5-4535-8602-a4e998cf3db0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<MeshTools\>\"", "]"}], "=", "\n", 
+   "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<MeshTools\>\""}], ",", "\n",
+      "\t\t", 
+     RowBox[{"\"\<Author\>\"", " ", "->", " ", "\"\<Matevz Pintar\>\""}], ",",
+      "\n", "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:c3m-labs/MeshTools/v0.7.0\>\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "\"\<DownloadNever\>\""}]}], 
+    "\n", "\t", "|>"}]}], "\n"}]], "Code",ExpressionUUID->"97a410a4-0bd3-478e-\
+ab8e-3c7f906fd019"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rubi", "Subsubsection",ExpressionUUID->"e2fed20e-ac34-44c9-a76d-edee00054037"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<Rubi\>\"", "]"}], "=", "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<Rubi\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{"\"\<Author\>\"", " ", "->", " ", "\"\<Albert D. Rich\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:RuleBasedIntegration/Rubi/latest\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"8a87ec86-b167-4d85-8836-\
+4d933dd30c5e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ems", "Subsubsection",ExpressionUUID->"41211b20-b4f3-4378-a38f-43fa130f071a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<Ems\>\"", "]"}], "=", "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<Ems\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\"\
+"}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"df5e3714-9329-4e7c-ae26-\
+ab7b1d799b1b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["SimpleDocs", "Subsubsection",ExpressionUUID->"4f65144a-9e52-4e92-965c-d5f0bd42cb89"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<SimpleDocs\>\"", "]"}], "=", "\n", 
+   "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<SimpleDocs\>\""}], ",", 
+     "\n", "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", "\"\<b3m2a1 <b3m2a1@gmail.com>\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Site\>\"", " ", "->", " ", 
+      "\"\<http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer\>\"\
+"}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"7f4b89c3-c30c-414e-b996-\
+458fea9c58a3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["EcoEvo", "Subsubsection",ExpressionUUID->"6f6439af-48db-4488-b197-93fb90f28bfa"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<EcoEvo\>\"", "]"}], "=", "\n", "\t", 
+   
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<EcoEvo\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", 
+      "\"\<Christopher Klausmeier <klausme1@msu.edu>\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:cklausme/EcoEvo/v0.9.3\>\""}], ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"5ea8abbd-db6c-4071-972b-\
+e33c0d3bb042"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["ErrorPlot", "Subsubsection",ExpressionUUID->"19591e3b-bdd0-4803-80a1-eb7daaafb078"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<ErrorPlot\>\"", "]"}], "=", "\n", 
+   "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<ErrorPlot\>\""}], ",", "\n",
+      "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", 
+      "\"\<Guillermo Hernandez <dihedralfive@gmail.com>\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{"\"\<URL\>\"", " ", "->", " ", "\"\<github:Dih5/ErrorPlot\>\""}],
+      ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "\"\<DownloadNever\>\""}]}], 
+    "\n", "\t", "|>"}]}], "\n"}]], "Code",ExpressionUUID->"fe7aa797-e7d0-40a0-\
+9e5d-eb93c2cfa178"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["OptionsValidation", "Subsubsection",ExpressionUUID->"9ac75f9c-d4ab-4f94-9c46-02ac90c10347"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<OptionsValidation\>\"", "]"}], "=", 
+   "\n", "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<OptionsValidation\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", 
+      "\"\<Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:jkuczm/MathematicaOptionsValidation/latest\>\""}], 
+     ",", "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"41022503-67a1-4f32-8c69-\
+5f4445c18509"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["CellsToTeX", "Subsubsection",ExpressionUUID->"1a7c8892-65ba-4887-9edf-c93cf7e0638a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"$IncludedPaclets", "[", "\"\<CellsToTeX\>\"", "]"}], "=", "\n", 
+   "\t", 
+   RowBox[{"<|", "\n", "\t\t", 
+    RowBox[{
+     RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<CellsToTeX\>\""}], ",", 
+     "\n", "\t\t", 
+     RowBox[{
+     "\"\<Author\>\"", " ", "->", " ", 
+      "\"\<Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>\>\""}], ",", "\n", 
+     "\t\t", 
+     RowBox[{
+     "\"\<URL\>\"", " ", "->", " ", 
+      "\"\<github-release:jkuczm/MathematicaCellsToTeX/latest\>\""}], ",", 
+     "\n", "\t\t", 
+     RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+    "|>"}]}], "\n"}]], "Code",ExpressionUUID->"be0cf647-6d3c-4cae-8431-\
+89dba1e43ca5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["OBJImporter", "Subsubsection",ExpressionUUID->"be62a26b-18f9-43e5-8350-c95b46f6080c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"$IncludedPaclets", "[", "\"\<OBJImporter\>\"", "]"}], "=", "\n", 
+  "\t", 
+  RowBox[{"<|", "\n", "\t\t", 
+   RowBox[{
+    RowBox[{"\"\<Name\>\"", " ", "->", " ", "\"\<OBJImporter\>\""}], ",", 
+    "\n", "\t\t", 
+    RowBox[{
+    "\"\<Author\>\"", " ", "->", " ", "\"\<CE <calle@ekdahl.email>\>\""}], 
+    ",", "\n", "\t\t", 
+    RowBox[{
+    "\"\<URL\>\"", " ", "->", " ", 
+     "\"\<github-release:cekdahl/OBJImporter/latest\>\""}], ",", "\n", "\t\t", 
+    RowBox[{"\"\<Update\>\"", " ", "->", " ", "Automatic"}]}], "\n", "\t", 
+   "|>"}]}]], "Code",ExpressionUUID->"9896cb13-0c1a-4f7c-8793-0dac663ae148"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["End", "Subsubsection",ExpressionUUID->"cb0df0e4-2476-4181-8109-6c09dc624e14"],
+
+Cell[BoxData[
+ RowBox[{"End", "[", "]"}]], "Code",ExpressionUUID->"9b2f2522-aa97-438f-aedd-d735bd56a9da"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["EndPackage", "Subsection",ExpressionUUID->"7dd30d84-cca5-49b9-8719-5120604174c2"],
+
+Cell[BoxData[
+ RowBox[{"EndPackage", "[", "]"}]], "Code",ExpressionUUID->"4d1e07a2-32c8-4220-b507-c180ddfa4665"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Expose", "Subsection",ExpressionUUID->"172db82c-98da-477c-b412-fff7bf1abb17"],
+
+Cell[BoxData[
+ RowBox[{"Values", "@", "PublicPacletServer`Build`$IncludedPaclets"}]], "Code",\
+ExpressionUUID->"b004f2ba-288a-485b-b84b-c151da1af33b"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -282,7 +637,7 @@ ExtraPacletInfo.wl"},
       "Tags" -> {}, "Cells" -> {}}, 
     "Project" -> {
      "Directory" -> "/Users/Mark/Documents/GitHub/PacletServer/"}, 
-    "ActiveTab" -> "ExtraPacletInfo", "StyleSheet" -> 
+    "ActiveTab" -> "IncludedPaclets", "StyleSheet" -> 
     FrontEnd`FileName[{"EasyIDE", "Extensions", "DarkGUI"}, "Package.nb"], 
     "FileToolbar" -> "Package", 
     "Options" -> {
@@ -308,65 +663,114 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[615, 23, 91, 0, 67, "Section",ExpressionUUID->"1a6b0cde-318c-44c2-a81c-c47b968cd9b5"],
-Cell[709, 25, 164, 3, 35, "Text",ExpressionUUID->"5d431f54-645b-4984-92e8-c34793806dd5"],
-Cell[876, 30, 166, 3, 49, "Code",ExpressionUUID->"272af2ba-9707-46ab-ad02-fe79317b8124"],
-Cell[1045, 35, 133, 1, 49, "Code",ExpressionUUID->"fe756341-12a2-4339-b8da-233bf95dd5be"],
-Cell[1181, 38, 257, 6, 71, "Code",ExpressionUUID->"a8309574-bd2b-407d-8634-762ecc3b3306"],
-Cell[1441, 46, 112, 1, 49, "Code",ExpressionUUID->"e6a43af0-bc8d-4f8c-8da3-ed05762e952c"],
-Cell[1556, 49, 128, 1, 49, "Code",ExpressionUUID->"a42e03f4-abcf-40dc-8890-d8473f27b6af"],
-Cell[1687, 52, 199, 4, 113, "Code",ExpressionUUID->"c42c973d-39d0-4f48-bee3-a7c73866e847"],
+Cell[615, 23, 90, 0, 67, "Section",ExpressionUUID->"431f2fa9-d563-4f91-9d24-5079e58ba0e8"],
+Cell[708, 25, 112, 0, 35, "Text",ExpressionUUID->"039d6e64-843c-4be6-8608-0658f6bf976d"],
 Cell[CellGroupData[{
-Cell[1911, 60, 85, 0, 45, "Subsubsection",ExpressionUUID->"8f765ba4-cba3-4e34-ad76-e03895d4247a"],
-Cell[1999, 62, 367, 9, 134, "Code",ExpressionUUID->"4818f7f2-a7ea-4c7b-af4a-a9344aa77992"]
+Cell[845, 29, 85, 0, 45, "Subsubsection",ExpressionUUID->"3f0863d5-175a-4708-9d0f-502ebbeabe5f"],
+Cell[933, 31, 166, 3, 49, "Code",ExpressionUUID->"941e91bc-d89d-4dec-a941-451c38b9f61d"],
+Cell[1102, 36, 133, 1, 49, "Code",ExpressionUUID->"c3b1abcf-ee62-4259-8445-64f06cc97712"],
+Cell[1238, 39, 256, 6, 71, "Code",ExpressionUUID->"2c00fb02-d192-4f8c-ad8f-3297d29810ee"],
+Cell[1497, 47, 112, 1, 49, "Code",ExpressionUUID->"55fd4cff-1cab-4aed-92d7-8460024cfac9"],
+Cell[1612, 50, 128, 1, 49, "Code",ExpressionUUID->"e4ae3105-0118-4e5b-a413-e0052b795138"],
+Cell[1743, 53, 199, 4, 113, "Code",ExpressionUUID->"d9acd2d1-fd5e-4c63-bacb-d306e661e0da"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2403, 76, 88, 0, 45, "Subsubsection",ExpressionUUID->"ef868209-d6d2-4a36-ae22-ef3b93cdd6e1"],
-Cell[2494, 78, 377, 10, 134, "Code",ExpressionUUID->"72c15be0-68eb-492d-8ba4-834448231a86"]
+Cell[1979, 62, 81, 0, 54, "Subsection",ExpressionUUID->"a2f692a5-2876-45a9-9ff2-804775b7059d"],
+Cell[2063, 64, 103, 0, 35, "Text",ExpressionUUID->"0750f299-38c1-4816-8aa8-ae1509f4e860"],
+Cell[2169, 66, 642, 15, 157, "Input",ExpressionUUID->"62880305-73f6-4338-bd2d-20639b0dc72d"],
+Cell[2814, 83, 155, 2, 35, "Text",ExpressionUUID->"fc45c6b6-a713-4707-bb45-8d9ed2495f8f"],
+Cell[CellGroupData[{
+Cell[2994, 89, 85, 0, 45, "Subsubsection",ExpressionUUID->"2cdfc582-d337-4966-b3a8-ad2a4df709bd"],
+Cell[3082, 91, 683, 17, 197, "Code",ExpressionUUID->"a1e776bb-0b4d-48cb-8350-bc2c890bdd9b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2908, 93, 87, 0, 45, "Subsubsection",ExpressionUUID->"44946d4b-2928-4330-ba55-0e906487f818"],
-Cell[2998, 95, 418, 11, 134, "Code",ExpressionUUID->"f64de050-2081-4a98-b455-0b7ef9ab9993"]
+Cell[3802, 113, 88, 0, 45, "Subsubsection",ExpressionUUID->"a602146e-749c-4c16-a01a-1010657736b8"],
+Cell[3893, 115, 702, 19, 197, "Code",ExpressionUUID->"8d33381c-ad97-4a76-a0cc-d85efa3b67a0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3453, 111, 89, 0, 45, "Subsubsection",ExpressionUUID->"8f856207-f371-4845-a322-c9a8ab2f2fc6"],
-Cell[3545, 113, 379, 10, 134, "Code",ExpressionUUID->"fffb6d48-c1d3-4991-b428-a0c4eeabc76a"]
+Cell[4632, 139, 87, 0, 45, "Subsubsection",ExpressionUUID->"371d684c-9921-4fec-83eb-f77049b62330"],
+Cell[4722, 141, 775, 19, 197, "Code",ExpressionUUID->"b8bfc8ee-836e-4569-a3e7-1ad42e3dc01f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3961, 128, 100, 0, 45, "Subsubsection",ExpressionUUID->"884af5bc-6fd9-4835-9975-f19a415ea2cf"],
-Cell[4064, 130, 398, 10, 134, "Code",ExpressionUUID->"113ec4ef-acaa-4ce8-bc21-65692e35e416"]
+Cell[5534, 165, 86, 0, 45, "Subsubsection",ExpressionUUID->"0822f728-10cb-4461-8649-cfcd3edf5d7c"],
+Cell[5623, 167, 694, 18, 197, "Code",ExpressionUUID->"5e81d7db-505b-4b82-b3ee-189f089166a2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4499, 145, 84, 0, 45, "Subsubsection",ExpressionUUID->"80001141-dbce-4c4c-8b53-e50f17eb1e4e"],
-Cell[4586, 147, 377, 9, 134, "Code",ExpressionUUID->"04a87348-5810-49f0-92c4-da43bbcda1d5"]
+Cell[6354, 190, 87, 0, 45, "Subsubsection",ExpressionUUID->"90d4f14a-913d-45fe-849b-7923eb4cb645"],
+Cell[6444, 192, 692, 17, 197, "Code",ExpressionUUID->"3d42dc30-15fa-481b-bf20-86a09cb59006"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5000, 161, 86, 0, 45, "Subsubsection",ExpressionUUID->"f5451424-4921-49a7-9d69-8400a77a6a6b"],
-Cell[5089, 163, 373, 10, 134, "Code",ExpressionUUID->"4f99b023-d111-49e4-9e51-e38e1f96c6b1"]
+Cell[7173, 214, 98, 0, 45, "Subsubsection",ExpressionUUID->"b1b54969-c9eb-4001-9e36-77a59fb6b825"],
+Cell[7274, 216, 718, 18, 197, "Code",ExpressionUUID->"9954b74d-ceb0-41e1-b0b8-1de7a32501aa"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5499, 178, 97, 0, 70, "Subsubsection",ExpressionUUID->"c03894bd-74d1-45c1-a3b6-22273b1d8b69"],
-Cell[5599, 180, 404, 10, 70, "Code",ExpressionUUID->"9e47c75a-2fe3-41c1-b473-81727d15d4f1"]
+Cell[8029, 239, 87, 0, 70, "Subsubsection",ExpressionUUID->"2f586dab-e231-4f1b-8c79-bbffc8be5349"],
+Cell[8119, 241, 704, 17, 70, "Code",ExpressionUUID->"9b015277-2a80-40ce-a821-dbb60b1c6a08"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6040, 195, 90, 0, 70, "Subsubsection",ExpressionUUID->"81e722b5-476b-47b4-b177-d8d5a9d857f3"],
-Cell[6133, 197, 390, 10, 70, "Code",ExpressionUUID->"3292e85a-ee33-403f-810b-7673c2908ff4"]
+Cell[8860, 263, 89, 0, 70, "Subsubsection",ExpressionUUID->"dfecb859-6734-4253-af1c-e34b7e60ca60"],
+Cell[8952, 265, 700, 18, 70, "Code",ExpressionUUID->"2fc5f72a-04b6-456f-a180-2ab9d6ea1cc8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6560, 212, 84, 0, 70, "Subsubsection",ExpressionUUID->"6c52095b-ce25-42cd-ac41-57dff5d38d03"],
-Cell[6647, 214, 453, 11, 70, "Code",ExpressionUUID->"8b07e700-2eeb-4e44-a8b2-45ba6e276503"]
+Cell[9689, 288, 86, 0, 70, "Subsubsection",ExpressionUUID->"995b4e2d-25f9-4d8b-881d-34840188ad79"],
+Cell[9778, 290, 694, 18, 70, "Code",ExpressionUUID->"01f2b3b4-504f-46df-b31a-1c474cac318e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7137, 230, 83, 0, 70, "Subsubsection",ExpressionUUID->"fb375325-de52-4f72-9802-236ff9cb9f4e"],
-Cell[7223, 232, 105, 1, 70, "Code",ExpressionUUID->"f743dcc1-0f93-4bd3-bfec-f515c1739dcc"]
+Cell[10509, 313, 96, 0, 70, "Subsubsection",ExpressionUUID->"cd90b4cd-d3c1-4a5b-aadd-9bb06b92ea49"],
+Cell[10608, 315, 714, 18, 70, "Code",ExpressionUUID->"98bc40af-ecb2-40d5-88d4-4600de851561"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7365, 238, 87, 0, 70, "Subsection",ExpressionUUID->"5e1feb08-1164-4e64-8d20-f2fa1182c4e8"],
-Cell[7455, 240, 112, 1, 70, "Code",ExpressionUUID->"06b5dcde-bcc1-43d6-bc69-7c794f8aa5fc"]
+Cell[11359, 338, 100, 0, 70, "Subsubsection",ExpressionUUID->"8bbd2227-a497-482b-a5c8-1cdeab55c8c7"],
+Cell[11462, 340, 747, 19, 70, "Code",ExpressionUUID->"849ceb07-cfd8-46d6-acbb-2adbb3ba75bd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7604, 246, 83, 0, 70, "Subsection",ExpressionUUID->"27342261-df70-494e-840f-d3bcb5a28721"],
-Cell[7690, 248, 121, 0, 70, "Code",ExpressionUUID->"5102c9ec-dcbd-467a-965c-5a4b2bf818b8"]
+Cell[12246, 364, 89, 0, 70, "Subsubsection",ExpressionUUID->"39095c35-dde5-4535-8602-a4e998cf3db0"],
+Cell[12338, 366, 667, 16, 70, "Code",ExpressionUUID->"97a410a4-0bd3-478e-ab8e-3c7f906fd019"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13042, 387, 84, 0, 70, "Subsubsection",ExpressionUUID->"e2fed20e-ac34-44c9-a76d-edee00054037"],
+Cell[13129, 389, 655, 16, 70, "Code",ExpressionUUID->"8a87ec86-b167-4d85-8836-4d933dd30c5e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13821, 410, 83, 0, 70, "Subsubsection",ExpressionUUID->"41211b20-b4f3-4378-a38f-43fa130f071a"],
+Cell[13907, 412, 683, 17, 70, "Code",ExpressionUUID->"df5e3714-9329-4e7c-ae26-ab7b1d799b1b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14627, 434, 90, 0, 70, "Subsubsection",ExpressionUUID->"4f65144a-9e52-4e92-965c-d5f0bd42cb89"],
+Cell[14720, 436, 701, 18, 70, "Code",ExpressionUUID->"7f4b89c3-c30c-414e-b996-458fea9c58a3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15458, 459, 86, 0, 70, "Subsubsection",ExpressionUUID->"6f6439af-48db-4488-b197-93fb90f28bfa"],
+Cell[15547, 461, 687, 18, 70, "Code",ExpressionUUID->"5ea8abbd-db6c-4071-972b-e33c0d3bb042"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16271, 484, 89, 0, 70, "Subsubsection",ExpressionUUID->"19591e3b-bdd0-4803-80a1-eb7daaafb078"],
+Cell[16363, 486, 685, 17, 70, "Code",ExpressionUUID->"fe7aa797-e7d0-40a0-9e5d-eb93c2cfa178"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17085, 508, 97, 0, 70, "Subsubsection",ExpressionUUID->"9ac75f9c-d4ab-4f94-9c46-02ac90c10347"],
+Cell[17185, 510, 739, 19, 70, "Code",ExpressionUUID->"41022503-67a1-4f32-8c69-5f4445c18509"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17961, 534, 90, 0, 70, "Subsubsection",ExpressionUUID->"1a7c8892-65ba-4887-9edf-c93cf7e0638a"],
+Cell[18054, 536, 718, 19, 70, "Code",ExpressionUUID->"be0cf647-6d3c-4cae-8431-89dba1e43ca5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18809, 560, 91, 0, 70, "Subsubsection",ExpressionUUID->"be62a26b-18f9-43e5-8350-c95b46f6080c"],
+Cell[18903, 562, 641, 15, 70, "Code",ExpressionUUID->"9896cb13-0c1a-4f7c-8793-0dac663ae148"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19581, 582, 83, 0, 70, "Subsubsection",ExpressionUUID->"cb0df0e4-2476-4181-8109-6c09dc624e14"],
+Cell[19667, 584, 105, 1, 70, "Code",ExpressionUUID->"9b2f2522-aa97-438f-aedd-d735bd56a9da"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19821, 591, 87, 0, 70, "Subsection",ExpressionUUID->"7dd30d84-cca5-49b9-8719-5120604174c2"],
+Cell[19911, 593, 112, 1, 70, "Code",ExpressionUUID->"4d1e07a2-32c8-4220-b507-c180ddfa4665"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20060, 599, 83, 0, 70, "Subsection",ExpressionUUID->"172db82c-98da-477c-b412-fff7bf1abb17"],
+Cell[20146, 601, 150, 2, 70, "Code",ExpressionUUID->"b004f2ba-288a-485b-b84b-c151da1af33b"]
 }, Open  ]]
 }, Open  ]]
 }

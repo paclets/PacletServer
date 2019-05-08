@@ -97,7 +97,7 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "IGraphM",
-	  Version -> "0.3.111",
+	  Version -> "0.3.112",
 	  Creator -> "Szabolcs Horvát <szhorvat@gmail.com>",
 	  URL -> "http://szhorvat.net/mathematica/IGraphM",
 	  Description -> "IGraph/M – the igraph interface for Mathematica.",
