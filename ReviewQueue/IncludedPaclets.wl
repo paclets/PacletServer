@@ -85,7 +85,7 @@ $IncludedPaclets["IGraphM"]=
 	<|
 		"Name" -> "IGraphM",
 		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>",
-		"URL" -> "github-release:szhorvat/IGraphM/v0.3.111",
+		"URL" -> "github-release:szhorvat/IGraphM/v0.3.112",
 		"Update" -> "DownloadNever"
 	|>
 

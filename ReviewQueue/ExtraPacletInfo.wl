@@ -59,7 +59,7 @@ $ExtraPacletInfo["BoolEval"]=
 $ExtraPacletInfo["IGraphM"]=
   <|
       "Location"->
-        "github-release:szhorvat/IGraphM/v0.3.111"
+        "github-release:szhorvat/IGraphM/v0.3.112"
       |>;
 
 
