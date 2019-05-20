@@ -46,20 +46,14 @@ you\[CloseCurlyQuote]ll want to run.", "Text", CellChangeTimes ->
         Cell[CellGroupData[{Cell["No Aggregations", "Subsubsection"], 
            Cell["If you haven\[CloseCurlyQuote]t added any new paclets this \
 might be more appropriate but are just adding edits to old ones:", "Text"], 
-           Cell[CellGroupData[{Cell[BoxData[RowBox[{RowBox[
-                   {"PublicPacletServerRebuild", "[", "\[IndentingNewLine]", 
-                    RowBox[{"\"GenerateAggregations\"", "\[Rule]", "False"}], 
-                    RowBox[{"(*", RowBox[{",", "\[IndentingNewLine]", 
-                        RowBox[{"\"ForceBuild\"", "\[Rule]", "True"}]}], 
-                      "*)"}], "\[IndentingNewLine]", "]"}], ";"}]], "Input", 
-               CellChangeTimes -> {{3.764561291606072*^9, 
-                 3.764561302033349*^9}, 3.76731166974762*^9}, CellLabel -> 
-                "In[206]:="], Cell[BoxData[DynamicBox[ToBoxes[
-                  Internal`LoadingPanel["Updating review queue..."], 
-                  StandardForm], Evaluator -> "Local", ImageSizeCache -> 
-                  {144., {20., 26.}}]], "PrintTemporary", CellChangeTimes -> 
-                {3.7673116777887783*^9}, CellLabel -> 
-                "During evaluation of In[206]:="]}, Open]]}, Open]], 
+           Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", 
+                 "\[IndentingNewLine]", RowBox[{"\"GenerateAggregations\"", 
+                   "\[Rule]", "False"}], RowBox[{"(*", RowBox[{",", 
+                     "\[IndentingNewLine]", RowBox[{"\"ForceBuild\"", 
+                       "\[Rule]", "True"}]}], "*)"}], "\[IndentingNewLine]", 
+                 "]"}], ";"}]], "Input", CellChangeTimes -> 
+             {{3.764561291606072*^9, 3.764561302033349*^9}, 
+              3.76731166974762*^9}, CellLabel -> "In[206]:="]}, Open]], 
         Cell[CellGroupData[{Cell["Rebuild since date", "Subsubsection", 
             CellChangeTimes -> {{3.7335365791900682*^9, 
              3.733536582929451*^9}}], Cell["This is often desired when things \
