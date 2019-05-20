@@ -96,7 +96,7 @@ $IncludedPaclets["BTools"]=
 	<|
 		"Name" -> "BTools",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> Automatic
 	|>
 
@@ -107,7 +107,7 @@ $IncludedPaclets["EasyIDE"]=
 	<|
 		"Name" -> "EasyIDE",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> Automatic
 	|>
 
@@ -118,7 +118,7 @@ $IncludedPaclets["PublicPacletServer"]=
 	<|
 		"Name" -> "PublicPacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> Automatic
 	|>
 
@@ -129,7 +129,7 @@ $IncludedPaclets["PyTools"]=
 	<|
 		"Name" -> "PyTools",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> "DownloadNever"
 	|>
 
@@ -140,7 +140,7 @@ $IncludedPaclets["ChemTools"]=
 	<|
 		"Name" -> "ChemTools",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> Automatic
 	|>
 
@@ -151,7 +151,7 @@ $IncludedPaclets["PJLink"]=
 	<|
 		"Name" -> "PJLink",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> Automatic
 	|>
 
@@ -162,7 +162,7 @@ $IncludedPaclets["InterfaceObjects"]=
 	<|
 		"Name" -> "InterfaceObjects",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> Automatic
 	|>
 
@@ -206,7 +206,7 @@ $IncludedPaclets["Ems"]=
 	<|
 		"Name" -> "Ems",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> Automatic
 	|>
 
@@ -217,7 +217,7 @@ $IncludedPaclets["SimpleDocs"]=
 	<|
 		"Name" -> "SimpleDocs",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>",
-		"Site" -> "http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+		"Site" -> "http://b3m2a1.github.io/PacletServer",
 		"Update" -> Automatic
 	|>
 

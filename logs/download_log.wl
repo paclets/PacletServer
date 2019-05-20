@@ -893,5 +893,20 @@
 		"Date" -> "Tue 7 May 2019 19:11:43",
 		"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112",
 		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"IGraphM" -> <|
+		"Date" -> "Sun 19 May 2019 20:29:08",
+		"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Sun 19 May 2019 20:29:11",
+		"Message" -> "Downloaded paclet BTools from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EasyIDE" -> <|
+		"Date" -> "Sun 19 May 2019 20:29:15",
+		"Message" -> "Downloaded paclet EasyIDE from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 	|>
 }
