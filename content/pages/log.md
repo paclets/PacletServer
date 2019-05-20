@@ -1,42 +1,62 @@
 # Paclet Server Log
 
-<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## IGraphM
+<a id="EasyIDE" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## EasyIDE
 
-*** Tuesday 7 May 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Sunday 19 May 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112
+>Downloaded paclet EasyIDE from http://b3m2a1.github.io/PacletServer
 
-*** Sunday 5 May 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Monday 29 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.111
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Monday 22 April 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Sunday 21 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Saturday 24 November 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Thursday 18 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 6 November 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Tuesday 16 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
-*** Tuesday 26 June 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Thursday 11 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
 
->Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 9 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 9 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 8 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
 
 
 ---
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Sunday 19 May 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet BTools from http://b3m2a1.github.io/PacletServer
 
 *** Monday 29 April 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -250,48 +270,43 @@
 
 
 ---
-<a id="EasyIDE" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## EasyIDE
+<a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## IGraphM
 
-*** Monday 29 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
+*** Sunday 19 May 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
 
->Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112
 
-*** Sunday 21 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
+*** Tuesday 7 May 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
 
->Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112
 
-*** Thursday 18 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
+*** Sunday 5 May 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
 
->Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.111
 
-*** Tuesday 16 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
+*** Monday 22 April 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
 
->Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110
 
-*** Thursday 11 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
+*** Saturday 24 November 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
 
->Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103
 
-*** Tuesday 9 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
+*** Tuesday 6 November 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
 
->Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102
 
-*** Tuesday 9 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
+*** Tuesday 26 June 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
 
->Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 8 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+>Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet
 
 
 ---

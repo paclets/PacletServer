@@ -1,37 +1,57 @@
 <|
-	"IGraphM" -> {
+	"EasyIDE" -> {
 		<|
-			"Date" -> "Tue 7 May 2019 19:11:43",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+			"Date" -> "Sun 19 May 2019 20:29:15",
+			"Message" -> "Downloaded paclet EasyIDE from http://b3m2a1.github.io/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Sun 5 May 2019 13:59:45",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.111",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+			"Date" -> "Mon 29 Apr 2019 18:17:40",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Mon 22 Apr 2019 12:06:52",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+			"Date" -> "Sun 21 Apr 2019 14:39:54",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Sat 24 Nov 2018 13:41:45",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+			"Date" -> "Thu 18 Apr 2019 00:06:18",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Tue 6 Nov 2018 15:14:17",
-			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+			"Date" -> "Tue 16 Apr 2019 14:35:08",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Tue 26 Jun 2018 07:35:10",
-			"Message" -> "Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+			"Date" -> "Thu 11 Apr 2019 01:40:27",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 9 Apr 2019 18:05:34",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 9 Apr 2019 03:45:06",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 8 Apr 2019 14:49:28",
+			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
 	"BTools" -> {
+		<|
+			"Date" -> "Sun 19 May 2019 20:29:11",
+			"Message" -> "Downloaded paclet BTools from http://b3m2a1.github.io/PacletServer",
+			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Mon 29 Apr 2019 18:36:04",
 			"Message" -> "Downloaded paclet BTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
@@ -243,46 +263,41 @@
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
 		|>
 	},
-	"EasyIDE" -> {
+	"IGraphM" -> {
 		<|
-			"Date" -> "Mon 29 Apr 2019 18:17:40",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+			"Date" -> "Sun 19 May 2019 20:29:08",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Sun 21 Apr 2019 14:39:54",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+			"Date" -> "Tue 7 May 2019 19:11:43",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.112",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Thu 18 Apr 2019 00:06:18",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+			"Date" -> "Sun 5 May 2019 13:59:45",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.111",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Tue 16 Apr 2019 14:35:08",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+			"Date" -> "Mon 22 Apr 2019 12:06:52",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.110",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Thu 11 Apr 2019 01:40:27",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+			"Date" -> "Sat 24 Nov 2018 13:41:45",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.103",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Tue 9 Apr 2019 18:05:34",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+			"Date" -> "Tue 6 Nov 2018 15:14:17",
+			"Message" -> "Downloaded paclet IGraphM from github-release:szhorvat/IGraphM/v0.3.102",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>,
 		<|
-			"Date" -> "Tue 9 Apr 2019 03:45:06",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 8 Apr 2019 14:49:28",
-			"Message" -> "Downloaded paclet EasyIDE from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
-			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+			"Date" -> "Tue 26 Jun 2018 07:35:10",
+			"Message" -> "Downloaded paclet IGraphM from https://github.com/szhorvat/IGraphM/releases/download/v0.3.100/IGraphM-0.3.100.paclet",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},
 	"Ems" -> {
