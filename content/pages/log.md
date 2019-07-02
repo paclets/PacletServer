@@ -1,5 +1,115 @@
 # Paclet Server Log
 
+<a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## EcoEvo
+
+*** Tuesday 2 July 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.10
+
+*** Monday 15 April 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Thursday 11 April 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 8 April 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 25 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 25 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 25 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 25 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 19 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 18 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 18 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 18 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 18 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 11 March 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 26 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 26 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Wednesday 20 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Wednesday 20 February 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Monday 21 January 2019 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 25 December 2018 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+*** Tuesday 25 December 2018 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
+
+
+---
 <a id="EasyIDE" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EasyIDE
 
@@ -372,111 +482,6 @@
 * Author: Simon Pearce <simon.pearce@manchester.ac.uk>
 
 >Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod
-
-
----
-<a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## EcoEvo
-
-*** Monday 15 April 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Thursday 11 April 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 8 April 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 25 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 25 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 25 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 25 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 19 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 18 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 18 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 18 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 18 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 11 March 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 26 February 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 26 February 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Wednesday 20 February 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Wednesday 20 February 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Monday 21 January 2019 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 25 December 2018 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
-
-*** Tuesday 25 December 2018 ***
-* Author: Christopher Klausmeier <klausme1@msu.edu>
-
->Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.3
 
 
 ---

@@ -1,18 +1,18 @@
 Title: EcoEvo
 Authors: Christopher Klausmeier
 Categories: misc
-Creator: Christopher Klausmeier <klausme1@msu.edu>
+Creator: Christopher Klausmeier <christopher.klausmeier@gmail.com>
 Description: Species- and trait-based ecological and eco-evolutionary modeling.
 DisplayName: EcoEvo
-Extensions: <|"Documentation" -> <|Language -> All, MainPage -> "Guides/EcoEvo"|>, "Kernel" -> <|Root -> ".", Context -> "EcoEvo`"|>|>
-MathematicaVersion: 10.0+
-Modified: 2018-12-25 01:41:22
+Extensions: <|"Documentation" -> <|MainPage -> "Guides/EcoEvo", Language -> All|>, "Kernel" -> <|Root -> ".", Context -> "EcoEvo`"|>|>
+MathematicaVersion: 10+
+Modified: 2019-07-02 11:57:46
 Name: EcoEvo
 Root: EcoEvo
 Slug: ecoevo
 Tags: 
 Thumbnail: Logo.png
-Version: 0.9.3
+Version: 0.9.10
 
 <a id="ecoevo" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -53,13 +53,13 @@ EcoEvo
 
 ###Version
 
-0.9.3
+0.9.10
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
 ###Creator
 
-[Christopher Klausmeier](mailto:klausme1@msu.edu)
+[Christopher Klausmeier](mailto:christopher.klausmeier@gmail.com)
 
 ---
 
@@ -71,7 +71,7 @@ EcoEvo
 
 ###MathematicaVersion
 
-10.0+
+10+
 
 ---
 
@@ -83,9 +83,9 @@ EcoEvo
 
 ###Documentation
 
-*  Language: All
-
 *  MainPage: Guides/EcoEvo
+
+*  Language: All
 
 <a id="kernel" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
