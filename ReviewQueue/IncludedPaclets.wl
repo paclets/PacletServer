@@ -228,7 +228,7 @@ $IncludedPaclets["EcoEvo"]=
 	<|
 		"Name" -> "EcoEvo",
 		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>",
-		"URL" -> "github-release:cklausme/EcoEvo/v0.9.3",
+		"URL" -> "github-release:cklausme/EcoEvo/v0.9.10",
 		"Update" -> Automatic
 	|>
 

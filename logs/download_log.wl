@@ -908,5 +908,10 @@
 		"Date" -> "Sun 19 May 2019 20:29:15",
 		"Message" -> "Downloaded paclet EasyIDE from http://b3m2a1.github.io/PacletServer",
 		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EcoEvo" -> <|
+		"Date" -> "Tue 2 Jul 2019 11:57:46",
+		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.10",
+		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
 	|>
 }

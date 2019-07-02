@@ -103,7 +103,7 @@ $ExtraPacletInfo["Rubi"]=
 $ExtraPacletInfo["EcoEvo"]=
 	<|
       "Location"->
-        "github-release:cklausme/EcoEvo/v0.9.3"
+        "github-release:cklausme/EcoEvo/v0.9.10"
       |>;
 
 

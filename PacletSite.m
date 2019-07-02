@@ -65,13 +65,13 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "EcoEvo",
-	  Version -> "0.9.3",
-	  Creator -> "Christopher Klausmeier <klausme1@msu.edu>",
+	  Version -> "0.9.10",
+	  Creator -> "Christopher Klausmeier <christopher.klausmeier@gmail.com>",
 	  Description -> "Species- and trait-based ecological and eco-evolutionary modeling.",
 	  Root -> "EcoEvo",
-	  MathematicaVersion -> "10.0+",
+	  MathematicaVersion -> "10+",
 	  Thumbnail -> "Logo.png",
-	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/EcoEvo"}, {"Kernel", Root -> ".", Context -> "EcoEvo`"}},
+	  Extensions -> {{"Documentation", MainPage -> "Guides/EcoEvo", Language -> All}, {"Kernel", Root -> ".", Context -> "EcoEvo`"}},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
