@@ -5,14 +5,16 @@ Creator: Szabolcs Horvát <szhorvat@gmail.com>
 Description: Create LaTeX-typeset labels within Mathematica.
 DisplayName: MaTeX
 Extensions: <|"Documentation" -> <|Language -> All, MainPage -> "Guides/MaTeX"|>, "Kernel" -> <|Root -> ".", Context -> "MaTeX`"|>|>
+Icon: Logo.png
+Keywords: LaTeX,Typesetting,Graphics
 MathematicaVersion: 10.0+
-Modified: 2019-04-15 16:18:01
+Modified: 2020-05-05 23:42:27
 Name: MaTeX
 Slug: matex
-Tags: 
+Tags: LaTeX,Typesetting,Graphics
 Thumbnail: Logo.png
 URL: http://szhorvat.net/mathematica/MaTeX
-Version: 1.7.5
+Version: 1.7.6
 
 <a id="matex" class="Section" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 
@@ -53,7 +55,7 @@ MaTeX
 
 ###Version
 
-1.7.5
+1.7.6
 
 <a id="creator" class="Subsubsection" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 

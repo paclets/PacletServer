@@ -1,4 +1,83 @@
 <|
+	"BoolEval" -> {
+		<|
+			"Date" -> "Tue 5 May 2020 23:42:28",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 15 Apr 2019 16:18:02",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:58:54",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:24:28",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>
+	},
+	"MaTeX" -> {
+		<|
+			"Date" -> "Tue 5 May 2020 23:42:27",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 15 Apr 2019 16:18:01",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:58:54",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 11 Mar 2019 17:27:37",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Wed 20 Feb 2019 18:25:45",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Wed 20 Feb 2019 00:53:15",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Sat 16 Feb 2019 17:54:10",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 28 Jan 2019 19:58:18",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 21 Jan 2019 20:25:10",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 19 Jun 2018 02:58:07",
+			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 18 Jun 2018 10:10:54",
+			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>
+	},
 	"EcoEvo" -> {
 		<|
 			"Date" -> "Tue 2 Jul 2019 11:57:46",
@@ -576,75 +655,6 @@
 			"Date" -> "Sat 24 Nov 2018 17:05:01",
 			"Message" -> "Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer",
 			"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
-		|>
-	},
-	"BoolEval" -> {
-		<|
-			"Date" -> "Mon 15 Apr 2019 16:18:02",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:58:54",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:24:28",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>
-	},
-	"MaTeX" -> {
-		<|
-			"Date" -> "Mon 15 Apr 2019 16:18:01",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:58:54",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 11 Mar 2019 17:27:37",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 18:25:45",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Wed 20 Feb 2019 00:53:15",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Sat 16 Feb 2019 17:54:10",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 28 Jan 2019 19:58:18",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 21 Jan 2019 20:25:10",
-			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Tue 19 Jun 2018 02:58:07",
-			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 18 Jun 2018 10:10:54",
-			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},
 	"ChemTools" -> {

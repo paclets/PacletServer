@@ -1,5 +1,90 @@
 # Paclet Server Log
 
+<a id="BoolEval" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## BoolEval
+
+*** Tuesday 5 May 2020 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 15 April 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 25 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 25 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+
+---
+<a id="MaTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## MaTeX
+
+*** Tuesday 5 May 2020 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 15 April 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 25 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 11 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Wednesday 20 February 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Wednesday 20 February 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Saturday 16 February 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 28 January 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 21 January 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Tuesday 19 June 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
+
+*** Monday 18 June 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
+
+
+---
 <a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EcoEvo
 
@@ -597,81 +682,6 @@
 * Author: b3m2a1 <b3m2a1@gmail.com>
 
 >Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
-<a id="BoolEval" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## BoolEval
-
-*** Monday 15 April 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
-
-*** Monday 25 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
-
-*** Monday 25 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
-
-
----
-<a id="MaTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## MaTeX
-
-*** Monday 15 April 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 25 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 11 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Wednesday 20 February 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Wednesday 20 February 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Saturday 16 February 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 28 January 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 21 January 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Tuesday 19 June 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
-
-*** Monday 18 June 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
 
 
 ---
