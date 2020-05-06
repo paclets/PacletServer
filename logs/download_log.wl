@@ -913,5 +913,15 @@
 		"Date" -> "Tue 2 Jul 2019 11:57:46",
 		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.10",
 		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+	|>,
+	"MaTeX" -> <|
+		"Date" -> "Tue 5 May 2020 23:42:27",
+		"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"BoolEval" -> <|
+		"Date" -> "Tue 5 May 2020 23:42:28",
+		"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 	|>
 }

@@ -126,13 +126,15 @@ PacletSite[
 	 ],
 	Paclet[
 	  Name -> "MaTeX",
-	  Version -> "1.7.5",
+	  Version -> "1.7.6",
 	  Creator -> "Szabolcs Horvát <szhorvat@gmail.com>",
 	  URL -> "http://szhorvat.net/mathematica/MaTeX",
 	  Description -> "Create LaTeX-typeset labels within Mathematica.",
 	  MathematicaVersion -> "10.0+",
 	  Thumbnail -> "Logo.png",
+	  Icon -> "Logo.png",
 	  Extensions -> {{"Documentation", Language -> All, MainPage -> "Guides/MaTeX"}, {"Kernel", Root -> ".", Context -> "MaTeX`"}},
+	  Keywords -> {"LaTeX", "Typesetting", "Graphics"},
 	  Location -> "http://raw.githubusercontent.com/paclets/Repository/master"
 	 ],
 	Paclet[
