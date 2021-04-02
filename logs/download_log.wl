@@ -923,5 +923,15 @@
 		"Date" -> "Tue 5 May 2020 23:42:28",
 		"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
 		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"MaTeX" -> <|
+		"Date" -> "Thu 1 Apr 2021 22:19:04",
+		"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"BoolEval" -> <|
+		"Date" -> "Thu 1 Apr 2021 22:19:04",
+		"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 	|>
 }
