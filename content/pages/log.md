@@ -1,102 +1,97 @@
 # Paclet Server Log
 
-<a id="MaTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## MaTeX
+<a id="OBJImporter" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## OBJImporter
 
 *** Thursday 1 April 2021 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+* Author: CE <calle@ekdahl.email>
 
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+>Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest
 
-*** Tuesday 5 May 2020 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Saturday 2 February 2019 ***
+* Author: CE <calle@ekdahl.email>
 
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 15 April 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 25 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 11 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Wednesday 20 February 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Wednesday 20 February 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Saturday 16 February 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 28 January 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Monday 21 January 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
-
-*** Tuesday 19 June 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
-
-*** Monday 18 June 2018 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
+>Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest
 
 
 ---
-<a id="BoolEval" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## BoolEval
+<a id="CellsToTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## CellsToTeX
 
 *** Thursday 1 April 2021 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
 
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
 
-*** Tuesday 5 May 2020 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Tuesday 15 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
 
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
 
-*** Monday 15 April 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
 
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
 
-*** Monday 25 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
 
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
 
-*** Monday 25 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
 
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
+
+
+---
+<a id="OptionsValidation" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## OptionsValidation
+
+*** Thursday 1 April 2021 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Tuesday 15 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
+
+*** Saturday 5 January 2019 ***
+* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
+
+>Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
 
 
 ---
 <a id="EcoEvo" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EcoEvo
+
+*** Thursday 1 April 2021 ***
+* Author: Christopher Klausmeier <klausme1@msu.edu>
+
+>Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.10
 
 *** Tuesday 2 July 2019 ***
 * Author: Christopher Klausmeier <klausme1@msu.edu>
@@ -205,8 +200,453 @@
 
 
 ---
+<a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## SimpleDocs
+
+*** Thursday 1 April 2021 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://b3m2a1.github.io/PacletServer
+
+*** Monday 15 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Thursday 11 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 8 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 19 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 11 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 26 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 26 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Wednesday 20 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Wednesday 20 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 21 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 14 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 27 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 24 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="Ems" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## Ems
+
+*** Thursday 1 April 2021 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://b3m2a1.github.io/PacletServer
+
+*** Sunday 21 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 15 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 15 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 14 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 27 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 24 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Thursday 27 September 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="Rubi" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## Rubi
+
+*** Thursday 1 April 2021 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Saturday 16 February 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Monday 28 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Thursday 17 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Thursday 17 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+*** Wednesday 16 January 2019 ***
+* Author: Albert D. Rich
+
+>Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
+
+
+---
+<a id="PJLink" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## PJLink
+
+*** Thursday 1 April 2021 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PJLink from http://b3m2a1.github.io/PacletServer
+
+*** Tuesday 19 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 11 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Wednesday 26 September 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="InterfaceObjects" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## InterfaceObjects
+
+*** Thursday 1 April 2021 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet InterfaceObjects from http://b3m2a1.github.io/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
+<a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## PublicPacletServer
+
+*** Thursday 1 April 2021 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from http://b3m2a1.github.io/PacletServer
+
+*** Wednesday 16 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 15 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 5 January 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 25 December 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Wednesday 28 November 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Saturday 29 September 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Manually updated PublicPacletServer
+
+*** Thursday 27 September 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Thursday 27 September 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 26 June 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 5 June 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Manually updated PublicPacletServer
+
+
+---
+<a id="ChemTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## ChemTools
+
+*** Thursday 1 April 2021 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from http://b3m2a1.github.io/PacletServer
+
+*** Monday 8 April 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 25 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 19 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 18 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Monday 11 March 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Tuesday 26 February 2019 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Thursday 19 July 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Thursday 19 July 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+*** Friday 29 June 2018 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
+
+
+---
 <a id="EasyIDE" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## EasyIDE
+
+*** Thursday 1 April 2021 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet EasyIDE from http://b3m2a1.github.io/PacletServer
 
 *** Sunday 19 May 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -257,6 +697,11 @@
 ---
 <a id="BTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## BTools
+
+*** Thursday 1 April 2021 ***
+* Author: b3m2a1 <b3m2a1@gmail.com>
+
+>Downloaded paclet BTools from http://b3m2a1.github.io/PacletServer
 
 *** Sunday 19 May 2019 ***
 * Author: b3m2a1 <b3m2a1@gmail.com>
@@ -475,6 +920,111 @@
 
 
 ---
+<a id="BoolEval" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## BoolEval
+
+*** Thursday 1 April 2021 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Thursday 1 April 2021 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Tuesday 5 May 2020 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 15 April 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 25 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 25 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+
+---
+<a id="MaTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## MaTeX
+
+*** Thursday 1 April 2021 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Thursday 1 April 2021 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Tuesday 5 May 2020 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 15 April 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 25 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 11 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Wednesday 20 February 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Wednesday 20 February 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Saturday 16 February 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 28 January 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Monday 21 January 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
+
+*** Tuesday 19 June 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
+
+*** Monday 18 June 2018 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
+
+
+---
 <a id="IGraphM" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## IGraphM
 
@@ -515,56 +1065,6 @@
 
 
 ---
-<a id="Ems" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## Ems
-
-*** Sunday 21 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 15 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 15 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 14 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 25 December 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 27 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 24 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Thursday 27 September 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet Ems from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
 <a id="CompoundMatrixMethod" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## CompoundMatrixMethod
 
@@ -577,276 +1077,6 @@
 * Author: Simon Pearce <simon.pearce@manchester.ac.uk>
 
 >Downloaded paclet CompoundMatrixMethod from https://github.com/SPPearce/CompoundMatrixMethod
-
-
----
-<a id="SimpleDocs" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## SimpleDocs
-
-*** Monday 15 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Thursday 11 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 8 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 19 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 11 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 26 February 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 26 February 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Wednesday 20 February 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Wednesday 20 February 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 21 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 14 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 25 December 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 27 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 24 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet SimpleDocs from http://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
-<a id="ChemTools" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## ChemTools
-
-*** Monday 8 April 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 19 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 11 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 26 February 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Thursday 19 July 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Thursday 19 July 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Friday 29 June 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet ChemTools from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
-<a id="InterfaceObjects" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## InterfaceObjects
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 25 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet InterfaceObjects from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
-<a id="PJLink" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## PJLink
-
-*** Tuesday 19 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 18 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Monday 11 March 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Wednesday 26 September 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PJLink from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-
----
-<a id="Rubi" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## Rubi
-
-*** Saturday 16 February 2019 ***
-* Author: Albert D. Rich
-
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
-
-*** Monday 28 January 2019 ***
-* Author: Albert D. Rich
-
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
-
-*** Thursday 17 January 2019 ***
-* Author: Albert D. Rich
-
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
-
-*** Thursday 17 January 2019 ***
-* Author: Albert D. Rich
-
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
-
-*** Wednesday 16 January 2019 ***
-* Author: Albert D. Rich
-
->Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest
 
 
 ---
@@ -867,161 +1097,6 @@
 * Author: C3M d.o.o. <info@c3m.si>
 
 >Manually updated MeshTools paclet
-
-
----
-<a id="OBJImporter" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## OBJImporter
-
-*** Saturday 2 February 2019 ***
-* Author: CE <calle@ekdahl.email>
-
->Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest
-
-
----
-<a id="PublicPacletServer" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## PublicPacletServer
-
-*** Wednesday 16 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 15 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 5 January 2019 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 25 December 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 25 December 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 25 December 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Wednesday 28 November 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Saturday 29 September 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Manually updated PublicPacletServer
-
-*** Thursday 27 September 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Thursday 27 September 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 26 June 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Downloaded paclet PublicPacletServer from https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer
-
-*** Tuesday 5 June 2018 ***
-* Author: b3m2a1 <b3m2a1@gmail.com>
-
->Manually updated PublicPacletServer
-
-
----
-<a id="OptionsValidation" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## OptionsValidation
-
-*** Tuesday 15 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest
-
-
----
-<a id="CellsToTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## CellsToTeX
-
-*** Tuesday 15 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
-
-*** Saturday 5 January 2019 ***
-* Author: Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>
-
->Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest
 
 
 ---
