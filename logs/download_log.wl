@@ -933,5 +933,80 @@
 		"Date" -> "Thu 1 Apr 2021 22:19:04",
 		"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
 		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"MaTeX" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:22",
+		"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"BoolEval" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:23",
+		"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+		"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+	|>,
+	"BTools" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:25",
+		"Message" -> "Downloaded paclet BTools from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EasyIDE" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:27",
+		"Message" -> "Downloaded paclet EasyIDE from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"PublicPacletServer" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:28",
+		"Message" -> "Downloaded paclet PublicPacletServer from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"ChemTools" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:28",
+		"Message" -> "Downloaded paclet ChemTools from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"PJLink" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:29",
+		"Message" -> "Downloaded paclet PJLink from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"InterfaceObjects" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:29",
+		"Message" -> "Downloaded paclet InterfaceObjects from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"Rubi" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:31",
+		"Message" -> "Downloaded paclet Rubi from github-release:RuleBasedIntegration/Rubi/latest",
+		"Author" -> "Albert D. Rich"
+	|>,
+	"Ems" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:32",
+		"Message" -> "Downloaded paclet Ems from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"SimpleDocs" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:34",
+		"Message" -> "Downloaded paclet SimpleDocs from http://b3m2a1.github.io/PacletServer",
+		"Author" -> "b3m2a1 <b3m2a1@gmail.com>"
+	|>,
+	"EcoEvo" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:42",
+		"Message" -> "Downloaded paclet EcoEvo from github-release:cklausme/EcoEvo/v0.9.10",
+		"Author" -> "Christopher Klausmeier <klausme1@msu.edu>"
+	|>,
+	"OptionsValidation" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:42",
+		"Message" -> "Downloaded paclet OptionsValidation from github-release:jkuczm/MathematicaOptionsValidation/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"CellsToTeX" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:43",
+		"Message" -> "Downloaded paclet CellsToTeX from github-release:jkuczm/MathematicaCellsToTeX/latest",
+		"Author" -> "Jakub Kuczmarski <Jakub.Kuczmarski@gmail.com>"
+	|>,
+	"OBJImporter" -> <|
+		"Date" -> "Thu 1 Apr 2021 23:15:43",
+		"Message" -> "Downloaded paclet OBJImporter from github-release:cekdahl/OBJImporter/latest",
+		"Author" -> "CE <calle@ekdahl.email>"
 	|>
 }
