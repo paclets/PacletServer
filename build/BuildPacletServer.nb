@@ -38,10 +38,69 @@ make a keychain where you can store things in an encrypted manner.", "Text",
            3.733432121809342*^9}], Cell["This is the most common type \
 you\[CloseCurlyQuote]ll want to run.", "Text", CellChangeTimes -> 
           {{3.733429623398446*^9, 3.7334296318883142*^9}}], 
-        Cell[BoxData[RowBox[{RowBox[{"PublicPacletServerRebuild", "[", "]"}], 
-            ";"}]], "Input", CellChangeTimes -> {{3.763960780194322*^9, 
+        Cell[BoxData[RowBox[{"PublicPacletServerRebuild", "[", "]"}]], 
+         "Input", CellChangeTimes -> {{3.763960780194322*^9, 
           3.763960780357994*^9}, {3.764561112478326*^9, 
-          3.764561112843939*^9}}, CellLabel -> "In[2760]:="], 
+          3.764561112843939*^9}, {3.826329537378215*^9, 
+          3.8263295388851023*^9}, {3.8263299033004436*^9, 
+          3.826329903581115*^9}}], Cell[BoxData[RowBox[{"\"/Users/Mark/Docume\
+nts/GitHub/PacletServer/logs/download_log.wl\"", "//", "SystemOpen"}]], 
+         "Input", CellChangeTimes -> {{3.8263299465114098*^9, 
+          3.8263299487329187*^9}}, CellLabel -> ""], Cell[BoxData["s"], 
+         "Input", CellChangeTimes -> {3.826329952366884*^9}], 
+        Cell[CellGroupData[{Cell[BoxData[RowBox[
+              {
+               "PublicPacletServer`Dependencies`BTools`Paclets`PacletExecute"\
+, "[", "\[IndentingNewLine]", "\"BundleSite\"", "\[IndentingNewLine]", 
+               "]"}]], "Input", CellChangeTimes -> {{3.82633000990508*^9, 
+             3.826330010145623*^9}}, CellLabel -> "In[211]:="], 
+           Cell[BoxData["PublicPacletServer`Dependencies`BTools`Paclets`Pacle\
+tTools`PacletSiteBundle"], "Output", CellChangeTimes -> 
+             {3.8263300104953203*^9}, CellLabel -> "Out[211]="]}, Open]], 
+        Cell[CellGroupData[{Cell[BoxData[RowBox[
+              {
+               "PublicPacletServer`Dependencies`BTools`Paclets`PacletExecute"\
+, "[", "\[IndentingNewLine]", RowBox[{"\"BundleSite\"", ",", RowBox[
+                  {"PublicPacletServer`Dependencies`BTools`Paclets`PacletExec\
+ute", "[", RowBox[{"\"SiteFromDataset\"", ",", RowBox[{"{", "}"}]}], "]"}], 
+                 ",", "\"/Users/Mark/Documents/GitHub/PacletServer/\"", ",", 
+                 RowBox[{"\"BuildExtension\"", "\[Rule]", "Nothing"}], ",", 
+                 RowBox[{"\"ExcludedElements\"", "\[Rule]", RowBox[
+                    {"{", "\"Resources\"", "}"}]}]}], "\[IndentingNewLine]", 
+               "]"}]], "Input", CellChangeTimes -> {{3.826330004586732*^9, 
+             3.826330006040765*^9}}], Cell[BoxData[RowBox[
+              {"\[LeftAssociation]", RowBox[{RowBox[{"\"UpdateQueue\"", 
+                   "\[Rule]", "\"/Users/Mark/Documents/GitHub/PacletServer/lo\
+gs/download_log.wl\""}], ",", RowBox[{"\"Add\"", "\[Rule]", RowBox[
+                    {"{", RowBox[{RowBox[{"CopyFile", "[", RowBox[
+                          {RowBox[{"PublicPacletServer`Dependencies`BTools`Pa\
+clets`PacletExecute", "[", RowBox[{"\"BundleSite\"", ",", RowBox[
+                          {"PublicPacletServer`Dependencies`BTools`Paclets`Pa\
+cletExecute", "[", RowBox[{"\"SiteFromDataset\"", ",", RowBox[{"{", "}"}]}], 
+                          "]"}], ",", 
+                          "\"/Users/Mark/Documents/GitHub/PacletServer/\"", 
+                          ",", RowBox[{"\"BuildExtension\"", "\[Rule]", 
+                          "Nothing"}], ",", RowBox[{"\"ExcludedElements\"", 
+                          "\[Rule]", RowBox[{"{", "\"Resources\"", "}"}]}]}], 
+                          "]"}], ",", "\"/Users/Mark/Documents/GitHub/PacletS\
+erver/docs/PacletSite.mz\"", ",", RowBox[{"OverwriteTarget", "\[Rule]", 
+                          "True"}]}], "]"}], ",", RowBox[{"{", RowBox[
+                          {"$Failed", "\[Rule]", RowBox[
+                          {"\[LeftAssociation]", RowBox[{RowBox[
+                          {"\"PacletSite\"", "\[Rule]", "\"/Users/Mark/Docume\
+nts/GitHub/Repository/PacletSite.mz\""}], ",", RowBox[{"\"PacletFiles\"", 
+                          "\[Rule]", RowBox[{"{", "\"/Users/Mark/Documents/Gi\
+tHub/Repository/Paclets/MaTeX-1.7.8.paclet\"", "}"}]}]}], 
+                          "\[RightAssociation]"}]}], "}"}]}], "}"}]}], ",", 
+                 RowBox[{"\"Log\"", "\[Rule]", 
+                   "\"/Users/Mark/Documents/GitHub/PacletServer/logs/log.wl\"\
+"}], ",", RowBox[{"\"Build\"", "\[Rule]", "Null"}], ",", RowBox[{"\"Push\"", 
+                   "\[Rule]", RowBox[{"{", RowBox[{"\"To \
+https://github.com/paclets/PacletServer.git\\n   0b6951d..715812d  master -> \
+master\"", ",", "\"To https://github.com/paclets/Repository.git\\n   \
+022ab72..a562847  master -> master\""}], "}"}]}]}], "\[RightAssociation]"}]], 
+            "Output", CellChangeTimes -> {3.826329565376491*^9}, 
+            CellLabel -> "Out[198]="]}, Open]], 
         Cell["It just rebuilds everything.", "Text", CellChangeTimes -> 
           {{3.7334296849200993*^9, 3.7334296891852627*^9}}], 
         Cell[CellGroupData[{Cell["No Aggregations", "Subsubsection"], 
