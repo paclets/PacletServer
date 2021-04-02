@@ -1,27 +1,10 @@
 <|
-	"BoolEval" -> {
-		<|
-			"Date" -> "Tue 5 May 2020 23:42:28",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 15 Apr 2019 16:18:02",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:58:54",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>,
-		<|
-			"Date" -> "Mon 25 Mar 2019 19:24:28",
-			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
-			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
-		|>
-	},
 	"MaTeX" -> {
+		<|
+			"Date" -> "Thu 1 Apr 2021 22:19:04",
+			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
 		<|
 			"Date" -> "Tue 5 May 2020 23:42:27",
 			"Message" -> "Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest",
@@ -75,6 +58,33 @@
 		<|
 			"Date" -> "Mon 18 Jun 2018 10:10:54",
 			"Message" -> "Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>
+	},
+	"BoolEval" -> {
+		<|
+			"Date" -> "Thu 1 Apr 2021 22:19:04",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Tue 5 May 2020 23:42:28",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 15 Apr 2019 16:18:02",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:58:54",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
+			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
+		|>,
+		<|
+			"Date" -> "Mon 25 Mar 2019 19:24:28",
+			"Message" -> "Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest",
 			"Author" -> "Szabolcs Horvát <szhorvat@gmail.com>"
 		|>
 	},

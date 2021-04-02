@@ -1,32 +1,12 @@
 # Paclet Server Log
 
-<a id="BoolEval" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
-## BoolEval
-
-*** Tuesday 5 May 2020 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
-
-*** Monday 15 April 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
-
-*** Monday 25 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
-
-*** Monday 25 March 2019 ***
-* Author: Szabolcs Horvát <szhorvat@gmail.com>
-
->Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
-
-
----
 <a id="MaTeX" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
 ## MaTeX
+
+*** Thursday 1 April 2021 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet MaTeX from github-release:szhorvat/MaTeX/latest
 
 *** Tuesday 5 May 2020 ***
 * Author: Szabolcs Horvát <szhorvat@gmail.com>
@@ -82,6 +62,36 @@
 * Author: Szabolcs Horvát <szhorvat@gmail.com>
 
 >Downloaded paclet MaTeX from https://github.com/szhorvat/MaTeX/releases/latest
+
+
+---
+<a id="BoolEval" style="width:0;height:0;margin:0;padding:0;">&zwnj;</a>
+## BoolEval
+
+*** Thursday 1 April 2021 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Tuesday 5 May 2020 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 15 April 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 25 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
+
+*** Monday 25 March 2019 ***
+* Author: Szabolcs Horvát <szhorvat@gmail.com>
+
+>Downloaded paclet BoolEval from github-release:szhorvat/BoolEval/latest
 
 
 ---
